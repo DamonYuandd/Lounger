@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title>批量上传产品</title>
+<link rel="stylesheet" type="text/css" href="__ADMIN__/Public/css/base.css" />
+<style>
+	#thumbnails li{	float: left; width: 200px; overflow:hidden;white-space:nowrap; margin:10px;}
+	#thumbnails li input{width: 200px;float: left;}
+	#thumbnails li span{display:none;}
+	#thumbnails img {}
+	#thumbnails li p{display:none;float: left;width: 100%; font-size:12px; color:red;}
+</style>
+<link href="__PUBLIC__/swfupload/css/default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+		$("#thumbnails li input").live("blur",function(){
+			var nowInput = $(this);
+			var dataString = 't='+$(this).val()+'&img='+$(this).siblings('span').text();
+			$.ajax({
+				  url: "__APP__/Admin/Goods/ajaxUp", //登录处理页
+                  dataType: "json",
+                  data: dataString,
+                  success:function(json){
+						if(json == 1){
+						//	alert();
+							nowInput.siblings('p').html('已修改').show(500,function(){
+								setTimeout(function(){
+									nowInput.siblings('p').hide(500)
+								}, 6000);
+							});
+							
+						}else{
+							nowInput.siblings('p').html('无修改').show(500,function(){
+								setTimeout(function(){
+									nowInput.siblings('p').hide(500)
+								}, 6000);
+							});
+						}
+					}
+			})
+		})
+	})
+	 var img_path = "__PUBLIC__/images/product/";
+</script>
+<script type="text/javascript" src="__PUBLIC__/swfupload/swfupload/swfupload.js"></script>
+<script type="text/javascript" src="__PUBLIC__/swfupload/js/swfupload.queue.js"></script>
+<script type="text/javascript" src="__PUBLIC__/swfupload/js/fileprogress.js"></script>
+<script type="text/javascript" src="__PUBLIC__/swfupload/js/handlers.js"></script>
+<script type="text/javascript">
+		var swfu;
+
+		window.onload = function() {
+			var settings = {
+				flash_url : "__PUBLIC__/swfupload/swfupload/swfupload.swf",
+				upload_url: "__APP__/Admin/Goods/sufuLoad/cid/<?php echo $_GET['cid']; ?>/lang/<?php echo $_GET['lang']; ?>/hardware/<?php echo $_GET['hd']; ?>",
+				post_params: {"PHPSESSID" : "<?php echo session_id(); ?>"},
+				file_size_limit : "8 MB",
+				file_types : "*.jpg;*.png;*.gif",
+				file_types_description : "上传图片",
+				file_upload_limit : 100,
+				file_queue_limit : 0,
+				custom_settings : {
+					progressTarget : "fsUploadProgress",
+					cancelButtonId : "btnCancel"
+				},
+				debug: false,
+
+				// Button settings
+				button_image_url: "__PUBLIC__/swfupload/images/TestImageNoText_65x29.png",
+				button_width: "65",
+				button_height: "29",
+				button_placeholder_id: "spanButtonPlaceHolder",
+				button_text: '<span class="theFont">选择</span>',
+				button_text_style: ".theFont { font-size: 16; }",
+				button_text_left_padding: 12,
+				button_text_top_padding: 3,
+				
+				// The event handler functions are defined in handlers.js
+				file_queued_handler : fileQueued,
+				file_queue_error_handler : fileQueueError,
+				file_dialog_complete_handler : fileDialogComplete,
+				upload_start_handler : uploadStart,
+				upload_progress_handler : uploadProgress,
+				upload_error_handler : uploadError,
+				upload_success_handler : uploadSuccess,
+				upload_complete_handler : uploadComplete,
+				queue_complete_handler : queueComplete	// Queue plugin event
+			};
+
+			swfu = new SWFUpload(settings);
+	     };
+	</script>
+</head>
+<body>
+<div class="nav-site">{~getNavSite($nav_site,$_GET['cid'])} > 批量上传产品</div>
+ <fieldset>
+<div id="content">
+			<strong style="color:orange;font-size:14px;">当前分类：<span style="color:red;">{~getCategoryTitle($_GET['cid'])}</span></strong>
+			<br/><br/>
+			<strong style="color:orange;font-size:14px;">批量上传步骤：选择上传图片 -> 提交 -> 修改名称 ->返回产品列表</strong>
+			<div class="fieldset flash" id="fsUploadProgress">
+			
+			</div>
+		<div id="divStatus"></div>
+			<div>
+				<span id="spanButtonPlaceHolder"></span>
+				<input type="button" value="开始上传" onclick="swfu.startUpload();" style="margin-left: 2px; font-size: 8pt; height: 29px;" />
+				<input id="btnCancel" type="button" value="取消所有上传图片" onclick="swfu.cancelQueue();" disabled="disabled" style="margin-left: 2px; font-size: 8pt; height: 29px;" />
+			</div>
+		<div id="divFileProgressContainer" style="height: 75px;"></div>
+	    <div><ul id="thumbnails"></ul></div>
+</div>
+</fieldset>
+<div style="margin: 71px 90px;">
+	  <input type="button" value="返回上一步" class="button button-green button-big"  onclick="javascript:history.go(-1);" />
+</div>
+</body>
+</html>

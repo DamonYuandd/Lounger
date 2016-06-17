@@ -1,0 +1,38 @@
+[ 2012-10-30T09:53:20+08:00 ] / | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-30T09:53:20+08:00 ] / | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001235s ]
+[ 2012-10-30T09:53:20+08:00 ] / | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001166s ]
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000270s ]
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000119s ]
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000263s ]
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000943s ]
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/left | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 51 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 106 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 212 行.
+[ 2012-10-30T09:53:21+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 279 行.
+[ 2012-10-30T14:44:27+08:00 ] / | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-30T14:44:27+08:00 ] / | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000852s ]
+[ 2012-10-30T14:44:27+08:00 ] / | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000941s ]
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/left | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 51 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 106 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 212 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 279 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000905s ]
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000325s ]
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000147s ]
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000287s ]
+[ 2012-10-30T14:44:28+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.

@@ -1,0 +1,391 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Default_User.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+        <!--系统页头信息标签-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <%<Hishop:HeadContainer ID="HeadContainer1" runat="server" />%>
+        <%<Hishop:PageTitle runat="server" />%>
+        <%<Hishop:MetaTags runat="server" />%>
+        <!--结束-->
+		<link href="/style/css.css" rel="stylesheet" type="text/css" />
+		<link href="/style/style_user.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="/utility/validate/pagevalidator.css" type="text/css" media="screen" />
+		<script src="/utility/jquery-1.3.2.min.js" type="text/javascript"></script>
+		<script src="/utility/validate/pagevalidator.js" type="text/javascript"></script>
+        <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<form runat="server" id="form1">
+<%<Hishop:TQOnlineServer runat="server" />%>
+<!--新top-->
+<div id="top" class="width-global">
+  <div id="logo">
+    
+    <%<Hishop:Common_Logo runat="server" />%>
+  </div><!--Logo-->
+  <div class="quicklinkbox">
+    <ul class="quicklink">
+      
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="right"><ul class="quicklink">
+		 <li> <Hishop:Common_Link_CreateUser ID="Common_Link_CreateUser1" Text="注册" runat="server" /> </li>
+		 <li>  <Hishop:Common_Link_Login ID="Common_Link_Login1" runat="server" /></li>
+		 <li>  <%<Hishop:Common_Link_MyAccount runat="server" />%> </li>
+          <li>   <%<Hishop:SiteUrl UrlName="shoppingCart" Text="购物车"   target="_blank"  runat="server" />%></li>
+          
+          <li>   <%<Hishop:SiteUrl UrlName="Promotes" Text="优惠活动中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_OrderQuery Text="订单查询" runat="server" />%></li>
+            
+            <li> <%<Hishop:SiteUrl UrlName="AllHelps" Text="帮助中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_LeaveComments Text="客户留言" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_IntegrateDiscuz Text="论坛" runat="server" />%> </li>
+          </ul>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <%<Hishop:Common_ShoppingCart_Info SkinName="/ascx/custom/common_shoppingcart_info.ascx" runat="server" />%>         </td>
+        </tr>
+      </table>
+      </ul>
+  </div>
+  <br class="clear-all" />
+</div>
+<!--顶部信息结束-->
+<div id="header" class="width-global">
+  <div class="nav-box">
+    <ul class="navlist">
+      <li>
+        <h1 id="tag-index"><%<Hishop:SiteUrl UrlName="home" runat="server">首页</Hishop:SiteUrl>%></h1>
+      </li>
+      <li class="nav-proclass"><%<Hishop:Common_PrimaryClass RepeatColumns="6" SeparatorString="" runat="server" MaxNum="6" />%>
+     </li>
+    </ul>
+    <ul class="nav-slist">
+      <li class="bg-slist-left"><%<Hishop:SiteUrl UrlName="allBrand" Text="品牌专卖" runat="server" />%></li>
+	   
+	    <li><%<Hishop:SiteUrl UrlName="AllArticles" Text="文章中心" runat="server" />%></li>
+	    <li><%<Hishop:SiteUrl UrlName="Category" Text="全部分类" runat="server" />%></li>
+      <li class="bg-slist-right"></li>
+    </ul>
+  </div>
+  <div class="search-box">
+    <div class="bg-searchbox-left">
+      <div class="bg-searchbox-right">
+	   <%<Hishop:Common_Search ID="Search" SkinName="/ascx/custom/user-search.ascx" runat="server" />%>
+   
+       <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--导航、搜索栏样式结束-->
+<div class="width-global" style="overflow:hidden; width:980px;"> <%<Hishop:Common_ShowAds AdsID="1" runat="server" />%></div><!--顶部广告位结束-->
+<div class="web_width">
+  <table width="960" border="0" cellspacing="0" cellpadding="0" class="bodycontent">
+    <tr>
+      <td align="left" valign="top"><div class="web_width">
+        <div class="user_center_left">
+          <h2  class="user_center_left_title">用户中心</h2>
+          <div class="pad_5" style="padding-top:14px;padding-left:12px;">
+            <div id="leftbox">
+              <ul class="NavClass">
+                <li>
+                  <h2 id="MyRec">我的交易记录</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserPoints" CssClass="n1" runat="server">我的积分</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_MyCoupons" runat="server">我的优惠券</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserOrders" runat="server">订单管理</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="ProFavRev">商品收藏与评论</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_Favorites" runat="server">收藏夹</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserConsultations" runat="server">咨询/回复</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserProductReviews" runat="server">我参与的评论</Hishop:SiteUrl>%>
+                    </li>
+                    <li><%<Hishop:SiteUrl UrlName="user_BatchBuy" runat="server">商品批量购买</Hishop:SiteUrl>%></li>
+                  </ul>
+                </li>
+                <li id="htmlLiReferral" runat="server">
+                  <h2 id="MumRec">会员推荐提成</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_ReferralMembers" runat="server">我推荐的会员</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_DeductDetails" runat="server">推荐提成明细</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Acu">预付款账户</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_MyAccountSummary" runat="server">预付款账户</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_RechargeRequest" runat="server">预付款充值</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Opt">个人设置</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserProfile" runat="server">个人信息</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UpdatePassword" runat="server">修改密码</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserShippingAddresses" runat="server">我的收货地址</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="ProFavRev">站内消息</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserReceivedMessages" runat="server">收件箱</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserSendedMessages" runat="server">发件箱</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserSendMessage" runat="server">给管理员发消息</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Acu">
+                    <%<Hishop:SiteUrl UrlName="logout" runat="server">退出</Hishop:SiteUrl>%>
+                  </h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="user_center_right"><!-- InstanceBeginEditable name="EditRegion" -->
+
+
+<table class="classlistindex" style="margin: 0;" width="100%" border="0" cellspacing="0"
+    cellpadding="0">
+    <tr>
+        <td class="yourpostion">
+	 <div style="margin-bottom:20px;"><span class="color-blue225982">您的位置：<%<Hishop:SiteUrl UrlName="home" runat="server" style="color:blue;">首页</Hishop:SiteUrl>%> &gt; <%<Hishop:SiteUrl UrlName="user_UserDefault" runat="server" style="color:blue;">会员中心</Hishop:SiteUrl>%> &gt; 个人信息</span></div>
+        </td>
+    </tr>
+    <tr>
+        <td style="padding-right: 0; padding-top: 8px; background: url(images/bg-userpannel.jpg) top repeat-x;">
+            <div class="userPanels" style="border:0px;">
+                   
+                        <div class="TabbedPanelsContent">
+                                    <%<Hishop:SmallStatusMessage id="Status" runat="server" Visible="False" width="577px" />%>
+                                    <%<Hishop:ValidatorContainer runat="server" ID="ValidatorContainer" /> %>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" class="AgentAddNews">
+      <tr>
+        <td valign="top" class="AgentAddNews_pad"><div  class="UserInfo_tit">个人信息</div>
+		  <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0" style="font-size:14px;color:#212222;">
+                                        <tr>
+                                          <td width="100" class="UserInfo_line UserInfo_text_right">真实姓名：</td>
+                                          <td class="UserInfo_line">
+                                             <%<Hishop:Common_Userinfo_Name runat="server" />%>
+                                          </td>
+                                           <td class="UserInfo_line">
+                                                <div id="txt_Common_Userinfo_NameTip" runat="server"></div>
+                                                <%<Hishop:ValidateTarget ID="validateTargetUserName" ContainerId="ValidatorContainer"
+                                                   Nullable="true" runat="server" ControlToValidate="txt_Common_Userinfo_Name" Description="用户的姓名">
+                                                    <Validators>
+                                                        <Hishop:InputStringClientValidator ErrorMessage="用户的姓名"
+                                                            LowerBound="2" UpperBound="20" />
+                                                    </Validators>
+                                                </Hishop:ValidateTarget>%>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="UserInfo_line UserInfo_text_right">电子邮件：</td>
+                                          <td class="UserInfo_line">
+                                              <%<Hishop:Common_Userinfo_Email runat="server" />%>
+                                          </td>
+                                          <td class="UserInfo_line">
+                                                <div id="txt_Common_Userinfo_EmailTip" runat="server">
+                                                </div>
+                                                <%<Hishop:ValidateTarget ID="validateTarget6" ContainerId="ValidatorContainer" runat="server"
+                                                    ControlToValidate="txt_Common_Userinfo_Email" Description="请输入有效的电子邮件地址">
+                                                    <Validators>
+                                                        <Hishop:InputStringClientValidator ErrorMessage="请输入有效的电子邮件地址"
+                                                            LowerBound="3" UpperBound="200" Regex="([a-zA-Z\\.0-9_-])+@([a-zA-Z0-9_-])+((\\.[a-zA-Z0-9_-]{2,3}){1,2})" />
+                                                    </Validators>
+                                                </Hishop:ValidateTarget>%>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="UserInfo_line UserInfo_text_right">性别：</td>
+
+                                          <td class="UserInfo_line">
+                                             <%<Hishop:Common_Userinfo_Sex runat="server" RepeatDirection="Horizontal" />%>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="UserInfo_line UserInfo_text_right">生日：</td>
+                                          <td class="UserInfo_line">
+                                             <%<Hishop:WebCalendar ID="calendrBirthday" runat="server" />%>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="UserInfo_line UserInfo_text_right">省/市：</td>
+                                          <td class="UserInfo_line" colspan="2">
+                                             <%<Hishop:RegionSelector runat="server" id="dropRegions" />%>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="UserInfo_line UserInfo_text_right">详细地址：</td>
+                                          <td class="UserInfo_line">
+                                              <%<Hishop:Common_ShoppingCart_ConsigneeAddress runat="server" />%>
+                                          </td>
+                                           <td class="UserInfo_line">
+                                                <div id="txt_Common_ShoppingCart_ConsigneeAddressTip" runat="server">
+                                                </div>
+                                                <%<Hishop:ValidateTarget ID="validateTarget3" ContainerId="ValidatorContainer" runat="server"
+                                                  Nullable="true" ControlToValidate="txt_Common_ShoppingCart_ConsigneeAddress" Description="用户的详细地址">
+                                                    <Validators>
+                                                        <Hishop:InputStringClientValidator ErrorMessage="用户的详细地址"
+                                                            LowerBound="3" UpperBound="500" />
+                                                    </Validators>
+                                                </Hishop:ValidateTarget>%>
+                                                
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="UserInfo_line UserInfo_text_right">QQ号码：</td>
+                                          <td class="UserInfo_line">
+                                              <%<Hishop:Common_ShoppingCart_ConsigneePostCode runat="server" />%>
+                                          </td>
+                                           <td class="UserInfo_line">
+                                                <div id="txt_Common_ShoppingCart_ConsigneePostCodeTip" runat="server"></div>
+                                                <%<Hishop:ValidateTarget ID="validateTarget1" ContainerId="ValidatorContainer" runat="server"
+                                                   Nullable="true" ControlToValidate="txt_Common_ShoppingCart_ConsigneePostCode" Description="用户的QQ号码">
+                                                    <Validators>
+                                                        <Hishop:InputStringClientValidator ErrorMessage="用户的QQ号码"
+                                                            LowerBound="3" UpperBound="20" />
+                                                    </Validators>
+                                                </Hishop:ValidateTarget>%>
+                                                
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="UserInfo_line UserInfo_text_right">MSN：</td>
+                                          <td class="UserInfo_line">
+                                              <%<asp:TextBox ID="txtMSN" runat="server"></asp:TextBox>%>
+                                          </td>
+                                           <td class="UserInfo_line">
+                                                <div id="txtMSNTip" runat="server"></div>
+                                                <%<Hishop:ValidateTarget ID="validateTarget2" ContainerId="ValidatorContainer"
+                                                   Nullable="true" runat="server" ControlToValidate="txtMSN" Description="用户的MSN">
+                                                    <Validators>
+                                                        <Hishop:InputStringClientValidator ErrorMessage="用户的MSN"
+                                                            LowerBound="3" UpperBound="20" />
+                                                    </Validators>
+                                                </Hishop:ValidateTarget>%>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="UserInfo_line UserInfo_text_right">电话号码：</td>
+                                          <td class="UserInfo_line">
+                                              <%<Hishop:Common_Consignee_Tel  runat="server" />%>
+                                          </td>
+                                          <td class="UserInfo_line">
+                                                <div id="txt_Common_Consignee_TelTip" runat="server"></div>
+                                                <%<Hishop:ValidateTarget ID="validateTarget5" ContainerId="ValidatorContainer" runat="server"
+                                                    Nullable="true" ControlToValidate="txt_Common_Consignee_Tel" Description="用户的电话号码(区号-电话号码-分机)">
+                                                    <Validators>
+                                                        <Hishop:InputStringClientValidator ErrorMessage="用户的电话号码(区号-电话号码-分机)"
+                                                            LowerBound="3" UpperBound="20" />
+                                                    </Validators>
+                                                </Hishop:ValidateTarget>%>
+                                                
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="UserInfo_line UserInfo_text_right">手机号码：</td>
+                                          <td class="UserInfo_line"><%<Hishop:Common_Consignee_Handset  runat="server"/>%></td>
+                                          <td class="UserInfo_line">
+                                                <div id="txt_Common_Consignee_HandsetTip" runat="server">
+                                                </div>
+                                                <%<Hishop:ValidateTarget ID="validateTarget4" ContainerId="ValidatorContainer" runat="server"
+                                                    Nullable="true" ControlToValidate="txt_Common_Consignee_Handset" Description="用户的手机号码">
+                                                    <Validators>
+                                                        <Hishop:InputStringClientValidator ErrorMessage="用户的手机号码"
+                                                            LowerBound="3" UpperBound="20" />
+                                                    </Validators>
+                                                </Hishop:ValidateTarget>%>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td>&nbsp;</td>
+                                          <td style="height:26px; padding:15px 0;">
+											<%<Hishop:Common_Userinfo_AffirmButton runat="server" CssClass="User_btn__bar" OnClientClick="return PageIsValid();" Text="提交" />%>
+                                          </td>
+                                        </tr>
+            </table>
+		</td>
+      </tr>
+    </table>
+                        </div>
+            </div>
+        </td>
+    </tr>
+</table>
+<script src="/utility/region.helper.js" type="text/javascript"></script>
+	<!-- InstanceEndEditable --></div>
+      </div></td>
+    </tr>
+  </table> 
+  </div>
+<table width="960" border="0" align="center" cellpadding="0" cellspacing="0" class="table_help" style="margin-top:20px;">
+  <tr>
+    <td ><div class="border-inside">
+     <%<Hishop:Common_Help runat="server" />%>
+  </div></td>
+    </tr>
+</table>
+
+<div class="page_w marginCenter">
+  <div class="userLink">
+  <div class="width-global friendlink">    <!--友情链接开始-->
+<table><tr><td>  <h1>友情链接：</h1></td><td> <%<Hishop:Common_FriendLinks SkinName="/ascx/custom/user-FriendLinks.ascx" runat="server"  />%> </td></tr></table>
+  </div>
+    </div>
+</div>
+
+</div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="mar_tb6" >
+  <tr>
+    <td  align="center" class="bottom">
+		<%<Hishop:CnzzShow ID="CnzzShow1" runat="server" />%>
+		<%<Hishop:PageFooter ID="PageFooter" runat="server"></Hishop:PageFooter>%>
+		<%<Hishop:LicenseControl runat="server" />%>
+        <%<Hishop:SiteCopyright runat="server" />%>
+	</td>
+  </tr>
+</table>
+</form>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,1 @@
+document.write('<img src="Images/gg/kouyubao_chatu.jpg" width="930" height="316" border="0">');

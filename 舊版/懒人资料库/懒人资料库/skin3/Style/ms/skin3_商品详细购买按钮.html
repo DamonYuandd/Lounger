@@ -1,0 +1,15 @@
+﻿<table style="MARGIN-TOP: 30px" cellspacing="0" cellpadding="0" width="400" border="0">
+   <tbody>
+     <tr>
+       <td>
+	   <input id="storage" type="hidden" value="{ms:storage}" /> <input id="buynum" type="hidden" value="{ms:buynum}" /> <input id="outofstock" type="hidden" value="{outofstock}" /> <script language="javascript">GetPriceDetail('[$syspath]','{cid}');</script><input id="proid" type="hidden" name="proid" value="{ms:id}" /> <input type="image" src="images/vpro/buykey.gif" onClick="return selectid('[$syspath]')" />
+	   </td>
+       <td>
+        
+<#if {ms:ischanged} == "1"#>
+\r\n<a target="_blank" href="[$syspath]cart.aspx?act=score&amp;id={ms:id}"><img border="0" alt="" src="images/vpro/scorekey.gif" /></a>\r\n
+<#/if#>
+</td>
+    </tr>
+  </tbody>
+</table>

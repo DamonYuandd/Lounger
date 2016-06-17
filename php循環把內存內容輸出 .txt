@@ -1,0 +1,16 @@
+ob_end_flush(); // 放在最開始
+	flush();//結束 
+
+
+
+
+
+
+<?php 
+ob_end_flush();
+for ($i=0; $i<count($result); $i++ )
+	{	
+		echo $i;
+		flush();
+	}
+?>

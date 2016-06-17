@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>TripTracker JS幻灯相册代码_js代码站 www.sitejs.com</title>
+    <script type="text/javascript" src="images/slide.js"></script>
+    <script type="text/javascript">
+    <!--
+      var viewer = new PhotoViewer();
+      viewer.add('photo/1.jpg');
+      viewer.add('photo/2.jpg');
+      viewer.add('photo/3.jpg');
+      viewer.add('photo/4.jpg');
+      viewer.add('photo/5.jpg');
+    //-->
+    </script>
+<link rel="stylesheet" href="images/style.css" type="text/css">
+</head>
+
+<body>
+<div id="mastercontainer">
+
+<div class="main">
+<p>
+The TripTracker slideshow is a lightweight JavaScript image viewer with 
+an animated slideshow feature. To <a 
+href="javascript:void(viewer.show(0))" alt="Launch slideshow viewer">see
+ the script in action</a>, click on the first thumbnail below and then 
+the Play button:
+</p>
+
+<p>
+</p><center>
+<div class="Slideshow">
+<a href="photo/1.jpg" onclick="return viewer.show(0)"><img src="images/thumb_1.jpg" alt="" height="70" width="70"> </a>
+<a href="photo/2.jpg" onclick="return viewer.show(1)"><img src="images/thumb_2.jpg" alt="" height="70" width="70"> </a>
+<a href="photo/3.jpg" onclick="return viewer.show(2)"><img src="images/thumb_3.jpg" alt="" height="70" width="70"> </a>
+<a href="photo/4.jpg" onclick="return viewer.show(3)"><img src="images/thumb_4.jpg" alt="" height="70" width="70"> </a>
+<a href="photo/5.jpg" onclick="return viewer.show(4)"><img src="images/thumb_5.jpg" alt="" height="70" width="70"> </a>
+<br>
+</div>
+</center>
+
+<p>
+</p><h2>Slideshow Viewer API</h2>
+The interface to the slideshow is simple - just insert the script 
+source, initialize the viewer and photo links, and call the <code>viewer.show()</code>
+ method. Here is an example:
+<pre class="code">&lt;script type="text/javascript"
+	src="http://slideshow.triptracker.net/slide.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript"&gt;
+&lt;!--
+  var viewer = new PhotoViewer();
+  viewer.add('/photos/my-photo-1.jpg');
+  viewer.add('/photos/my-photo-2.jpg');
+  viewer.add('/photos/my-photo-3.jpg');
+//--&gt;&lt;/script&gt;
+&lt;a href="javascript:void(viewer.show(0))"&gt;Slideshow&lt;/a&gt;
+</pre>
+<p>
+</p><h2>Custom Options</h2>
+Further instructions on how to customize the viewer can be found <a 
+href="http://slideshow.triptracker.net/howto.html">here</a>.
+</div>
+
+</div>
+
+    <br><br>
+<p align="center"><strong>TripTracker JS幻灯相册代码</strong>  <a href="http://www.sitejs.com/code/help.html" target="_blank">【使用说明】</a></p>
+
+<p align="center"><a href="http://www.sitejs.com/" target="_blank">js代码站</a>，转载请注明出处。　本代码仅限于学习交流，请勿用于商业用途! </p>
+
+</body>
+</html>

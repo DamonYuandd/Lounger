@@ -1,0 +1,7 @@
+$(document).ready(function(){
+    $("#telephone").keyup(function(){
+           $(this).val($(this).val().replace(/\D/g, ''));
+    }).blur(function(){
+              var v = $(this).val();
+        });
+})

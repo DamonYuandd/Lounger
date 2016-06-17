@@ -1,0 +1,18 @@
+﻿<style type="text/css">
+.zdysx { background:#F2FAFF; border:1px #E2F1FF solid; padding:5px 0 0; margin-bottom:20px}
+.zdysx ul { margin:0; padding:0; list-style:none}
+.zdysx ul li { margin:0 0 4px 4px; padding:0; background:#E2F1FF; border:1px #FFF solid; width:236px; height:33px; line-height:33px; font-size:14px; color:#555; float:left; text-align:left;}
+.zdysx ul li span { color:#2A68A3; font-size:14px}
+</style>
+<div class="zdysx">
+  <ul>
+    <#loop propertysearch,["+cid+"] 999#>
+    <li>{propertysearch[name]}：<span>{propertysearch[value]}</span></li>
+    <#/loop#>
+
+    <#loop selfpropertysearch,["+cid+"] 999#>
+    <li>{selfpropertysearch[name]}：<span>{selfpropertysearch[value]}</span></li>
+    <#/loop#>
+  </ul>
+  <div style="clear:both"></div>
+</div>

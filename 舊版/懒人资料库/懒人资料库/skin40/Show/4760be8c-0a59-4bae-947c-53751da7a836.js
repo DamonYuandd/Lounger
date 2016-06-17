@@ -1,0 +1,1 @@
+document.write('<img src="Images/gg/newsCenter_03.gif" width="341" height="53" border="0">');

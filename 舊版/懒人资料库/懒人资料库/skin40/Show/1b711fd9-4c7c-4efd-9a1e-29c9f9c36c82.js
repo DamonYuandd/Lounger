@@ -1,0 +1,1 @@
+document.write('<a href="http://www.021web.com.cn" title="" target="_blank"><img src="Images/ad/ad18.gif" width="250" height="205" border="0"></a>');

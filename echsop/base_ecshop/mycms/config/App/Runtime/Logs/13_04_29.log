@@ -1,0 +1,66 @@
+[ 2013-04-29T20:40:51+08:00 ] /dd_cms_v2/config/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-04-29T20:40:51+08:00 ] /dd_cms_v2/config/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003654s ]
+[ 2013-04-29T20:40:51+08:00 ] /dd_cms_v2/config/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.004557s ]
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/left | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.004655s ]
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.007537s ]
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/left | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 166 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 188 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/left | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.004102s ]
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.005489s ]
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000801s ]
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | NOTIC: [8] Undefined index: searchkey IndexAction.class.php 第 28 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | NOTIC: [8] Undefined variable: vo ae4ccf388766686c7b43ce2ff8116269.php 第 14 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | NOTIC: [8] Undefined index: website_name ae4ccf388766686c7b43ce2ff8116269.php 第 19 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | NOTIC: [8] Undefined index: url ae4ccf388766686c7b43ce2ff8116269.php 第 22 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | NOTIC: [8] Undefined index: contract_number ae4ccf388766686c7b43ce2ff8116269.php 第 29 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | NOTIC: [8] Undefined index: yy_price ae4ccf388766686c7b43ce2ff8116269.php 第 31 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | NOTIC: [8] Undefined index: service_price ae4ccf388766686c7b43ce2ff8116269.php 第 32 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 35 行.
+[ 2013-04-29T20:40:52+08:00 ] /dd_cms_v2/config/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 39 行.
+[ 2013-04-29T20:40:53+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-04-29T20:40:53+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-04-29T20:40:53+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003964s ]
+[ 2013-04-29T20:40:53+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.005620s ]
+[ 2013-04-29T20:40:53+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000277s ]
+[ 2013-04-29T20:40:53+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000923s ]
+[ 2013-04-29T20:40:53+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000738s ]
+[ 2013-04-29T20:40:53+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000836s ]
+[ 2013-04-29T20:40:53+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-04-29T20:40:53+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-04-29T20:41:02+08:00 ] /dd_cms_v2/config/index.php/Lang/edit/pid/4/account_id/231/id/1391 | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-04-29T20:41:02+08:00 ] /dd_cms_v2/config/index.php/Lang/edit/pid/4/account_id/231/id/1391 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003766s ]
+[ 2013-04-29T20:41:02+08:00 ] /dd_cms_v2/config/index.php/Lang/edit/pid/4/account_id/231/id/1391 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.004871s ]
+[ 2013-04-29T20:41:02+08:00 ] /dd_cms_v2/config/index.php/Lang/edit/pid/4/account_id/231/id/1391 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1391' ) LIMIT 1  [ RunTime:0.000392s ]
+[ 2013-04-29T20:41:05+08:00 ] /dd_cms_v2/config/index.php/Category/editNav/account_id/231/id/36 | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-04-29T20:41:05+08:00 ] /dd_cms_v2/config/index.php/Category/editNav/account_id/231/id/36 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003606s ]
+[ 2013-04-29T20:41:05+08:00 ] /dd_cms_v2/config/index.php/Category/editNav/account_id/231/id/36 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.004604s ]
+[ 2013-04-29T20:41:05+08:00 ] /dd_cms_v2/config/index.php/Category/editNav/account_id/231/id/36 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '36' ) LIMIT 1  [ RunTime:0.000373s ]
+[ 2013-04-29T20:41:05+08:00 ] /dd_cms_v2/config/index.php/Category/editNav/account_id/231/id/36 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000604s ]
+[ 2013-04-29T20:41:12+08:00 ] /dd_cms_v2/config/index.php/Lang/edit/pid/3/account_id/231/id/428 | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-04-29T20:41:12+08:00 ] /dd_cms_v2/config/index.php/Lang/edit/pid/3/account_id/231/id/428 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003977s ]
+[ 2013-04-29T20:41:12+08:00 ] /dd_cms_v2/config/index.php/Lang/edit/pid/3/account_id/231/id/428 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.004782s ]
+[ 2013-04-29T20:41:12+08:00 ] /dd_cms_v2/config/index.php/Lang/edit/pid/3/account_id/231/id/428 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '428' ) LIMIT 1  [ RunTime:0.000415s ]
+[ 2013-04-29T20:41:15+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003574s ]
+[ 2013-04-29T20:41:15+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.005228s ]
+[ 2013-04-29T20:41:15+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test2 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000391s ]
+[ 2013-04-29T20:41:15+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000931s ]
+[ 2013-04-29T20:41:15+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000695s ]
+[ 2013-04-29T20:41:15+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000674s ]
+[ 2013-04-29T20:41:18+08:00 ] /dd_cms_v2/config/index.php/Category/editNav/account_id/231/id/36 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003639s ]
+[ 2013-04-29T20:41:18+08:00 ] /dd_cms_v2/config/index.php/Category/editNav/account_id/231/id/36 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.004953s ]
+[ 2013-04-29T20:41:18+08:00 ] /dd_cms_v2/config/index.php/Category/editNav/account_id/231/id/36 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '36' ) LIMIT 1  [ RunTime:0.000393s ]
+[ 2013-04-29T20:41:18+08:00 ] /dd_cms_v2/config/index.php/Category/editNav/account_id/231/id/36 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000658s ]
+[ 2013-04-29T20:41:18+08:00 ] /dd_cms_v2/config/index.php/Category/editNav/account_id/231/id/36 | NOTIC: [8] Undefined index: zh-tw common.php 第 8 行.
+[ 2013-04-29T20:41:34+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003885s ]
+[ 2013-04-29T20:41:34+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.004498s ]
+[ 2013-04-29T20:41:34+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test3 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000344s ]
+[ 2013-04-29T20:41:34+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.001123s ]
+[ 2013-04-29T20:41:34+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000925s ]
+[ 2013-04-29T20:41:34+08:00 ] /dd_cms_v2/config/index.php/Account/edit/id/231/tab_id/test3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000828s ]

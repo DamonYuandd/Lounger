@@ -1,0 +1,122 @@
+body.{
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:0;}
+.eventscatebg {width:918px; width:900px !important; _width:900px; border:1px #CCCCCC solid; padding:9px; text-align:left; margin-bottom:10px}
+.eventslist {width:70px; width:65px !important; _width:65px; padding:5px; float:left}
+.eventslist ul { margin: 0; padding: 0; display: inline; }
+.eventslist ul li { margin:0; padding:0 10px 0 0; display: inline;; list-style: none}
+.eventslist ul li A:link { color:#888888}
+.eventslist ul li A:visited { color:#888888}
+.eventslist ul li A:active { color:#888888}
+.eventslist ul li A:hover { color:#FFFFFF; text-decoration:none; background:#FF99FF}
+.eventslist div {font-weight:bold; color:#703EC4; margin:5px 0; width:100%; border-bottom:1px #dddddd dashed}
+.eventslist div A:link {color:#000000}
+.eventslist div A:hover {color:#FFFFFF; text-decoration:none; background:#2AA3A1}
+
+
+.div1 {width:920px; height:600px}
+.div1b {width:920px}
+.div1l {width:250px; height:600px; float:left; text-align:left}
+.div1lr {width:250px; height:600px; float:right; text-align:left}
+.div1banner { margin-bottom:10px}
+.listlabel1 {width:250px; width:240px !important; _width:240px; padding-left:10px; height:25px; line-height:25px; color:#FFFFFF; font-weight:bolder; background:url(../images/events/labelbg1.gif)}
+.list1 {width:248px; width:238px !important; _width:238px; background:#F6F6F6; padding:5px; border-left:1px #cccccc solid; border-right:1px #cccccc solid}
+.list1 div { width:238px; height:92px; line-height:20px; border-bottom:1px #CCCCCC dashed}
+.list1 div img{ width:80px; height:80px; border:1px #999999 solid; margin:5px; float:left}
+.list1 ul { margin: 0; padding:0}
+.list1 ul li {width:238px; width:228px !important; padding: 0 5px; margin:0; _width:228px; height:25px; list-style: none; line-height:25px}
+.list1li { background:#FFE7EE}
+.listbgb1 {height:3px}
+
+.div1m {width:484px; width:470px !important; _width:470px; text-align:right; float:left; padding-left:14px}
+.div1mv {width:660px; text-align:left; float:left}
+.listlabel2a {width:470px; width:460px !important; _width:460px; padding-left:10px; height:25px; line-height:25px; color:#FFFFFF; font-weight:bolder; background:url(../images/events/labelbg2a.gif); text-align:left}
+.listlabel2b {width:470px; height:30px; line-height:30px; color:#000000;  background:url(../images/events/labelbg2b.gif); text-align:center}
+.headline {width:470px; border-bottom:1px #CCCCCC dashed; padding:5px 0; text-align:left}
+.headline p { font-size:14px; font-weight:bolder; margin:5px 0 10px; text-align:center}
+.newnews { width:470px; height:120px; height:100px!important; _height:100px; padding:10px 0; text-align:left; border-bottom:1px #CCCCCC dashed}
+.newnews ul { margin: 0; padding: 0}
+.newnews ul li { width:235px; margin:0; height:20px; line-height:20px; list-style: none; font-size:14px; color:#FF91B3; float:left}
+.keyword {width:470px; background:url(../images/events/keywordbg.gif); height:28px; line-height:28px; text-align:left; margin:10px 0}
+.keyword span {padding:0 30px; height:28px; line-height:28px; font-weight:bolder; color:#FFFFFF}
+.list2t {width:470px; height:7px}
+.list2 {width:468px; width:458px !important; _width:458px; height:158px; padding:0 5px; border-left:1px #cccccc solid; border-right:1px #cccccc solid}
+.list2label {width:458px; border-bottom:2px #FF5D8C solid; text-align:left; font-size:14px; color:#FF5D8C; font-weight:bolder; height:25px; line-height:25px}
+.list2l {width:229px; float:left; padding:10px 0; text-align:left}
+.list2l ul { margin: 0; padding: 0 }
+.list2l ul li { margin:0; height:20px; line-height:20px; list-style: none; font-size:14px; color:#FF91B3}
+.list2r {width:229px; float:right; padding:10px 0}
+
+.div1r {width:176px; height:600px; float:right}
+.div1rl {width:176px; height:600px; float:left}
+.div1ad { margin-bottom:10px}
+.listlabel3 {width:176px; width:166px !important; _width:166px; padding-left:10px; height:25px; line-height:25px; color:#FFFFFF; font-weight:bolder; background:url(../images/events/labelbg3.gif); text-align:left}
+.list3 {width:174px; padding:5px 0; border-left:1px #cccccc solid; border-right:1px #cccccc solid; text-align:left}
+.list3 ul { margin: 0; padding:0}
+.list3 ul li {width:174px; width:164px !important; padding: 0 5px; margin:0; _width:164px; height:25px; list-style: none; line-height:25px}
+.list3li { background:#FFE7EE}
+.listbgb3 {height:3px; margin-bottom:10px}
+
+.cate1list {width:920px; height:460px}
+.cate1listl {width:734px; height:460px; float:left}
+.cate1label {width:734px; background:url(../images/events/catelabel.gif) no-repeat; height:25px; line-height:25px; margin-bottom:5px; float:left}
+.cate1labell {float:left; height:25px; line-height:25px; font-size:12px; font-weight:bolder; padding-left:10px; color:#FFFFFF}
+.cate1labell A:link { color:#FFFFFF}
+.cate1labell A:visited { color:#FFFFFF}
+.cate1labell A:active { color:#FFFFFF}
+.cate1labell A:hover { color:#FFFFFF}
+.cate1labelr {float:right; height:25px; line-height:25px}
+.catelistl1 {width:250px; height:430px; float:left}
+.catecommend {width:250px; float:left; padding:10px 0; text-align:left}
+.catecommend ul { margin: 0; padding: 0 }
+.catecommend ul li { margin:0; height:20px; line-height:20px; list-style: none; font-size:12px; color:#FF91B3}
+.newnews2 { width:470px; height:80px; height:60px !important; _height:60px; padding:10px 0; text-align:left; border-bottom:1px #CCCCCC dashed}
+.newnews2 ul { margin: 0; padding: 0}
+.newnews2 ul li { width:235px; margin:0; height:20px; line-height:20px; list-style: none; font-size:14px; color:#FF91B3; float:left}
+.catelistl2 {width:484px; width:470px !important; _width:470px; height:430px; text-align:right; float:left; padding-left:14px}
+.catepic {width:470px; width:460px !important; _width:460px; padding:0 5px}
+.catepicv {width:450px; float:left; padding:10px 0; text-align:left}
+.catepicv ul { margin: 0; padding: 0 }
+.catepicv ul li { width:112px; width:100px !important; _width:100px; margin:0; list-style: none; font-size:12px; color:#FF91B3; float:left; text-align:center; padding:0px 6px 4px}
+.catepicv ul li img { width:80px; height:80px; border:1px #999999 solid; margin-bottom:2px;}
+.cate1listr {width:176px; height:460px; float:right}
+.cate1listr1 {width:176px; width:166px !important; _width:166px; padding-left:10px; height:25px; line-height:25px; color:#FFFFFF; font-weight:bolder; background:url(../images/events/labelbg3.gif); text-align:left}
+.cate1listr2 {width:174px; padding:5px 0; border-left:1px #cccccc solid; border-right:1px #cccccc solid; text-align:left}
+.cate1listr2 ul { margin: 0; padding:0}
+.cate1listr2 ul li {width:174px; width:164px !important; padding: 0 5px; margin:0; _width:164px; height:20px; list-style: none; line-height:20px}
+.cate1listr3 {height:3px; margin-bottom:10px}
+
+
+
+
+.catebge {width:172px; background:url(../images/index/catebg2.gif) bottom repeat-x; border-left:2px #3A89CA solid; border-right:2px #3A89CA solid}
+.catee {font-weight:bold; color:#703EC4; padding:5px 0; width:50%; float:left}
+.catee A:link {color:#000000}
+.catee A:hover {color:#FFFFFF; text-decoration:none; background:#2AA3A1}
+
+
+.eventscatebg2 {width:470px; width:450px !important; _width:450px; border:1px #CCCCCC solid; padding:9px; text-align:left; margin-bottom:10px}
+.eventslist2 {width:450px; width:440px !important; _width:440px; padding:5px; float:left}
+.eventslist2 ul { margin: 0; padding: 0; display: inline}
+.eventslist2 ul li { margin:0; padding:10px; display: inline; list-style: none}
+.eventslist2 ul li A:link { color:#888888}
+.eventslist2 ul li A:visited { color:#888888}
+.eventslist2 ul li A:active { color:#888888}
+.eventslist2 ul li A:hover { color:#FFFFFF; text-decoration:none; background:#FF99FF}
+.eventslist2 div {font-weight:bold; color:#000000;  float:left}
+.eventslist2 div A:link {color:#000000}
+.eventslist2 div A:hover {color:#FFFFFF; text-decoration:none}
+.listnews { width:470px; padding:10px 0; text-align:left}
+.listnews ul { margin: 0; padding: 0}
+.listnews ul li { width:470px; margin:0; padding:7px 0; list-style: none; font-size:14px; color:#FF91B3}
+.listnews ul li p{ font-size:10px; color:#AAAAAA; font-weight:bolder; margin:0; padding:0; text-align:right; border-bottom:1px #CCCCCC dashed}
+
+
+
+
+.vlabel {width:660px; width:650px !important; _width:650px; padding-left:10px; color:#FFFFFF; font-weight:bolder; background:url(../images/events/catelabel.gif) no-repeat; height:25px; line-height:25px; margin-bottom:5px}
+.eventsname {font-size:16px; font-weight:bolder; border:1px #dddddd solid; background:#efefef; padding:30px 0; text-align:center}
+.eventsinfo {background:#FFFFFF; padding:10px 0; text-align:center}
+.eventsdetail {font-size:14px; border:1px #dddddd solid; background:#F7F7F7;  padding:30px; text-align:left; line-height:30px}

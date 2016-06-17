@@ -1,0 +1,10 @@
+ 				<ul>hfghhdg
+                	<volist name="dataList" id="vo">
+                        <li><span>{$vo.update_time|date='[Y-m-d]',###}</span> <a href="__APP__/Job/show/cid/{$vo.category_id}/id/{$vo.id}.html">{$vo.title}</a></li>
+                    </volist>
+                </ul>
+               </div>
+               <div class="page">
+               		{$pageBar}
+               </div>
+     

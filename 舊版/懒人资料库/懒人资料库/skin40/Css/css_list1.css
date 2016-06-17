@@ -1,0 +1,40 @@
+.viewlist_1 {
+	clear:both;
+}
+
+.viewlist_2 {
+	clear:both;
+	float:left;
+	width:141px;
+	margin:0;
+}
+
+.viewlist_3 {
+	clear:both;
+}
+
+.shop_box {
+	float:left;
+	width:142px;
+	padding:3px 2px 0 3px;
+}
+
+.shop_img {
+	clear:both;
+	width:142px;
+	margin-left:0px;
+	text-align:center;
+}
+
+.shop_content ul {
+	margin-left:2px;
+}
+
+
+
+.list1 {width:740px; height:220px}
+.list1 ul{ margin:0; padding:0}
+.list1 ul li {width:180px; height:240px; width:160px !important; height:220px !important; _width:160px; _height:220px; padding:10px 10px; text-align:center; line-height:14px; float:left; list-style:none}
+.list1 ul li span img {border:1px #DEDEDE solid; width:140px; height:140px}
+.list1 ul li div {font-family:Arial; line-height:14px; text-align:left}
+.list1 ul li div p {padding:0; margin:0}

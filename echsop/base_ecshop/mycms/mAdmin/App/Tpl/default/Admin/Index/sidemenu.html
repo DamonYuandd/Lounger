@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<layout name="Inc:jq_mobile" cache="0" />
+</head>
+<body>
+<div data-role="page" class="pageShow">
+	<layout name="Inc:edit_head" cache="0" />
+    <div data-role="content">
+                <ul data-role="listview" data-divider-theme="a" data-inset="true"> 
+             		  <li data-role="list-divider" role="heading">
+                   		 当前位置：{~getNavSite($headTitle,$_GET['pid'])}
+           	      	  </li>
+                  <volist name="dataList" id="one">
+          		  <li <notempty name="one['_child']"></notempty >>
+                    <a href="{~getSideMenuUrl($module,$one['id'],$one['burl'])}/lang/{$_SESSION['lang']}" <eq name="one.tpl_one" value="one">data-ajax="false"<else/>  data-transition="slide"</eq>>
+                   {$one['title']}
+                    </a>
+           		  </li>
+            </volist>
+            <if condition="($module eq 'About') OR  ($module eq 'News')  OR  ($module eq 'Goods')">
+            	 <li>
+              	  <a href="__APP__/Index/sidemenu/sort/sel/pid/{$_GET['pid']}"data-transition="slide" id="System" ata-transition="pop" data-rel="dialog">分类管理</a>
+          		  </li>   
+            </if>        
+                </ul>
+    </div> 
+　 	<layout name="Inc:edit_footer" cache="0" />
+</div>
+</body>
+</html>

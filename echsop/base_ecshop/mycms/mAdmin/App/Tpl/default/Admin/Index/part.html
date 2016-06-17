@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<layout name="Inc:jq_mobile" cache="0" />
+</head>
+<body>
+<div data-role="page"  class="pageShow">
+	<layout name="Inc:edit_head" cache="0" />
+    <div data-role="content">
+    	<ul data-role="listview" data-divider-theme="a" data-inset="true">
+            <li data-role="list-divider" role="heading">
+                选择栏目：
+            </li>
+            <volist name="moduleList" id="vo">
+                <li data-theme="<eq name="_SESSION.D_lang.title" value="$vo.title">d<else/>c</eq>">
+                    <a href="__APP__/Admin/Index/sidemenu/pid/{$vo.id}" data-transition="slide">
+                      {~getDefNavTitle(json_decode($vo['title'],true),$_SESSION['lang'])}
+                    </a>
+                </li>
+            </volist>     
+             	<li>
+                	<a href="__APP__/System/index/cid/sel" data-transition="slide" id="System" ata-transition="pop" data-rel="dialog">系统设置</a>
+                </li>   
+        </ul>
+    </div> 
+　 	<layout name="Inc:edit_footer" cache="0" />
+</div>
+</body>
+</html>

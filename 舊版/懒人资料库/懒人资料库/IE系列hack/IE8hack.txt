@@ -1,0 +1,2 @@
+	max-height:582px\0;
+	max-width:762px\0;  //这方法IE9也能读取到，所以要添加IE9hack在下面

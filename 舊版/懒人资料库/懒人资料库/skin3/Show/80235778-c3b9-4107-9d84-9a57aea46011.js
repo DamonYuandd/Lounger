@@ -1,0 +1,1 @@
+document.write('<a href="ddd" style="color:red;" title="fff" target="_blank">fff</a>');

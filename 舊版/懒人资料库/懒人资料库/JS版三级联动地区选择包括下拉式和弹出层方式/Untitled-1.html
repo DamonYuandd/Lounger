@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="jquery-1.5.2.js"></script>
+<script type="text/javascript" src="district.js"></script>
+<title>地区选择</title>
+</head>
+<script type = "text/javascript" >
+ $(document).ready(function() {
+	sel(root3, "departure_one");
+	$(".sel").change(function() {
+		var gk = new Array("one", "two", "three");
+		var t = $(this).attr("title");
+		var k = parseInt($(this).attr("bt"));
+		for (var i = k + 1; i <= 3; i++) {
+			$("#" + t + "_" + gk[i]).html(i == 1 ? "<option value=''>请选择市</option>": "<option value=''>请选择区</option>")
+		}
+		if ($(this).val() != "") {
+			if (t == "departure") {
+				var root = n[k][$("#" + t + "_" + $(this).val()).attr("bt")]
+			} else {
+				var root = m[k][$("#" + t + "_" + $(this).val()).attr("bt")]
+			}
+			sel(root, t + "_" + gk[k + 1]);
+			$("#" + $(this).attr("id") + "_error").hide()
+		} else {
+			$("#" + $(this).attr("id") + "_error").show()
+		}
+	});
+
+});
+var n = new Array();
+var m = new Array();
+function sel(root, id) {
+	var k = root.childCategorys;
+	var bt = parseInt($("#" + id).attr("bt"));
+	var t = $("#" + id).attr("title");
+	alert();
+	if (t == "departure") {
+		n[bt] = new Array();
+		n[bt] = k
+	} else {
+		m[bt] = new Array();
+		m[bt] = k
+	}
+	for (var i = 0; i < k.length; i++) {
+		$("#" + id).append("<option value='" + k[i].id + "' id='" + t + "_" + k[i].id + "' bt=" + i + ">" + k[i].title + "</option>")
+	}
+} </script>
+<body>
+<table cellspacing="0" cellpadding="0">
+<tr><td class="bg" colspan="2">出发地</td></tr>
+<tr><td class="bb br"><span>*</span>省：</td><td class="bb bl"><select id="departure_one" class="sel bi" bt=0 title="departure" name="departure1"><option value=''>请选择省</option></select></td></tr>
+<tr><td class="bb br"><span>*</span>市：</td><td class="bb bl"><select id="departure_two" class="sel bi"  bt=1 title="departure" name="departure2"><option value=''>请选择市</option></select></td></tr>
+<tr><td class="br"><span>*</span>区：</td><td class="bl"><select id="departure_three" class="sel bi" bt=2  title="departure" name="departure3"><option value=''>请选择区</option></select></td></tr>
+</table>
+</body>
+</html>

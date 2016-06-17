@@ -1,0 +1,35 @@
+.viewlist_1 {
+	clear:both;
+}
+
+.viewlist_2 {
+	clear:both;
+	margin-left:0px;
+}
+
+.viewlist_3 {
+	clear:both;
+}
+
+.shop_box {
+	float:left;
+	width:292px;
+	padding:3px 2px 0 3px;
+}
+
+.shop_img {
+	float:left;
+	width:80px;
+	margin-left:0px;
+}
+
+.shop_content ul {
+	float:left;
+	margin-left:10px;
+}
+
+
+
+
+.list4 {width:740px; text-align:left}
+.list4v { height:122px; height:102px !important; _height:102px; padding:10px 0px; border-bottom:1px #CCCCCC dashed}

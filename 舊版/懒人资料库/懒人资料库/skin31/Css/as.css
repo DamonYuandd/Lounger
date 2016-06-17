@@ -1,0 +1,24 @@
+.as_div1 {width:750px; height:218px; margin-bottom:10px}
+.as_div1_left {float:left; width:256px; height:218px}
+.as_div1_right {float:right; width:484px; height:218px}
+.as_1 {border:1px #cccccc solid; background:url(../images/as/bg-1.gif) repeat-x; height:57px; padding:10px; line-height:25px; margin-bottom:5px}
+.as_2 {width:484px; float:left}
+.as_3 {width:484px; float:right}
+.as_2 ul li,.as_3 ul li {float:left; width:222px; background:url(../images/as/bg-2.gif) left no-repeat; padding-left:10px; line-height:30px; border-bottom:1px #ccc dashed; margin-left:10px; display:inline}
+.as_div2 {border:1px #E98A84 solid; width:728px; padding:10px; margin-bottom:10px}
+.as_div2_right {width:226px; float:right}
+.as_div3_right {width:226px; float:left}
+.as_div2_right ul li,.as_div3_right ul li {width:222px; text-align:center; line-height:22px; font-weight:bold}
+.as_div2_right ul li img,.as_div3_right ul li img {border:2px #ddd dashed}
+.as_title {padding:5px 10px; font-size:14px; font-weight:bold; color:#D70034; height:15px}
+.as_title span {display:block; float:left}
+.as_title b {display:block; float:right; padding-top:5px}
+.as_list {width:730px; padding:10px}
+.as_list ul li {background:url(../images/as/bg-2.gif) left no-repeat; padding-left:10px; border-bottom:1px #ccc dashed; line-height:30px; height:30px}
+.as_list ul li span {display:block; float:left}
+.as_list ul li b {font-weight:100; display:block; float:right; padding-right:10px; color:#999}
+.as_com_title {width:730px; padding:10px 0}
+.as_com_title h1 {margin:0; font-size:12px; font-weight:bold; background:url(../images/as/bg-3.gif) no-repeat; width:742px; height:65px; text-align:center; font-weight:100; line-height:30px; padding-top:8px}
+.as_com_title h1 b {color:#DE5449; font-size:14px}
+.as_com_title span {line-height:30px; text-align:center; display:block; width:742px}
+.as_com_title_div {border:1px #ececec solid; padding:10px; line-height:22px; width:720px}

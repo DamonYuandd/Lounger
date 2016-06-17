@@ -1,0 +1,1 @@
+document.write('<a href="http://www.v5shop.com.cn" title="1" target="_blank"><img src="Images/guanggao/newpro-1.jpg" width="570" height="332" border="0"></a>');

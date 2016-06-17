@@ -1,0 +1,1 @@
+document.write('<img src="Images/gg/telephone.gif" width="186" height="49" border="0">');

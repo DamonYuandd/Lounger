@@ -1,0 +1,235 @@
+﻿body.{
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:0;}
+/* brand */
+.div1 {width:920px; height:330px; background:#FFFFFF; border-bottom:1px #DDDDDD solid; border-top:1px #DDDDDD solid}
+.div1l {width:176px; height:330px; background:#FFFFFF; float:left; text-align:left}
+*html .div1lbg {width:144px; height:300px;}
+.div1lbg {width:144px !important; width:174px; height:300px !important; height:330px; background:#FFFFFF; padding:15px; border-left:1px #DDDDDD solid; border-right:1px #DDDDDD solid;}
+.div1lbg div ul { margin:0; padding:5px}
+.div1lbg div ul li { margin:0; padding:5px}
+*html .div1lbg2 {width:144px}
+.div1lbg2 {width:144px !important; width:174px; background:#FFFFFF; padding:15px;}
+.div1lbg2 div ul { margin:0; padding:5px}
+.div1lbg2 div ul li { margin:0; padding:5px}
+.div1lbg2 div ul li font { color:#12A7AB; font-size:12px}
+.div1r {width:744px; height:330px; background:#FFFFFF;float:right; text-align:left}
+*html .div1rbg {width:713px; height:300px;}
+.div1rbg {width:713px !important; width:743px; height:300px !important; height:330px; background:#FFFFFF; padding:15px; border-right:1px #DDDDDD solid}
+.div1r1 {height:23px}
+.div1r1select {width:138px; height:23px; background:url(../images/others/brandselect.gif); margin-right:5px; line-height:23px; float:left; text-align:center}
+.div1r1default {width:138px; height:23px; background:url(../images/others/branddefault.gif); margin-right:5px; line-height:23px; float:left; text-align:center}
+*html .div1r2 { width:705px; height:240px}
+.div1r2 { margin-top:30px; width:708px !important; height:240px !important; width:713px; height:245px; background:#E7E7E7; padding:5px 0 0 5px}
+.div1r2 ul { margin:0; padding:0}
+.div1r2 ul li { width:141px; height:60px; margin:0; padding:0; float:left; list-style: none}
+.div1r2 ul li img { width:136px; height:55px}
+
+
+.div2 {width:920px; height:206px; background:#FFFFFF; margin:10px 0}
+.div2l {width:176px; height:206px; float:left}
+.div2mbg {width:536px; height:204px; border:1px #CCCCCC solid; float:left; margin-left:15px}
+.prolabel { background:url(../images/others/brandprolabel.gif); height:32px; border-bottom:1px #FFFFFF solid; text-align:left}
+.probg { background:url(../images/others/brandprobg.gif) repeat-x top; height:168px}
+.probg ul { margin:0; padding:0 }
+*html .probg ul li {width:104px}
+.probg ul li {width:104px !important; width:130px; padding:10px 13px 0; text-align:CENTER; line-height:16px; float:left; color:#999999;  list-style: none}
+.probg ul li img {margin-bottom:5px; width:90px; height:90px; border:1px #DDDDDD solid}
+.probg a:link {color:#000000}
+.probg a:visited {color:#000000}
+.probg a:active {color:#000000}
+.probg a:hover {color:#3186CB}
+.div2r {width:176px; height:206px; float:right}
+
+.div3 {width:920px; margin:10px 0}
+
+.cate1 {width:918px; height:238px; background:#FFFFFF; border:1px #DDDDDD solid; margin:10px 0} 
+.cate1l {width:200px; height:238px; float:left}
+.cate1pro1 {width:316px; float:left; text-align:left; line-height:18px; margin-top:40px; height:160px; border-right:1px #dddddd solid}
+.cate1pro1 img {width:130px; height:130px; margin-right:10px; float:left}
+.cate1pro1 span { font-size:14px; font-weight:bolder}
+.cate1pro2 {width:400px; background:#FFFFFF; text-align:center; float:right}
+.cate1pro2 ul { margin:0; padding:0 }
+*html .cate1pro2 ul li {width:104px}
+.cate1pro2 ul li {width:104px !important; width:130px; padding:40px 13px 0; text-align:left; line-height:16px; float:left; color:#999999;  list-style: none}
+.cate1pro2 ul li img {margin-bottom:5px; width:90px; height:90px; border:1px #DDDDDD solid}
+.cate1pro2 a:link {color:#000000}
+.cate1pro2 a:visited {color:#000000}
+.cate1pro2 a:active {color:#000000}
+.cate1pro2 a:hover {color:#3186CB}
+
+
+.list1 {width:918px; background:#FFFFFF; border:1px #DDDDDD solid}
+.list1l {width:174px; background:#FFFFFF; float:left; text-align:left}
+*html .list1lbg {width:144px;}
+.list1lbg {width:144px !important; width:174px; background:#FFFFFF; padding:15px;}
+.list1r {width:743px; background:#FFFFFF; float:right; border-left:1px #DDDDDD solid;}
+*html .list1rbg {width:713px;}
+.list1rbg {width:713px !important; width:743px; background:#FFFFFF; padding:15px}
+.prolabel2 { background:url(../images/others/brandprolabel2.gif); height:32px; border-top:1px #FFFFFF solid; text-align:left}
+.probg ul { margin:0; padding:0 }
+*html .probg ul li {width:104px; height:180px}
+.probg2 ul li {width:104px !important; width:130px; height:180px !important; height:200px; padding:20px 13px 0; text-align:left; line-height:16px; float:left; color:#999999;  list-style: none}
+.probg2 ul li img {margin-bottom:5px; width:90px; height:90px; border:1px #DDDDDD solid}
+.probg2 a:link {color:#000000}
+.probg2 a:visited {color:#000000}
+.probg2 a:active {color:#000000}
+.probg2 a:hover {color:#3186CB}
+.list2r {width:176px; height:206px; float:right}
+*html .list1r2 { width:699px}
+.list1r2 { margin-top:30px; width:708px !important; width:713px; background:#E7E7E7; padding:5px 0 0 5px}
+.list1r2 ul { margin:0; padding:0}
+.list1r2 ul li { width:141px; height:60px; margin:0; padding:0; float:left; list-style: none}
+.list1r2 ul li img { width:136px; height:55px}
+
+/* score */
+.div3 {width:920px; background:#FFFFFF}
+.div3l {width:174px; background:#FFFFFF; float:left; text-align:left; border:1px #DDDDDD solid}
+.div3r {width:732px; background:#FFFFFF; float:right}
+.div3pro ul { margin:0; padding:0 }
+*html .div3pro ul li {width:155px; height:291px}
+.div3pro ul li {width:155px !important; width:175px; height:291px !important; height:301px; padding:5px 10px; text-align:center; line-height:14px; float:left; color:#999999;  list-style: none; background:url(../images/others/scorepro.gif); margin:3px 8px 10px 0}
+.div3pro ul li img {margin-bottom:5px; width:140px; height:140px;}
+.div3pro ul li div {height:70px; text-align:left}
+.div3pro ul li p {margin:0; padding:0 ; text-align:left}
+.div3pro ul li strong { color:#FF6600}
+.div3pro a:link {color:#000000}
+.div3pro a:visited {color:#000000}
+.div3pro a:active {color:#000000}
+.div3pro a:hover {color:#3186CB}
+
+/* coupon */
+.div4r {width:730px; background:#FFFFFF; float:right; border:1px #DDDDDD solid}
+.div4pro ul { margin:0; padding:0 }
+*html .div4pro ul li { width:335px; height:170px}
+.div4pro ul li { width:335px !important; width:365px; height:170px !important;height:200px; border-bottom:1px #dddddd dashed; padding:15px; text-align:left; line-height:14px; color:#999999;  list-style: none; float:left}
+*html .div4pro ul li div { width: 210px; height: 52px}
+.div4pro ul li div {background: url(../images/others/couponbg.gif); width: 210px !important; height: 52px !important; width: 300px; height: 92px; padding-left: 90px; font-size: 20px; color: #ffffff; padding-top: 40px; font-weight:bolder; margin-bottom:15px}
+.div4pro ul li font {color: #a12121; font-weight:bolder; font-size:12px}
+.div4pro ul li span {font-size: 9px}
+.div4pro ul li strong {font-size: 11px; color: #000000}
+.div4pro a:link {color:#000000}
+.div4pro a:visited {color:#000000}
+.div4pro a:active {color:#000000}
+.div4pro a:hover {color:#3186CB}
+
+
+/* message */
+.listmessage { padding:10px 0; text-align:left}
+.listmessage ul { margin: 0; padding: 0}
+.listmessage ul li { margin:0; padding:7px 10px 50px; list-style: none; color:#757575; border-bottom:5px #DDDDDD solid}
+.messageli { background:#f5f5f5}
+.listmessage ul li font{ color:#FF6600}
+.listmessage ul li p{ color:#333333; font-weight:bolder; margin:0; padding:0; text-align:right}
+.listmessage ul li span{ font-size:10px; color:#AAAAAA}
+
+
+
+/* gift */
+.giftpro { padding:10px 0; text-align:left}
+.giftpro ul { margin:0; padding:0 }
+*html .giftpro ul li {width:170px}
+.giftpro ul li {width:170px !important; width:180px; padding:20px 5px 0; text-align:left; line-height:16px; float:left; color:#999999;  list-style: none}
+.giftpro ul li img {margin-bottom:5px}
+.giftpro a:link {color:#000000}
+.giftpro a:visited {color:#000000}
+.giftpro a:active {color:#000000}
+.giftpro a:hover {color:#3186CB}
+
+/* help */
+
+.helpbg { text-align:left}
+.helpbg ul { margin: 0; padding: 0 }
+.helpbg ul li { margin:0 0 30px 0; padding:0; list-style: none; float:left; width:365px}
+.helpcate2 { height:28px; line-height:28px; font-weight:bolder; color:#006699; font-size:14px; background:#EDEDED; padding-left:20px}
+.helpbg2 { text-align:left}
+.helplist2 { text-align:left; color:#858585; font-family:Arial}
+.helplist2 ul { margin:0; padding:0 }
+*html .helplist2 ul li {width:345px}  
+.helplist2 ul li {width:345px !important; width:365px; padding:0 0 0 20px; margin:0; height:28px; line-height:28px; color:#858585; font-size:12px; border-bottom:1px #dddddd dashed;  list-style: none}  
+.helplist2b { text-align:left; color:#858585; font-family:Arial}
+.helplist2b ul { margin:0; padding:0 } 
+.helplist2b ul li { padding:0 0 0 20px; margin:0; height:28px; line-height:28px; color:#858585; font-size:12px; border-bottom:1px #dddddd dashed;  list-style: none}  
+.helplist3 { text-align:left; color:#858585; font-family:Arial; padding:20px; line-height:18px}
+
+/* sitemap */
+
+.mapbg { text-align:left}
+.mapbg ul { margin: 0; padding: 0 }
+.mapbg ul li { margin:0 0 30px 0; padding:0; list-style: none; float:left; width:365px}
+.mapcate2 { height:28px; line-height:28px; font-weight:bolder; color:#FFFFFF; font-size:14px; background:url(../images/others/mapbg.gif) no-repeat; padding-left:20px}
+.mapcate2 a:link {color:#FFFFFF;}
+.mapcate2 a:visited {color:#FFFFFF;}
+.mapcate2 a:active {color:#FFFFFF;}
+.mapcate2 a:hover {color:#00FF00;}
+.mapbg2 { text-align:left}
+.maplist2 { text-align:left; color:#858585; font-family:Arial}
+.maplist2 ul { margin:0; padding:0 }
+*html .maplist2 ul li {width:345px}  
+.maplist2 ul li {width:345px !important; width:365px; padding:0 0 0 20px; margin:0; height:28px; line-height:28px; color:#858585; font-size:12px} 
+
+/* tgsp & dbqb */
+.tgsppro {width:730px; margin-top:10px}
+.tgsppro ul { margin:0; padding:0}
+.tgsppro ul li {width:365px; height:179px; border-bottom:1px #DFDFDF solid;  list-style: none; float:left}
+.tgsppro ul li span{ font-family:Arial; color:#757575}
+.tgsppro ul li span img {width:160px; height:160px; padding:7px; float:left}
+.tgsppro ul li div {width:190px; padding:10px 0; float:right; text-align:left}
+
+
+*html .proname {width:730px}
+.proname {width:720px !important; width:730px; height:30px; font-size:16px; font-weight:bolder; text-align:left; color:#12A7AB; line-height:30px; padding-left:10px}
+.proname span {color:#000000}
+.promiddle {width:730px; padding:20px 0; border-top:2px #cccccc solid}
+.promiddle1 {width:300px; text-align:center; float:left}
+.promiddle1 img {margin-bottom:5px}
+.promiddle1 div ul { margin:0; padding:0 }
+.promiddle1 div ul li { margin:0; padding:5px; float:left;  list-style: none }
+.promiddle2 {width:430px; text-align:left; float:left}
+.promiddle2a { border-bottom:1px #CCCCCC dashed; padding:5px 0}
+.promiddle2b { border-bottom:1px #CCCCCC solid; padding:5px 0}
+.promiddle2c { padding:10px 0}
+.promiddle2s {height:23px}
+.promiddle2sl {width:100px; height:23px; line-height:23px; float:left; text-align:left; background:url(../images/products/vproarrow.gif) no-repeat left center}
+.promiddle2sr {width:320px; height:23px; line-height:23px; float:right; text-align:left}
+*html .promiddle3 {width:152px}
+.promiddle3 {width:152px !important; width:176px; text-align:left; float:left; padding:5px 12px; background:#EEEEEE}
+.promiddle3t {margin-top:9px; height:4px}
+.promiddle3b {margin-bottom:9px; height:4px}
+.promiddle3a { text-align:left; color:#999999}
+.promiddle3a span{ font-size:32px; color:#FF6600; font-weight:bolder}
+.promiddle3a div { margin-top:7px; text-align:left; color:#757575; font-family:Arial; ; border-top:1px #CCCCCC dashed; padding-top:5px}
+
+.proinfol {width:730px; text-align:left; float:left}
+.proinfolabel {height:31px; background:url(../images/products/vprobg.gif)}
+.proinfolabel ul { margin:0; padding:0 }
+.proinfolabel ul li {width:148px; height:31px; float:left; line-height:31px; background:url(../images/products/vprodefault.gif) top; text-align:center; color:#999999; margin-right:-2px; list-style: none; font-weight:bolder}
+#proselect {background:url(../images/products/vproselect.gif); color:#12A7AB; font-size:14px}
+.proinfodetail {padding:20px 0}
+.div1r3 {width:730px}
+.div1rpro3 {width:730px; margin-top:10px}
+.div1rpro3 ul { margin:0; padding:0}
+*html .div1rpro3 ul li {width:140px}
+*html .div1rpro3 ul li div {width:132px; height:132px}
+.div1rpro3 ul li {width:140px !important; width:146px; padding:0 3px 20px; text-align:left; float:left; color:#999999; list-style:none}
+.div1rpro3 ul li div {width:132px !important; width:140px; height:132px !important; height:140px; padding:4px; margin-bottom:5px; background:#EDEDED}
+.div1rpro3 a:link {color:#000000}
+.div1rpro3 a:visited {color:#000000}
+.div1rpro3 a:active {color:#000000}
+.div1rpro3 a:hover {color:#3186CB}
+.proinfor {width:176px; text-align:center; float:right}
+.proinforlabel {width:176px; background:url(../images/products/vprorlabel.gif); height:45px; line-height:45px; font-weight:bolder; color:#2EB6B3}
+*html .proinforbg {width:160px}
+.proinforbg {width:160px !important; width:176px; background:url(../images/products/vprorbg.gif); text-align:center; padding:0 8px}
+.proinfosp {width:160px; text-align:left}
+.proinfosp ul { margin:0; padding:0}
+*html .proinfosp ul li {height:62px; padding:10px 0px}
+.proinfosp ul li {height:62px !important; height:82px; padding:10px 0px; border-bottom:1px #dddddd dashed; list-style:none}
+.proinfosp img {border:1px #DEDEDE solid; width:60px; height:60px; float:left}
+.proinfosp div {width:95px; float:right; font-family:Arial; line-height:14px; color:#999999}
+.proinforbg2 {width:176px; text-align:left}
+.proinforbg2 ul {margin:0; padding:0}
+.proinforbg2 ul li {height:23px; line-height:23px; border-bottom:1px #dddddd dashed; list-style: none }
+.proinforbgb {background:url(../images/products/vprorbgb.gif); height:8px; width:176px; margin-bottom:20px}

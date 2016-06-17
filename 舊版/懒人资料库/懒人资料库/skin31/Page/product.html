@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>{shoptitle}</title>
+<meta name="keywords" content="{keywords}" />
+<meta name="description" content="{description}" />
+<script language="javascript" src="../public/mootools/mootools.js" type="text/javascript"></script>
+<script language="javascript" src="../public/js/Common.js" type="text/javascript"></script>
+<script language="javascript" src="js/common.js" type="text/javascript"></script>
+<link href="css/css.css" type="text/css" rel="stylesheet" />
+<link rel="shortcut icon" href="[$syspath]favicon.ico" />
+
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/products.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="[$syspath]js_userdiscount.aspx"></script>
+<script>
+function getobj(id){
+	return document.getElementById(id);	
+}
+
+function selecttab(obj, act, def, special, areaname){
+	var node = childs(obj.parentNode.parentNode.childNodes);
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			node[i].className = def;	
+			if(getobj(areaname + "_" + i))
+				getobj(areaname + "_" + i).style.display = "none";
+		}
+	}
+	obj.parentNode.className = act;
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			if(node[i].className == act){
+				if(getobj(areaname + "_" + i))
+					getobj(areaname + "_" + i).style.display = "";
+			}
+		}
+	}
+}
+//兼容FF下的childNodes
+function childs(nodes)
+{
+    if(!nodes.length) 
+        return [];
+    var ret=[];
+    for(var i=0;i<nodes.length;i++)
+    {
+        if(nodes[i].nodeType!=1) 
+            continue;
+        ret.push(nodes[i]);
+    }
+    return ret;
+}
+
+function ShowCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "";
+		objli.className = "menu_bg2";
+	}
+}
+
+function HiddenCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "none";
+		objli.className = "menu_bg1";
+	}
+}
+</script>
+</head>
+<body>
+{web_skin31_网站顶部logo}
+{web_skin31_网站导航}
+<div id="search">
+  <div><img src="images/top/search_left.gif" /></div>
+  <div class="search_bg">
+    {web_skin31_顶部搜索}
+	<div>
+	  <div class="search_img"><img src="images/top/search_img3.gif" align="absmiddle" /></div>
+      {web_skin31_顶部最新文章滚动}
+	</div>
+  </div>
+  <div><img src="images/top/search_right.gif" /></div>
+</div>
+<div class="mall">
+  <div class="mall_left">
+    <div class="index_a_left" style="margin-bottom:10px">
+      <ul>
+        {web_skin31_商品分类名称}
+      </ul>
+    </div>
+    <div class="info_left_2">
+      <h1>相关文章</h1>
+      <ul>
+        {web_skin31_相关文章}
+      </ul>
+    </div>
+    <div class="info_left_1">
+      <h1>还浏览过商品</h1>
+      <ul>
+        {web_skin31_浏览过的商品}
+      </ul>
+    </div>
+  </div>
+  <div class="mall_right">
+    <div class="text_menu">{web_skin31_位置导航}</div>
+    <div class="product" id="goods-viewer">
+      <div class="pro_1">
+	  {web_skin31_商品详细图片}
+      </div>
+      <div class="pro_2">
+	  {web_skin31_商品属性}{web_skin31_商品详细属性}			
+		{web_skin31_商品规格购买}
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="pro_title1"><img src="images/product/img-2.gif" align="absmiddle" />　商品信息</div>
+    <div class="pro_company">
+	{web_skin31_商品详细内容}
+	</div>
+    <div class="pro_title1"><img src="images/product/img-2.gif" align="absmiddle" />　商品评论</div>
+    {web_skin31_商品网友评价}
+
+	<div class="pro_title1"><img src="images/product/img-2.gif" align="absmiddle" />　相关商品</div>
+	<div class="mall_pro_1">
+	  <ul>
+	    {web_skin31_商品详细相关商品}
+	  </ul>
+	</div>
+  </div>
+  <div style="clear:both"></div>
+</div>
+<div class="bottom_bk">
+  {web_skin31_底部客服联系方式}
+  <div class="bottom_right">
+    {web_skin31_底部友情链接}
+	<div class="bottom_right_2">
+	  <ul>
+	    {web_skin31_底部帮助分类}
+	  </ul>
+	</div>
+  </div>
+<div class="clear"></div></div>
+<div class="bottom_1">{web_skin31_底部信息}</div>
+{web_skin31_版权信息}
+</body>
+</html>

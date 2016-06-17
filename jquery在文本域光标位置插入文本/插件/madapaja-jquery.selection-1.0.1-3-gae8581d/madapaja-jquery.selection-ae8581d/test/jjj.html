@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Load jQuery -->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+<!-- Load jQuery.selection plugin-->
+<script src="../src/jquery.selection.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('#do-replace').on('click', function(e){
+      e.preventDefault();
+      $('#textarea').selection('replace', {text: 'FOOBAR'});
+    })
+  });
+</script>
+</head>
+<body>
+  <input type="button" id="do-replace" value="replace" />
+  <textarea id="textarea"></textarea>
+</body>
+</html>

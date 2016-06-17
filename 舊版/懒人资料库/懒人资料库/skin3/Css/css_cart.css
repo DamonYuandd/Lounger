@@ -1,0 +1,55 @@
+body.{
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:0;}
+.div1 { width:918px; border:1px #dddddd solid; margin-bottom:40px}
+.div2 { width:920px; width:910px !important; _width:910px; padding:5px; margin-bottom:40px; background:#EBEBEB}
+.label { background:url(../images/others/brandprolabel2.gif); height:32px; border-bottom:1px #FFFFFF solid; text-align:left; line-height:32px; font-weight:bolder}
+.carttr tr td { border-bottom:1px #dddddd dashed}
+.carttr tr td span img { width:55px; height:55px; border:1px #dddddd solid}
+.carttr a:active {color:#11ACA0; text-decoration:underline}
+.carttr a:link {color:#11ACA0; text-decoration:underline}
+.carttr a:hover {color:#FF6600; text-decoration:NONE}
+.carttr a:visited {color:#11ACA0; text-decoration:underline}
+#listlabel td { height:30px; line-height:30px; color:#2A68A3; font-weight:bolder; border-bottom:3px #CCCCCC solid; background:#FFFFFF; }
+#listlabel2 td { height:30px; line-height:30px; color:#2A68A3; font-weight:bolder; border-TOP:3px #CCCCCC solid; background:#F1F1F1; }
+#listlabel3 td { height:30px; line-height:30px; color:#2A68A3; font-weight:bolder; background:#FFFFFF; }
+#listlabel3b td { height:30px; line-height:30px; color:#FF6600; font-weight:bolder; background:#FFFFFF; }
+
+.list1 {width:920px; padding:5px 0; background:#FFFFFF}
+.list1label {width:920px; height:35px; background:url(../images/index/listlabel.gif); margin:5px 0; border-bottom:2px #000000 solid}
+.list1labell {float:left; height:35px; line-height:35px; font-size:16px; font-weight:bolder; padding-left:20px; color:#000000}
+.list1labelm {float:right; padding:7px 30px 0; color:#666666}
+.list1labelr {float:right; height:35px; line-height:35px; padding-right:10px; color:#666666}
+.listselect {float:left; width:121px; height:25px; line-height:25px; text-align:center; font-weight:bolder; color:#333333; background:url(../images/index/listselect.gif); margin-left:40px; font-size:12px}
+.listselect a:link {color:#11ACA0}
+.listselect a:hover {color:#11ACA0; text-decoration:none}
+.listselect a:visited {color:#11ACA0}  
+.list1m {width:920px; background:url(../images/cart/listbg.gif)}
+.list1mrlabel {height:31px; height:25px !important; _height:25px; padding-top:6px; background:url(../images/cart/listbgt.gif)}
+.list1mrnull {height:25px; padding-right:40px; float:right}
+.list1mlist {height:308px; background:url(../images/cart/listbg.gif)}
+.list1mb {height:5px; margin-bottom:30px}
+#dhtmltooltip
+{
+    font-size: 9pt;
+    border-right: gray 1px solid;
+    padding-right: 4px;
+    border-top: gray 1px solid;
+    padding-left: 4px;
+    z-index: 100;
+    FILTER: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=120);
+    visibility: hidden;
+    padding-bottom: 4px;
+    border-left: gray 1px solid;
+    width: 150px;
+    padding-top: 4px;
+    border-bottom: gray 1px solid;
+    position: absolute;
+    background-color: #cccccc;
+}
+.membertable { width:100%; border-bottom:3px #000000 solid}
+.membertable tr td { border-bottom:2px #EEEEEE dashed}
+.listborder table tr td { border-bottom:1px #EEEEEE solid; padding:7px 0}
+.listborder table tr th { border-bottom:2px #cccccc solid; padding:7px 0; background:#f1f1f1}

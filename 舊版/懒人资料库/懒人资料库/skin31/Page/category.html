@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+{web_skin31_通用头部关键字}
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/products.css" rel="stylesheet" type="text/css" />
+<script>
+function getobj(id){
+	return document.getElementById(id);	
+}
+
+function selecttab(obj, act, def, special, areaname){
+	var node = childs(obj.parentNode.parentNode.childNodes);
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			node[i].className = def;	
+			if(getobj(areaname + "_" + i))
+				getobj(areaname + "_" + i).style.display = "none";
+		}
+	}
+	obj.parentNode.className = act;
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			if(node[i].className == act){
+				if(getobj(areaname + "_" + i))
+					getobj(areaname + "_" + i).style.display = "";
+			}
+		}
+	}
+}
+//兼容FF下的childNodes
+function childs(nodes)
+{
+    if(!nodes.length) 
+        return [];
+    var ret=[];
+    for(var i=0;i<nodes.length;i++)
+    {
+        if(nodes[i].nodeType!=1) 
+            continue;
+        ret.push(nodes[i]);
+    }
+    return ret;
+}
+
+function ShowCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "";
+		objli.className = "menu_bg2";
+	}
+}
+
+function HiddenCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "none";
+		objli.className = "menu_bg1";
+	}
+}
+</script>
+</head>
+
+<body>
+{web_skin31_网站顶部logo}
+{web_skin31_网站导航}
+<div id="search">
+  <div><img src="images/top/search_left.gif" /></div>
+  <div class="search_bg">
+    {web_skin31_顶部搜索}
+	<div>
+	  <div class="search_img"><img src="images/top/search_img3.gif" align="absmiddle" /></div>
+      {web_skin31_顶部最新文章滚动}
+	</div>
+  </div>
+  <div><img src="images/top/search_right.gif" /></div>
+</div>
+<div class="mall">
+  <div class="mall_left">
+	  <div class="index_a_left" style="margin-bottom:10px">
+		<ul>
+		  {web_skin31_商品分类名称}
+		</ul>
+	  </div>
+	  <div class="info_left_2">
+	  <h1>折扣商品</h1>
+	  <div>{web_skin31_商城购物左侧折扣商品一}</div>
+	  <ul>
+	    {web_skin31_商城购物左侧折扣商品二}
+	  </ul>
+	</div>
+	<div class="info_left_1">
+	  <h1>热卖商品</h1>
+	  <ul>
+	    {web_skin31_商城购物热卖商品}
+	  </ul>
+	</div>
+  </div>
+  <div class="mall_right">
+    <div class="mall_banner">{web_skin31_商品分类大图}</div>
+	<div class="mall_pro_bk">
+	  <div class="info_center_2bg">
+	    {web_skin31_商品列表分类名称}
+	  </div>
+	  <div class="info_center_2pro">
+	    <div class="mall_pro_1">
+		  <ul>
+		    {web_skin31_商品分类列表}
+		  </ul>
+		<div class="clear"></div></div>
+	  </div>
+	  <div class="clear"></div></div>
+  </div>
+  <div class="clear"></div></div>
+<div class="bottom_bk">
+  {web_skin31_底部客服联系方式}
+  <div class="bottom_right">
+    {web_skin31_底部友情链接}
+	<div class="bottom_right_2">
+	  <ul>
+	    {web_skin31_底部帮助分类}
+	  </ul>
+	</div>
+  </div>
+<div class="clear"></div></div>
+<div class="bottom_1">{web_skin31_底部信息}</div>
+{web_skin31_版权信息}
+</body>
+</html>

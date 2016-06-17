@@ -1,0 +1,25 @@
+
+<script>
+$(document).ready(function(){
+	var isUp = $("#result").html();
+	if (!!window.EventSource) {
+	
+		var source = new EventSource('/Article/edit2/id/134');
+		/*source.addEventListener("open", function(event) {
+			  alert('open')
+		}, false);*/
+		source.onmessage=function(event)
+		  {
+			  if(isUp != event.data){
+				  document.getElementById("result2").innerHTML+=event.data + "已修改<br />";
+			  }else{
+				  document.getElementById("result2").innerHTML+=event.data + "未修改<br />";
+			  }
+		 	// document.getElementById("result").innerHTML+=event.data + "<br />";
+		  };
+	}
+})
+</script>
+
+<div id="result">{$row.manipulator}</div>
+<div id="result2"></div>

@@ -1,0 +1,1 @@
+document.write('<a href="/Yxj_Cloth_V5Shop8_Template/member/Advertisement_Ads_ClickCount.aspx?mark=d7fc6eee-53c7-44e1-b9ca-882442f2b511&&uri=aHR0cDovL3d3dy52NXNob3AuY29tLmNuLw==" title="1" target="_blank"><img src="Images/skin/shangpinliebiao_02.jpg" width="1002" height="175" border="0"></a>');

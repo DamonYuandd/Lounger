@@ -1,0 +1,11 @@
+document.onclick=function(e){
+            var e=e?e:window.event;
+            var tar = e.srcElement||e.target;
+            if(!$(tar).hasClass('flightDetail')){
+               if($(tar).hasClass("hb_details")){
+                   $(".hb_details").show();
+               }else{
+                   $(".hb_details").hide();
+               }
+            }
+        }

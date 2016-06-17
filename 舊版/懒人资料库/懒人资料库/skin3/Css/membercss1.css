@@ -1,0 +1,89 @@
+<style type="text/css">
+body.{
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:0;}
+td {color:#666666;font-size: 12px; font-family:Arial, Helvetica, sans-serif}
+td,p,div {color:#666666;font-size: 12px;font-family:Verdana, Arial, Helvetica, sans-serif; word-break:break-all}
+A:link {text-decoration: none; color: #990000;}       
+A:visited {text-decoration: none; color: #990000;}      
+A:active {text-decoration: none; color: #990000;}      
+A:hover {text-decoration: underline; color:#000099;}
+
+
+.topbottom {color:#666666;font-size: 12px; font-family:Arial, Helvetica, sans-serif}
+.topbottom A:link {text-decoration: underline; color: #0000CC;}       
+.topbottom A:visited {text-decoration: underline; color: #0000CC;}      
+.topbottom A:active {text-decoration: underline; color: #0000CC;}      
+.topbottom A:hover {text-decoration: none; color:#0000CC;}
+
+
+#membermessage {padding-left:15px; font-size:12px; height:15px; color:#000000;}
+
+
+#memberaddress {padding-left:15px; font-size:12px; height:15px; color:#CF2D57; font-weight:bold}
+
+
+#memberleft {width:210px; padding-left:15px; background:FFFFFF}
+
+
+#membercatebg {width:180px; height:30px; background:url(../images/user/membercatebg.gif); padding-top:6px; padding-left:20px; font-size:14px; color:#FFFFFF}
+
+
+#membersortbg {width:180px; background:#F1F1F1; padding-top:5px; font-size:12px; color:#000000; padding-bottom:5px; margin-bottom:5px}
+
+
+#membersort {width:180px; height:20px; padding-top:4px; padding-left:15px}
+
+
+#membersort2 {width:180px; height:20px; padding-top:4px; padding-left:15px; background:#E1E1E1}
+
+
+#memberlabel {height:30px; background:url(../images/user/membercatebg.gif); padding-left:15px; font-size:14px; color:#FFFFFF; padding-top:6px;}
+
+
+#membersearch {padding-top:5px; padding-bottom:3px; background:#FDF2F5; padding-left:15px; margin-top:5px; margin-bottom:5px; line-height:30px}
+
+
+#membersearch2 {padding-top:5px; padding-bottom:3px; background:#EEF0F4; padding-left:15px; margin-top:5px; margin-bottom:5px; line-height:30px}
+
+
+#memberyhqkeyok {width:130px; float:left; background:#006600; color:#FFFFFF; padding-top:2px;}
+#memberyhqkeyok A:link {text-decoration:none; color: #FFFFFF;}     
+#memberyhqkeyok A:hover {text-decoration:none; color:#FFFFFF;}
+#memberyhqkeyno {width:130px; float:left; color:#006600; padding-top:2px}
+#memberyhqkeyno A:link {text-decoration:none; color: #006600;}     
+#memberyhqkeyno A:hover {text-decoration:none; color:#006600;}
+
+
+#memberdgkeyok {width:130px; float:left; background:#990000; color:#FFFFFF; padding-top:2px;}
+#memberdgkeyok A:link {text-decoration:none; color: #FFFFFF;}     
+#memberdgkeyok A:hover {text-decoration:none; color:#FFFFFF;}
+#memberdgkeyno {width:130px; float:left; color:#990000; padding-top:2px}
+#memberdgkeyno A:link {text-decoration:none; color: #990000;}     
+#memberdgkeyno A:hover {text-decoration:none; color:#990000;}
+
+
+#memberkeyok {width:130px; float:left; background:#000099; color:#FFFFFF; padding-top:2px;}
+#memberkeyok A:link {text-decoration:none; color: #FFFFFF;}     
+#memberkeyok A:hover {text-decoration:none; color:#FFFFFF;}
+#memberkeyno {width:130px; float:left; color:#000099; padding-top:2px}
+#memberkeyno A:link {text-decoration:none; color: #000099;}     
+#memberkeyno A:hover {text-decoration:none; color:#000099;}
+
+
+#memberAttribute {padding:1px; background:#999999; width:95%}
+
+
+#memberList {padding:1px; background:#FFFFFF; width:95%}
+
+
+#memberlistbar {height:1px; background:#999999; width:95%}
+
+
+#memberpage {height:40px; background:#EEF0F4; width:95%; padding-top:5px; margin-top:5px; margin-bottom:5px}
+
+
+.input_search { font-family:Arial, Helvetica, sans-serif; color: #000000; border: 1px #999999 solid; height: 19px; font-size:12px }
+</style>

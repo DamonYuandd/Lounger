@@ -1,0 +1,36 @@
+/*注册页面*/
+.reg2 { width:978px; height:400px; border:1px #CCCCCC solid; margin:50px 0; padding-bottom:50px; height:350px!important; _height:350px}
+.reg2_top { width:900px; margin:40px 35px 20px; border-bottom:1px #000000 solid; text-align:left;}
+.reg2_top1 { width:750px; margin-left:150px; line-height:40px;}
+.reg2_top2 { width:978px; line-height:40px; margin-top:15px; text-align:center;}
+.reg_01 { width:150px; float:left; text-align:right; height:40px;}
+.reg_02 { width:550px; float:left; text-align:left; height:40px;}
+.reg_02 input { height:20px; margin-top:5px;}
+
+/*密码找回页面*/
+.pswback { width:980px; height:500px; margin:0 0; background-color:#F6F6F6;}
+.pswpic { width:980px; height:29px; text-align:left; margin-top:20px;}
+.pswleft { width:426px; height:438px; margin:35px 30px 0 40px; background-color:#FFFFFF; float:left;}
+.pswright { width:426px; height:270px; margin:35px 30px 0 10px; background-color:#FFFFFF; float:left;}
+.pswphone { width:300px; height:30px; margin:15px 0 0 15px; color:#77041E; text-align:left; line-height:30px; font-weight:bold; font-size:14px; float:left;}
+.pswemail { width:300px; height:30px; margin:15px 0 0 15px; color:#77041E; text-align:left; line-height:30px; font-weight:bold; font-size:14px; float:left;}
+.phoneinfo { width:400px; height:200px; margin:0 13px; border-bottom:1px #CCCCCC dashed; border-top:1px #000000 solid; text-align:left;}
+.phoneinfo p { line-height:30px; margin-top:10px;}
+.psw_01 { width:150px; float:left; text-align:right; line-height:25px; margin:15px 0;}
+.psw_02 { width:150px; float:left; margin:15px 0;}
+.psw_02 input { height:15px; margin:5px 0;}
+.psw_03 { width:270px; float:left; margin:5px 0; text-align:right;}
+.pswleft ul { margin:0; padding:0; list-style:none;}
+.pswleft li { width:400px; float:left; line-height:15px; margin:15px 5px; text-align:left;}
+.mailinfo { width:400px; height:150px; margin:0 12px; border-bottom:1px #CCCCCC dashed; border-top:1px #000000 solid; text-align:left;}
+.mailinfo p { line-height:30px; margin-top:10px;}
+.psw_04 { width:400px; float:left; margin-left:15px; text-align:left; line-height:20px; margin-top:10px;}
+.psw_05 { width:426px; float:left; margin:10px 10px;}
+.psw_05 ul { margin:0; padding:0; list-style:none;}
+.psw_05 li { width:420px; line-height:20px;  text-align:left; margin-bottom:20px;}
+
+.psw_top1 { width:750px; margin-left:150px; float:left; line-height:30px; text-align:left}
+.psw_06 { width:750px; height:5px; margin:15px 0; float:left; border-bottom:1px #CCCCCC dashed;} 
+.psw_top1 span { font-size:14px;}
+.psw_top1 a:active { text-decoration:underline;}
+.psw_top1 a:hover { text-decoration:underline;}

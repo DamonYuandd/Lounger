@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+ * { margin:0; padding::0;}
+ body { width:990px; margin:0 auto;}
+.topad990{ margin:0 auto; width:990px; text-align:center;}
+.topad990_2{ margin:0 auto; width:990px; text-align:center;}
+.main { width:990px; margin:10px auto;}
+.main .left { width:731px; float:left;}
+.main .right { width:248px; float:right; border:1px solid #cdcdcd; background:#FEFDF8; padding-bottom:4px;}
+.main .dgbg_center { border-left:1px solid #cdcdcd;border-right:1px solid #cdcdcd; background:#FEFDF8; padding:0 0 20px;} 
+.dg_table_left {margin-left:30px;}
+.main .tlp { margin-left:20px; font-weight:bold;}
+#d_phone1 { width:50px;}
+.right .title { padding:10px;}
+.right .bsbj { padding-left:30px;}
+.right .hsbj { padding-left:30px;}

@@ -1,0 +1,41 @@
+[ 2012-10-21T02:58:13+08:00 ] /yconfig/index.php | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-21T02:58:13+08:00 ] /yconfig/index.php | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000817s ]
+[ 2012-10-21T02:58:13+08:00 ] /yconfig/index.php | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-21T02:58:41+08:00 ] /yconfig/index.php/Account/edit/id/28 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001033s ]
+[ 2012-10-21T02:58:41+08:00 ] /yconfig/index.php/Account/edit/id/28 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '28' ) LIMIT 1  [ RunTime:0.000245s ]
+[ 2012-10-21T02:58:41+08:00 ] /yconfig/index.php/Account/edit/id/28 | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-21T02:58:41+08:00 ] /yconfig/index.php/Account/edit/id/28 | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-21T02:58:41+08:00 ] /yconfig/index.php/Account/edit/id/28 | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.
+[ 2012-10-21T02:58:41+08:00 ] /yconfig/index.php/Account/edit/id/28 | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.
+[ 2012-10-21T02:58:42+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-21T02:58:42+08:00 ] /yconfig/index.php/Index/newAccount | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000852s ]
+[ 2012-10-21T02:58:42+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-21T02:58:42+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-10-21T02:58:42+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 50 行.
+[ 2012-10-21T02:58:42+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-21T02:58:42+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.
+[ 2012-10-21T02:58:42+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.
+[ 2012-10-21T02:58:57+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-21T02:58:57+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000692s ]
+[ 2012-10-21T02:58:57+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-21T02:58:57+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000204s ]
+[ 2012-10-21T02:58:57+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-21T02:58:57+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000109s ]
+[ 2012-10-21T02:58:57+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000172s ]
+[ 2012-10-21T02:58:57+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-21T02:59:00+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-21T02:59:00+08:00 ] /yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000771s ]
+[ 2012-10-21T02:59:00+08:00 ] /yconfig/index.php/Index/left | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-21T02:59:00+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-10-21T02:59:00+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 50 行.
+[ 2012-10-21T02:59:00+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-21T02:59:00+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.
+[ 2012-10-21T02:59:00+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.
+[ 2012-10-21T02:59:03+08:00 ] /yconfig/ | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-21T02:59:03+08:00 ] /yconfig/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000878s ]
+[ 2012-10-21T02:59:03+08:00 ] /yconfig/ | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-21T02:59:10+08:00 ] /yconfig/index.php/Account/edit/id/28/tab_id/test1 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000861s ]
+[ 2012-10-21T02:59:10+08:00 ] /yconfig/index.php/Account/edit/id/28/tab_id/test1 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '28' ) LIMIT 1  [ RunTime:0.000217s ]
+[ 2012-10-21T02:59:10+08:00 ] /yconfig/index.php/Account/edit/id/28/tab_id/test1 | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-21T02:59:10+08:00 ] /yconfig/index.php/Account/edit/id/28/tab_id/test1 | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-21T02:59:10+08:00 ] /yconfig/index.php/Account/edit/id/28/tab_id/test1 | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.

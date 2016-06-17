@@ -1,0 +1,614 @@
+[ 2012-12-10T09:28:43+08:00 ] / | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T09:28:43+08:00 ] / | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001915s ]
+[ 2012-12-10T09:28:43+08:00 ] / | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001543s ]
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000255s ]
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000101s ]
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000119s ]
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001992s ]
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/left | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 167 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 189 行.
+[ 2012-12-10T09:28:44+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 256 行.
+[ 2012-12-10T11:08:59+08:00 ] / | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T11:08:59+08:00 ] / | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001548s ]
+[ 2012-12-10T11:08:59+08:00 ] / | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001409s ]
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000248s ]
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000063s ]
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000086s ]
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001416s ]
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/left | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 167 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 189 行.
+[ 2012-12-10T11:09:00+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 256 行.
+[ 2012-12-10T11:09:02+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T11:09:02+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001402s ]
+[ 2012-12-10T11:09:02+08:00 ] /index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T11:09:02+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000264s ]
+[ 2012-12-10T11:09:02+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:09:02+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:09:02+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000066s ]
+[ 2012-12-10T11:09:02+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000118s ]
+[ 2012-12-10T11:09:02+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:09:14+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T11:09:14+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001385s ]
+[ 2012-12-10T11:09:14+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T11:09:14+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000257s ]
+[ 2012-12-10T11:09:14+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%ynhygs.cn%' OR contract_number like '%ynhygs.cn%' OR url like '%ynhygs.cn%' ) LIMIT 1  [ RunTime:0.021990s ]
+[ 2012-12-10T11:09:14+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%ynhygs.cn%' OR contract_number like '%ynhygs.cn%' OR url like '%ynhygs.cn%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000573s ]
+[ 2012-12-10T11:09:14+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T11:09:19+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001404s ]
+[ 2012-12-10T11:09:19+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000082s ]
+[ 2012-12-10T11:09:19+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000467s ]
+[ 2012-12-10T11:09:19+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000250s ]
+[ 2012-12-10T11:09:19+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%ynhygs.cn%' OR contract_number like '%ynhygs.cn%' OR url like '%ynhygs.cn%' ) LIMIT 1  [ RunTime:0.000060s ]
+[ 2012-12-10T11:09:19+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%ynhygs.cn%' OR contract_number like '%ynhygs.cn%' OR url like '%ynhygs.cn%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000070s ]
+[ 2012-12-10T11:09:19+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T11:23:38+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001437s ]
+[ 2012-12-10T11:23:38+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000074s ]
+[ 2012-12-10T11:23:38+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000906s ]
+[ 2012-12-10T11:23:38+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000272s ]
+[ 2012-12-10T11:23:38+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:23:38+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:23:38+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000062s ]
+[ 2012-12-10T11:23:38+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000090s ]
+[ 2012-12-10T11:23:38+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:32:17+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001403s ]
+[ 2012-12-10T11:32:17+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000076s ]
+[ 2012-12-10T11:32:17+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000456s ]
+[ 2012-12-10T11:32:17+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000260s ]
+[ 2012-12-10T11:32:17+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%ynhygs.cn%' OR contract_number like '%ynhygs.cn%' OR url like '%ynhygs.cn%' ) LIMIT 1  [ RunTime:0.000101s ]
+[ 2012-12-10T11:32:17+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%ynhygs.cn%' OR contract_number like '%ynhygs.cn%' OR url like '%ynhygs.cn%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000073s ]
+[ 2012-12-10T11:32:17+08:00 ] /index.php/Index/main?searchkey=ynhygs.cn | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T11:34:48+08:00 ] /index.php/Index/newAccount | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001365s ]
+[ 2012-12-10T11:34:48+08:00 ] /index.php/Index/newAccount | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000076s ]
+[ 2012-12-10T11:34:48+08:00 ] /index.php/Index/newAccount | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000444s ]
+[ 2012-12-10T11:34:48+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-12-10T11:34:48+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2012-12-10T11:34:48+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2012-12-10T11:34:48+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2012-12-10T11:34:48+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 167 行.
+[ 2012-12-10T11:34:48+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 189 行.
+[ 2012-12-10T11:34:48+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 256 行.
+[ 2012-12-10T11:34:57+08:00 ] /index.php/Account/edit/id/165 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001400s ]
+[ 2012-12-10T11:34:57+08:00 ] /index.php/Account/edit/id/165 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000077s ]
+[ 2012-12-10T11:34:57+08:00 ] /index.php/Account/edit/id/165 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000530s ]
+[ 2012-12-10T11:34:57+08:00 ] /index.php/Account/edit/id/165 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000297s ]
+[ 2012-12-10T11:34:57+08:00 ] /index.php/Account/edit/id/165 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000532s ]
+[ 2012-12-10T11:34:57+08:00 ] /index.php/Account/edit/id/165 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000472s ]
+[ 2012-12-10T11:34:57+08:00 ] /index.php/Account/edit/id/165 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000471s ]
+[ 2012-12-10T11:34:57+08:00 ] /index.php/Account/edit/id/165 | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 256 行.
+[ 2012-12-10T11:35:37+08:00 ] /index.php/Account/edit/id/165/tab_id/test1 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001195s ]
+[ 2012-12-10T11:35:37+08:00 ] /index.php/Account/edit/id/165/tab_id/test1 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000237s ]
+[ 2012-12-10T11:35:37+08:00 ] /index.php/Account/edit/id/165/tab_id/test1 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000519s ]
+[ 2012-12-10T11:35:37+08:00 ] /index.php/Account/edit/id/165/tab_id/test1 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000047s ]
+[ 2012-12-10T11:35:37+08:00 ] /index.php/Account/edit/id/165/tab_id/test1 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000109s ]
+[ 2012-12-10T11:35:37+08:00 ] /index.php/Account/edit/id/165/tab_id/test1 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000070s ]
+[ 2012-12-10T11:35:37+08:00 ] /index.php/Account/edit/id/165/tab_id/test1 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000069s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001152s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000071s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000447s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000932s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000138s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000371s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Account/edit/id/165/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001470s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Account/edit/id/165/tab_id/test2 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000072s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Account/edit/id/165/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000475s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Account/edit/id/165/tab_id/test2 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000047s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Account/edit/id/165/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000079s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Account/edit/id/165/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000076s ]
+[ 2012-12-10T11:35:39+08:00 ] /index.php/Account/edit/id/165/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000095s ]
+[ 2012-12-10T11:35:46+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001569s ]
+[ 2012-12-10T11:35:46+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000084s ]
+[ 2012-12-10T11:35:46+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000589s ]
+[ 2012-12-10T11:35:46+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000246s ]
+[ 2012-12-10T11:35:46+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:35:46+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:35:46+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000076s ]
+[ 2012-12-10T11:35:46+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000091s ]
+[ 2012-12-10T11:35:46+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:35:47+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001219s ]
+[ 2012-12-10T11:35:47+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000096s ]
+[ 2012-12-10T11:35:47+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000504s ]
+[ 2012-12-10T11:35:47+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000216s ]
+[ 2012-12-10T11:35:47+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:35:47+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:35:47+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000058s ]
+[ 2012-12-10T11:35:47+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000086s ]
+[ 2012-12-10T11:35:47+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:35:50+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001425s ]
+[ 2012-12-10T11:35:50+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000076s ]
+[ 2012-12-10T11:35:50+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000454s ]
+[ 2012-12-10T11:35:50+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000255s ]
+[ 2012-12-10T11:35:50+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%y00174220.huyionline.cn%' OR contract_number like '%y00174220.huyionline.cn%' OR url like '%y00174220.huyionline.cn%' ) LIMIT 1  [ RunTime:0.000534s ]
+[ 2012-12-10T11:35:50+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%y00174220.huyionline.cn%' OR contract_number like '%y00174220.huyionline.cn%' OR url like '%y00174220.huyionline.cn%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000530s ]
+[ 2012-12-10T11:35:50+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T11:35:55+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001418s ]
+[ 2012-12-10T11:35:55+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000081s ]
+[ 2012-12-10T11:35:55+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000842s ]
+[ 2012-12-10T11:35:55+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000314s ]
+[ 2012-12-10T11:35:55+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%y00174220.huyionline.cn%' OR contract_number like '%y00174220.huyionline.cn%' OR url like '%y00174220.huyionline.cn%' ) LIMIT 1  [ RunTime:0.000062s ]
+[ 2012-12-10T11:35:55+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%y00174220.huyionline.cn%' OR contract_number like '%y00174220.huyionline.cn%' OR url like '%y00174220.huyionline.cn%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000070s ]
+[ 2012-12-10T11:35:55+08:00 ] /index.php/Index/main?searchkey=y00174220.huyionline.cn | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T11:55:49+08:00 ] /index.php/Index/newAccount | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001173s ]
+[ 2012-12-10T11:55:49+08:00 ] /index.php/Index/newAccount | SQL: SELECT * FROM `y_account` WHERE ( `id` = '165' ) LIMIT 1  [ RunTime:0.000074s ]
+[ 2012-12-10T11:55:49+08:00 ] /index.php/Index/newAccount | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000497s ]
+[ 2012-12-10T11:55:49+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-12-10T11:55:49+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2012-12-10T11:55:49+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2012-12-10T11:55:49+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2012-12-10T11:55:49+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 167 行.
+[ 2012-12-10T11:55:49+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 189 行.
+[ 2012-12-10T11:55:49+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 256 行.
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001379s ]
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = 173 ) LIMIT 1  [ RunTime:0.000242s ]
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000905s ]
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000217s ]
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000378s ]
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Account/edit/id/173/tab_id/test1 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001209s ]
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Account/edit/id/173/tab_id/test1 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '173' ) LIMIT 1  [ RunTime:0.000199s ]
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Account/edit/id/173/tab_id/test1 | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Account/edit/id/173/tab_id/test1 | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Account/edit/id/173/tab_id/test1 | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Account/edit/id/173/tab_id/test1 | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 167 行.
+[ 2012-12-10T11:56:25+08:00 ] /index.php/Account/edit/id/173/tab_id/test1 | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 189 行.
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001218s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '173' ) LIMIT 1  [ RunTime:0.000146s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000480s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000954s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000124s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000381s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Account/edit/id/173/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001728s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Account/edit/id/173/tab_id/test2 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '173' ) LIMIT 1  [ RunTime:0.000104s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Account/edit/id/173/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000639s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Account/edit/id/173/tab_id/test2 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000333s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Account/edit/id/173/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000380s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Account/edit/id/173/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000352s ]
+[ 2012-12-10T11:56:31+08:00 ] /index.php/Account/edit/id/173/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000382s ]
+[ 2012-12-10T11:56:38+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001476s ]
+[ 2012-12-10T11:56:38+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '173' ) LIMIT 1  [ RunTime:0.000283s ]
+[ 2012-12-10T11:56:38+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000480s ]
+[ 2012-12-10T11:56:38+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.001032s ]
+[ 2012-12-10T11:56:38+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:56:38+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:56:38+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000140s ]
+[ 2012-12-10T11:56:38+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000392s ]
+[ 2012-12-10T11:56:38+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:56:40+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001919s ]
+[ 2012-12-10T11:56:40+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '173' ) LIMIT 1  [ RunTime:0.000096s ]
+[ 2012-12-10T11:56:40+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000494s ]
+[ 2012-12-10T11:56:40+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000251s ]
+[ 2012-12-10T11:56:40+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:56:40+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:56:40+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000058s ]
+[ 2012-12-10T11:56:40+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000092s ]
+[ 2012-12-10T11:56:40+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:56:43+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001695s ]
+[ 2012-12-10T11:56:43+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '173' ) LIMIT 1  [ RunTime:0.000107s ]
+[ 2012-12-10T11:56:43+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000757s ]
+[ 2012-12-10T11:56:43+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000322s ]
+[ 2012-12-10T11:56:43+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:56:43+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:56:43+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000084s ]
+[ 2012-12-10T11:56:43+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000117s ]
+[ 2012-12-10T11:56:43+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:56:44+08:00 ] /index.php/Account/syncWebsiteName/id/173 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001451s ]
+[ 2012-12-10T11:56:44+08:00 ] /index.php/Account/syncWebsiteName/id/173 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '173' ) LIMIT 1  [ RunTime:0.000075s ]
+[ 2012-12-10T11:56:44+08:00 ] /index.php/Account/syncWebsiteName/id/173 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000499s ]
+[ 2012-12-10T11:56:44+08:00 ] /index.php/Account/syncWebsiteName/id/173 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '173' ) LIMIT 1  [ RunTime:0.000071s ]
+[ 2012-12-10T11:56:44+08:00 ] /index.php/Account/syncWebsiteName/id/173 | SQL: update y_system set company='张良珠',website='张良珠',copyright='2012版权所有  张良珠',seo_title='张良珠',seo_keywords='张良珠',seo_description='张良珠' [ RunTime:0.000265s ]
+[ 2012-12-10T11:56:44+08:00 ] /index.php/Account/syncWebsiteName/id/173 | NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 129 行.
+[ 2012-12-10T11:56:44+08:00 ] /index.php/Account/syncWebsiteName/id/173 | NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 97 行.
+[ 2012-12-10T11:56:44+08:00 ] /index.php/Account/syncWebsiteName/id/173 | SQL: update y_system set copyright='版权所有@张良珠' where lang='mobile' [ RunTime:0.000141s ]
+[ 2012-12-10T11:56:44+08:00 ] /index.php/Account/syncWebsiteName/id/173 | NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 129 行.
+[ 2012-12-10T11:56:45+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001394s ]
+[ 2012-12-10T11:56:45+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '173' ) LIMIT 1  [ RunTime:0.000071s ]
+[ 2012-12-10T11:56:45+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000715s ]
+[ 2012-12-10T11:56:45+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000318s ]
+[ 2012-12-10T11:56:45+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:56:45+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:56:45+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000088s ]
+[ 2012-12-10T11:56:45+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000117s ]
+[ 2012-12-10T11:56:45+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:56:53+08:00 ] /index.php/Index/newAccount | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001055s ]
+[ 2012-12-10T11:56:53+08:00 ] /index.php/Index/newAccount | SQL: SELECT * FROM `y_account` WHERE ( `id` = '173' ) LIMIT 1  [ RunTime:0.000111s ]
+[ 2012-12-10T11:56:53+08:00 ] /index.php/Index/newAccount | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000441s ]
+[ 2012-12-10T11:56:53+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-12-10T11:56:53+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2012-12-10T11:56:53+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2012-12-10T11:56:53+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2012-12-10T11:56:53+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 167 行.
+[ 2012-12-10T11:56:53+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 189 行.
+[ 2012-12-10T11:56:53+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 256 行.
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001179s ]
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = 174 ) LIMIT 1  [ RunTime:0.000227s ]
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000977s ]
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000129s ]
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000407s ]
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Account/edit/id/174/tab_id/test1 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001166s ]
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Account/edit/id/174/tab_id/test1 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000208s ]
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Account/edit/id/174/tab_id/test1 | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Account/edit/id/174/tab_id/test1 | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Account/edit/id/174/tab_id/test1 | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Account/edit/id/174/tab_id/test1 | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 167 行.
+[ 2012-12-10T11:57:21+08:00 ] /index.php/Account/edit/id/174/tab_id/test1 | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 189 行.
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001390s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000071s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.001027s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.001350s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000145s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000501s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Account/edit/id/174/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001534s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Account/edit/id/174/tab_id/test2 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000077s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Account/edit/id/174/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000611s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Account/edit/id/174/tab_id/test2 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000289s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Account/edit/id/174/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000366s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Account/edit/id/174/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000365s ]
+[ 2012-12-10T11:57:31+08:00 ] /index.php/Account/edit/id/174/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000388s ]
+[ 2012-12-10T11:58:13+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001380s ]
+[ 2012-12-10T11:58:13+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000251s ]
+[ 2012-12-10T11:58:13+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000572s ]
+[ 2012-12-10T11:58:13+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000972s ]
+[ 2012-12-10T11:58:13+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:58:13+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:58:13+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000230s ]
+[ 2012-12-10T11:58:13+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000378s ]
+[ 2012-12-10T11:58:13+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001151s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000071s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000449s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000214s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000089s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001407s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000074s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000489s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000265s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000092s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000089s ]
+[ 2012-12-10T11:58:15+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:58:18+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001825s ]
+[ 2012-12-10T11:58:18+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000102s ]
+[ 2012-12-10T11:58:18+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000609s ]
+[ 2012-12-10T11:58:18+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000289s ]
+[ 2012-12-10T11:58:18+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:58:18+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:58:18+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-12-10T11:58:18+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000087s ]
+[ 2012-12-10T11:58:18+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:58:19+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001651s ]
+[ 2012-12-10T11:58:19+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000092s ]
+[ 2012-12-10T11:58:19+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000694s ]
+[ 2012-12-10T11:58:19+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000086s ]
+[ 2012-12-10T11:58:19+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: update y_system set company='大邑县罗汉寺管理委员会',website='大邑县罗汉寺管理委员会',copyright='2012版权所有  大邑县罗汉寺管理委员会',seo_title='大邑县罗汉寺管理委员会',seo_keywords='大邑县罗汉寺管理委员会',seo_description='大邑县罗汉寺管理委员会' [ RunTime:0.000482s ]
+[ 2012-12-10T11:58:19+08:00 ] /index.php/Account/syncWebsiteName/id/174 | NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 129 行.
+[ 2012-12-10T11:58:19+08:00 ] /index.php/Account/syncWebsiteName/id/174 | NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 97 行.
+[ 2012-12-10T11:58:19+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: update y_system set copyright='版权所有@大邑县罗汉寺管理委员会' where lang='mobile' [ RunTime:0.000205s ]
+[ 2012-12-10T11:58:19+08:00 ] /index.php/Account/syncWebsiteName/id/174 | NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 129 行.
+[ 2012-12-10T11:58:20+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001949s ]
+[ 2012-12-10T11:58:20+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000099s ]
+[ 2012-12-10T11:58:20+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000722s ]
+[ 2012-12-10T11:58:20+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000215s ]
+[ 2012-12-10T11:58:20+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:58:20+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:58:20+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-12-10T11:58:20+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000093s ]
+[ 2012-12-10T11:58:20+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:58:37+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001172s ]
+[ 2012-12-10T11:58:37+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000075s ]
+[ 2012-12-10T11:58:37+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000473s ]
+[ 2012-12-10T11:58:37+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000241s ]
+[ 2012-12-10T11:58:37+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:58:37+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:58:37+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000057s ]
+[ 2012-12-10T11:58:37+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000086s ]
+[ 2012-12-10T11:58:37+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T11:58:41+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001948s ]
+[ 2012-12-10T11:58:41+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000082s ]
+[ 2012-12-10T11:58:41+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000731s ]
+[ 2012-12-10T11:58:41+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000129s ]
+[ 2012-12-10T11:58:41+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: update y_system set company='大邑县罗汉寺管理委员会',website='大邑县罗汉寺管理委员会',copyright='2012版权所有  大邑县罗汉寺管理委员会',seo_title='大邑县罗汉寺管理委员会',seo_keywords='大邑县罗汉寺管理委员会',seo_description='大邑县罗汉寺管理委员会' [ RunTime:0.000225s ]
+[ 2012-12-10T11:58:41+08:00 ] /index.php/Account/syncWebsiteName/id/174 | NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 129 行.
+[ 2012-12-10T11:58:41+08:00 ] /index.php/Account/syncWebsiteName/id/174 | NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 97 行.
+[ 2012-12-10T11:58:41+08:00 ] /index.php/Account/syncWebsiteName/id/174 | SQL: update y_system set copyright='版权所有@大邑县罗汉寺管理委员会' where lang='mobile' [ RunTime:0.000204s ]
+[ 2012-12-10T11:58:41+08:00 ] /index.php/Account/syncWebsiteName/id/174 | NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 129 行.
+[ 2012-12-10T11:58:43+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001169s ]
+[ 2012-12-10T11:58:43+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000071s ]
+[ 2012-12-10T11:58:43+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000875s ]
+[ 2012-12-10T11:58:43+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000298s ]
+[ 2012-12-10T11:58:43+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T11:58:43+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T11:58:43+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000070s ]
+[ 2012-12-10T11:58:43+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000091s ]
+[ 2012-12-10T11:58:43+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T12:00:35+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001385s ]
+[ 2012-12-10T12:00:35+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000093s ]
+[ 2012-12-10T12:00:35+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000454s ]
+[ 2012-12-10T12:00:35+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000234s ]
+[ 2012-12-10T12:00:35+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T12:00:35+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T12:00:35+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000069s ]
+[ 2012-12-10T12:00:35+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000086s ]
+[ 2012-12-10T12:00:35+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T12:00:43+08:00 ] /index.php/Index/newAccount | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001216s ]
+[ 2012-12-10T12:00:43+08:00 ] /index.php/Index/newAccount | SQL: SELECT * FROM `y_account` WHERE ( `id` = '174' ) LIMIT 1  [ RunTime:0.000103s ]
+[ 2012-12-10T12:00:43+08:00 ] /index.php/Index/newAccount | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000717s ]
+[ 2012-12-10T12:00:43+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-12-10T12:00:43+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2012-12-10T12:00:43+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2012-12-10T12:00:43+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2012-12-10T12:00:43+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 167 行.
+[ 2012-12-10T12:00:43+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 189 行.
+[ 2012-12-10T12:00:43+08:00 ] /index.php/Index/newAccount | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 256 行.
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001171s ]
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = 175 ) LIMIT 1  [ RunTime:0.000221s ]
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000942s ]
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000145s ]
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000361s ]
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Account/edit/id/175/tab_id/test1 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001753s ]
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Account/edit/id/175/tab_id/test1 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000270s ]
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Account/edit/id/175/tab_id/test1 | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Account/edit/id/175/tab_id/test1 | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Account/edit/id/175/tab_id/test1 | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Account/edit/id/175/tab_id/test1 | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 167 行.
+[ 2012-12-10T12:01:11+08:00 ] /index.php/Account/edit/id/175/tab_id/test1 | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 189 行.
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001688s ]
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000106s ]
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000803s ]
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.001373s ]
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000301s ]
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000557s ]
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001388s ]
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000076s ]
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000552s ]
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000345s ]
+[ 2012-12-10T12:01:32+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000381s ]
+[ 2012-12-10T12:01:33+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000358s ]
+[ 2012-12-10T12:01:33+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000399s ]
+[ 2012-12-10T12:01:40+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001199s ]
+[ 2012-12-10T12:01:40+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000239s ]
+[ 2012-12-10T12:01:40+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.001057s ]
+[ 2012-12-10T12:01:40+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.001096s ]
+[ 2012-12-10T12:01:40+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T12:01:40+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T12:01:40+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000170s ]
+[ 2012-12-10T12:01:40+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000479s ]
+[ 2012-12-10T12:01:40+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T14:10:06+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001278s ]
+[ 2012-12-10T14:10:06+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000088s ]
+[ 2012-12-10T14:10:06+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000504s ]
+[ 2012-12-10T14:10:06+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000328s ]
+[ 2012-12-10T14:10:06+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T14:10:06+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T14:10:06+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000061s ]
+[ 2012-12-10T14:10:06+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000090s ]
+[ 2012-12-10T14:10:06+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T14:30:05+08:00 ] /index.php/Index/main?searchkey=Y00163746 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001400s ]
+[ 2012-12-10T14:30:05+08:00 ] /index.php/Index/main?searchkey=Y00163746 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000072s ]
+[ 2012-12-10T14:30:05+08:00 ] /index.php/Index/main?searchkey=Y00163746 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000449s ]
+[ 2012-12-10T14:30:05+08:00 ] /index.php/Index/main?searchkey=Y00163746 | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000258s ]
+[ 2012-12-10T14:30:05+08:00 ] /index.php/Index/main?searchkey=Y00163746 | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%Y00163746%' OR contract_number like '%Y00163746%' OR url like '%Y00163746%' ) LIMIT 1  [ RunTime:0.024219s ]
+[ 2012-12-10T14:30:05+08:00 ] /index.php/Index/main?searchkey=Y00163746 | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%Y00163746%' OR contract_number like '%Y00163746%' OR url like '%Y00163746%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000574s ]
+[ 2012-12-10T14:30:05+08:00 ] /index.php/Index/main?searchkey=Y00163746 | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T14:30:06+08:00 ] /index.php/Account/edit/id/175 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001968s ]
+[ 2012-12-10T14:30:06+08:00 ] /index.php/Account/edit/id/175 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000138s ]
+[ 2012-12-10T14:30:06+08:00 ] /index.php/Account/edit/id/175 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000961s ]
+[ 2012-12-10T14:30:06+08:00 ] /index.php/Account/edit/id/175 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000050s ]
+[ 2012-12-10T14:30:06+08:00 ] /index.php/Account/edit/id/175 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000086s ]
+[ 2012-12-10T14:30:06+08:00 ] /index.php/Account/edit/id/175 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000072s ]
+[ 2012-12-10T14:30:06+08:00 ] /index.php/Account/edit/id/175 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000071s ]
+[ 2012-12-10T14:30:06+08:00 ] /index.php/Account/edit/id/175 | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 256 行.
+[ 2012-12-10T14:30:10+08:00 ] /index.php/Lang/edit/pid/3/account_id/175/id/428 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001439s ]
+[ 2012-12-10T14:30:10+08:00 ] /index.php/Lang/edit/pid/3/account_id/175/id/428 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000079s ]
+[ 2012-12-10T14:30:10+08:00 ] /index.php/Lang/edit/pid/3/account_id/175/id/428 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.001053s ]
+[ 2012-12-10T14:30:10+08:00 ] /index.php/Lang/edit/pid/3/account_id/175/id/428 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '428' ) LIMIT 1  [ RunTime:0.000265s ]
+[ 2012-12-10T14:30:12+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001325s ]
+[ 2012-12-10T14:30:12+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000080s ]
+[ 2012-12-10T14:30:12+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000533s ]
+[ 2012-12-10T14:30:12+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000307s ]
+[ 2012-12-10T14:30:12+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000414s ]
+[ 2012-12-10T14:30:12+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000466s ]
+[ 2012-12-10T14:30:12+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000380s ]
+[ 2012-12-10T14:30:13+08:00 ] /index.php/Lang/edit/pid/3/account_id/175/id/18 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001366s ]
+[ 2012-12-10T14:30:13+08:00 ] /index.php/Lang/edit/pid/3/account_id/175/id/18 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000075s ]
+[ 2012-12-10T14:30:13+08:00 ] /index.php/Lang/edit/pid/3/account_id/175/id/18 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000469s ]
+[ 2012-12-10T14:30:13+08:00 ] /index.php/Lang/edit/pid/3/account_id/175/id/18 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '18' ) LIMIT 1  [ RunTime:0.000301s ]
+[ 2012-12-10T14:30:15+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001626s ]
+[ 2012-12-10T14:30:15+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000092s ]
+[ 2012-12-10T14:30:15+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000669s ]
+[ 2012-12-10T14:30:15+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000353s ]
+[ 2012-12-10T14:30:15+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000432s ]
+[ 2012-12-10T14:30:15+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000429s ]
+[ 2012-12-10T14:30:15+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000359s ]
+[ 2012-12-10T14:30:17+08:00 ] /index.php/Lang/edit/pid/4/account_id/175/id/1391 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001496s ]
+[ 2012-12-10T14:30:17+08:00 ] /index.php/Lang/edit/pid/4/account_id/175/id/1391 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000077s ]
+[ 2012-12-10T14:30:17+08:00 ] /index.php/Lang/edit/pid/4/account_id/175/id/1391 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000526s ]
+[ 2012-12-10T14:30:17+08:00 ] /index.php/Lang/edit/pid/4/account_id/175/id/1391 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1391' ) LIMIT 1  [ RunTime:0.000289s ]
+[ 2012-12-10T14:30:18+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001655s ]
+[ 2012-12-10T14:30:18+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000106s ]
+[ 2012-12-10T14:30:18+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000971s ]
+[ 2012-12-10T14:30:18+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000409s ]
+[ 2012-12-10T14:30:18+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000603s ]
+[ 2012-12-10T14:30:18+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000534s ]
+[ 2012-12-10T14:30:18+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000513s ]
+[ 2012-12-10T14:30:19+08:00 ] /index.php/Lang/edit/pid/4/account_id/175/id/1392 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001495s ]
+[ 2012-12-10T14:30:19+08:00 ] /index.php/Lang/edit/pid/4/account_id/175/id/1392 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000083s ]
+[ 2012-12-10T14:30:19+08:00 ] /index.php/Lang/edit/pid/4/account_id/175/id/1392 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000615s ]
+[ 2012-12-10T14:30:19+08:00 ] /index.php/Lang/edit/pid/4/account_id/175/id/1392 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1392' ) LIMIT 1  [ RunTime:0.000336s ]
+[ 2012-12-10T14:30:21+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001696s ]
+[ 2012-12-10T14:30:21+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000110s ]
+[ 2012-12-10T14:30:21+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000568s ]
+[ 2012-12-10T14:30:21+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000322s ]
+[ 2012-12-10T14:30:21+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000388s ]
+[ 2012-12-10T14:30:21+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000379s ]
+[ 2012-12-10T14:30:21+08:00 ] /index.php/Account/edit/id/175/tab_id/test2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000356s ]
+[ 2012-12-10T14:30:39+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001264s ]
+[ 2012-12-10T14:30:39+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000073s ]
+[ 2012-12-10T14:30:39+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000458s ]
+[ 2012-12-10T14:30:39+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000255s ]
+[ 2012-12-10T14:30:39+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T14:30:39+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T14:30:39+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000105s ]
+[ 2012-12-10T14:30:39+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000092s ]
+[ 2012-12-10T14:30:39+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T14:30:43+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001199s ]
+[ 2012-12-10T14:30:43+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000075s ]
+[ 2012-12-10T14:30:43+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000521s ]
+[ 2012-12-10T14:30:43+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000240s ]
+[ 2012-12-10T14:30:43+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T14:30:43+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T14:30:43+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000064s ]
+[ 2012-12-10T14:30:43+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000086s ]
+[ 2012-12-10T14:30:43+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.
+[ 2012-12-10T15:36:12+08:00 ] /index.php/Account/edit/id/175 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001410s ]
+[ 2012-12-10T15:36:12+08:00 ] /index.php/Account/edit/id/175 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000076s ]
+[ 2012-12-10T15:36:12+08:00 ] /index.php/Account/edit/id/175 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000534s ]
+[ 2012-12-10T15:36:12+08:00 ] /index.php/Account/edit/id/175 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000050s ]
+[ 2012-12-10T15:36:12+08:00 ] /index.php/Account/edit/id/175 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000079s ]
+[ 2012-12-10T15:36:12+08:00 ] /index.php/Account/edit/id/175 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000089s ]
+[ 2012-12-10T15:36:12+08:00 ] /index.php/Account/edit/id/175 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000070s ]
+[ 2012-12-10T15:36:12+08:00 ] /index.php/Account/edit/id/175 | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 256 行.
+[ 2012-12-10T15:36:36+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001488s ]
+[ 2012-12-10T15:36:36+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '175' ) LIMIT 1  [ RunTime:0.000096s ]
+[ 2012-12-10T15:36:36+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000792s ]
+[ 2012-12-10T15:36:36+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000227s ]
+[ 2012-12-10T15:36:36+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%006%' OR contract_number like '%006%' OR url like '%006%' ) LIMIT 1  [ RunTime:0.000635s ]
+[ 2012-12-10T15:36:36+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%006%' OR contract_number like '%006%' OR url like '%006%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000602s ]
+[ 2012-12-10T15:36:36+08:00 ] /index.php/Index/main?searchkey=006 | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T15:36:56+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001698s ]
+[ 2012-12-10T15:36:56+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '116' ) LIMIT 1  [ RunTime:0.000079s ]
+[ 2012-12-10T15:36:56+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000567s ]
+[ 2012-12-10T15:36:56+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000244s ]
+[ 2012-12-10T15:36:56+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%006%' OR contract_number like '%006%' OR url like '%006%' ) LIMIT 1  [ RunTime:0.000062s ]
+[ 2012-12-10T15:36:56+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%006%' OR contract_number like '%006%' OR url like '%006%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000072s ]
+[ 2012-12-10T15:36:56+08:00 ] /index.php/Index/main?searchkey=006 | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T15:36:57+08:00 ] /index.php/Account/syncWebsiteName/id/116 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001637s ]
+[ 2012-12-10T15:36:57+08:00 ] /index.php/Account/syncWebsiteName/id/116 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '116' ) LIMIT 1  [ RunTime:0.000075s ]
+[ 2012-12-10T15:36:57+08:00 ] /index.php/Account/syncWebsiteName/id/116 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000529s ]
+[ 2012-12-10T15:36:57+08:00 ] /index.php/Account/syncWebsiteName/id/116 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '116' ) LIMIT 1  [ RunTime:0.000094s ]
+[ 2012-12-10T15:36:57+08:00 ] /index.php/Account/syncWebsiteName/id/116 | SQL: update y_system set company='酒类',website='酒类',copyright='2012版权所有  酒类',seo_title='酒类',seo_keywords='酒类',seo_description='酒类' [ RunTime:0.000274s ]
+[ 2012-12-10T15:36:57+08:00 ] /index.php/Account/syncWebsiteName/id/116 | NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 129 行.
+[ 2012-12-10T15:36:57+08:00 ] /index.php/Account/syncWebsiteName/id/116 | NOTIC: [2] mysql_free_result(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 97 行.
+[ 2012-12-10T15:36:57+08:00 ] /index.php/Account/syncWebsiteName/id/116 | SQL: update y_system set copyright='版权所有@酒类' where lang='mobile' [ RunTime:0.000176s ]
+[ 2012-12-10T15:36:57+08:00 ] /index.php/Account/syncWebsiteName/id/116 | NOTIC: [2] mysql_num_rows(): supplied argument is not a valid MySQL result resource DbMysql.class.php 第 129 行.
+[ 2012-12-10T15:36:58+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001806s ]
+[ 2012-12-10T15:36:58+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '116' ) LIMIT 1  [ RunTime:0.000091s ]
+[ 2012-12-10T15:36:58+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000777s ]
+[ 2012-12-10T15:36:58+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000215s ]
+[ 2012-12-10T15:36:58+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%006%' OR contract_number like '%006%' OR url like '%006%' ) LIMIT 1  [ RunTime:0.000058s ]
+[ 2012-12-10T15:36:58+08:00 ] /index.php/Index/main?searchkey=006 | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%006%' OR contract_number like '%006%' OR url like '%006%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000108s ]
+[ 2012-12-10T15:36:58+08:00 ] /index.php/Index/main?searchkey=006 | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T15:37:03+08:00 ] /index.php/Index/main?searchkey=001 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001424s ]
+[ 2012-12-10T15:37:03+08:00 ] /index.php/Index/main?searchkey=001 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '116' ) LIMIT 1  [ RunTime:0.000077s ]
+[ 2012-12-10T15:37:03+08:00 ] /index.php/Index/main?searchkey=001 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000510s ]
+[ 2012-12-10T15:37:03+08:00 ] /index.php/Index/main?searchkey=001 | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000230s ]
+[ 2012-12-10T15:37:03+08:00 ] /index.php/Index/main?searchkey=001 | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%001%' OR contract_number like '%001%' OR url like '%001%' ) LIMIT 1  [ RunTime:0.000493s ]
+[ 2012-12-10T15:37:03+08:00 ] /index.php/Index/main?searchkey=001 | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%001%' OR contract_number like '%001%' OR url like '%001%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000440s ]
+[ 2012-12-10T15:37:03+08:00 ] /index.php/Index/main?searchkey=001 | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T15:37:06+08:00 ] /index.php/Index/main?searchkey=010 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001593s ]
+[ 2012-12-10T15:37:06+08:00 ] /index.php/Index/main?searchkey=010 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '116' ) LIMIT 1  [ RunTime:0.000102s ]
+[ 2012-12-10T15:37:06+08:00 ] /index.php/Index/main?searchkey=010 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000497s ]
+[ 2012-12-10T15:37:06+08:00 ] /index.php/Index/main?searchkey=010 | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000279s ]
+[ 2012-12-10T15:37:06+08:00 ] /index.php/Index/main?searchkey=010 | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%010%' OR contract_number like '%010%' OR url like '%010%' ) LIMIT 1  [ RunTime:0.000658s ]
+[ 2012-12-10T15:37:06+08:00 ] /index.php/Index/main?searchkey=010 | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%010%' OR contract_number like '%010%' OR url like '%010%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000534s ]
+[ 2012-12-10T15:37:06+08:00 ] /index.php/Index/main?searchkey=010 | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T15:37:15+08:00 ] /index.php/Index/main?searchkey=007 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001436s ]
+[ 2012-12-10T15:37:15+08:00 ] /index.php/Index/main?searchkey=007 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '116' ) LIMIT 1  [ RunTime:0.000073s ]
+[ 2012-12-10T15:37:15+08:00 ] /index.php/Index/main?searchkey=007 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000623s ]
+[ 2012-12-10T15:37:15+08:00 ] /index.php/Index/main?searchkey=007 | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000289s ]
+[ 2012-12-10T15:37:15+08:00 ] /index.php/Index/main?searchkey=007 | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%007%' OR contract_number like '%007%' OR url like '%007%' ) LIMIT 1  [ RunTime:0.000551s ]
+[ 2012-12-10T15:37:15+08:00 ] /index.php/Index/main?searchkey=007 | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%007%' OR contract_number like '%007%' OR url like '%007%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000620s ]
+[ 2012-12-10T15:37:15+08:00 ] /index.php/Index/main?searchkey=007 | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T15:37:26+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001630s ]
+[ 2012-12-10T15:37:26+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '116' ) LIMIT 1  [ RunTime:0.000093s ]
+[ 2012-12-10T15:37:26+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000672s ]
+[ 2012-12-10T15:37:26+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000309s ]
+[ 2012-12-10T15:37:26+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%008%' OR contract_number like '%008%' OR url like '%008%' ) LIMIT 1  [ RunTime:0.000671s ]
+[ 2012-12-10T15:37:26+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%008%' OR contract_number like '%008%' OR url like '%008%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000697s ]
+[ 2012-12-10T15:37:26+08:00 ] /index.php/Index/main?searchkey=008 | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T15:37:32+08:00 ] /index.php/Index/main?searchkey=009 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001187s ]
+[ 2012-12-10T15:37:32+08:00 ] /index.php/Index/main?searchkey=009 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '116' ) LIMIT 1  [ RunTime:0.000077s ]
+[ 2012-12-10T15:37:32+08:00 ] /index.php/Index/main?searchkey=009 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000972s ]
+[ 2012-12-10T15:37:32+08:00 ] /index.php/Index/main?searchkey=009 | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000241s ]
+[ 2012-12-10T15:37:32+08:00 ] /index.php/Index/main?searchkey=009 | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%009%' OR contract_number like '%009%' OR url like '%009%' ) LIMIT 1  [ RunTime:0.000477s ]
+[ 2012-12-10T15:37:32+08:00 ] /index.php/Index/main?searchkey=009 | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%009%' OR contract_number like '%009%' OR url like '%009%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000469s ]
+[ 2012-12-10T15:37:32+08:00 ] /index.php/Index/main?searchkey=009 | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T15:37:35+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001681s ]
+[ 2012-12-10T15:37:35+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '116' ) LIMIT 1  [ RunTime:0.000091s ]
+[ 2012-12-10T15:37:35+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000521s ]
+[ 2012-12-10T15:37:35+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000255s ]
+[ 2012-12-10T15:37:35+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` WHERE ( website_name like '%008%' OR contract_number like '%008%' OR url like '%008%' ) LIMIT 1  [ RunTime:0.000070s ]
+[ 2012-12-10T15:37:35+08:00 ] /index.php/Index/main?searchkey=008 | SQL: SELECT * FROM `y_account` WHERE ( website_name like '%008%' OR contract_number like '%008%' OR url like '%008%' ) ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000071s ]
+[ 2012-12-10T15:37:35+08:00 ] /index.php/Index/main?searchkey=008 | NOTIC: [2048] Creating default object from empty value CommonAction.class.php 第 183 行.
+[ 2012-12-10T18:52:01+08:00 ] / | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T18:52:01+08:00 ] / | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001397s ]
+[ 2012-12-10T18:52:01+08:00 ] / | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001703s ]
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/left | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 167 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 189 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/left | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 256 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001147s ]
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 147 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000244s ]
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined index:  searchkey IndexAction.class.php 第 28 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 32 行.
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000059s ]
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000194s ]
+[ 2012-12-10T18:52:01+08:00 ] /index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 181 行.

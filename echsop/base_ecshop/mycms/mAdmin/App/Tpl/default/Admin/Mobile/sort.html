@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<layout name="Inc:jq_mobile" cache="0" />
+</head>
+<body>
+<div data-role="page">
+	<div data-role="header" data-theme="a"><h1>请选择分类</h1></div> 
+    <div data-role="content">
+    	<ul data-role="listview" data-divider-theme="a" data-inset="true">
+        	 <volist name="dataList" id="one">
+          		  <li <notempty name="one['_child']"></notempty >>
+                    <a href="__APP__/Index/sortEdit/id/{$one.id}" data-transition="slide" data-ajax="false">
+                    {$one['title']}
+                    </a>
+           		  </li>
+            </volist>
+        </ul>
+    </div> 
+</div>
+</body>
+</html>

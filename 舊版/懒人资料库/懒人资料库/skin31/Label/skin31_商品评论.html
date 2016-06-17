@@ -1,0 +1,60 @@
+﻿<div style="padding-right: 0px; padding-left: 10px; padding-bottom: 10px; width: 733px; padding-top: 10px">
+<div><img alt="" src="images/product/top-1.gif" /></div>
+<div class="pro_bd">{web:ms=mallreview┆Loop$5┆输出格式$out_None┆引用样式$skin31_商品评论┆标题数$30┆简介长度$200┆日期格式$YY02-MM-DD}
+<script language="javascript">
+	function CheckReviewForm(){
+		var obj = document.getElementById("title");
+		if(obj.value == ""){
+			alert("请填写评论标题");
+			obj.focus();
+			return false;
+		};
+		
+		obj = document.getElementById("content");
+		if(obj.value == ""){
+			alert("请填写评论内容");
+			obj.focus();
+			return false;
+		}
+		
+		return true;
+	}
+</script>
+<form method="post" name="pswbackform">
+    <input type="hidden" name="act" value="review" />
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>评论标题：</td>
+    <td><input class="input" id="title" maxlength="30" size="80" name="title" type="text" /></td>
+  </tr>
+  <tr>
+    <td>评 论 人：</td>
+    <td><input class="input" id="username" maxlength="20" size="80" name="username" type="text" /></td>
+  </tr>
+  <tr>
+    <td>评论星级：</td>
+    <td><input type="radio" name="star" value="1" /><img alt="很差" src="images/products/star1.gif" /><input type="radio" name="star" value="2" /><img alt="不太好" src="images/products/star2.gif" /><input type="radio" name="star" value="3" /><img alt="一般" src="images/products/star3.gif" /><input type="radio" name="star" value="4" /><img alt="还不错" src="images/products/star4.gif" /><input type="radio" checked="checked" name="star" value="5" /><img alt="非常好" src="images/products/star5.gif" /></td>
+  </tr>
+  <tr>
+    <td>评论内容：</td>
+    <td><textarea id="content" rows="5" cols="60" name="content"></textarea></td>
+  </tr>
+  <tr>
+    <td>验 证 码：</td>
+    <td><input class="input" id="checkcode" maxlength="4" name="verify" type="text" /> <img id="verifyimg" style="cursor: pointer" alt="看不清，点击换一张" align="absMiddle" onclick="ChangeVerifyImg()" /> <script language="javascript">
+						function ChangeVerifyImg(){
+							document.getElementById("verifyimg").src = '[$syspath]member/verifyimg.aspx?d=' + Date();
+						}
+						//初始化
+						ChangeVerifyImg();
+						</script></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input type="image" src="images/product/img-9.gif" onClick='return CheckReviewForm()' name="Submit2" value="我要发表" /></td>
+  </tr>
+</table>
+</form>
+</div>
+<div><img alt="" src="images/product/bottom-1.gif" /></div>
+</div>

@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>iWebIM 嵌入iWebSNS 的配置方法</title>
+</head>
+<style>
+body, p {font-size:14px;}
+img {border:0px;}
+.code{font-size:12px; line-height:20px; border:1px solid #ccc; width:600px;font-family:Courier New; margin-left:20px; padding:5px; background:#eee;}
+</style>
+<body>
+<div style="text-align:center; font-size:20px; font-weight:bold;">iWebIM 嵌入iWebSNS 的配置方法：</div>
+
+<p>1. 确定您已安装好iWebSNS。</p>
+
+<p>2. 下载iWebIM安装包。 您可以从http://tech.jooyea.net/download.php获取到安装包。</p>
+
+<p>3. 在您的iWebSNS安装目录下创建新目录 im/</p>
+
+<p>4. 解压iWebIM安装包下的所有文件到im/目录</p>
+
+<p>5. 打开文件 im/iweb_mini_lib/conf/dbconf.php <br />
+　　配置文件里头的数据库设置与您的当前iWebSNS里的数据库设置一致，修改下图蓝框内的配置信息：<br />
+　　<img src="images/1.jpg" />
+</p>
+
+<p>6. 打开文件 im/configuration.php <br />
+　　修改下图蓝框内的配置信息 <br />
+　　<img src="images/2.jpg" />
+</p>
+
+<p>7. 打开sql文件 im/install.sql 在iWebSNS安装库里 创建四张表</p>
+
+<p>8. iWebSNS 模板更改， 这里以default为例 <br />
+　　1) 打开 templates/default/main.html 在最后一行加上代码<br />
+<div class="code">......<br>
+	<span style="background-color: #FFFF00">&lt;script language=&quot;JavaScript&quot; src=&quot;im/im_forsns_js.php&quot;&gt;&lt;/script&gt;</span>
+	<br>
+	&lt;/body&gt;<br>
+	&lt;/html&gt;</div><br />
+
+　　2) 打开 templates/default/modules/mypals/pals_list.html 在最后一行加上代码 <br />
+<div class="code">......<br>
+	<span style="background-color: #FFFF00">&lt;script language=&quot;JavaScript&quot; src=&quot;im/ajax.php?act=updatapals&quot;&gt;&lt;/script&gt;</span>
+	<br>
+	&lt;/body&gt;<br>
+	&lt;/html&gt;</div><br />
+
+　　3) 进入iWebSNS后台,从左侧找到"模板管理"再打开"管理模板"， 找到您修改的这两个模板文件，进行重新编译生成新模板 <br />
+　　<img src="images/4.jpg" /><br />
+　　<img src="images/5.jpg" /><br />
+　　<img src="images/6.jpg" /><br />
+　　<img src="images/7.jpg" /><br />
+</p>
+<p>9. 操作完成进进入系统查看！</p>
+
+<p>注： <br />
+　　这里的目录都基于iWebSNS安装目录。
+	<br />
+　　如果服务器操作系统是Linux系统，注意将IM配置文件中指定的文件上传目录（“uploadfiles”）及子目录改为“777”
+</p>
+</body>
+</html>

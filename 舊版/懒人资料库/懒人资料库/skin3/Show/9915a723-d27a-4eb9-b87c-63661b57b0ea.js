@@ -1,0 +1,1 @@
+document.write('<a href="/member/Advertisement_Ads_ClickCount.aspx?mark=9915a723-d27a-4eb9-b87c-63661b57b0ea&&uri=aHR0cDovL3d3dy52NXNob3AuY29tLmNu" title="" target="_blank"><img src="Images/guanggao/0711210465774952.jpg" width="930" height="149" border="0"></a>');

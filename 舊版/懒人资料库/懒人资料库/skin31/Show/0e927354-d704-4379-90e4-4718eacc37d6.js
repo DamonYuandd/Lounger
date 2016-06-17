@@ -1,0 +1,1 @@
+document.write('<img src="Images//but_home_r_1-0803.jpg" width="235" height="124" border="0">');

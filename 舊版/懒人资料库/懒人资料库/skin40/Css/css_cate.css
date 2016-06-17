@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+body { margin:0 ; padding:0}
+.div1 {width:920px; background:#FFFFFF}
+.div1l {width:176px; float:left}
+.div1dbqbt {width:176px; height:31px; background:url(../images/index/dbqblabel.gif)}
+.div1dbqbt div {padding:7px 8px 0; text-align:right}
+.div1dbqb {width:176px; height:220px; background:url(../images/index/dbqbbg.gif)}
+.div1dbqb div {padding:10px 23px; text-align:left}
+.div1tgspt { background:url(../images/products/tgsplabel.gif); height:45px}
+.div1tgspbg {background:url(../images/products/tgspbg.gif); height:464px}
+.div1tgsp {width:160px; text-align:left}
+.div1tgsp ul { margin:0; padding:0}
+.div1tgsp ul li {height:82px; height:62px !important; _height:62px; padding:10px 0px;  list-style: none}
+.div1tgsp ul li span img {border:1px #DEDEDE solid; width:60px; height:60pxwidth:62px; float:left}
+.div1tgsp ul li div {width:95px; float:right; font-family:Arial; line-height:14px}
+.div1tgsp ul li div span {color:#FF6600; font-size:10px; font-family:Verdana}
+.div1tgspb {background:url(../images/products/tgspbgb.gif); height:14px}
+.div1r {width:734px; float:right; text-align:left}
+.label {width:734px; height:31px; margin-bottom:5px; border-top:3px #000000 solid; background:url(../images/products/catelabelbg.gif) top n}
+.labell {float:left; height:31px; line-height:31px; font-size:12px; font-weight:bolder; padding-left:10px; color:#999999}
+.labell span {font-size:14px; color:#000000}
+.labelr {float:right; height:31px; line-height:31px}
+.div1r2 {width:732px; height:574px}
+.div1rpro1 {padding:20px; width:364px; height:574px; width:324px !important; height:534px !important; _width:324px; _height:534px; background:#EDEDED; float:left}
+.div1rpro1 div {padding:11px; width:322px; height:532px; width:300px !important; height:510px !important; _width:300px; _height:510px; border:1px #CBC2D8 solid; background:#FFFFFF; text-align:center}
+.div1rpro1 span { background:#F2F5FA; color:#999999}
+.div1rpro2 {width:358px; height:574px; float:right}
+.div1rpro2 ul { margin:0; padding:0}
+.div1rpro2 ul li {width:358px; height:144px; list-style:none}
+.div1rpro2al {padding:4px; float:left; background:#EDEDED}
+.div1rpro2al img {width:130px; height:130px; border:1px #CBC2D8 solid}
+.div1rpro2ar {width:210px; padding:10px 0; float:right}
+.div1r3 {width:734px}
+.div1rpro3 {width:734px; margin-top:10px}
+.div1rpro3 ul { margin:0; padding:0}
+.div1rpro3 ul li {width:146px; width:140px !important; _width:140px; padding:0 3px; height:300px; text-align:left; float:left; color:#999999; list-style:none}
+.div1rpro3div {width:140px; width:132px !important; _width:132px; height:160px; height:132px !important; _height:132px; padding:4px; margin-bottom:5px; background:#EDEDED}
+.div1rpro3 a:link {color:#000000}
+.div1rpro3 a:visited {color:#000000}
+.div1rpro3 a:active {color:#000000}
+.div1rpro3 a:hover {color:#3186CB}
+
+/*vpro*/
+.proname {width:920px; width:910px !important; _width:910px; height:30px; font-size:16px; font-weight:bolder; text-align:left; color:#E65419; line-height:30px; padding-left:10px;margin:0 auto;}
+.proname span {color:#000000}
+.promiddle {width:920px; padding:20px 0; border-bottom:2px #cccccc solid; border-top:2px #dddddd solid}
+.promiddle1 {width:300px; text-align:center; float:left}
+.promiddle1 img {margin-bottom:5px}
+.promiddle1 div ul { margin:0; padding:0 }
+.promiddle1 div ul li { margin:0; padding:5px; float:left;  list-style: none }
+.promiddle2 {width:444px; width:424px !important; _width:424px; text-align:left; float:left; padding:0 10px}
+.promiddle2a { border-bottom:1px #CCCCCC dashed; padding:5px 0}
+.promiddle2b { border-bottom:1px #CCCCCC solid; padding:5px 0}
+.promiddle2c { padding:10px 0}
+.promiddle2s {height:27px}
+.promiddle2sl {width:100px; height:27px; line-height:27px; float:left; text-align:left; background:url(../images/products/vproarrow.gif) no-repeat left center}
+.promiddle2sr {width:320px; height:27px; line-height:27px; float:right; text-align:left}
+/*fit*/
+.promiddle2bfit { border-bottom:1px #CCCCCC solid; padding:5px 0}
+.promiddle2sfit {display: inline-block;}
+.promiddle2slfit {width:100px; float:left; height:27px; line-height:27px; text-align:left; background:url(../images/products/vproarrow.gif) no-repeat left center}
+.promiddle2srfit {width:320px; float:right; text-align:left}
+/*fit*/
+.promiddle3 {width:176px; width:152px !important; _width:152px; text-align:left; float:left; padding:5px 12px; _padding:5px 8px; background:#EEEEEE}
+.promiddle3t {margin-top:9px; height:4px}
+.promiddle3b {margin-bottom:9px; height:4px}
+.promiddle3a {width:152px; width:142px !important; width:142px; background:url(../images/products/vprolbg.gif); padding:10px 5px 0; text-align:center; color:#999999}
+.promiddle3a span{ font-size:32px; color:#FF6600; font-weight:bolder}
+.promiddle3a div { margin-top:7px; text-align:left; color:#757575; font-family:Arial; border-top:1px #CCCCCC dashed; padding-top:5px}
+.proinfo {width:920px; padding:20px 0}
+.proinfol {width:732px; text-align:left; float:left}
+.proinfolabel {height:31px; border-bottom:2px solid #E65419;}
+.proinfolabel ul { margin:0; padding:0 }
+.proinfolabel ul li {width:148px; height:31px; float:left; line-height:31px; color:#999999; margin-right:-2px; list-style: none; font-weight:bolder}
+.proinfolabel a:link {color:#999999}
+.proinfolabel a:active {color:#999999}
+.proinfolabel a:visited {color:#999999}
+.proinfolabel a:hover {color:#E65419; text-decoration:none}
+.prodefault {background:url(../images/products/vprodefault.gif) top;  text-align:center}
+.proselect {background:url(../images/products/vproselect.gif); color:#E65419; font-size:14px; text-align:center}
+.proinfodetail {padding:20px 0;}
+.proact {padding:10px 0}
+.actunitbg {width:924px} 
+.actunit {width:303px; width:304px !important; text-align:center; color:#000000; _width:304px; padding:0 2px; float:left}
+.actunit1 {height:10px}
+.actunit2 {padding:1px 0; background:url(../images/products/actunitbg.gif)}
+.actunit3 {width:304px; width:284px !important; _width:284px; padding:0 10px; background:#666666; color:#FFFFFF; height:25px; line-height:25px; text-align:left}
+.actunit4 {padding:5px 0; line-height:20px; background:#FFFFFF}
+.actunit a:active {color:#666666}
+.actunit a:visited {color:#666666}
+.actunit a:link {color:#666666}
+.actunit a:hover {color:#ff6600; text-decoration:none}
+.actinfo {width:410px; width:400px !important; text-align:left; color:#000000; _width:400px; float:right; background:#EDEDED; padding:5px}
+.procomment tr td {border-bottom:1px #CCCCCC solid; padding:5px}
+.procomment a {font-weight:border}
+#procomment1 td {border-bottom:2px #999999 solid; font-weight:bolder; color:#000000}
+.propraise tr td {border-bottom:1px #CCCCCC dashed; padding:5px; background:#f7f7f7}
+#propraise1 td {border-bottom:2px #999999 solid; font-weight:bolder; color:#000000; background:#EEFBFB}
+.proinfor {width:176px; text-align:center; float:right}
+.proinforlabel {width:176px; background:url(../images/products/vprorlabel.gif); height:45px; line-height:45px; font-weight:bolder; color:#E65419}
+.proinforbg {width:176px; width:160px !important; _width:160px; background:url(../images/products/vprorbg.gif); text-align:center; padding:0 8px}
+.proinfosp {width:160px; text-align:left}
+.proinfosp ul { margin:0; padding:0}
+.proinfosp ul li {height:82px; height:62px !important; _height:62px; padding:10px 0px; border-bottom:1px #dddddd dashed; list-style:none}
+.proinfosp img {border:1px #DEDEDE solid; width:60px; height:60px; float:left}
+.proinfosp div {width:95px; float:right; font-family:Arial; line-height:14px; color:#999999}
+.proinforbg2 {width:176px; text-align:left}
+.proinforbg2 ul {margin:0; padding:0}
+.proinforbg2 ul li {height:23px; line-height:23px; border-bottom:1px #dddddd dashed; list-style: none }
+.proinforbgb {background:url(../images/products/vprorbgb.gif); height:8px; width:176px; margin-bottom:20px}
+.proinfocomment {padding:20px 0}
+.proinfocomment ul { margin:0; padding:0 }
+.proinfocomment li { list-style:none; color:#666666; padding-bottom:15px; font-size:12px }
+.proinfocomment b { color:#000000 }
+.proinfocomment font { color:#1F7A78; font-size:12px }
+.proinfocomment div { border:1px #E65419 solid; background:#EBFAFA; padding:0 10px; height:30px; margin:5px 0 }
+.proinfocomment p { float:right; margin:0; padding-top:8px }
+.proinfocomment span { float:left; line-height:30px }
+.proinfocomment strong { font-size:10px }
+
+
+.list1 {width:918px; background:#FFFFFF; border:1px #DDDDDD solid}
+.list1l {width:174px; background:#FFFFFF; float:left; text-align:left}
+.list1lbg {width:174px; width:144px !important; _width:144px; background:#FFFFFF; padding:15px;}
+
+
+
+.div1lbg {width:174px; width:144px !important; _width:144px; height:330px; height:300px !important; _height:300px; background:#FFFFFF; padding:15px; border-left:1px #DDDDDD solid; border-right:1px #DDDDDD solid;}
+.div1lbg div ul { margin:0; padding:5px}
+.div1lbg div ul li { margin:0; padding:5px}
+.div1lbg2 {width:174px; width:144px !important; _width:144px; background:#FFFFFF; padding:15px;}
+.div1lbg2 div ul { margin:0; padding:5px}
+.div1lbg2 div ul li { margin:0; padding:5px; font-size:12px}
+.div1lbg2 div ul li font { color:#E65419}
+.proinfocomment {padding:20px}
+.proinfocomment ul { margin:0; padding:0 }
+.proinfocomment li { list-style:none; color:#666666; padding-bottom:15px }
+.proinfocomment b { color:#000000 }
+.proinfocomment font { color:#1F7A78 }
+.proinfocomment div { border:1px #E65419 solid; background:#EBFAFA; padding:0 10px; height:30px; margin:5px 0 }
+.proinfocomment p { float:right; margin:0; padding-top:8px }
+.proinfocomment span { float:left; line-height:30px }
+.proinfocomment strong { font-size:10px }
+
+
+/* binder */
+.binder {width:730px; margin-top:10px}
+.binder ul { margin:0; padding:0; list-style:none}
+.binder ul li { margin:0; padding:0; list-style:none}
+.binder ul li h1{ background:#E9F0F6; border:1px #CCCCCC solid; margin:0px; padding:0px; font-size:14px; padding:2px; text-align:left}
+.binder ul li div { padding-top:30px; border-top:1px #FFFFFF solid; background:url(../images/others/binderbg.gif) top repeat-x; height:200px; height:170px!important; _height:170px}
+.binder ul li ul { margin:0px; padding:0; width:520px; float:left; font-size:12px; font-weight:normal; height:130px }
+.binder ul li li { width:100px; float:left; text-align:center; display:block; line-height:16px }
+.binder ul li li strong img { width:70px; height:70px; margin-bottom:5px }
+.binder ul li li.plu { margin:0px; padding:45px 0; text-align:center; float:left; width:36px}
+.binder ul li span { width:210px; float:right; background:url(../images/others/amountimg.gif) left no-repeat;  margin:0px; padding:10px 0 10px 40px; text-align:left; width:170px!important; _width:170px; font-size:12px; font-weight:normal; line-height:22px;}
+.binder ul li span img { margin-top:5px}
+.binder ul li b{ color:#FF0000}
+.binder ul li s{ color:#999999}
+.binder ul li strong{ color:#FF6600; font-size:14px}
+
+
+.commondlabel {width:920px; text-align:left; background:#FFFFFF; margin-top:10px}
+.commondbg {width:920px; height:12px; background:url(../images/products/bg_commond.gif)}
+.commond {width:920px; padding:10px 0; background:#FFFFFF}
+.commondl {width:350px; text-align:center; float:left; border-right:1px #CCCCCC solid; padding:0 25px; width:300px!important; _width:300px; height:430px}
+.commondl span img { width:280px; height:280px}
+.commondl b { color:#FF6600}
+.commondr {width:540px; text-align:left; float:right}
+.commondr p { color:#999999}
+.commondr span{ color:#000000}
+
+
+td,p,div { font-family:Verdana; font-size:12px}
+.span_display{ display:inline; }
+.span_no_display{ display:none ;}
+.chooseborder {width:200px; border:2px #8EB0D0 solid; margin-top:13px;}
+.chooselist {width:198px; border:1px #FFFFFF solid;}
+.chooselist h1 { font-size:16px; padding:0; margin:0; width:188px; height:40px; line-height:34px; background:url(../images/choose.gif); color:#FFFFFF; text-align:left; padding-left:10px}
+.chooselist dl {margin:0; padding:0 0 5px; width:198px; border-top:5px #FFFFFF solid; border-bottom:1px #DEEEF2 solid; color:#000000; background:url(../images/chooselist.gif) bottom repeat-x #FFF}
+.chooselist dt {width:43px; float:right; text-align:center; margin:0; padding:5px 0; border-left:1px #DEEEF2 solid}
+.chooselist dd {width:68px; float:left; text-align:left; margin:0 0 0 5px; padding:5px 0}
+.chooselist dd b { color:#009900; font-family:Arial}

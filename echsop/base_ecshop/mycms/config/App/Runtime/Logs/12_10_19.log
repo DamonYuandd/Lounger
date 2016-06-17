@@ -1,0 +1,560 @@
+[ 2012-10-19T17:08:16+08:00 ] /yconfig/index.php | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:08:16+08:00 ] /yconfig/index.php | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000999s ]
+[ 2012-10-19T17:08:16+08:00 ] /yconfig/index.php | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001099s ]
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000104s ]
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000059s ]
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000065s ]
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000760s ]
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/left | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 50 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.
+[ 2012-10-19T17:08:17+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.
+[ 2012-10-19T17:12:00+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001110s ]
+[ 2012-10-19T17:12:00+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000075s ]
+[ 2012-10-19T17:12:00+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000357s ]
+[ 2012-10-19T17:12:00+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000068s ]
+[ 2012-10-19T17:12:00+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:12:00+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000075s ]
+[ 2012-10-19T17:12:00+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000064s ]
+[ 2012-10-19T17:12:00+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:12:04+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000924s ]
+[ 2012-10-19T17:12:04+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '2' ) LIMIT 1  [ RunTime:0.000078s ]
+[ 2012-10-19T17:12:04+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000378s ]
+[ 2012-10-19T17:12:04+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000077s ]
+[ 2012-10-19T17:12:04+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:12:04+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000057s ]
+[ 2012-10-19T17:12:04+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000064s ]
+[ 2012-10-19T17:12:04+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:12:06+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000659s ]
+[ 2012-10-19T17:12:06+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '1' ) LIMIT 1  [ RunTime:0.000074s ]
+[ 2012-10-19T17:12:06+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000404s ]
+[ 2012-10-19T17:12:06+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000066s ]
+[ 2012-10-19T17:12:06+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:12:06+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-10-19T17:12:06+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000063s ]
+[ 2012-10-19T17:12:06+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000763s ]
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php | SQL: SELECT * FROM `y_account` WHERE ( `id` = '1' ) LIMIT 1  [ RunTime:0.000067s ]
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000344s ]
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001036s ]
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/left | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 50 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000791s ]
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000067s ]
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000057s ]
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000063s ]
+[ 2012-10-19T17:12:28+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:12:31+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000887s ]
+[ 2012-10-19T17:12:31+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000071s ]
+[ 2012-10-19T17:12:31+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000365s ]
+[ 2012-10-19T17:12:31+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000066s ]
+[ 2012-10-19T17:12:31+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:12:31+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-10-19T17:12:31+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000063s ]
+[ 2012-10-19T17:12:31+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:20:05+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001270s ]
+[ 2012-10-19T17:20:05+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '2' ) LIMIT 1  [ RunTime:0.000080s ]
+[ 2012-10-19T17:20:05+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000476s ]
+[ 2012-10-19T17:20:05+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000088s ]
+[ 2012-10-19T17:20:05+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:20:05+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000072s ]
+[ 2012-10-19T17:20:05+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000078s ]
+[ 2012-10-19T17:20:05+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:20:08+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001087s ]
+[ 2012-10-19T17:20:08+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '1' ) LIMIT 1  [ RunTime:0.000084s ]
+[ 2012-10-19T17:20:08+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000367s ]
+[ 2012-10-19T17:20:08+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000086s ]
+[ 2012-10-19T17:20:08+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:20:08+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000069s ]
+[ 2012-10-19T17:20:08+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000084s ]
+[ 2012-10-19T17:20:08+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:20:10+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001009s ]
+[ 2012-10-19T17:20:10+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000090s ]
+[ 2012-10-19T17:20:10+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000500s ]
+[ 2012-10-19T17:20:10+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000080s ]
+[ 2012-10-19T17:20:10+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:20:10+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000075s ]
+[ 2012-10-19T17:20:10+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000080s ]
+[ 2012-10-19T17:20:10+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000787s ]
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000077s ]
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000534s ]
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000886s ]
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000075s ]
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000076s ]
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000863s ]
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/left | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 50 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.
+[ 2012-10-19T17:20:51+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.
+[ 2012-10-19T17:29:32+08:00 ] /yconfig/index.php | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:29:32+08:00 ] /yconfig/index.php | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001141s ]
+[ 2012-10-19T17:29:32+08:00 ] /yconfig/index.php | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:30:02+08:00 ] /yconfig/index.php/Account/edit/id/28 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001036s ]
+[ 2012-10-19T17:30:02+08:00 ] /yconfig/index.php/Account/edit/id/28 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '28' ) LIMIT 1  [ RunTime:0.000191s ]
+[ 2012-10-19T17:30:02+08:00 ] /yconfig/index.php/Account/edit/id/28 | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:30:02+08:00 ] /yconfig/index.php/Account/edit/id/28 | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-19T17:30:02+08:00 ] /yconfig/index.php/Account/edit/id/28 | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.
+[ 2012-10-19T17:30:02+08:00 ] /yconfig/index.php/Account/edit/id/28 | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.
+[ 2012-10-19T17:30:03+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:30:03+08:00 ] /yconfig/index.php/Index/newAccount | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001176s ]
+[ 2012-10-19T17:30:03+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:30:03+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-10-19T17:30:03+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 50 行.
+[ 2012-10-19T17:30:03+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-19T17:30:03+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.
+[ 2012-10-19T17:30:03+08:00 ] /yconfig/index.php/Index/newAccount | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.
+[ 2012-10-19T17:30:18+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:30:18+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001232s ]
+[ 2012-10-19T17:30:18+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:30:18+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000311s ]
+[ 2012-10-19T17:30:18+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:30:18+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000148s ]
+[ 2012-10-19T17:30:18+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000248s ]
+[ 2012-10-19T17:30:18+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:30:21+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:30:21+08:00 ] /yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000812s ]
+[ 2012-10-19T17:30:21+08:00 ] /yconfig/index.php/Index/left | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:30:21+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2012-10-19T17:30:21+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 50 行.
+[ 2012-10-19T17:30:21+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-19T17:30:21+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.
+[ 2012-10-19T17:30:21+08:00 ] /yconfig/index.php/Index/left | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.
+[ 2012-10-19T17:30:24+08:00 ] /yconfig/ | NOTIC: [8] Undefined index:  account_id CommonAction.class.php 第 17 行.
+[ 2012-10-19T17:30:24+08:00 ] /yconfig/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000754s ]
+[ 2012-10-19T17:30:24+08:00 ] /yconfig/ | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:30:31+08:00 ] /yconfig/index.php/Account/edit/id/28/tab_id/test1 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000735s ]
+[ 2012-10-19T17:30:31+08:00 ] /yconfig/index.php/Account/edit/id/28/tab_id/test1 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '28' ) LIMIT 1  [ RunTime:0.000166s ]
+[ 2012-10-19T17:30:31+08:00 ] /yconfig/index.php/Account/edit/id/28/tab_id/test1 | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:30:31+08:00 ] /yconfig/index.php/Account/edit/id/28/tab_id/test1 | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 105 行.
+[ 2012-10-19T17:30:31+08:00 ] /yconfig/index.php/Account/edit/id/28/tab_id/test1 | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 211 行.
+[ 2012-10-19T17:32:28+08:00 ] /yconfig/index.php/Account/edit/id/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000897s ]
+[ 2012-10-19T17:32:28+08:00 ] /yconfig/index.php/Account/edit/id/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000258s ]
+[ 2012-10-19T17:32:28+08:00 ] /yconfig/index.php/Account/edit/id/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000424s ]
+[ 2012-10-19T17:32:28+08:00 ] /yconfig/index.php/Account/edit/id/3 | SQL: SELECT `modules` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000168s ]
+[ 2012-10-19T17:32:28+08:00 ] /yconfig/index.php/Account/edit/id/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` IN ('36','19','20','21','22','23','27','37') ) ORDER BY ordernum desc [ RunTime:0.000067s ]
+[ 2012-10-19T17:32:28+08:00 ] /yconfig/index.php/Account/edit/id/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 11 ) ORDER BY ordernum desc [ RunTime:0.000278s ]
+[ 2012-10-19T17:32:28+08:00 ] /yconfig/index.php/Account/edit/id/3 | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000871s ]
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000077s ]
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000539s ]
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '19' ) LIMIT 1  [ RunTime:0.000214s ]
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT `modules` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000057s ]
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` IN ('36','19','20','21','22','23','27','37') ) ORDER BY ordernum desc [ RunTime:0.000102s ]
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000163s ]
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000071s ]
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:31+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001178s ]
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000087s ]
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000470s ]
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '36' ) LIMIT 1  [ RunTime:0.000275s ]
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | SQL: SELECT `modules` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000061s ]
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` IN ('36','19','20','21','22','23','27','37') ) ORDER BY ordernum desc [ RunTime:0.000087s ]
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000057s ]
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000086s ]
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:32+08:00 ] /yconfig/index.php/Category/edit/id/36/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000789s ]
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000068s ]
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000438s ]
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1159' ) LIMIT 1  [ RunTime:0.000187s ]
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000096s ]
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000054s ]
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000052s ]
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000055s ]
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000065s ]
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:34+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000921s ]
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000082s ]
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000427s ]
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1178' ) LIMIT 1  [ RunTime:0.000248s ]
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000081s ]
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000055s ]
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000063s ]
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:37+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000952s ]
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000068s ]
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000344s ]
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1181' ) LIMIT 1  [ RunTime:0.000269s ]
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000084s ]
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000054s ]
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000062s ]
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000064s ]
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:38+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000807s ]
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000070s ]
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000360s ]
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1159' ) LIMIT 1  [ RunTime:0.000057s ]
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000062s ]
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000059s ]
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000050s ]
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000050s ]
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000052s ]
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000062s ]
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:40+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000712s ]
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000073s ]
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000369s ]
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1178' ) LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000071s ]
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000052s ]
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000051s ]
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000051s ]
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000051s ]
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000061s ]
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:41+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000883s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000073s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000380s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1178' ) LIMIT 1  [ RunTime:0.000058s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000088s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000055s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000052s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000064s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000871s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000068s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000340s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1181' ) LIMIT 1  [ RunTime:0.000059s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000065s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000055s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000054s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000056s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000064s ]
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:42+08:00 ] /yconfig/index.php/Category/edit/id/1181/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000922s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000128s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000601s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1178' ) LIMIT 1  [ RunTime:0.000086s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000100s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000077s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000068s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000088s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000081s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000090s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1178/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000753s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000071s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000383s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1159' ) LIMIT 1  [ RunTime:0.000070s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000064s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000052s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000057s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000057s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000064s ]
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:43+08:00 ] /yconfig/index.php/Category/edit/id/1159/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000860s ]
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000068s ]
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000343s ]
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '20' ) LIMIT 1  [ RunTime:0.000200s ]
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | SQL: SELECT `modules` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000054s ]
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` IN ('36','19','20','21','22','23','27','37') ) ORDER BY ordernum desc [ RunTime:0.000110s ]
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000061s ]
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:44+08:00 ] /yconfig/index.php/Category/edit/id/20/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000764s ]
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000066s ]
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000368s ]
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '19' ) LIMIT 1  [ RunTime:0.000057s ]
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT `modules` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000054s ]
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` IN ('36','19','20','21','22','23','27','37') ) ORDER BY ordernum desc [ RunTime:0.000067s ]
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000052s ]
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000080s ]
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:45+08:00 ] /yconfig/index.php/Category/edit/id/19/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000869s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000069s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000356s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1160' ) LIMIT 1  [ RunTime:0.000059s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '19' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000066s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000062s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000055s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000063s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1160/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000759s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000072s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000371s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1191' ) LIMIT 1  [ RunTime:0.000206s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '19' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000067s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000054s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000052s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000066s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000057s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000100s ]
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:46+08:00 ] /yconfig/index.php/Category/edit/id/1191/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000826s ]
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000069s ]
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000367s ]
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined index:  act CategoryAction.class.php 第 16 行.
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1192' ) LIMIT 1  [ RunTime:0.000217s ]
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '1191' ) ORDER BY lang desc,ordernum desc [ RunTime:0.000070s ]
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000059s ]
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000053s ]
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | SQL: SELECT `title` FROM `y_category` WHERE ( `alias` = 'zh-cn' ) LIMIT 1  [ RunTime:0.000052s ]
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | SQL: SELECT `langs` FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000058s ]
+[ 2012-10-19T17:32:47+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | SQL: SELECT * FROM `y_category` WHERE ( `alias` IN ('mobile','zh-cn') ) ORDER BY ordernum desc [ RunTime:0.000063s ]
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 38 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 42 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 56 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 60 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 64 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 68 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 72 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 93 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 102 行.
+[ 2012-10-19T17:32:48+08:00 ] /yconfig/index.php/Category/edit/id/1192/aid/3 | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 103 行.
+[ 2012-10-19T17:36:43+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000807s ]
+[ 2012-10-19T17:36:43+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '3' ) LIMIT 1  [ RunTime:0.000095s ]
+[ 2012-10-19T17:36:43+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000529s ]
+[ 2012-10-19T17:36:43+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000217s ]
+[ 2012-10-19T17:36:43+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:36:43+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000117s ]
+[ 2012-10-19T17:36:43+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000169s ]
+[ 2012-10-19T17:36:43+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:40:54+08:00 ] /yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000832s ]
+[ 2012-10-19T17:40:54+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` WHERE ( `id` = '6' ) LIMIT 1  [ RunTime:0.000133s ]
+[ 2012-10-19T17:40:54+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'xiaoluo'@'localhost' (using password: NO) CommonAction.class.php 第 125 行.
+[ 2012-10-19T17:40:54+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000296s ]
+[ 2012-10-19T17:40:54+08:00 ] /yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: where IndexAction.class.php 第 28 行.
+[ 2012-10-19T17:40:54+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT COUNT(*) AS tp_count FROM `y_account` LIMIT 1  [ RunTime:0.000197s ]
+[ 2012-10-19T17:40:54+08:00 ] /yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY `id` desc LIMIT 0,20  [ RunTime:0.000245s ]
+[ 2012-10-19T17:40:54+08:00 ] /yconfig/index.php/Index/main | NOTIC: [2] Invalid argument supplied for foreach() CommonAction.class.php 第 159 行.
+[ 2012-10-19T17:40:59+08:00 ] /yconfig/index.php/Account/edit/id/2 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.000764s ]
+[ 2012-10-19T17:40:59+08:00 ] /yconfig/index.php/Account/edit/id/2 | SQL: SELECT * FROM `y_account` WHERE ( `id` = '2' ) LIMIT 1  [ RunTime:0.000178s ]
+[ 2012-10-19T17:40:59+08:00 ] /yconfig/index.php/Account/edit/id/2 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.000369s ]
+[ 2012-10-19T17:40:59+08:00 ] /yconfig/index.php/Account/edit/id/2 | SQL: SELECT `modules` FROM `y_account` WHERE ( `id` = '2' ) LIMIT 1  [ RunTime:0.000137s ]
+[ 2012-10-19T17:40:59+08:00 ] /yconfig/index.php/Account/edit/id/2 | SQL: SELECT * FROM `y_category` WHERE ( `id` IN ('36','19','20','21','22','23','27','37') ) ORDER BY ordernum desc [ RunTime:0.000066s ]
+[ 2012-10-19T17:40:59+08:00 ] /yconfig/index.php/Account/edit/id/2 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 11 ) ORDER BY ordernum desc [ RunTime:0.000066s ]
+[ 2012-10-19T17:40:59+08:00 ] /yconfig/index.php/Account/edit/id/2 | NOTIC: [8] Undefined index:  tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 278 行.

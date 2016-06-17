@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<!--引用百度地图-->
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3">
+		</script>
+		<title>
+			如何调用API
+		</title>
+				<!--
+		设计样式 
+			container容器：占50%大小
+		-->
+		<style type="text/css">
+		#container{
+			width:50%;
+			height:50%;	
+		}
+		</style>
+	</head>
+	<body>
+		<div id="container"></div>
+		<script type="text/javascript">
+			var map = new BMap.Map("container");//在container容器中创建一个地图,参数container为div的id属性;
+			var point = new BMap.Point(500,500);//定位
+			map.centerAndZoom(point,15);				//将point移到浏览器中心，并且地图大小调整为15;
+			
+			<!--以后只需要在此处添加代码即可-->
+		</script>
+	</body>
+</html>

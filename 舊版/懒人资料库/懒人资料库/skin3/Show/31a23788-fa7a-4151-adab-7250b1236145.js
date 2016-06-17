@@ -1,0 +1,1 @@
+document.write('<a href="/Yxj_Cloth_V5Shop8_Template/member/Advertisement_Ads_ClickCount.aspx?mark=31a23788-fa7a-4151-adab-7250b1236145&&uri=aHR0cDovL3d3dy52NXNob3AuY29tLmNuLw==" title="http://www.v5shop.com.cn/" target="_blank"><img src="Images/index/index_71.gif" width="210" height="206" border="0"></a>');

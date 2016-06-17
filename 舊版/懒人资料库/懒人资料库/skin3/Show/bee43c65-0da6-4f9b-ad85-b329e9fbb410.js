@@ -1,0 +1,1 @@
+document.write('<a href="/Yxj_Cloth_V5Shop8_Template/member/Advertisement_Ads_ClickCount.aspx?mark=bee43c65-0da6-4f9b-ad85-b329e9fbb410&&uri=aHR0cDovL3d3dy52NXNob3AuY29tLmNuLw==" title="http://www.v5shop.com.cn/" target="_blank"><img src="Images/skin/guanyuwomen_11.jpg" width="200" height="164" border="0"></a>');

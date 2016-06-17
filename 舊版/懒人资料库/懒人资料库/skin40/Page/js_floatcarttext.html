@@ -1,0 +1,17 @@
+﻿<div class="floatcart"><ul>
+
+<#loop cartbindingbyusername,base.LoginID#>
+<li id="minicartbind_{cartbindingbyusername[id]}"><img src="{gettmpimg({cartbindingbyusername[content]},50,50)}"/>
+<span>{cartbindingbyusername[bindingname]}<br><b>￥{cartbindingbyusername[memberprice]} X {cartbindingbyusername[salecount]}</b></span>
+<font>
+<a onclick="cartdelproductbind(this.title)" title="{cartbindingbyusername[id]}" style="cursor:pointer">删除</a></font></li>
+<#/loop#>
+
+<#loop usercart#>
+<li id="minicart_{usercart[id]}"><a href="[$syspath]product.aspx?id={usercart[productid]}" target="_blank"><img src="{gettmpimg({usercart[src]},50,50)}"/></a>
+<span><a href="[$syspath]product.aspx?id={usercart[productid]}" target="_blank">{usercart[name]} [{usercart[propertystext]}]</a><br><b>￥{usercart[orderprice]} X {usercart[count]}</b></span>
+<font>
+<a onclick="cartdelproduct(this.title)" title="{usercart[id]}" style="cursor:pointer">删除</a></font></li>
+<#/loop#>
+
+</ul><h4>共 <strong id="minicarttotal">{totalnum}</strong> 件商品 金额总计 <b>￥{totalprice}</b>　</h4><h5><a href="[$syspath]cart.aspx" target="_blank">去购物车并结算 →</a>　</h5><div style="clear:both"></div></div>

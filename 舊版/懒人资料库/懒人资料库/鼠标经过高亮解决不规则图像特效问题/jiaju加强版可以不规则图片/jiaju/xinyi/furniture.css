@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+a{ color:#000}
+a:hover{ color:#F90; text-decoration:underline; }
+body { margin:0; padding:0; background:#F7F7F7;}
+.logo_search
+{	width:100%; height:146px;}
+#logo { width:294px; height:101px;  float:left; background: url(image/index_image.png) no-repeat -45px -75px scroll transparent; margin-top:20px;}
+#search { width:541px; height:79px;float:left; margin-left:97px; margin-top:26px;}
+.navigation
+{ width:100%; height:38px; margin-top:5px; background:url(image/furniture-nav.png) repeat;}
+.li{ font-family:黑体; width:155px; height:21px; color:#FFF; float:left; margin-top:14px; font-size:14px; font-weight:bold; border-right:2px #FFF solid;} 
+.ad
+{ height:252px; margin-top:3px;}
+.content
+{ height:3276px;}
+.modern{ height:543px; margin-top:3px;}
+.modern_nav{height:51px; background:#000; background:url(image/furniture.png) no-repeat -22px -34px scroll transparent; }
+.nav{font-size:24px; font-weight:bold; color:#FFF; margin-left:25px; float:left; margin-top:2px;}
+.modern_ad{height:281px;margin-top:-8px;}
+.monder_product{ height:215px; margin-top:3px; }
+.product{ height:215px; width:235px; background:#FFF; margin-right:2px; float:left;}
+.product img { width:210px; height:153px;}
+.product_name{ margin-top:10px; }
+.market{ color:#999; }
+.market span{ color:#999; text-decoration:line-through; }
+.market b{ color:#F00;}
+.footer
+{ width:100%; height:211px; background:#06F; margin-top:-8px;}
+#footer_dark{width:100%; height:4px; background:#372D1C;}
+#footer_shallow{width:100%; height:154px; background:#9C8258; _margin-top:-8px; padding-top:50px;}
+#statement{color:#FFF;}
+#footer_deep{width:100%; height:53px; background:#584A32;}
+
+/*图片特效*/
+.ii{margin: 0 auto; width: 950px;}
+.images {margin: 0 auto; width: 950px; height: 280px; float:none;}
+.jfade_image{float:left;}
+/*图片特效结束*/
+
+
+/*搜索框的CSS*/
+OL LI {
+	MARGIN: 8px
+}
+#con {
+	FONT-SIZE: 12px; MARGIN: 0px auto; WIDTH: 541px; height:79px;
+}
+#tags {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 10px; WIDTH: 400px; PADDING-TOP: 0px; HEIGHT: 23px
+}
+#tags LI {
+	 FLOAT: left; MARGIN-RIGHT: 1px; LIST-STYLE-TYPE: none; HEIGHT: 23px
+}
+#tags LI A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px;FLOAT: left; PADDING-BOTTOM: 0px; COLOR: #000; LINE-HEIGHT: 23px; PADDING-TOP: 0px; HEIGHT: 23px; TEXT-DECORATION: none;
+	 font-size:14px; font-family:宋体,Verdana, Geneva, sans-serif; font-weight:bold;
+}
+#tags LI.emptyTag {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 4px
+}
+#tags LI.selectTag {
+	BACKGROUND-POSITION: left top; MARGIN-BOTTOM: -2px; POSITION: relative; HEIGHT: 35px;
+}
+#tags LI.selectTag A {
+	BACKGROUND-POSITION: right top; COLOR: #000; LINE-HEIGHT: 25px; HEIGHT: 25px;  font-size:14px; font-family:宋体,Verdana, Geneva, sans-serif; font-weight:bold;
+}
+#tagContent {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px;  PADDING-TOP: 1px;
+}
+.tagContent {
+	PADDING-RIGHT: 10px; DISPLAY: none; PADDING-LEFT: 10px; WIDTH: 516px; COLOR: #474747; PADDING-TOP: 10px; HEIGHT: 45px; text-align:left;
+}
+#tagContent DIV.selectTag {
+	DISPLAY: block
+}
+.outside_search_buttom
+{ position: absolute; right:0px;top:7px;} 
+
+/*搜索框结束*/
+
+
+

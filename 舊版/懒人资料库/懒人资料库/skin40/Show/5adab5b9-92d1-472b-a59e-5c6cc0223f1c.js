@@ -1,0 +1,1 @@
+document.write('<a href="../register.aspx" title="" target="_blank"><img src="Images/ad/vproad.gif" width="152" height="59" border="0"></a>');

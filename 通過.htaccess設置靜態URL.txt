@@ -1,0 +1,34 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+#RewriteCond %{REQUEST_URI} ^/kissaward2014
+#RewriteRule ^kissaward2014(.*) http://dev.campaign.nmg.com.hk/eventId/21$1 [P]
+
+RewriteCond %{REQUEST_URI} ^/eventId/21
+RewriteRule ^eventId/21(.*) kissaward2014$1 [R]
+
+#RewriteCond %{REQUEST_URI} ^/Public
+#RewriteRule (.*) http://dev.campaign.nmg.com.hk/$1   [P]
+
+#RewriteCond %{REQUEST_URI} ^/Voting
+#RewriteRule (.*) http://dev.campaign.nmg.com.hk/$1   [P]
+
+
+RewriteRule ^index\.php$ - [L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+
+
+
+
+#RewriteRule ^kissaward2014(.*) http://dev.campaign.nmg.com.hk/eventId/21$1 [P]  -------------> ‘LÜñ”Ú√˚http://xxxx.com/kissaward2014 œ‡ÆîÏ∂‘LÜñ http://dev.campaign.nmg.com.hk/eventId/21
+
+
+RewriteCond %{REQUEST_URI} ^/eventId/21              --->http://xxx.com/kissaward2014  ===== http://dev.campaign.nmg.com.hk/eventId/21 (∫„µ»Ï∂)
+RewriteRule ^eventId/21(.*) kissaward2014$1 [R]

@@ -1,0 +1,57 @@
+var tempStr = "";
+var flag = 0;
+document.write('<layer>');
+document.write('<div id="floater" style="RIGHT:0px; OVERFLOW:visible; POSITION:absolute; TOP:125px; right:0px;">');
+document.write('<table width="100" border="0" cellspacing="0" cellpadding="0">');
+document.write('	<tr>');
+document.write('		<td width="100" scope="row" height=20></td>');
+document.write('	</tr>');
+document.write('	<tr>');
+document.write('		<td width="100" scope="row"><img src="images/QQ/upx.gif" width="110" height="58"></td>');
+document.write('	</tr>');
+document.write('	<tr>');
+document.write('		<td scope="row" width="110"><table width="100%" background="images/QQ/mid.gif">			');
+
+<#loop onlinetool#>
+ flag = 1;
+<#if {onlinetool[tooltype]} == "qq"#>
+tempStr = '<tr><td align="center"><a target=blank href="tencent://message/?uin={onlinetool[toolnumber]}&Site={webname}&Menu=yes"><img border="0" SRC="http://wpa.qq.com/pa?p=1:{onlinetool[toolnumber]}:1" alt="{onlinetool[name]}"></a></td></tr>';
+<#/if#>
+
+<#if {onlinetool[tooltype]} == "msn"#>
+tempStr = '			<tr><td align="center"><a target=blank href="msnim:chat?contact={onlinetool[toolnumber]}"><img border="0" SRC="Images/QQ/style5on.gif" alt="{onlinetool[name]}"></a></td></tr>';
+<#/if#>
+
+<#if {onlinetool[tooltype]} == "ww"#>
+tempStr = '			<tr><td align="center"><a target=blank href="http://amos1.taobao.com/msg.ww?v=2&uid={onlinetool[toolnumber]}&s=1"><img border="0" SRC="http://amos1.taobao.com/online.ww?v=2&uid={onlinetool[toolnumber]}&s=1" alt="{onlinetool[name]}"></a></td></tr>';
+<#/if#>
+
+<#if {onlinetool[tooltype]} == "skype"#>
+tempStr = '			<tr><td align="center"><a target=blank href="callto://{onlinetool[toolnumber]}"><img border="0" SRC="http://goodies.skype.com/graphics/skypeme_btn_small_green.gif" alt="{onlinetool[name]}"></a></td></tr>';
+<#/if#>
+
+<#if {onlinetool[tooltype]} == "myt"#>
+tempStr = '			<tr><td align="center"><a target=blank href="http://scs1.sh1.china.alibaba.com/msg.atc?v=1&amp;uid={onlinetool[toolnumber]}"><img border="0" SRC="http://scs1.sh1.china.alibaba.com/online.atc?v=1&amp;uid={onlinetool[toolnumber]}&s=102" alt="{onlinetool[name]}" width="100"></a></td></tr>';
+<#/if#>
+
+document.write(tempStr);
+
+<#/loop#>
+
+document.write('		</table></td>');
+document.write('	</tr>');
+document.write('	<tr>');
+document.write('		<td width="110" height="52" align="center" background="images/QQ/bottom.gif" scope="row"><img src="images/QQ/bottom.gif" width="110" height="52"></td>');
+document.write('	</tr>');
+document.write('</table>');
+document.write('</div>');
+document.write('</layer>');
+
+if(flag == 0){
+	document.getElementById("floater").style.display = "none";
+}
+
+document.write('<script type="text/javascript" src="../public/js/serviceqq2.js"></script>');
+//判断在线状态
+//var online = new Array();
+//document.write('	<script src="http://webpresence.qq.com/getonline?Type=1&"></script>');

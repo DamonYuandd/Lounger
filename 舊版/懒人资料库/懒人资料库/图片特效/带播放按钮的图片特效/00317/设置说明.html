@@ -1,0 +1,231 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0043)http://slideshow.triptracker.net/howto.html -->
+<?xml version="1.0" encoding="utf-8"?><HTML lang=en xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml" xmlns:v = 
+"urn:schemas-microsoft-com:vml"><HEAD><TITLE>TripTracker slideshow - How to...</TITLE>
+<META 
+content="TripTracker slideshow - A customizable, free JavaScript image viewer control" 
+name=description>
+<META 
+content="slideshow, slide show, image viewer, photo viewer, gallery viewer, javascript, free" 
+name=keywords>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<SCRIPT src="images/slide.js" type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+    <!--
+      var viewer1 = new PhotoViewer();
+      viewer1.add('photo/1.jpg');
+      viewer1.add('photo/2.jpg');
+      viewer1.add('photo/3.jpg');
+      viewer1.add('photo/4.jpg');
+      viewer1.add('photo/5.jpg');
+
+      viewer1.setBackgroundColor('#ffffff');
+      viewer1.setBorderWidth(2);
+      viewer1.setFontSize(11);
+      viewer1.setShadeColor('#807872');
+
+      var viewer2 = new PhotoViewer();
+      viewer2.add('photo/1.jpg');
+      viewer2.add('photo/2.jpg');
+      viewer2.add('photo/3.jpg');
+      viewer2.add('photo/4.jpg');
+      viewer2.add('photo/5.jpg');
+
+      viewer2.setSlideDuration(3000);
+      viewer2.disablePanning();
+      viewer2.enableAutoPlay();
+
+      var viewer3 = new PhotoViewer();
+      viewer3.add('photo/1.jpg');
+      viewer3.add('photo/2.jpg');
+      viewer3.add('photo/3.jpg');
+      viewer3.add('photo/4.jpg');
+      viewer3.add('photo/5.jpg');
+
+      viewer3.setOnClickEvent(viewer3.startSlideShow);
+      viewer3.disableEmailLink();
+      viewer3.disablePhotoLink();
+
+      var viewer4 = new PhotoViewer();
+      viewer4.add('photo/1.jpg', 'Ayutthaya, Thailand', '08/18/2005 5:14 PM', 'Amy Smith');
+      viewer4.add('photo/2.jpg', 'Chang Mai, Thailand', '08/24/2005 9:29 PM', 'Alan Smith');
+      viewer4.add('photo/3.jpg', 'Ayutthaya, Thailand', '08/18/2005 3:32 PM', 'Christopher Smith');
+      viewer4.add('photo/4.jpg', 'Koh Phangan, Thailand', '08/27/2005 2:50 PM', 'Mark Smith');
+      viewer4.add('photo/5.jpg', 'Koh Tao, Thailand', '09/01/2005 5:14 PM', 'Steven Smith');
+    //-->
+    </SCRIPT>
+<LINK href="images/style.css" type=text/css rel=stylesheet>
+<META content="MSHTML 6.00.3790.4639" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=mastercontainer>
+<DIV class=main>
+<H2>Adding photo captions, dates, and bylines</H2>
+<P>You may add captions, dates, and bylines to photos by passing one or more of 
+the three optional parameters of the PhotoViewer's <CODE><B>add(imageUrl, 
+caption, date, byline)</B></CODE> method: <PRE>[...]
+var viewer = new PhotoViewer();
+viewer.add('photo1.jpg', 'A special photo', '11/01/2006 10:12', 'Amy Smith');
+viewer.add('photo2.jpg', 'Holidays in Spain', '07/12/2006 15:43');
+viewer.add('photo3.jpg', 'Just another caption');
+viewer.add('photo4.jpg');
+[...]
+</PRE>Bylines are positioned at the bottom-right corner of the browser window. 
+You can adjust the distance from the bottom and right-hand edges by adding the 
+following parameters at the beginning of the script: 
+<UL>
+  <LI><CODE><B>BYLINE_POSITION_RIGHT</B></CODE><BR>The amount of space, in 
+  pixels, between the byline text and the right-hand edge of the browser 
+  window.<BR>
+  <LI><CODE><B>BYLINE_POSITION_BOTTOM</B></CODE><BR>The amount of space, in 
+  pixels, between the byline text and the bottom edge of the browser 
+  window.<BR></LI></UL>The code snippet below positions the byline at 30 pixels 
+from the right-hand edge and 20 pixels from the bottom. <PRE>[...]
+BYLINE_POSITION_RIGHT = 30;
+BYLINE_POSITION_BOTTOM = 20;
+var viewer = new PhotoViewer();
+viewer.add('photo1.jpg', 'A special photo', '11/01/2006 10:12', 'Amy Smith');
+[...]
+</PRE>Captions, dates, and bylines are added to photos in <A 
+href="javascript:void(viewer4.show(0))">this example</A>.
+<P></P>
+<H2>Using multiple slideshows</H2>
+<P>Need multiple slideshow viewers on the same page? No problem! You may create 
+as many PhotoViewer objects as you like, just make sure that they are given 
+different variable names. For example: <PRE>[...]
+var viewer1 = new PhotoViewer();
+viewer1.add('photo1.jpg');
+
+var viewer2 = new PhotoViewer();
+viewer2.add('photo2.jpg');
+[...]
+&lt;a href="javascript:void(viewer1.show(0))"&gt;Slideshow 1&lt;/a&gt;
+&lt;a href="javascript:void(viewer2.show(0))"&gt;Slideshow 2&lt;/a&gt;
+[...]
+</PRE>
+<P></P>
+<H2>Customizing the slideshow animation</H2>
+<P>The following JavaScript methods can be applied to tweak the parameters of 
+the slideshow animation. These methods should be invoked on your PhotoViewer 
+instance:</P>
+<UL>
+  <LI><CODE><B>viewer.setSlideDuration(duration);</B></CODE><BR>Sets the time 
+  interval between slide transitions, in milliseconds. Default value: 
+  <CODE>4000</CODE>.<BR>
+  <LI><CODE><B>viewer.disablePanning(); / 
+  viewer.enablePanning();</B></CODE><BR>Disables / enables the panning effect 
+  (enabled by default). 
+  <LI><CODE><B>viewer.disableFading(); / 
+  viewer.enableFading();</B></CODE><BR>Disables / enables the fade-out/fade-in 
+  transitions in slideshow mode (enabled by default). 
+  <LI><CODE><B>viewer.disablePhotoFading(); / 
+  viewer.enablePhotoFading()</B></CODE><BR>Disables / enables the 
+  fade-out/fade-in tranisitions for manual movement between photos (disabled by 
+  default). 
+  <LI><CODE><B>viewer.enableAutoPlay(); / 
+  viewer.disableAutoPlay();</B></CODE><BR>If enabled, the slideshow animation 
+  starts automatically when the viewer is shown (disabled by default). 
+  <LI><CODE><B>viewer.enableLoop(); / viewer.disableLoop();</B></CODE><BR>If 
+  enabled, the slideshow animation will reset to and replay from the first image 
+  after the last image had been displayed (disabled by default). 
+  <LI><CODE><B>viewer.randomize();</B></CODE><BR>The slideshow will shuffle your 
+  list of images and display them in random order on each page reload. </LI></UL>
+<P>The example below automatically starts a slideshow while disabling the 
+panning effect: <PRE>[...]
+var viewer = new PhotoViewer();
+viewer.setSlideDuration(3000);
+viewer.disablePanning();
+viewer.enableAutoPlay();
+[...]
+</PRE>The effect can be seen <A 
+href="javascript:void(viewer2.show(0))">here</A>.
+<P></P>
+<H2>Customizing the viewer's appearance</H2>
+<P>For those of you wishing to customize the viewer's appearance, here are some 
+additional JavaScript methods. These should be invoked on your PhotoViewer 
+instance:</P>
+<UL>
+  <LI><CODE><B>viewer.setBackgroundColor(color);</B></CODE><BR>Sets the photo's 
+  background and border color. The <CODE>color</CODE> parameter may be a <A 
+  href="http://www.w3.org/TR/REC-CSS2/syndata.html#value-def-color">CSS color 
+  specification</A> or the keyword “transparent”. Default value: 
+  <CODE>"#000000"</CODE>. 
+  <LI><CODE><B>viewer.setBorderWidth(width);</B></CODE><BR>Sets the photo's 
+  border width in pixels. Setting it to <CODE>0</CODE> would remove the border. 
+  Default value: <CODE>5</CODE>. 
+  <LI><CODE><B>viewer.disableShade(); / 
+  viewer.enableShade();</B></CODE><BR>Disables / enables the shaded background 
+  (enabled by default). 
+  <LI><CODE><B>viewer.setShadeColor(color);</B></CODE><BR>Sets the color of the 
+  shaded background. The <CODE>color</CODE> parameter should be a <A 
+  href="http://www.w3.org/TR/REC-CSS2/syndata.html#value-def-color">CSS color 
+  specification</A>. Default value: <CODE>"#000000"</CODE>. 
+  <LI><CODE><B>viewer.setShadeOpacity(opacity);</B></CODE><BR>Sets the opacity 
+  of the shaded background. The <CODE>opacity</CODE> parameter should be a real 
+  number between <CODE>0.0</CODE> (fully transparent) and <CODE>1.0</CODE> 
+  (fully opaque). Default value: <CODE>0.7</CODE>. 
+  <LI><CODE><B>viewer.setFont(font);</B></CODE><BR>Sets the font that is used to 
+  display image numbers and captions. 
+  <LI><CODE><B>viewer.setFontSize(size);</B></CODE><BR>Sets the font size that 
+  is used to display image numbers and captions, in pixels. Default value: 
+  <CODE>10</CODE> pixels. </LI></UL>
+<P>Here is an example: <PRE>[...]
+var viewer = new PhotoViewer();
+viewer.setBackgroundColor('#ffffff');
+viewer.setBorderWidth(2);
+viewer.setFontSize(11);
+viewer.setShadeColor('#807872');
+[...]
+</PRE>...which creates <A href="javascript:void(viewer1.show(0))">this 
+effect</A>.
+<P></P>
+<H2>Other Customizations</H2>
+<P>You may disable certain buttons in the photo viewer's toolbar, or hide the 
+toolbar altogether, by using the following methods of your photo viewer 
+instance:</P>
+<UL>
+  <LI><CODE><B>viewer.disableEmailLink(); / 
+  viewer.enableEmailLink();</B></CODE><BR>Disables / enables the 'email photo' 
+  button in the toolbar (enabled by default). 
+  <LI><CODE><B>viewer.disablePhotoLink(); / 
+  viewer.enablePhotoLink();</B></CODE><BR>Disables / enables the 'link to photo' 
+  button in the toolbar (enabled by default). 
+  <LI><CODE><B>viewer.enableToolbarAnimator(); / 
+  viewer.disableToolbarAnimator();</B></CODE><BR>Auto-hides the toolbar after a 
+  few seconds of mouse/keyboard inactivity, displays it on mouse 
+  movement/click/key press (disabled by default). 
+  <LI><CODE><B>viewer.disableToolbar(); / 
+  viewer.enableToolbar();</B></CODE><BR>Hides / shows the toolbar entirely 
+  (enabled by default). </LI></UL>
+<P>The <CODE><B>setOnClickEvent</B></CODE> method can be used to change the 
+action performed when a user left-clicks on an image displayed by the viewer. 
+This method must be called on the photo viewer instance for which you wish to 
+change the on-click behavior:</P>
+<UL>
+  <LI><CODE><B>viewer.setOnClickEvent(viewer.close);</B></CODE><BR>Closes the 
+  slideshow viewer (this is the default behavior). 
+  <LI><CODE><B>viewer.setOnClickEvent(viewer.startSlideShow);</B></CODE><BR>Starts 
+  and stops the slideshow animation. 
+  <LI><CODE><B>viewer.setOnClickEvent(viewer.permalink);</B></CODE><BR>Opens the 
+  currently displayed image in a new browser window when the image is clicked 
+  on. </LI></UL>
+<P>The code below disables the email and photo links and instructs the photo 
+viewer to start or pause the slideshow animation when a users clicks on the 
+image area: <PRE>[...]
+var viewer = new PhotoViewer();
+viewer.setOnClickEvent(viewer.startSlideShow);
+viewer.disableEmailLink();
+viewer.disablePhotoLink();
+[...]
+</PRE>You can preview the above example <A 
+href="javascript:void(viewer3.show(0))">here</A>. 
+<H2>Scripting the slideshow</H2>This <A 
+href="http://slideshow.triptracker.net/SlideshowScripting.zip">sample PHP script 
+package</A> may give you a few ideas on scripting the Slideshow. The example 
+package shows how to implement all the above customization options as simple 
+on/off switches, and includes a function to extract the date and time 
+automatically from an image's EXIF data (if available) and displays it in the 
+viewer <I>(note: this sample package is unsupported, it's merely offered for 
+demonstration purposes)</I>. </DIV>
+</BODY></HTML>

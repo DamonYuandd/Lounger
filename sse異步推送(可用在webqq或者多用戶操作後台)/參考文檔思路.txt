@@ -1,0 +1,39 @@
+http://javascript.ruanyifeng.com/htmlapi/eventsource.html
+
+
+利用updatetime 
+
+不斷向服務器發送請求 --------> 判斷updatetime是否已經更新 --------> 已更新則返回js處理
+
+
+第一步：-----------------------------------------
+var isUp = $("#result").html();
+	if (!!window.EventSource) {
+	
+		var source = new EventSource('/Article/edit2/id/134'); //請求的的服務器腳本
+		source.onmessage=function(event)
+		  {
+			  if(isUp != event.data){   //根據返回的內容，然後用JS來處理
+				  document.getElementById("result2").innerHTML+=event.data + "已修改<br />";
+			  }else{
+				  document.getElementById("result2").innerHTML+=event.data + "未修改<br />";
+			  }
+		  };
+	}
+})
+
+第二步：-------------------------------------------------------
+
+服務器腳本：
+		header('Content-Type: text/event-stream');
+		header('Cache-Control: no-cache');
+		$obj = D('Gifts')->where(array('id' => 14))->find(); //根據業務需求進行修改
+		echo "data: {$obj['manipulator']}\n\n";
+		ob_flush();
+		flush();	//把內容推送出去
+
+
+-------------------------------------------------------------------------
+
+注意事項：
+不兼容低版本IE 包括IE9 

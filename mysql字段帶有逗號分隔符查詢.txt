@@ -1,0 +1,7 @@
+SELECT * FROM `lbs_shop` left join lbs_price_range on lbs_price_range.priceRangeID = lbs_shop.priceRangeID WHERE ( `status` = 2 ) AND ( (lbs_shop.shopTypeID = 3) or (FIND_IN_SET('3',lbs_shop.otherSel)) ) 
+
+
+
+如 selNum 有記錄是 : 1,2,3,4,5,6
+FIND_IN_SET('3',selNum);
+採用這個方法，只要字段含有3且用逗號作為分隔符，即可查詢

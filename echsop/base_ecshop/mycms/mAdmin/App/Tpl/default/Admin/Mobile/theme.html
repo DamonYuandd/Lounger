@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<layout name="Inc:jq_mobile" cache="0" />
+<layout name="Inc:common_js" cache="0" />
+<script>
+$(function(){
+	var mobile_theme = "<?php echo $obj['mobile_theme']; ?>";
+	var nowStyle = "<?php echo $nowTplStyle['title'] ;?>";
+	var aa = $("#category_tpl").prev('span').find('.ui-btn-text').html(nowStyle);
+//	$("#"+mobile_theme).css({'border':'3px solid red'});
+//	$("select[name=mobile_theme] option[value="+ mobile_theme +"]").attr("selected",true);
+	$('#category_tpl').change(function() {
+       window.location.href='__APP__/System/theme/ctplid/'+$(this).val();
+    });
+	var cid="<?php echo $_GET['ctplid']; ?>";
+    if( cid ) {
+        $('#category_tpl').val(cid);
+    }
+	$("#select-choice-1").change(function(){
+		var val = $(this).val();
+		$.ajax({
+			type:'POST',
+			dataType:'json', 
+			url:'__APP__/System/themeShow',
+			data:'mobile_theme='+val,
+			success:imgaeChange
+		})
+	})
+	//保存
+	$("#submint").click(function(){
+		var tp_num = $('#select-choice-1').val();
+		$.ajax({
+			type:'POST',
+			url:'__APP__/Admin/System/saveTheme',
+			data:'mobile_theme='+ tp_num,
+			success:ajaxTips
+		})
+	})
+	//弹出系统设置
+	$("#backSystem").click(function(){
+		$("#systemShow").click();
+	})
+});
+//改变缩略图
+function imgaeChange(json){
+	var mobile_theme = "<?php echo $obj['mobile_theme']; ?>";
+	$("#Thumbnail").html('loading');
+	if(mobile_theme != json['number']){
+		$("#Thumbnail").html('<img src="http://img.huyionline.cn/tplimg/'+ json['image']+'" id="'+ json['mobile_theme'] +'"><h5>'+ json['number'] +'</h5>');
+		}else{
+		$("#Thumbnail").html('<img src="http://img.huyionline.cn/tplimg/'+ json['image']+'" id="'+ json['mobile_theme'] +'"><h5><span style="color:#F00">(已在使用)</span>'+ json['number'] +'</h5>');
+	}
+}
+</script>
+</head>
+<body>
+<div data-role="page">
+<layout name="Inc:edit_head" cache="0" />
+    <div data-role="content">
+    		<!-- <h4>当前使用模板编号:<span style="color:#F00">{$obj.mobile_theme}</span></h4> -->
+    		<label for="category_tpl" class="select">选择模板风格:</label>
+            <select name="category_tpl" id="category_tpl">
+                <option value="">全部风格</option>
+                <volist name="ctplList" id="vo">
+                <option value="{$vo.id}">{$vo.title}</option>
+                </volist>
+            </select>
+            <label for="select-choice-1" class="select">选择模板编号:</label>
+            <select name="mobile_theme"  id="select-choice-1">
+                    <volist name="templateList" id="vo">
+                  	  <option value="{$vo.number}">{$vo.number}<eq name="vo.number" value="$obj.mobile_theme">(使用中)</eq></option>
+                    </volist>
+            </select>
+            <neq name="templateList[0]['number']" value="暂无该资料">
+                <label>模板缩略图:</label>
+                <div data-role="fieldcontain" style="text-align:center;" id="Thumbnail" > 
+                        <img src="http://img.huyionline.cn/tplimg/{$templateList.0.image}" id="{$obj['id']}">
+                        <h5><eq name="templateList.0.number" value="$common.mobile_theme"><span style="color:#F00">(已在使用)</span></eq>{$templateList.0.number}</h5>    
+                </div>
+                <else/>
+               <label>&nbsp;</label>
+            </neq>
+            <neq name="templateList[0]['number']" value="暂无该资料">
+            	 <a data-role="button" href="javascript:void(0)"  id="submint"  data-theme="a">立刻使用该主题</a>
+            </neq>
+             <a data-role="button" href="javascript:void(0)"  id="backSystem"  data-theme="c">返回系统管理</a>
+        <fieldset style="margin:30px;">
+            <legend style="font-size: 14px;font-weight: bold;margin-bottom: 10px;color:red;">备注</legend>
+            <h4 style="color:#F00;">1.更换模板有可能导致页面内容不能正常显示<br>
+            2.更新后需根据选中的模板调整页面内容</h4>
+        </fieldset>
+ 	</div>
+　 	<layout name="Inc:edit_footer" cache="0" />
+</div>
+</body>
+</html>

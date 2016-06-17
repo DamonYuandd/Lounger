@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>详细内容页面</title>
+<link  href="../css/show.css" rel="stylesheet" type="text/css" />
+<script type=text/javascript><!--//--><![CDATA[//><!--
+function menuFix() {
+var sfEls = document.getElementById("nav_main").getElementsByTagName("li");
+for (var i=0; i<sfEls.length; i++) {
+sfEls[i].onmouseover=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onMouseDown=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onMouseUp=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onmouseout=function() {
+this.className=this.className.replace(new RegExp("( ?|^)sfhover\\b"), 
+"");
+}
+}
+}
+window.onload=menuFix;
+//--><!]]></script>
+
+<link href="css/show.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.STYLE1 {font-size: x-large}
+-->
+</style>
+</head>
+
+<body>
+<div id="container">
+  <div id="header">
+    
+    <div id="logo"><img src="" alt="LOGO" width="181" height="50" /></div>
+    <div id="search">
+      <form id="form1" name="form1" method="post" action="">
+        搜索产品
+        <input class="inp_srh" type="text" name="textfield" id="textfield" />
+        <input class="btn_srh" type="submit" name="button" id="button" value="查询" />
+      </form>
+    </div>
+  </div>
+  <div class="clearfloat"></div>
+  <div id="nav_main">
+    <ul>
+      <li><a href="#">首页信息</a>
+        <ul>
+          <li> <a href="#">信息发布</a></li>
+        </ul>
+      </li>
+      <li><a href="#">手机新闻</a>
+        <ul>
+          <li><a href="#">最新动态</a></li>
+          <li><a href="#">强势推荐</a></li>
+        </ul>
+      </li>
+      <li><a href="#">其他信息1</a>
+        <ul>
+          <li><a href="#">分类1</a></li>
+          <li><a href="#">分类2</a></li>
+          <li><a href="#">分类3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">其他信息2</a></li>
+      <li><a href="#">其他信息3</a></li>
+      <li><a href="#">其他信息4</a></li>
+      <li><a href="#">其他信息5</a></li>
+    </ul>
+  </div>
+  <div class="clearfloat"></div>
+  
+  
+  
+  <div  id ="content">
+  
+  <div id="main_content">
+  <div id="biaoti"> 
+    <div align="center" class="STYLE1">文章标题</div>
+  </div>
+  
+  <div id="neirong"><p>正文内容ASDKLASJFLKASJFLJDFKLSGJHFADHGJKLDSAKLJKSDFJSDKLFJKSDLJAFKLSDAJFKLSDAJFKSDJAFLKJSDKLFJALSDKJFKLSDJALGKSJNHSGJKLNSDJKANLFMNDSLAFN</p>
+     </div>  
+  <div class="clearfloat"></div>
+  </div>
+  
+  
+      <div id="side">
+      <div class="side_box">
+        <h2><strong>产品</strong>推荐</h2>
+        <div class="product">
+          <ul>
+            <li><strong>推荐产品1:</strong><a href="#">详细内容..</a></li>
+            <li><strong>推荐产品2</strong><a href="#">详细内容..</a></li>
+            <li><strong>推荐产品3</strong><a href="#">详细内容..</a></li>
+          </ul>
+        </div>
+      </div>
+  
+  
+  </div>
+   <div class="clearfloat"></div>
+    <div id="footer">
+    <dl>
+    <dt><a href="#">关于我们</a>　||　<a href="#">产品目录</a>　||　<a href="#">联系我们</a>　||　<a href="#">友情链接</a>　||　<a href="#">反馈问题</a>　||　<a href="#">广告合作</a></dt>
+      <dd>Copyright &copy; 2010 - 2011 xinyi.com   All Rights Reserved<br />
+            版权所有  佛山新易信息科技有限公司</dd>
+    </dl>
+  </div>
+</div>
+</body>
+</html>

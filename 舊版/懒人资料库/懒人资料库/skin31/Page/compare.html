@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTmL 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Created Page at 2008-8-8 18:47:50,by V5Shop.com.cn   V5Shop Management Systeme 8.0-->
+<html>
+<head>
+        {web_skin1_通用头部关键字}
+<link href="css/css_others.css" rel="stylesheet" type="text/css">
+<script>
+function CompareGood(id, ids){
+	ids = ids.replace(id,"0");
+	var url = "[$syspath]compare.aspx?ids=" + ids;
+	window.location.href = url;
+}
+</script>
+</head>
+<body text=000000 link=0000cc vlink=0000cc alink=ff6600 topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0">
+<center>
+  <div>{web_skin1_顶部栏目}{web_skin1_顶部导航}{web_skin1_商品搜索}</div>
+  <table border="0" cellpadding="0" cellspacing="1" width="920" bgcolor="#CCCCCC" id="comparetable" >
+    <tr>
+      <td width="150" height="22" align="center" bgcolor="#333333"><div style="width:150px; color:#ffffff"><b>-　商品对比　-</b></div></td>
+      <#loop productcompare,||"["+ids+"],id"||#>
+      <td width="2" background="images/vpro/morebg.gif"></td>
+      <td align="center" background="images/vpro/morebg.gif" bgcolor="#333333"><div style="width:200px"><a href="javascript:CompareGood('{productcompare[id]}','{ids}');"><font color="#FFFFFF">[ 移除此项 ]</font></a></div></td>
+      <#/loop#> 
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 商品编号 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+      <#loop productcompare,||"["+ids+"],number"||#>
+      <td align="center" width="2" id="td0" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#FFFFFF">{productcompare[number]}</td>
+      <#/loop#>
+	</tr>
+    <tr bgcolor="#F1F1F1" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 商品名称 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+      <#loop productcompare,||"["+ids+"],name"||#>
+      <td align="center" width="2" id="td1" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#FFFFFF" valign="top" style="padding:7px"><font color="#000000">{productcompare[name]}</font></td>
+      <#/loop#>
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 商品图片 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],srcdetail"||#>
+      	<td align="center" width="2" id="td2" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      	<td align="center" bgcolor="#FFFFFF" valign="top" style="padding:3px"><img src="{gettmpimg({productcompare[srcdetail]},80,80)}" width="80" height="80"></td>
+		<#/loop#>
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 购买 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],id"||#>
+      	<td align="center" width="2" id="td3" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      	<td align="center" bgcolor="#FFFFFF"><a href="[$syspath]cart.aspx?id={productcompare[id]}&act=buy" target=_blank><img src="images/products/key_buy.gif"  border="0"></a></td>
+	  	<#/loop#>
+	</tr>
+    <tr bgcolor="#F1F1F1" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#FF6600">- 商品价格-</font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],id"||#>
+      <td align="center" width="2" id="td4" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#F1F1F1"></td>
+<#/loop#>
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 市场价 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],marketprice"||#>
+      <td align="center" width="2" id="td5" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#FFFFFF">￥{productcompare[marketprice]}</td>
+<#/loop#>
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 商城价 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],memberprice"||#>
+      <td align="center" width="2" id="td6" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#FFFFFF" height="40"><b style="color:#ff6600">￥{productcompare[memberprice]}</b></td>
+<#/loop#>
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 节省了 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],memberprice$marketprice"||#>
+      		<td align="center" width="2" id="td7" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      		<td align="center" bgcolor="#FFFFFF" style="color:#cc0000">￥{productcompare[SavaPrice]}</td>
+		<#/loop#>
+	</tr>
+    <tr bgcolor="#F1F1F1" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#FF6600">- 基本信息-</font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],id"||#>
+      <td align="center" width="2" id="td8" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#F1F1F1"></td>
+		<#/loop#>
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 商品分类 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],categoryname"||#>
+      <td align="center" width="2" id="td9" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#FFFFFF">{productcompare[categoryname]}</td>
+		<#/loop#>
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 商品品牌 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],brandname"||#>
+      <td align="center" width="2" id="td10" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#FFFFFF">{productcompare[brandname]}</td>
+		<#/loop#>
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 赠送积分 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],score"||#>
+      <td align="center" width="2" id="td11" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#FFFFFF">{productcompare[score]}</td>
+		<#/loop#>
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 商品重量 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],score"||#>
+      <td align="center" width="2" id="td12" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#FFFFFF">{productcompare[score]}Kg</td>
+		<#/loop#>
+	</tr>
+    <tr bgcolor="#ffffff" >
+      <td height="30" bgcolor="#eeeeee" align="center"><table width="100" border="0" cellspacing="0" 
+
+cellpadding="0">
+          <tr>
+            <td width="6"><img src="images/category/key2a.gif" width="6" height="18"></td>
+            <td align="center"><strong><font color="#333333"> 点击次数 </font></strong></td>
+            <td width="8"><img src="images/category/key2c.gif" width="6" height="18"></td>
+          </tr>
+        </table></td>
+		<#loop productcompare,||"["+ids+"],hitcount"||#>
+      <td align="center" width="2" id="td14" bgcolor="#FFFFFF"  background="cimg/announcebar.gif"><img src="cimg/announcebar.gif" width="1" height="1"></td>
+      <td align="center" bgcolor="#FFFFFF">{productcompare[hitcount]}次</td>
+		<#/loop#>
+	</tr>
+  </table>
+  {web_skin1_底部帮助}{web_skin1_友情链接}{web_skin1_版权信息}
+</center>
+</body>
+</html>

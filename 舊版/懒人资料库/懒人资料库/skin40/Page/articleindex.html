@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+{web_skin40_通用头部关键字}
+<link href="css/help.css" rel="stylesheet" type="text/css" />
+</head>
+<script>
+function getobj(id){
+	return document.getElementById(id);	
+}
+
+function selecttab(obj, act, def, special, areaname){
+	var node = childs(obj.parentNode.parentNode.childNodes);
+	for(var i=0;i<node.length;i++){
+		if(node[i].className != special){
+			node[i].className = def;	
+			if(getobj(areaname + "_" + i))
+				getobj(areaname + "_" + i).style.display = "none";
+		}
+	}
+	obj.parentNode.className = act;
+	for(var i=0;i<node.length;i++){
+		if(node[i].className != special){
+			if(node[i].className == act){
+				if(getobj(areaname + "_" + i))
+					getobj(areaname + "_" + i).style.display = "";
+			}
+		}
+	}
+}
+//兼容FF下的childNodes
+function childs(nodes)
+{
+    if(!nodes.length) 
+        return [];
+    var ret=[];
+    for(var i=0;i<nodes.length;i++)
+    {
+        if(nodes[i].nodeType!=1) 
+            continue;
+        ret.push(nodes[i]);
+    }
+    return ret;
+}
+</script>
+
+<body>
+<div class="top">
+{web_skin40_通用头导航2}
+<div class="clear"></div> 
+</div>
+<div class="dqwz"><b>您当前的位置：</b>{pathstr}</div>
+<div class="helpindex_bao" style="width:990px; margin: 0 auto 20px auto;">
+  <div class="fr_daohang" style="width:178px; float:left">
+   <div style="border-top:1px solid #b4282b; "><img src="images/article/index_36.jpg"/><img src="images/article/index_37.jpg"/></div>
+   <div class="fr_daohang1">
+    <div class="fr_daohang2">
+	 <ul>
+	  {web_skin40_文章首页文章分类1}	  
+	 </ul>
+	</div>
+	<div class="fr_daohang2_3">　</div>
+   <div class="clear"></div></div>
+   <div><img src="images/index/index_86.jpg"/></div>
+   
+   </div>
+  <div class="right_daohang" style="width:803px; float:right;">
+   <div style="width:803px;">
+    <div style="height:30px; background:url(images/article/articleindex_04.jpg);">
+	 <div style="float:left;"><img src="images/article/articleindex_03.jpg"/></div>
+	 <div style="float:left; line-height:30px; font-weight:bold; padding-left:8px;">推荐文章</div>
+	 <div style="float:right"><img src="images/article/articleindex_06.jpg"/></div>
+	</div>
+	<div style="background:url(images/article/articleindex_10.jpg); padding:10px;">
+	 <div style="float:left; width:206px;"><script language="javascript" src="Show/eac260b9-6e1b-473f-863b-457c286c4797.js"></script></div>
+	 <div class="articleindex">
+	  <ul>
+	   {web_skin40_文章首页推荐文章}
+	  </ul>
+	 <div style="clear:both"></div></div>
+	<div style=" clear:both"></div></div>
+	<div><img src="images/article/articleindex_16.jpg"/></div>
+   </div>
+   <div style="width:803px; margin-top:15px;">
+    <div style="height:30px; background:url(images/article/articleindex_04.jpg);">
+	 <div style="float:left;"><img src="images/article/articleindex_03.jpg"/></div>
+	 <div style="float:left; line-height:30px; font-weight:bold; padding-left:8px;">热点文章</div>
+	 <div style="float:right"><img src="images/article/articleindex_06.jpg"/></div>
+	</div>
+	<div style="background:url(images/article/articleindex_10.jpg); padding:10px;">
+	 <div style="float:left; width:206px;"><script language="javascript" src="Show/b226e0cd-8f12-45e8-b9b8-ef88cc80427e.js"></script></div>
+	 <div class="articleindex">
+	  <ul>
+	   {web_skin40_文章首页热点文章}
+	  </ul>
+	 <div style="clear:both"></div></div>
+	<div style=" clear:both"></div></div>
+	<div><img src="images/article/articleindex_16.jpg"/></div>
+   </div>
+   <div style="width:803px; margin-top:15px;">
+    <div style="height:30px; background:url(images/article/articleindex_04.jpg);">
+	 <div style="float:left;"><img src="images/article/articleindex_03.jpg"/></div>
+	 <div style="float:left; line-height:30px; font-weight:bold; padding-left:8px;">头条文章</div>
+	 <div style="float:right"><img src="images/article/articleindex_06.jpg"/></div>
+	</div>
+	<div style="background:url(images/article/articleindex_10.jpg); padding:10px;">
+	 <div style="float:left; width:206px;"><script language="javascript" src="Show/9c615644-5a53-434b-ac67-587f54e44e5f.js"></script></div>
+	 <div class="articleindex">
+	  <ul>
+	   {web_skin40_文章首页头条文章}
+	  </ul>
+	 <div style="clear:both"></div></div>
+	<div style=" clear:both"></div></div>
+	<div><img src="images/article/articleindex_16.jpg"/></div>
+   </div>
+   <div style="width:803px; margin-top:15px;">
+    <div style="height:30px; background:url(images/article/articleindex_04.jpg);">
+	 <div style="float:left;"><img src="images/article/articleindex_03.jpg"/></div>
+	 <div style="float:left; line-height:30px; font-weight:bold; padding-left:8px;">精华文章</div>
+	 <div style="float:right"><img src="images/article/articleindex_06.jpg"/></div>
+	</div>
+	<div style="background:url(images/article/articleindex_10.jpg); padding:10px;">
+	 <div style="float:left; width:206px;"><script language="javascript" src="Show/6a2143d6-426c-4a5d-ada0-56ba5b38cfa7.js"></script></div>
+	 <div class="articleindex">
+	  <ul>
+	   {web_skin40_文章首页精华文章}
+	  </ul>
+	 <div style="clear:both"></div></div>
+	<div style=" clear:both"></div></div>
+	<div><img src="images/article/articleindex_16.jpg"/></div>
+   </div>
+</div>
+<div style="clear:both"></div>
+</div>
+<div class="bottom_pz">
+  {web_skin40_帮助类别}
+ {web_skin40_底部订购热线}
+ <div class="clear"></div>
+</div>
+<div class="bottom_bq">
+  {web_skin40_底部版权}
+</div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+﻿<style type="text/css">
+.rI_l {
+border-right:1px solid #F2DA98;
+float:left;
+width:146px;
+}
+
+.rI_l dl {
+overflow:hidden;
+padding:2px 0;
+}
+
+.rI_l dt {
+margin-right:5px;
+}
+
+.rI_l dd.rI_l_d1 {
+background:transparent url(../../template/public/images/products/markbg.gif) no-repeat scroll 0 3px;
+margin-right:5px;
+width:80px;
+}
+
+.rI_l dt, .rI_l dd {
+float:left;
+}
+
+.rI_l dd.rI_l_d1 div {
+background:#FF701B none repeat scroll 0 0;
+height:10px;
+margin-top:3px;
+overflow:hidden;
+padding:0;
+}
+</style>
+{web:ms=readmalls┆输出格式$out_None┆商品排列数$2┆标签宽度$100%┆引用样式$skin3_商品详细统计}
+<script type="text/javascript" language="javascript">
+window.addEvent('domready', function() {
+    var maxvalue = 0;
+    var buycount = 0;
+    var hitcount = 0;
+    var collectcount = 0;
+    var reviewcount = 0;
+    var buycount2 = 0;
+    var hitcount2 = 0;
+    var collectcount2 = 0;
+    var reviewcount2 = 0;
+    if($("buycountvalue"))
+    {
+        buycount = $("buycountvalue").value;
+        buycount2 = buycount;
+    }
+    if(Math.round(buycount) > Math.round(maxvalue))
+    {
+        maxvalue = buycount;
+    }
+    if($("hitcountvalue"))
+    {
+        hitcount = $("hitcountvalue").value;
+        hitcount2 = hitcount;
+    }
+    
+    if(Math.round(hitcount) > Math.round(maxvalue))
+    {
+        maxvalue = hitcount;
+    }
+    if($("collectcountvalue"))
+    {
+        collectcount = $("collectcountvalue").value;
+        collectcount2 = collectcount;
+    }
+    if(Math.round(collectcount) > Math.round(maxvalue))
+    {
+        maxvalue = collectcount;
+    }
+    if($("reviewcountvalue"))
+    {
+        reviewcount = $("reviewcountvalue").value;
+        reviewcount2 = reviewcount;
+    }
+    if(Math.round(reviewcount) > Math.round(maxvalue))
+    {
+        maxvalue = reviewcount;
+    }
+    if(maxvalue >= 100)
+    {
+        buycount = Math.round(100/maxvalue*buycount);
+        hitcount = Math.round(100/maxvalue*hitcount);
+        collectcount = Math.round(100/maxvalue*collectcount);
+        reviewcount = Math.round(100/maxvalue*reviewcount);
+    }
+    $("lengthbuycount").set("width",buycount);
+    if(buycount < 50)
+    {
+        $("buycountb").appendText(buycount2);
+    }
+    $("lengthhitcount").set("width",hitcount);
+    if(hitcount < 50)
+    {
+        $("hitcountb").appendText(hitcount2);
+    }
+    $("lengthcollectcount").set("width",collectcount);
+    if(collectcount < 50)
+    {
+        $("collectcountb").appendText(collectcount2);
+    }
+    $("lengthreviewcount").set("width",reviewcount);
+    if(reviewcount < 50)
+    {
+        $("reviewcountb").appendText(reviewcount2);
+    }
+});
+</script>

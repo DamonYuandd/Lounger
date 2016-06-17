@@ -1,0 +1,36 @@
+<span id="keepalive" style="display:none;">here?!</span>
+
+
+<script>
+var count=0;
+var timer_is_on=1;
+function timedCount(){
+	$('#keepalive').html(heartbeat(count)).css('color',heartbeatstate(count));
+	count=count+1;
+	t=setTimeout(function(){
+		if(count==180){
+			$.getJSON('<?php echo U('/KeepAlive/index')?>',function( data ) {
+				count=0;
+				timedCount();
+			});
+		}else{
+			timedCount();
+		}
+	},1000);
+}
+function heartbeat(c){
+	return c%2?".":"";
+}
+function heartbeatstate(c){
+	if(c<60){
+		return 'green';
+	}else if(c<120){
+		return 'yellow';
+	}else{
+		return 'red';
+	}
+}
+$(function(){
+	timedCount();
+});
+</script>

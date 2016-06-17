@@ -1,0 +1,78 @@
+﻿<form onSubmit="this.action = '[$syspath]message' + '.aspx'" method="post">
+<input type="hidden" name="act" value="gbook" />
+<table style="border-right: #cccccc 1px dashed; border-top: #cccccc 1px dashed; border-left: #cccccc 1px dashed; border-bottom: #cccccc 1px dashed" cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff" border="0">
+    <tbody>
+        <tr align="center">
+            <td bgcolor="#cccccc" colspan="2" height="40"><strong>我要留言 | Message To Us </strong></td>
+        </tr>
+        <tr background="images/vpro/barbg11.gif">
+            <td colspan="2" height="30">
+            <div align="center"><font color="#000099">尊敬的客户，请在这里将您的宝贵建议反馈给我，我们会及时回复，谢谢！</font></div>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" width="31%" height="29"><strong>主　题：</strong></td>
+            <td valign="middle" align="left" width="69%"><input class="input" id="title" maxlength="30" name="title" type="text" /> <font color="#999999">填写您所需要留言的名称</font></td>
+        </tr>
+        <tr>
+            <td align="right" width="31%" height="30"><strong>留言类型：</strong></td>
+            <td valign="middle" align="left">
+			<input id="rblMenuID_0" type="radio" name="MenuID" value="-1" checked="checked" /><label for="rblMenuID_0">全部</label>
+			<#loop menucontent,lylx 100#>
+			<input id="rblMenuID_{menucontent[id]}" type="radio" name="MenuID" value="{menucontent[code]}" /><label for="rblMenuID_{menucontent[id]}">{menucontent[name]}</label>
+			<#/loop#>
+			</td>
+        </tr>
+        <tr>
+            <td align="right" width="31%" height="30"><strong>E-mail：</strong></td>
+            <td valign="middle" align="left"><input class="input" id="email" maxlength="30" name="email" type="text" /> <font color="#999999">您的E-mail联系方式</font></td>
+        </tr>
+        <tr>
+            <td align="right" width="31%" height="30"><strong>电　话：</strong></td>
+            <td valign="middle" align="left"><input class="input" id="telephone" maxlength="30" name="telephone" type="text" />  <font color="#999999">您的电话联系方式</font></td>
+        </tr>
+        <tr>
+            <td align="right" width="31%" height="30"><strong>留　言：</strong></td>
+            <td valign="middle" align="left"><textarea id="content" rows="5" cols="40" name="content"></textarea> </td>
+        </tr>
+		<#if config.SafeCode_Message.Value == "0"#>
+        <tr>
+          <td align="right" width="31%"  height="30"><strong>验 证 码：</strong></td>
+          <td valign="middle" align="left" ><input class="input" id="checkcode" maxlength="4" name="verify" type="text" />
+            &nbsp;
+			<img id="verifyimg" style="cursor:pointer" alt="看不清，点击换一张" onclick="ChangeVerifyImg()" align="absmiddle" />
+			<script language="javascript">
+			function ChangeVerifyImg(){
+				document.getElementById("verifyimg").src = '[$syspath]member/verifyimg.aspx?d=' + Date();
+			}
+			//初始化
+			ChangeVerifyImg();
+			</script>
+			</td>
+        </tr>
+		<#/if#>
+        <tr valign="middle" align="center">
+            <td colspan="2" height="30"><input type="submit" name="Submit2" value="我要发表" onclick="return CheckGbookForm()" /></td>
+        </tr>
+    </tbody>
+</table>
+</form>
+<script language="javascript">
+	function CheckGbookForm(){
+		var obj = document.getElementById("title");
+		if(obj.value == ""){
+			alert("请填写主题");
+			obj.focus();
+			return false;
+		}
+		
+		obj = document.getElementById("content");
+		if(obj.value == ""){
+			alert("请填写留言内容");
+			obj.focus();
+			return false;
+		}
+		
+		return true;
+	}
+</script>

@@ -1,0 +1,80 @@
+﻿<style type="text/css">
+.proact {
+padding:10px 0;
+}
+.actunit {
+color:#000000;
+float:left;
+padding:0 2px;
+text-align:center;
+width:304px !important;
+}
+.actunit1 {
+height:10px;
+}
+.actunit2 {
+background:url("images/products/actunitbg.gif") repeat scroll 0 0 transparent;
+padding:1px 0;
+}
+.actunit3 {
+background:none repeat scroll 0 0 #666666;
+color:#FFFFFF;
+height:25px;
+line-height:25px;
+padding:0 10px;
+text-align:left;
+width:284px !important;
+}
+.actunit4 {
+background:none repeat scroll 0 0 #FFFFFF;
+line-height:20px;
+padding:5px 0;
+}
+.actunit a:visited {
+color:#666666;
+}
+.actunit a:link {
+color:#666666;
+}
+.actunit a:hover {
+color:#FF6600;
+text-decoration:none;
+}
+.actinfo {
+background:none repeat scroll 0 0 #EDEDED;
+color:#000000;
+float:right;
+padding:5px;
+text-align:left;
+width:400px !important;
+}
+</style>
+<div class="right">
+<#loop productactsearch,["+cid+"],* 999#>
+<div class="proact">
+        <div class="actunit">
+          <div class="actunit1"><img src="images/products/actunitbgt.gif"></div>
+          <div class="actunit2"><a href="[$syspath]act.aspx?id={productactsearch[ID]}" target="_blank"><img width="262" height="100" border="0" src="{gettmpimg({productactsearch[srclist]},262,100)}"></a></div>
+          <div class="actunit3">{productactsearch[Name]}[ {productactsearch[StartDate]} ~ {productactsearch[EndDate]} ]</div>
+          <div class="actunit4">
+            <div align="left">
+            <strong> 适用对象：</strong>　{productactsearch[UserGroupName]}
+            <br />
+              <strong>活动状态：</strong>　 <span name="web_ActiveState" id="web_ActiveState">
+                <#if {productactsearch[IsFinish]} == "1"#>
+                    活动已结束
+                <#/if#>
+                <#if {productactsearch[IsFinish]} == "0"#>
+                    活动进行中
+                <#/if#>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="actinfo"><strong>活动内容：</strong>
+            {LeftNoHTML({productactsearch[Content]},200)}
+        </div>
+        <br clear="all">
+      </div>
+<#/loop#>
+</div>

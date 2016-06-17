@@ -1,0 +1,65 @@
+﻿<div class="pro_1"><span><a target="_blank" href="[$syspath]product.aspx?id={gs:productid}"><img alt="" border="0" src="{gs:srcdetail}" /></a></span><span><a target="_blank" href="[$syspath]product.aspx?id={gs:productid}"><img border="0" alt="" src="images/product/grou_1.gif" /></a></span></div>
+<div class="pro_2">
+<h1>{gs:name}</h1>
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+    <tbody>
+        <tr>
+            <th width="26%">市场价：</th>
+            <td width="74%"><s>￥{gs:marketprice}</s></td>
+        </tr>
+        <tr>
+            <th>目前团购价格：</th>
+            <td><font size="+0">￥5600.00</font></td>
+        </tr>
+        <tr>
+            <th>开始时间：</th>
+            <td style="color: #858585">{gs:startdate}</td>
+        </tr>
+        <tr>
+            <th>结束时间：</th>
+            <td style="color: #ee3300">{gs:enddate}</td>
+        </tr>
+        <tr>
+            <th>赠送积分：</th>
+            <td style="color: #12a7ab">score.{gs:score}</td>
+        </tr>
+        <tr>
+            <th>库存：</th>
+            <td>{gs:storage}</td>
+        </tr>
+        <tr>
+            <th>每人限购：</th>
+            <td>{gs:maxcount}</td>
+        </tr>
+        <tr>
+            <th>保证金：</th>
+            <td>￥{gs:needprice}</td>
+        </tr>
+        <tr>
+            <th>团购状态：</th>
+            <td><strong id="groupstatus">loading...</strong></td>
+        </tr>
+        <tr>
+            <th>目前订购数量：</th>
+            <td><b><span id="nowcount">loading..</span> </b></td>
+        </tr>
+        <tr>
+            <th><b>价格阶梯</b></th>
+            <td></td>
+        </tr>
+		<tr>
+<#loop groupbuyprice,||"["+cid+"],[price]$[count]"||#>
+
+		  <th>{groupbuyprice[count]}</th>
+		  <td>{groupbuyprice[price]}</td>
+<#/loop#>
+
+		</tr>
+        <tr>
+            <th>购买数量：</th>
+            <td><input class="input" id="buycount" size="4" value="1" type="text" /> <input id="limitcount" type="hidden" value="{gs:maxcount}" /> <input id="pathnow" type="hidden" value="[$syspath]" /></td>
+        </tr>
+    </tbody>
+</table>
+<div style="text-align: center"><img style="cursor: pointer" alt="参加团购" align="absMiddle" border="0" onClick="JoinGroupBuy({cid})" src="images/product/grou_2.gif" /></div>
+</div>

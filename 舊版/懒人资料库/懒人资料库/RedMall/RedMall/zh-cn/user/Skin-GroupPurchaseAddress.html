@@ -1,0 +1,402 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Default_User.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+        <!--系统页头信息标签-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <%<Hishop:HeadContainer ID="HeadContainer1" runat="server" />%>
+        <%<Hishop:PageTitle runat="server" />%>
+        <%<Hishop:MetaTags runat="server" />%>
+        <!--结束-->
+		<link href="/style/css.css" rel="stylesheet" type="text/css" />
+		<link href="/style/style_user.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="/utility/validate/pagevalidator.css" type="text/css" media="screen" />
+		<script src="/utility/jquery-1.3.2.min.js" type="text/javascript"></script>
+		<script src="/utility/validate/pagevalidator.js" type="text/javascript"></script>
+        <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<form runat="server" id="form1">
+<%<Hishop:TQOnlineServer runat="server" />%>
+<!--新top-->
+<div id="top" class="width-global">
+  <div id="logo">
+    
+    <%<Hishop:Common_Logo runat="server" />%>
+  </div><!--Logo-->
+  <div class="quicklinkbox">
+    <ul class="quicklink">
+      
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="right"><ul class="quicklink">
+		 <li> <Hishop:Common_Link_CreateUser ID="Common_Link_CreateUser1" Text="注册" runat="server" /> </li>
+		 <li>  <Hishop:Common_Link_Login ID="Common_Link_Login1" runat="server" /></li>
+		 <li>  <%<Hishop:Common_Link_MyAccount runat="server" />%> </li>
+          <li>   <%<Hishop:SiteUrl UrlName="shoppingCart" Text="购物车"   target="_blank"  runat="server" />%></li>
+          
+          <li>   <%<Hishop:SiteUrl UrlName="Promotes" Text="优惠活动中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_OrderQuery Text="订单查询" runat="server" />%></li>
+            
+            <li> <%<Hishop:SiteUrl UrlName="AllHelps" Text="帮助中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_LeaveComments Text="客户留言" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_IntegrateDiscuz Text="论坛" runat="server" />%> </li>
+          </ul>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <%<Hishop:Common_ShoppingCart_Info SkinName="/ascx/custom/common_shoppingcart_info.ascx" runat="server" />%>         </td>
+        </tr>
+      </table>
+      </ul>
+  </div>
+  <br class="clear-all" />
+</div>
+<!--顶部信息结束-->
+<div id="header" class="width-global">
+  <div class="nav-box">
+    <ul class="navlist">
+      <li>
+        <h1 id="tag-index"><%<Hishop:SiteUrl UrlName="home" runat="server">首页</Hishop:SiteUrl>%></h1>
+      </li>
+      <li class="nav-proclass"><%<Hishop:Common_PrimaryClass RepeatColumns="6" SeparatorString="" runat="server" MaxNum="6" />%>
+     </li>
+    </ul>
+    <ul class="nav-slist">
+      <li class="bg-slist-left"><%<Hishop:SiteUrl UrlName="allBrand" Text="品牌专卖" runat="server" />%></li>
+	   
+	    <li><%<Hishop:SiteUrl UrlName="AllArticles" Text="文章中心" runat="server" />%></li>
+	    <li><%<Hishop:SiteUrl UrlName="Category" Text="全部分类" runat="server" />%></li>
+      <li class="bg-slist-right"></li>
+    </ul>
+  </div>
+  <div class="search-box">
+    <div class="bg-searchbox-left">
+      <div class="bg-searchbox-right">
+	   <%<Hishop:Common_Search ID="Search" SkinName="/ascx/custom/user-search.ascx" runat="server" />%>
+   
+       <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--导航、搜索栏样式结束-->
+<div class="width-global" style="overflow:hidden; width:980px;"> <%<Hishop:Common_ShowAds AdsID="1" runat="server" />%></div><!--顶部广告位结束-->
+<div class="web_width">
+  <table width="960" border="0" cellspacing="0" cellpadding="0" class="bodycontent">
+    <tr>
+      <td align="left" valign="top"><div class="web_width">
+        <div class="user_center_left">
+          <h2  class="user_center_left_title">用户中心</h2>
+          <div class="pad_5" style="padding-top:14px;padding-left:12px;">
+            <div id="leftbox">
+              <ul class="NavClass">
+                <li>
+                  <h2 id="MyRec">我的交易记录</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserPoints" CssClass="n1" runat="server">我的积分</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_MyCoupons" runat="server">我的优惠券</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserOrders" runat="server">订单管理</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="ProFavRev">商品收藏与评论</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_Favorites" runat="server">收藏夹</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserConsultations" runat="server">咨询/回复</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserProductReviews" runat="server">我参与的评论</Hishop:SiteUrl>%>
+                    </li>
+                    <li><%<Hishop:SiteUrl UrlName="user_BatchBuy" runat="server">商品批量购买</Hishop:SiteUrl>%></li>
+                  </ul>
+                </li>
+                <li id="htmlLiReferral" runat="server">
+                  <h2 id="MumRec">会员推荐提成</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_ReferralMembers" runat="server">我推荐的会员</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_DeductDetails" runat="server">推荐提成明细</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Acu">预付款账户</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_MyAccountSummary" runat="server">预付款账户</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_RechargeRequest" runat="server">预付款充值</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Opt">个人设置</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserProfile" runat="server">个人信息</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UpdatePassword" runat="server">修改密码</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserShippingAddresses" runat="server">我的收货地址</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="ProFavRev">站内消息</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserReceivedMessages" runat="server">收件箱</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserSendedMessages" runat="server">发件箱</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserSendMessage" runat="server">给管理员发消息</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Acu">
+                    <%<Hishop:SiteUrl UrlName="logout" runat="server">退出</Hishop:SiteUrl>%>
+                  </h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="user_center_right"><!-- InstanceBeginEditable name="EditRegion" -->
+<%<Hishop:ValidatorContainer runat="server" ID="ValidatorContainer" />%>
+<%<Hishop:SmallStatusMessage id="Status" runat="server" Visible="False" />%>
+<%<asp:Panel ID="IsShipping" runat="server" Width="100%">%>
+<table class="classlistindex" style="margin:0;" width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td class="userManager_TD">
+            <!-- 用户收获人地址选择列表 -->
+            <div style="width:100%;word-break:break-all;margin:auto;">
+                <Hishop:ShipppingAddressRadioButtonList ID="radlAddress" runat="server" AutoPostBack="true"/>
+            </div>
+            <!-- 所选收获人地址详细信息 -->
+            <div>
+                <table width="100%" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#D4D0C8"
+                    class="guigeStyle" style="border: 1px solid #808080;">
+                    <!-- 标题 -->
+                    <tr>
+                        <td height="30" colspan="3" bgcolor="#F5F5F5">
+                            <img src="/images/lefticon.gif" width="11" height="11" />
+                                <span class="productName2">
+                                    <asp:Literal ID="litaddress" runat="server" Text="<%$ Resources:GroupPurchaseAddress, IDS_FormField_GroupPurchaseAddress %>"></asp:Literal>：
+                                </span>
+                        </td>
+                    </tr>
+                    <!-- 收获人 -->
+                    <tr>
+                        <td height="30" align="right">
+                            <asp:Literal ID="Literal1" runat="server" Text="<%$ Resources:GroupPurchaseAddress, IDS_FormField_ShipTo %>"></asp:Literal>：
+                        </td>
+                        <td style="padding-left:10px; width:317px;">
+                            <asp:TextBox ID="txtShipTo" runat="server" CssClass="inputstyle" MaxLength="64"></asp:TextBox>
+                        </td>
+                        <td bgcolor="#F6F6F6" width="35%;">
+                            <div id="txtShipToTip" runat="server" style="width:86%;"></div>
+                            <Hishop:ValidateTarget ID="validateTargetUserName" ContainerId="ValidatorContainer"
+                                runat="server" ControlToValidate="txtShipTo" Description="<%$ Resources:GroupPurchaseAddress, IDS_UserName_Description%>">
+                                <Validators>
+                                    <Hishop:InputStringClientValidator ErrorMessage="<%$ Resources:GroupPurchaseAddress, IDS_UserName_ErrorMessage%>" LowerBound="3"
+                                        UpperBound="20" />
+                                </Validators>
+                            </Hishop:ValidateTarget>
+                        </td>
+                    </tr>
+                    <!-- 收获地址 -->
+                    <tr>
+                        <td height="30" align="right">
+                            <asp:Literal ID="Literal2" runat="server" Text="<%$ Resources:GroupPurchaseAddress, IDS_FormField_Region %>"></asp:Literal>：</td>
+                        <td style="padding-left:10px; width:317px;">
+                            <Hishop:RegionsInfoDropDownList ID="dropRegions" runat="server" />
+                        </td>
+                        <td width="35%;padding-left:4px;padding-right:4px; padding-top:4px; padding-bottom:4px;">
+                            &nbsp
+                        </td>
+                    </tr>
+                    <!-- 详细地址 -->
+                    <tr>
+                        <td height="30" align="right">
+                            <asp:Literal ID="Literal3" runat="server" Text="<%$ Resources:GroupPurchaseAddress, IDS_FormField_Address %>"></asp:Literal>：
+                        </td>
+                        <td style="padding-left:10px; width:317px;">
+                            <asp:TextBox ID="txtAddress" runat="server" CssClass="inputstyle" Columns="30" MaxLength="200"></asp:TextBox>
+                        </td>
+                        <td width="35%;padding-left:4px;padding-right:4px; padding-top:4px; padding-bottom:4px;">
+                            <div id="txtAddressTip" runat="server" style="width:86%;"></div>
+                            <Hishop:ValidateTarget ID="validateTarget1" ContainerId="ValidatorContainer" runat="server"
+                                ControlToValidate="txtAddress" Description="<%$ Resources:GroupPurchaseAddress, IDS_Address_Description%>">
+                                <Validators>
+                                    <Hishop:InputStringClientValidator ErrorMessage="<%$ Resources:GroupPurchaseAddress, IDS_Address_ErrorMessage %>" LowerBound="3" UpperBound="200" />
+                                </Validators>
+                            </Hishop:ValidateTarget>
+                        </td>
+                    </tr>
+                    <!-- 邮政编码 -->
+                    <tr>
+                        <td height="30" align="right">
+                            <asp:Literal ID="Literal4" runat="server" Text="<%$ Resources:GroupPurchaseAddress, IDS_FormField_ZipCode %>"></asp:Literal>：
+                        </td>
+                        <td style="padding-left:10px; width:317px;">
+                            <asp:TextBox ID="txtZipcode" runat="server" CssClass="inputstyle" MaxLength="20"></asp:TextBox>
+                            <asp:RequiredFieldValidator ID="valrZipCode" runat="server" ControlToValidate="txtZipcode"
+                                SetFocusOnError="True" ValidationGroup="valsAddress" ErrorMessage="<%$ Resources:GroupPurchaseAddress, IDS_ZipCode_ErrorMessage %>"
+                                Display="None"></asp:RequiredFieldValidator>
+                        </td>
+                        <td width="35%;padding-left:4px;padding-right:4px; padding-top:4px; padding-bottom:4px;">
+                            <div id="txtZipcodeTip" runat="server" style="width:86%;"></div>
+                            <Hishop:ValidateTarget ID="validateTarget2" ContainerId="ValidatorContainer" runat="server"
+                                ControlToValidate="txtZipcode" Description="<%$ Resources:GroupPurchaseAddress, IDS_ZipCode_Description %>">
+                                <Validators>
+                                    <Hishop:InputStringClientValidator ErrorMessage="<%$ Resources:GroupPurchaseAddress, IDS_ZipCode_ErrorMessage %>" LowerBound="3" UpperBound="20" />
+                                </Validators>
+                            </Hishop:ValidateTarget>
+                            <ajaxToolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender1" runat="server" FilterType="Numbers" TargetControlID="txtZipcode" />
+                        </td>
+                    </tr>
+                    <!-- 电子邮箱 -->
+                    <tr>
+                        <td height="30" align="right">
+                            <asp:Literal ID="Literal5" runat="server" Text="<%$ Resources:GroupPurchaseAddress, IDS_FormField_Email %>"></asp:Literal>：</td>
+                        <td style="padding-left:10px; width:317px;">
+                            <asp:TextBox ID="txtEmailAddress" runat="server" CssClass="inputstyle"></asp:TextBox>
+                        </td>
+                        <td width="35%;padding-left:4px;padding-right:4px; padding-top:4px; padding-bottom:4px;">
+                            <div id="txtEmailAddressTip" runat="server" style="width:86%;"></div>
+                            <Hishop:ValidateTarget ID="validateTarget3" ContainerId="ValidatorContainer" runat="server"
+                                ControlToValidate="txtEmailAddress" Description="<%$Resources:CreateOrder, IDS_Message_Email %>">
+                                <Validators>
+                                    <Hishop:InputStringClientValidator ErrorMessage="<%$Resources:CreateOrder, IDS_ErrorMessage_Email %>"
+                                        LowerBound="3" UpperBound="20" Regex="([a-zA-Z\\.0-9_-])+@([a-zA-Z0-9_-])+((\\.[a-zA-Z0-9_-]{2,3}){1,2})" />
+                                </Validators>
+                            </Hishop:ValidateTarget>
+                        </td>
+                    </tr>
+                    <!-- 电话号码 -->
+                    <tr>
+                        <td height="30" align="right">
+                            <asp:Literal ID="Literal6" runat="server" Text="<%$ Resources:GroupPurchaseAddress, IDS_FormField_TelPhone %>"></asp:Literal>
+                            ：</td>
+                        <td style="padding-left:10px; width:317px;">
+                            <asp:TextBox ID="txtTelPhone" runat="server" CssClass="inputstyle"></asp:TextBox></td>
+                        <td width="35%;padding-left:4px;padding-right:4px; padding-top:4px; padding-bottom:4px;">
+                            <div id="txtTelPhoneTip" runat="server" style="width:86%;">
+                            </div>
+                            <Hishop:ValidateTarget ID="validateTarget5" ContainerId="ValidatorContainer" runat="server"
+                                Nullable="true" ControlToValidate="txtTelPhone" Description="<%$ Resources:GroupPurchaseAddress, IDS_TelPhone_Description %>">
+                                <Validators>
+                                    <Hishop:InputStringClientValidator ErrorMessage="<%$ Resources:GroupPurchaseAddress, IDS_TelPhone_ErrorMessage %>" LowerBound="3" UpperBound="20" />
+                                </Validators>
+                            </Hishop:ValidateTarget>
+                            <ajaxToolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender2" runat="server"
+                                TargetControlID="txtTelPhone" FilterType="Custom,Numbers" ValidChars="-" />
+                        </td>
+                    </tr>
+                    <!-- 手机号码 -->
+                    <tr>
+                        <td height="30" align="right">
+                            <asp:Literal ID="Literal7" runat="server" Text="<%$ Resources:GroupPurchaseAddress, IDS_FormField_CellPhone %>"></asp:Literal>
+                            ：</td>
+                        <td style="padding-left:10px; width:317px;">
+                            <asp:TextBox ID="txtCellPhone" runat="server" CssClass="inputstyle"></asp:TextBox>
+                        </td>
+                        <td width="35%;padding-left:4px;padding-right:4px; padding-top:4px; padding-bottom:4px;">
+                            <div id="txtCellPhoneTip" runat="server" style="width:86%;">
+                            </div>
+                            <Hishop:ValidateTarget ID="validateTarget4" ContainerId="ValidatorContainer" runat="server"
+                                Nullable="true" ControlToValidate="txtCellPhone" Description="<%$ Resources:GroupPurchaseAddress, IDS_CellPhone_Description %>">
+                                <Validators>
+                                    <Hishop:InputStringClientValidator ErrorMessage="<%$ Resources:GroupPurchaseAddress, IDS_CellPhone_ErrorMessage %>" LowerBound="3" UpperBound="20" />
+                                </Validators>
+                            </Hishop:ValidateTarget>
+                            <ajaxToolkit:FilteredTextBoxExtender ID="FilteredTextBoxExtender3" runat="server"
+                                TargetControlID="txtCellPhone" FilterType="Custom,Numbers" />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+          </td>
+        </tr>
+      </table>
+    <hr />
+    <!-- 配送方式 -->
+    <Hishop:Common_ShoppingCart_ShippingModeTable runat="server" />
+    <!-- 支付方式 -->
+    <div style="margin:auto;height:35px;line-height:35px; text-align:left;" class="productName2">
+        <img src="/images/lefticon.gif" width="11" height="11" />
+        <asp:Literal ID="litPay" runat="server" Text="<%$ Resources:ShippingAddress, IDS_Header_PayModeName %>"></asp:Literal>：
+        <asp:Literal ID="litPayMent" runat="server" />
+    </div>
+    <hr />
+</asp:Panel>%>
+
+<!-- 按钮 -->
+<table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+        <td align="center">
+            <label>
+                <%<asp:Button ID="btnNextStep" runat="server" CssClass="button" Text="<%$ Resources:ShippingAddress, IDS_Button_NextButton %>"
+                    OnClientClick="return PageIsValid();" />%>
+            </label>
+        </td>
+    </tr>
+    <tr>
+    </tr>
+</table>
+	<!-- InstanceEndEditable --></div>
+      </div></td>
+    </tr>
+  </table> 
+  </div>
+<table width="960" border="0" align="center" cellpadding="0" cellspacing="0" class="table_help" style="margin-top:20px;">
+  <tr>
+    <td ><div class="border-inside">
+     <%<Hishop:Common_Help runat="server" />%>
+  </div></td>
+    </tr>
+</table>
+
+<div class="page_w marginCenter">
+  <div class="userLink">
+  <div class="width-global friendlink">    <!--友情链接开始-->
+<table><tr><td>  <h1>友情链接：</h1></td><td> <%<Hishop:Common_FriendLinks SkinName="/ascx/custom/user-FriendLinks.ascx" runat="server"  />%> </td></tr></table>
+  </div>
+    </div>
+</div>
+
+</div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="mar_tb6" >
+  <tr>
+    <td  align="center" class="bottom">
+		<%<Hishop:CnzzShow ID="CnzzShow1" runat="server" />%>
+		<%<Hishop:PageFooter ID="PageFooter" runat="server"></Hishop:PageFooter>%>
+		<%<Hishop:LicenseControl runat="server" />%>
+        <%<Hishop:SiteCopyright runat="server" />%>
+	</td>
+  </tr>
+</table>
+</form>
+</body>
+<!-- InstanceEnd --></html>

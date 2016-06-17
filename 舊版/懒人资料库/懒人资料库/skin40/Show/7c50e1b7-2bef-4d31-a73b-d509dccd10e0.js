@@ -1,0 +1,1 @@
+document.getElementById("Images/gg/index_1238555.jpg").style.backgroundImage = "url(/member/Advertisement_Ads_ClickCount.aspx?mark=7c50e1b7-2bef-4d31-a73b-d509dccd10e0&&uri=aHR0cDovL3d3dy52NXNob3AuY29tLmNuLw==)";

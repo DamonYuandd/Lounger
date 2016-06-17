@@ -1,0 +1,34 @@
+<div class="mainright">
+      <div class="tit02">
+        <div class="th">{~c_title($_GET['cid'],'')}</div>
+        <div class="thr">当前位置：<a href="__APP__">首页</a> > <a href="__APP__/Market.html">营销中心</a> > <span>{~c_title($_GET['cid'],'')}</div>
+      </div>
+      <div class="textbox">
+         <div class="contact">
+              <div class="contact_left">
+<strong style=" font-size:16px;">{$obj.title}</strong><br />
+<strong>联系人：</strong>{$obj.linkman}<br />
+<strong>地址：</strong>{$obj.address}<br />
+<strong>电话：</strong>{$obj.phone}<br />
+<strong>传真：</strong>{$obj.fax}<br />
+<strong>邮编：</strong>{$obj.postcode}<br />
+<strong>E-mail：</strong>{$obj.email}<br />
+<strong>描述：</strong>{$obj.description}<br />
+
+
+</div>
+               <div class="map" style="border:none">
+               
+               <notempty name="obj.code">
+               {$obj.code}
+               </notempty>
+               <notempty name="obj.image">
+               <img src="__PUBLIC__/data/upload/images/market/m_{$obj.image}" width="320" />
+               </notempty>
+               
+               </div>
+               <div style=" clear:both;"></div>
+               </div>
+      </div>
+      <div style="clear:both;"></div>
+    </div>

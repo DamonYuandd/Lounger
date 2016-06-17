@@ -1,0 +1,158 @@
+<style>
+.contact_icon{
+margin-top: -30px;
+margin-left: 140px;
+width: 600px;
+overflow: hidden;
+}
+.contact_icon li{
+	float:left;
+	margin-right: 10px;
+	width: 40px;
+	text-align: center;
+}
+.contact_icon li img{
+	width:40px
+}
+</style>
+
+<div class="nav-site">{~getNavSite($nav_site,2)} &gt; 系统设置 &gt; 网站联系方式 &gt; 编缉内容</div>
+
+<form action="__APP__/Admin/<?php echo MODULE_NAME; ?>/<?php echo $obj==null?'add':'update'; ?>" method="post" enctype="multipart/form-data" class="form">  
+<input type="hidden" id="id" name="id" value="{$obj.id}">
+<input type="hidden" name="category_id" value="{.cid}">
+<input type="hidden" name="hardware" value="{$Think.session.hardware}">
+<input type="hidden" id="image" name="image" value="{$obj.image}">
+<input type="hidden" id="content_type" name="content_type" value="{$obj.content_type}">
+<input type="hidden" id="is_publish" name="is_publish" value="1">
+   <fieldset>
+       <ul class="align-list">
+       	   {~isLang()}
+           <li id="li_icon">
+               <label>图标</label>
+			   <ul class="contact_icon">
+				<li><a href="#" id="address"><img src="__ADMIN__/Public/imgs/mobile/address.png" align="absmiddle" alt="">地址</a></li>
+				<li><a href="#" id="mail"><img src="__ADMIN__/Public/imgs/mobile/mail.png" align="absmiddle" alt="">邮箱</a></li>
+				<li><a href="#" id="phone"><img src="__ADMIN__/Public/imgs/mobile/phone.png" align="absmiddle" alt="">电话</a></li>
+				<li><a href="#" id="qq_weibo"><img src="__ADMIN__/Public/imgs/mobile/qq_weibo.png" align="absmiddle" alt="">微博</a></li>
+				<li><a href="#" id="sina_weibo"><img src="__ADMIN__/Public/imgs/mobile/sina_weibo.png" align="absmiddle" alt="">微博</a></li>
+				<li><a href="#" id="fax"><img src="__ADMIN__/Public/imgs/mobile/fax.png" align="absmiddle" alt="">传真</a></li>
+				<li><a href="#" id="sms"><img src="__ADMIN__/Public/imgs/mobile/sms.png" align="absmiddle" alt="">短信</a></li>
+				<li><a href="#" id="tx_wx"><img src="__ADMIN__/Public/imgs/mobile/tx_wx.png" align="absmiddle" alt="">微信</a></li>
+				<li><a href="#" id="ren"><img src="__ADMIN__/Public/imgs/mobile/ren.png" align="absmiddle" alt="">联系人</a></li>
+				<li><a href="#" id="url"><img src="__ADMIN__/Public/imgs/mobile/url.png" align="absmiddle" alt="">网址</a></li>
+				<li><a href="#" id="code"><img src="__ADMIN__/Public/imgs/mobile/code.png" align="absmiddle" alt="">邮编</a></li>
+			   </ul>
+           </li>
+		   <div id="contact_box">
+           <li>
+               <label>标题</label>
+               <input type="text" id="title" name="title" value="{$obj.title}" class="type-text">
+           </li>
+           <li>
+               <label>内容</label>
+               <textarea id="content" name="content" cols="100" rows="3">{$obj.content}</textarea>
+           </li>
+		   <div id="photo_tip" style="color:#666;margin-left: 140px;display:none;">电话格式：0755-27221280</div>
+		   <div id="traffic_box" style="display:none;">
+		   <li>
+               <label>乘公交车</label>
+               <textarea name="traffic1" id="traffic1" rows="3" cols="60" class="type-text">{$obj.traffic1}</textarea>
+           </li>
+		   <li>
+               <label>乘出租车</label>
+               <textarea name="traffic2" id="traffic2" rows="3" cols="60" class="type-text">{$obj.traffic2}</textarea>
+           </li>
+		   </div>
+		   </div>
+		   <div id="map_point_box" style="display:none;">
+		   <hr>
+		   <li>
+               <label>您的办公地点</label>
+               <input type="text" id="office_location" name="office_location" value="{$obj.office_location}" class="type-text" style="width:500px;">
+			   <input type="button" id="map_point" value="获取地图位置" style="padding:8px;">
+           </li>
+		   <li>
+               <label>X：</label>
+               <input type="text" id="point_x" name="point_x" value="{$obj.point_x}" class="type-text" style="width:500px;"><br>
+			   <label>Y：</label>
+               <input type="text" id="point_y" name="point_y" value="{$obj.point_y}" class="type-text" style="width:500px;">
+           </li>
+		   <li>
+		   	   <label></label>
+			   <div style="width:76%;height:340px;border:1px solid gray;margin-left: 140px;" id="container"></div>
+		   </li>
+		   </div>
+		   <li>
+               <label></label>
+           </li>
+           <li>
+               <label></label>
+               <input type="submit" value="确定并保存" name="save" class="button button-green button-big" />
+               <input type="button" value="返回列表" onclick="javascript:history.go(-1);" class="button button-big" />
+            </li>
+        </ul>
+    </fieldset>
+</form>
+
+<script>
+$(function(){
+	
+	$("input[name=lang][value=<?php echo empty($obj['lang'])?$_SESSION['lang']:$obj['lang']; ?>]").attr("checked", true);
+
+	var image = '{$obj.image}';
+	if (image != '') {
+		$('#' + image).find('img').css('border', '2px solid red');
+	}
+	
+	$('.contact_icon li a').click(function(){
+		if($(this).attr('id')=='tel') {
+			$("#photo_tip").show();
+		} else {
+			$("#photo_tip").hide();
+		}
+		if($(this).attr('id')=='address' || $(this).css('border')=='2px solid red') {
+			//$('#traffic_box').show();
+			$('#map_point_box').show();
+		} else {
+			//$('#traffic_box').hide();
+			$('#map_point_box').hide();
+		}
+		$('.contact_icon li').find('img').css('border','');
+		$(this).find('img').css('border','2px solid red');
+		$('#image').val($(this).attr('id'));
+		
+		$('#content_type').val($(this).attr('id'));
+	});
+	
+	$('#{$obj.image}').trigger('click');
+
+	$('#map_point').click(function(){
+		window.searchBmap($('#office_location').val());
+	});
+
+	var office_location='{$obj.office_location}';
+	if(office_location) {
+		window.searchBmap(office_location);
+	}
+
+});
+
+function searchBmap(officeLocation) {
+	var map = new BMap.Map("container");
+	map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);
+	// 创建地址解析器实例
+	var myGeo = new BMap.Geocoder();
+	// 将地址解析结果显示在地图上,并调整地图视野
+	myGeo.getPoint(officeLocation, function(point){
+	  if (point) {
+	    map.centerAndZoom(point, 16);
+	    map.addOverlay(new BMap.Marker(point));
+
+		$('#point_x').val(map.getCenter().lng);
+		$('#point_y').val(map.getCenter().lat);
+	  }
+	}, "");
+}
+</script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script>

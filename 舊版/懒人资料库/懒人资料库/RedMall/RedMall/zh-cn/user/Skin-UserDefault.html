@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Default_User.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+        <!--系统页头信息标签-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <%<Hishop:HeadContainer ID="HeadContainer1" runat="server" />%>
+        <%<Hishop:PageTitle runat="server" />%>
+        <%<Hishop:MetaTags runat="server" />%>
+        <!--结束-->
+		<link href="/style/css.css" rel="stylesheet" type="text/css" />
+		<link href="/style/style_user.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="/utility/validate/pagevalidator.css" type="text/css" media="screen" />
+		<script src="/utility/jquery-1.3.2.min.js" type="text/javascript"></script>
+		<script src="/utility/validate/pagevalidator.js" type="text/javascript"></script>
+        <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<form runat="server" id="form1">
+<%<Hishop:TQOnlineServer runat="server" />%>
+<!--新top-->
+<div id="top" class="width-global">
+  <div id="logo">
+    
+    <%<Hishop:Common_Logo runat="server" />%>
+  </div><!--Logo-->
+  <div class="quicklinkbox">
+    <ul class="quicklink">
+      
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="right"><ul class="quicklink">
+		 <li> <Hishop:Common_Link_CreateUser ID="Common_Link_CreateUser1" Text="注册" runat="server" /> </li>
+		 <li>  <Hishop:Common_Link_Login ID="Common_Link_Login1" runat="server" /></li>
+		 <li>  <%<Hishop:Common_Link_MyAccount runat="server" />%> </li>
+          <li>   <%<Hishop:SiteUrl UrlName="shoppingCart" Text="购物车"   target="_blank"  runat="server" />%></li>
+          
+          <li>   <%<Hishop:SiteUrl UrlName="Promotes" Text="优惠活动中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_OrderQuery Text="订单查询" runat="server" />%></li>
+            
+            <li> <%<Hishop:SiteUrl UrlName="AllHelps" Text="帮助中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_LeaveComments Text="客户留言" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_IntegrateDiscuz Text="论坛" runat="server" />%> </li>
+          </ul>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <%<Hishop:Common_ShoppingCart_Info SkinName="/ascx/custom/common_shoppingcart_info.ascx" runat="server" />%>         </td>
+        </tr>
+      </table>
+      </ul>
+  </div>
+  <br class="clear-all" />
+</div>
+<!--顶部信息结束-->
+<div id="header" class="width-global">
+  <div class="nav-box">
+    <ul class="navlist">
+      <li>
+        <h1 id="tag-index"><%<Hishop:SiteUrl UrlName="home" runat="server">首页</Hishop:SiteUrl>%></h1>
+      </li>
+      <li class="nav-proclass"><%<Hishop:Common_PrimaryClass RepeatColumns="6" SeparatorString="" runat="server" MaxNum="6" />%>
+     </li>
+    </ul>
+    <ul class="nav-slist">
+      <li class="bg-slist-left"><%<Hishop:SiteUrl UrlName="allBrand" Text="品牌专卖" runat="server" />%></li>
+	   
+	    <li><%<Hishop:SiteUrl UrlName="AllArticles" Text="文章中心" runat="server" />%></li>
+	    <li><%<Hishop:SiteUrl UrlName="Category" Text="全部分类" runat="server" />%></li>
+      <li class="bg-slist-right"></li>
+    </ul>
+  </div>
+  <div class="search-box">
+    <div class="bg-searchbox-left">
+      <div class="bg-searchbox-right">
+	   <%<Hishop:Common_Search ID="Search" SkinName="/ascx/custom/user-search.ascx" runat="server" />%>
+   
+       <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--导航、搜索栏样式结束-->
+<div class="width-global" style="overflow:hidden; width:980px;"> <%<Hishop:Common_ShowAds AdsID="1" runat="server" />%></div><!--顶部广告位结束-->
+<div class="web_width">
+  <table width="960" border="0" cellspacing="0" cellpadding="0" class="bodycontent">
+    <tr>
+      <td align="left" valign="top"><div class="web_width">
+        <div class="user_center_left">
+          <h2  class="user_center_left_title">用户中心</h2>
+          <div class="pad_5" style="padding-top:14px;padding-left:12px;">
+            <div id="leftbox">
+              <ul class="NavClass">
+                <li>
+                  <h2 id="MyRec">我的交易记录</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserPoints" CssClass="n1" runat="server">我的积分</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_MyCoupons" runat="server">我的优惠券</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserOrders" runat="server">订单管理</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="ProFavRev">商品收藏与评论</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_Favorites" runat="server">收藏夹</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserConsultations" runat="server">咨询/回复</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserProductReviews" runat="server">我参与的评论</Hishop:SiteUrl>%>
+                    </li>
+                    <li><%<Hishop:SiteUrl UrlName="user_BatchBuy" runat="server">商品批量购买</Hishop:SiteUrl>%></li>
+                  </ul>
+                </li>
+                <li id="htmlLiReferral" runat="server">
+                  <h2 id="MumRec">会员推荐提成</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_ReferralMembers" runat="server">我推荐的会员</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_DeductDetails" runat="server">推荐提成明细</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Acu">预付款账户</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_MyAccountSummary" runat="server">预付款账户</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_RechargeRequest" runat="server">预付款充值</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Opt">个人设置</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserProfile" runat="server">个人信息</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UpdatePassword" runat="server">修改密码</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserShippingAddresses" runat="server">我的收货地址</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="ProFavRev">站内消息</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserReceivedMessages" runat="server">收件箱</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserSendedMessages" runat="server">发件箱</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserSendMessage" runat="server">给管理员发消息</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Acu">
+                    <%<Hishop:SiteUrl UrlName="logout" runat="server">退出</Hishop:SiteUrl>%>
+                  </h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="user_center_right"><!-- InstanceBeginEditable name="EditRegion" -->
+<div style="margin-bottom:20px;"><span class="color-blue225982">你的位置：<%<Hishop:SiteUrl UrlName="home" runat="server" style="color:blue;">首页</Hishop:SiteUrl>%> &gt; 会员中心</span></div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="deputyUser">
+      <tr>
+        <td class="deputy_pad deputy"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><span class="font_14">欢迎您</span><span><%<asp:Literal ID="litUser" runat="server"></asp:Literal>%></span></td>
+          </tr>
+          <tr>
+            <td>
+                <div style=" background-color:#ffffff; padding:6px; border:solid 1px #D2D2D2;">
+                    <p style="margin-top:6px;"><label style="color:Black;">您的积分为：</label><%<asp:Literal ID="litUserPoint" runat="server"></asp:Literal>%></p>
+                    <p style="margin-top:6px;"><label style="color:Black;">您目前的等级是：</label><span style="color:#00CC00;"><%<asp:Literal ID="litUserRank" runat="server"></asp:Literal>%></span></p>
+                    <p style="margin-top:6px;" id="htmPUserLink" runat="server"><label style="color:Black;">推广链接：</label><strong><%<asp:Literal ID="litUserLink" runat="server" ></asp:Literal>%></strong></p>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="deputy_margin">
+              <tr>
+                <td class="deputy_tit">预付款账户查询</td>
+              </tr>
+              <tr>
+                <td class="deputy_pad1"><div class="deputy_div">
+                    <ul>
+                      <li>账户总余额：<span class="color_f00"><%<Hishop:Common_Advance_BalanceMoney runat="server"  />%> </span><span><%<Hishop:SiteUrl UrlName="user_MyBalanceDetails" runat="server">查看账户明细</Hishop:SiteUrl>%></span></li>
+                      <li>可用余额：<span class="color_f00"><%<Hishop:Common_Advance_UsableBalance runat="server"  />%></span> <span class="color_f00">金额不够?</span><span><%<Hishop:SiteUrl UrlName="user_RechargeRequest" runat="server">充值</Hishop:SiteUrl>%></span></li>
+                    </ul>
+                </div></td>
+              </tr>
+
+            </table>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" class="deputy_margin">
+                <tr>
+                  <td class="deputy_tit">冻结余额查询</td>
+                </tr>
+                <tr>
+                  <td class="deputy_pad1"><div class="deputy_div">
+                      <ul>
+                        <li>冻结余额：<span class="color_f00"><%<Hishop:Common_Advance_FrozenMoney runat="server"  />%></span><span><%<Hishop:SiteUrl UrlName="user_MyBalanceFreezeDetails" runat="server">查看冻结金额明细</Hishop:SiteUrl>%></span></li>
+                      </ul>
+                  </div></td>
+                </tr>
+              </table>
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" class="deputy_margin">
+                <tr>
+                  <td class="deputy_tit">提现申请查询</td>
+                </tr>
+                <tr>
+                  <td class="deputy_pad1"><div class="deputy_div">
+                      <ul>
+                        <li><span><%<Hishop:SiteUrl UrlName="user_RequestBalanceDraw" runat="server">申请提现</Hishop:SiteUrl>%></span></li>
+						<li><span><%<Hishop:SiteUrl UrlName="user_MyBalanceDrawRequest" runat="server">查看提现申请明细</Hishop:SiteUrl>%></span></li>
+                      </ul>
+                  </div></td>
+                </tr>
+              </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+	<!-- InstanceEndEditable --></div>
+      </div></td>
+    </tr>
+  </table> 
+  </div>
+<table width="960" border="0" align="center" cellpadding="0" cellspacing="0" class="table_help" style="margin-top:20px;">
+  <tr>
+    <td ><div class="border-inside">
+     <%<Hishop:Common_Help runat="server" />%>
+  </div></td>
+    </tr>
+</table>
+
+<div class="page_w marginCenter">
+  <div class="userLink">
+  <div class="width-global friendlink">    <!--友情链接开始-->
+<table><tr><td>  <h1>友情链接：</h1></td><td> <%<Hishop:Common_FriendLinks SkinName="/ascx/custom/user-FriendLinks.ascx" runat="server"  />%> </td></tr></table>
+  </div>
+    </div>
+</div>
+
+</div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="mar_tb6" >
+  <tr>
+    <td  align="center" class="bottom">
+		<%<Hishop:CnzzShow ID="CnzzShow1" runat="server" />%>
+		<%<Hishop:PageFooter ID="PageFooter" runat="server"></Hishop:PageFooter>%>
+		<%<Hishop:LicenseControl runat="server" />%>
+        <%<Hishop:SiteCopyright runat="server" />%>
+	</td>
+  </tr>
+</table>
+</form>
+</body>
+<!-- InstanceEnd --></html>

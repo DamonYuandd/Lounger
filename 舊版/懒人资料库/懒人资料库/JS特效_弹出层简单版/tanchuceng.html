@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>-</title>
+<style>
+body { margin:0px }
+#Loading { position:absolute; z-index:10; left:10px; top:10px; border:1px #666666 solid; background:#eeeeee; width:10px; height:10px }
+</style>
+<script LANGUAGE="JavaScript"> 
+<!-- 
+function $(){return document.getElementById?document.getElementById(arguments[0]):eval(arguments[0]);}
+var OverH,OverW,ChangeDesc,ChangeH=20,ChangeW=20;
+function OpenDiv(_Dw,_Dh,_Desc) {
+$("Loading").innerHTML="";
+OverH=_Dh;OverW=_Dw;ChangeDesc=_Desc;
+$("Loading").style.display='';
+if(_Dw>_Dh){ChangeH=Math.ceil((_Dh-10)/((_Dw-10)/20))}else if(_Dw<_Dh){ChangeW=Math.ceil((_Dw-10)/((_Dh-10)/20))}
+$("Loading").style.top=(document.documentElement.clientHeight-10)/2+"px";
+$("Loading").style.left=(document.documentElement.clientWidth-10)/2+"px";
+OpenNow()
+}
+var Nw=10,Nh=10;
+function OpenNow() {
+Nw=Nw+ChangeW;Nh=Nh+ChangeH;
+if(OverW>Nw||OverH>Nh) {
+if(OverW>Nw) {
+$("Loading").style.width=Nw+"px";
+$("Loading").style.left=(document.documentElement.clientWidth-Nw)/2+"px";
+}
+if(OverH>Nh) {
+$("Loading").style.height=Nh+"px";
+$("Loading").style.top=(document.documentElement.clientHeight-Nh)/2+"px"
+}
+window.setTimeout("OpenNow()",10)
+}else{
+Nw=10;Nh=10;ChangeH=20;ChangeW=20;
+$("Loading").innerHTML=ChangeDesc;
+}
+}
+//-->
+</script>
+</head>
+<body>
+<a href="javascript:OpenDiv(500,300,'²ã1<br>Ë«»÷¹Ø±Õ')">²ã1 500*300</a><br>
+<br>
+<a href="javascript:OpenDiv(500,200,'²ã2<br>Ë«»÷¹Ø±Õ')">²ã2 500*200</a><br>
+<br>
+<a href="javascript:OpenDiv(200,500,'²ã3<br>Ë«»÷¹Ø±Õ')">²ã3 200*500</a><br>
+<br>
+<a href="javascript:OpenDiv(500,500,'²ã4<br>Ë«»÷¹Ø±Õ')">²ã4 500*500</a>
+<div id="Loading" style="display:none" ondblclick="this.style.display='none'"></div>
+¸ü¶à´úÂëÇë·ÃÎÊ <a href="http://www.niutuku.com/" target="_blank">Å£Í¼¿â</a>
+</body>
+</html>

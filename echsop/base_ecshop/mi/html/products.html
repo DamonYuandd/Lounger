@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- PAGE INFO -->
+	<title>小米官网</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Mr.Yu" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../data/css/base.css" />
+	<link rel="stylesheet" type="text/css" href="../data/css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="../data/css/page.css" />
+	
+	<!-- JavaScript -->
+	<script src="../data/js/jquery-1.11.1.min.js"></script>
+	<script src="../data/js/base.js"></script>
+	<script src="../data/js/iscroll.js"></script>
+	<script src="../data/js/hammer.js"></script>
+	<script src="../data/js/plugin.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<!--顶部导航 START-->
+		<header id="header">
+			<a class="icon_24_arrow_l" href="index.html"></a>
+			<h1>产品展示</h1>
+		</header>
+		<!--顶部导航 END-->
+		
+		<!--主内容区 START-->
+		<div id="wrapper">
+			<div id="scroller">
+				<!--轮播图 START-->
+				<div class="pbd_focus" id="product_focus">
+					<div class="box">
+						<ul class="clearfix">
+							<li>
+								<a href="products_detail.html">
+									<img src="../data/images/banner/640x300_1.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="products_detail.html">
+									<img src="../data/images/banner/640x300_1.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="products_detail.html">
+									<img src="../data/images/banner/640x300_1.jpg" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--轮播图 END-->
+				<!--筛选 START-->
+				<ul class="pbd_filter clearfix">
+					<li class="attr on"><span>全部</span></li>
+					<li class="attr"><span>手机</span></li>
+					<li class="attr"><span>平板</span></li>
+					<li class="attr"><span>电视</span></li>
+					<li class="attr_more fc_black">
+						<span>更多</span><i class="icon_12_arrow_d_black"></i>
+						<div class="attr_box">
+							<span>路由器</span>
+							<span>充电宝</span>
+							<span>数据线</span>
+						</div>
+					</li>
+				</ul>
+				<!--筛选 END-->
+				<!--产品列表 START-->
+				<ul class="product_lsit clearfix">
+					<li>
+						<a href="products_detail.html">
+							<img src="../data/images/product/290x290_1.jpg" />
+							<p>红米Note联通版4G双卡版首发799元</p>
+						</a>
+					</li>
+					<li>
+						<a href="products_detail.html">
+							<img src="../data/images/product/290x290_2.jpg" />
+							<p>红米Note联通版4G双卡版首发799元</p>
+						</a>
+					</li>
+					<li>
+						<a href="products_detail.html">
+							<img src="../data/images/product/290x290_2.jpg" />
+							<p>红米Note联通版4G双卡版首发799元</p>
+						</a>
+					</li>
+					<li>
+						<a href="products_detail.html">
+							<img src="../data/images/product/290x290_1.jpg" />
+							<p>红米Note联通版4G双卡版首发799元</p>
+						</a>
+					</li>
+					<li>
+						<a href="products_detail.html">
+							<img src="../data/images/product/290x290_1.jpg" />
+							<p>红米Note联通版4G双卡版首发799元</p>
+						</a>
+					</li>
+					<li>
+						<a href="products_detail.html">
+							<img src="../data/images/product/290x290_2.jpg" />
+							<p>红米Note联通版4G双卡版首发799元</p>
+						</a>
+					</li>
+				</ul>
+				<!--产品列表 END-->
+				
+			</div>
+		</div>
+		<!--主内容区 END-->
+		
+		<!--底部导航 START-->
+		<footer id="footer">
+			<ul class="clearfix">
+				<li>
+					<a href="index.html">
+						<i class="icon_24_home"></i>
+						<span>首页</span>
+					</a>
+				</li>
+				<li class="on">
+					<a href="products.html">
+						<i class="icon_24_product"></i>
+						<span>产品展示</span>
+					</a>
+				</li>
+				<li>
+					<a href="news.html">
+						<i class="icon_24_news"></i>
+						<span>新闻中心</span>
+					</a>
+				</li>
+				<li>
+					<a href="contact.html">
+						<i class="icon_24_contact"></i>
+						<span>联系我们</span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		<!--底部导航 END-->
+	</div>
+</body>
+</html>
+<script>
+$(function(){
+	// 图片轮播
+	$(".pbd_focus").slideBox({
+		arrow:false,	//显示箭头
+		dots:true,		//显示原点导航
+		autoplay:false,	//开启自动播放
+		delay:2500,		//自动播放时的滑动延迟
+		speed:300		//滑动速度
+	});
+});
+</script>

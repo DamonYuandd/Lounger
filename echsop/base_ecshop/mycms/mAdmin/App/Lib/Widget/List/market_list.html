@@ -1,0 +1,25 @@
+	<div class="mainright">
+      <div class="tit02">
+        <div class="th">营销中心</div>
+        <div class="thr">当前位置：<a href="__APP__">首页</a> > <a href="__APP__/Market.html">营销中心</a> > <span>{~c_title('',$_GET['keyword'])}</span></div>
+      </div>
+      <div class="textbox">
+         <div class="new">
+           <ul>
+           	   <notempty name="dataList">
+           	   <volist name="dataList" id="vo">
+               <li><span>[{$vo.create_time|date="Y-m-d",###}]</span> <a href="__APP__/Market/show/cid/{$vo.category_id}/id/{$vo.id}.html">{$vo.title}</a></li>
+               </volist>
+               <else/>
+               <li>没有找到网点</li>
+               </notempty>
+           </ul>
+       </div>
+       <div class="page">
+          <div class="scott">
+          	{$pageBar}
+          </div>
+       </div>
+      </div>
+      <div style="clear:both;"></div>
+    </div>

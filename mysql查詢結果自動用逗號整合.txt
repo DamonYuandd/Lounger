@@ -1,0 +1,5 @@
+SELECT GROUP_CONCAT(DISTINCT shopID) as shopIDs FROM `lbs_shop_otm_category` WHERE ( `shopCategoryID` IN ('3') ) LIMIT 1
+
+
+DISTINCT => 把shopID字段的重複值都過濾
+GROUP_CONCAT => 用逗號把內容隔開

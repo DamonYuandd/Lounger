@@ -1,0 +1,50 @@
+<!--cart-->
+	 <div id="Layer2"><div class="floatshop"><div class="shopleft">
+
+    <h3>　刚加入购物车的商品</h3>
+	<div>
+	
+	<#loop productdetail,["+cid+"],*NOCACHE 100#>
+	<a href="[$syspath]product.aspx?id={productdetail[id]}" target="_blank"><img src="[$syspath]{productdetail[srcdetail]}"/></a><br />
+	  <a href="[$syspath]product.aspx?id={productdetail[id]}" target="_blank">{productdetail[name]}</a><br / >
+	价格：<b>￥{productdetail[memberprice]}</b> X 1<br />
+	<#/loop#>
+		
+	共 <strong>{totalnum}</strong> 件商品<br />
+	金额总计：<strong>￥{totalprice}</strong></div>
+	
+	<h4><a href="[$syspath]cart.aspx" target="_blank"><img src="images/cart/shopkey.gif" border="0" /></a></h4>
+	<h3>　最近浏览过的商品</h3>
+	<ul>
+	<#loop productview,["+base.guid+"],3NOCACHE 100#>
+	  <li><a href="[$syspath]product.aspx?id={productview[id]}" target="_blank"><img alt="" width="40" height="40" border="0" src="{gettmpimg(productview_member["srcdetail"].ToString(), 40, 40)}" /></a><span><a href="[$syspath]product.aspx?id={productview[id]}" target="_blank">{productview[name]}</a></span></li>
+	<#/loop#>
+	
+	</ul>
+  </div>
+  <div class="shopright">
+    <h3>　<img src="images/cart/okimg.gif" width="16" height="16" /> 商品已成功加入购物车！您可能还对以下的商品感兴趣..　　　<a href="javascript:closeStatus();"><img src="images/cart/shopkey3.gif" width="64" height="16" border="0" /></a></h3>	
+	<div>
+      <h4>　相关商品</h4>	
+	<ul>
+	
+	<#loop productlink,["+cid+"],*NOCACHE 4#>
+	  <li><strong><a href="[$syspath]product.aspx?id={productlink[id]}" target="_blank"><img src="[$syspath]{productlink[srcdetail]}"/></a></strong><br /><a href="[$syspath]product.aspx?id={productlink[id]}" target="_blank">{productlink[name]}</a><br />
+	  <b>￥{productlink[memberprice]}</b><br /><a href="[$syspath]cart.aspx?act=buy&id={productlink[id]}" target="_blank"><img src="images/cart/shopkey2.gif"/></a></li>
+	<#/loop#>
+	
+	<br clear="all">
+	</ul>
+	</div>
+	<div>
+      <h4>　购买该商品的客户还购买了</h4>	
+	<ol>
+	
+	<#loop productorder,["+cid+"],*NOCACHE 4#>
+	  <li><strong><a href="[$syspath]product.aspx?id={productorder[id]}" target="_blank"><img src="[$syspath]{productorder[srcdetail]}"/></a></strong><span><a href="[$syspath]product.aspx?id={productorder[id]}" target="_blank">{productorder[name]}</a><br />
+	  <b>￥{productorder[marketprice]}</b>　<s>￥{productorder[memberprice]}</s><br />
+	  <a href="[$syspath]cart.aspx?act=buy&id={productorder[id]}" target="_blank"><img src="images/cart/shopkey2.gif"/></a></span></li>
+	<#/loop#> 
+
+	<br clear="all"></ol></div></div></div></div>
+ <!--cart-->

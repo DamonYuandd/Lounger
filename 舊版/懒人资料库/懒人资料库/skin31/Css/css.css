@@ -1,0 +1,88 @@
+﻿body {margin:0; padding:0; font-size:12px; color:#333}
+ul {padding:0; margin:0}
+li {list-style:none}
+.clear {clear:both}
+a:link,a:visited {font-size:12px; color:#666; text-decoration:none}
+a:hover {font-size:12px; color:#D70034; text-decoration:none}
+a.top1:link,a.top1:visited {font-size:12px; color:#333; text-decoration:underline}
+a.top1:hover {font-size:12px; color:#D70034; text-decoration:underline}
+a.bottom_a:link,a.bottom_a:visited,a.bottom_a:hover {font-size:12px; color:#fff; text-decoration:none}
+
+/*头部*/
+#head {width:980px; height:72px; _height:60px; margin:auto}
+#head_logo {float:left; width:330px; padding:10px 0 0 30px; display:inline}
+#head_right {width:620px; float:right; padding-top:30px; line-height:27px}
+#head_login1 {float:left; width:240px}
+#head_login2 {height:27px; float:right; text-align:right}
+#head_login2_center {float:right; border-top:1px #CCCCCC solid; border-bottom:1px #CCCCCC solid; height:25px; line-height:25px; padding:0 5px}
+.right {float:right}
+/*网站导航*/
+#menu {width:980px; height:33px; padding-bottom:9px; height:24px!important; _height:24px; margin:auto}
+#menu div,#menu img {float:left}
+#menu_left {width:733px; height:33px; background:url(../images/top/menu_bg.gif) repeat-x}
+#menu_left ul { margin:0; padding:0; list-style:none}
+#menu_left ul li {float:left; padding:0 18px; background:url(../images/top/menu_img1.gif) no-repeat right; height:33px; line-height:33px; list-style:none}
+#menu_left ul li a {font-size:12px ; color:#fff; font-weight:bold}
+#menu_cart {width:193px; height:33px; background:url(../images/top/menu_bg2.gif) repeat-x; font-size:12px; color:#fff; line-height:33px; padding:0 5px; width:183px!important; _width:183px; _overflow:hidden}
+#menu_cart b {font-size:14px; font-family:Arial, Helvetica, sans-serif}
+#menu_cart a {color:#FFF600; text-decoration:underline}
+/*顶部搜索*/
+#search {width:980px; padding-bottom:5px; margin:auto; height:37px}
+#search div {float:left}
+#search_left {height:21px; width:500px; padding-left:20px}
+.search_bg {background:url(../images/top/search_bg.gif) repeat-x; width:964px; height:34px; padding-top:3px}
+.input_top {background:url(../images/top/search_bg2.gif) no-repeat; width:287px; height:17px; border:none; padding:5px 5px 0 5px; font-size:12px}
+.search_img {float:left; padding-top:5px}
+.search_right {line-height:21px; padding-left:20px; height:21px; float:left; padding-left:8px}
+.search_right ul {padding:0; margin:0}
+.search_right ul li {list-style:none}
+/*底部*/
+.bottom_bk {border:1px #ccc solid; width:978px; padding-top:10px; margin:auto; margin-bottom:10px}
+.bottom_left {text-align:center; float:left; line-height:20px; font-family:Arial, Helvetica, sans-serif; padding:0 20px}
+.bottom_left b {color:#D70034}
+.bottom_right {float:left; width:755px}
+.bottom_right img {float:left}
+.bottom_link_tab {float:left; padding-top:7px}
+.bottom_right_1 {float:left; width:720px; height:30px; overflow: hidden}
+.bottom_1 {background-color:#ccc; height:20px; line-height:20px; width:980px; text-align:center; margin:auto; color:#fff}
+.div1madm ul {float:left}
+.div1madm ul li {border:1px #ccc solid; margin:0 11px; float:left; display:inline}
+.div1madm {width:2500px; height:136px; float:left;}
+.bottom_2 {text-align:center; width:980px; margin:auto; line-height:22px; padding:5px 0}
+.bottom_right_2 {width:755px; float:left; padding:8px 0}
+.bottom_right_2 ul li {width:141px; float:left; line-height:20px; background:url(../images/bottom/line_g_s.gif) no-repeat right; padding-left:10px}
+
+
+/*浮动购物车*/
+#Layer1 {	
+	width:190px;
+	z-index:111;
+	position:relative;
+	right:50px;
+}
+#Layer2 {
+    position:absolute;
+	width:200px;
+	z-index:111;
+	left: 22px;
+	top: 87px;
+}
+.floatcart {border:2px #7A7A7A solid; background-color:#fff; font-size:12px; width:236px}
+.floatcart li a {color:#333}
+.floatcart ul li {border-bottom:1px #ccc dashed; width:220px; padding:8px 5px; height:90px}
+.floatcart ul li img {float:left}
+.floatcart ul li span {float:left; padding-left:5px; width:135px; line-height:20px}
+.floatcart ul li span b {color:#996600; padding:5px 0; display:block}
+.floatcart ul li span font {color:#333; font-size:12px; text-decoration:none}
+.floatcart h4 {color:#666666; font-size:12px; font-weight:100; margin:0; padding:0 10px}
+.floatcart h4 b {color:#FF0000}
+.floatcart h5 {padding:0 10px 0 0; margin:0; text-align:right}
+.floatcart h5 font {color:#333; text-decoration:none; font-size:12px}
+.chooseborder {width:200px; border:2px #8EB0D0 solid; margin-top:13px;}
+.chooselist {width:198px; border:1px #FFFFFF solid;}
+.chooselist h1 { font-size:16px; padding:0; margin:0; width:188px; height:40px; line-height:34px; background:url(../images/choose.gif); color:#FFFFFF; text-align:left; padding-left:10px}
+.chooselist dl {margin:0; padding:0 0 5px; width:198px; border-top:5px #FFFFFF solid; border-bottom:1px #DEEEF2 solid; color:#000000; background:url(../images/chooselist.gif) bottom repeat-x #FFF}
+.chooselist dt {width:43px; float:right; text-align:center; margin:0; padding:5px 0; border-left:1px #DEEEF2 solid}
+.chooselist dd {width:68px; float:left; text-align:left; margin:0 0 0 5px; padding:5px 0}
+.chooselist dd b { color:#009900; font-family:Arial}
+

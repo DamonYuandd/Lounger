@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><div data-role="footer" data-theme="a"><h4>欢迎使用</h4></div>

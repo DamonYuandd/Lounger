@@ -1,0 +1,34 @@
+﻿<div class="search_right">
+	    <ul id="ullist2" style="height:21px; overflow:hidden;">
+	      {Web:as=article┆多少天$999┆Loop$10┆输出格式$out_None┆引用样式$skin31_顶部最新文章滚动┆标题数$25┆排列字段$Date┆排列方式$DESC┆打开窗口$1}		</ul>
+</div>
+<script type="text/javascript">
+       (function(ul, delay, speed, lineHeight) {
+              var slideBox = (typeof ul == 'string')?document.getElementById(ul):ul;
+              var delay = delay||1000;
+              var speed=speed||20;
+              var lineHeight = lineHeight||20;
+              var tid = null, pause = false;
+              var start = function() {
+                     tid=setInterval(slide, speed);
+              }
+              var slide = function() {
+                     if (pause) return;
+                     slideBox.scrollTop += 2;
+                     if ( slideBox.scrollTop % lineHeight == 0 ) {
+                            clearInterval(tid);
+							var lis = slideBox.getElementsByTagName('li');
+							if (lis.length > 0)
+							{
+                            	slideBox.appendChild(lis[0]);
+							}
+                            slideBox.scrollTop = 0;
+                            setTimeout(start, delay);
+                     }
+              }
+              slideBox.onmouseover=function(){pause=true;}
+              slideBox.onmouseout=function(){pause=false;}
+              setTimeout(start, delay);
+       })
+       ( 'ullist2', 3000, 1, 20 );//停留时间，相对速度（越小越快）,每次滚动多少，最好和Li的Line-height一致。
+</script>

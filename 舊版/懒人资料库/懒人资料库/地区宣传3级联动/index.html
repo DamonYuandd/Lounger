@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="city.js"></script>
+<title>js全国省份市区三级联动列表</title>
+</head>
+
+
+<body onLoad="full_city();">
+
+<form id="forder" name="forder" method="post" action="">
+
+<SELECT id=city1 onChange="eval('city_1('+this.value+')');eval('city_2('+document.all.city2.value+')');getCityValue();" name=city1><OPTION value="" selected>请选择</OPTION></SELECT> 
+<SELECT id=city2 onChange="eval('city_2('+this.value+')');getCityValue();" name=city2><OPTION value="" selected>请选择</OPTION></SELECT> 
+<SELECT id=city3 name=city3 onChange="getCityValue()"><OPTION value="" selected>请选择</OPTION></SELECT> 
+
+<input name="city_value" type="text" />
+</form>
+
+<p align="center">来源：网络　代码整理：<a href="http://www.kaiwo123.com/" target="_blank">看我的特效网</a></p>
+<p align="center">* 尊重他人劳动成果，转载请自觉注明出处！注：此代码仅供学习交流，请勿用于商业用途。</p>
+ 
+<p align="center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-1318720072974797";
+/* 728x90 */
+google_ad_slot = "0800014022";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js"> 
+</script></p>
+
+</body>
+
+</html>

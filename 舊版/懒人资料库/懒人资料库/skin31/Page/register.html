@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTmL 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Created Page at 2008-8-8 18:47:50,by V5Shop.com.cn   V5Shop Management Systeme 8.0-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
+<head>{web_skin31_通用头部关键字}
+<link href="css/css.css" type="text/css" rel="stylesheet" />
+<link href="css/css_user.css" type="text/css" rel="stylesheet" />
+<link href="css/css_top.css" type="text/css" rel="stylesheet" />
+<script language="javascript">var path = ''[$syspath]'';</script>
+<script language="javascript" type="text/javascript" src="../public/js/register.js"></script>
+<script>
+function getobj(id){
+	return document.getElementById(id);	
+}
+
+function selecttab(obj, act, def, special, areaname){
+	var node = childs(obj.parentNode.parentNode.childNodes);
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			node[i].className = def;	
+			if(getobj(areaname + "_" + i))
+				getobj(areaname + "_" + i).style.display = "none";
+		}
+	}
+	obj.parentNode.className = act;
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			if(node[i].className == act){
+				if(getobj(areaname + "_" + i))
+					getobj(areaname + "_" + i).style.display = "";
+			}
+		}
+	}
+}
+//兼容FF下的childNodes
+function childs(nodes)
+{
+    if(!nodes.length) 
+        return [];
+    var ret=[];
+    for(var i=0;i<nodes.length;i++)
+    {
+        if(nodes[i].nodeType!=1) 
+            continue;
+        ret.push(nodes[i]);
+    }
+    return ret;
+}
+
+function ShowCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "";
+		objli.className = "menu_bg2";
+	}
+}
+
+function HiddenCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "none";
+		objli.className = "menu_bg1";
+	}
+}
+</script>
+</head><body>
+{web_skin31_网站顶部logo}
+{web_skin31_网站导航}
+<div id="search">
+  <div><img src="images/top/search_left.gif" /></div>
+  <div class="search_bg"> {web_skin31_顶部搜索}
+    <div>
+      <div class="search_img"><img src="images/top/search_img3.gif" align="absmiddle" /></div>
+      {web_skin31_顶部最新文章滚动} </div>
+  </div>
+  <div><img src="images/top/search_right.gif" /></div>
+</div>
+<center>
+  <div class="address3" style="text-align:left; width:920px; padding-bottom:10px"> <b>当前位置：</b><a href="[$syspath]index.aspx">首页</a> &gt; 会员中心 &gt; 会员登陆</div>
+  <div class="div3">
+    <div class="div3l">
+      <div class="div1lbg">{web_skin31_会员信息}</div>
+    </div>
+    <div class="div4r">
+      <div class="prolabel2"> <img src="images/member/registerlabel.gif" width="214" height="32" alt="" /></div>
+      <div class="helpbg">
+        <div class="helplist3" id="frmMain"> <#PUBLIC register#> </div>
+        <div class="prolabel2"> <img src="images/member/tratylabel.gif" width="214" height="32" /></div>
+        <div class="helplist3" style="height:200px; overflow: auto"> {config.Protocol} </div>
+        <br clear="all" />
+      </div>
+    </div>
+    <br clear="all" />
+  </div>
+</center>
+<div class="bottom_bk"> {web_skin31_底部客服联系方式}
+  <div class="bottom_right"> {web_skin31_底部友情链接}
+    <div class="bottom_right_2">
+      <ul>
+        {web_skin31_底部帮助分类}
+      </ul>
+    </div>
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="bottom_1">{web_skin31_底部信息}</div>
+{web_skin31_版权信息}
+</body>
+</html>

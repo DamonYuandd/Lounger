@@ -1,0 +1,1 @@
+document.getElementById("test").style.backgroundImage = "url(Images//banner1.jpg)";

@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Schillmania! | png.js demo</title>
+<script type="text/javascript" src="png.js"></script>
+</head>
+
+<body>
+
+<!--
+
+ Don't copy this part here, this is just for your information.
+
+ // Required under the <head> tag:
+
+ <script type="text/javascript" src="png.js"></script>
+
+
+ // Required in the <body> tag:
+
+ <img src="your-image.gif" class="png" style="width:XXXpx;height:YYYpx" />
+
+ // ..Where XXX and YYY are the width/height of your image. Without width/height the PNG won't work under IE:win32.
+
+ // Required before the </body> tag (but after all of your content):
+ 
+ <script type="text/javascript">
+  pngHandler.init();
+ </script>
+
+ // This javascript block should be put at the bottom of your page, inside the <body> and before </body>.
+ // It calls the library and replaces the GIF images (if applicable) before the page has loaded (and before the GIF has loaded, So the user doesn't load 2 images for each PNG you want to replace.)
+ // If you don't put it after all of your content, it may do strange things and miss some images.
+
+-->
+
+<h1>PNG (img)</h1>
+
+<img src="foo.gif" alt="" class="png" style="width:220px;height:100px" />
+
+<h1>PNG (div with background image)</h1>
+
+<div class="png" style="width:220px;height:100px;background-image:url(foo.gif);background-repeat:no-repeat">
+ &nbsp;
+</div>
+
+<script type="text/javascript">
+ pngHandler.init();
+</script>
+
+</body>
+</html>

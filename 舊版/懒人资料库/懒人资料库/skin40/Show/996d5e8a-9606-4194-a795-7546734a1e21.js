@@ -1,0 +1,1 @@
+document.write('<a href="/v5shop/member/Advertisement_Ads_ClickCount.aspx?mark=996d5e8a-9606-4194-a795-7546734a1e21&&uri=" title="" target="_blank"><img src="Images/ad/ban_watch_081104_wj.gif" width="111" height="111" border="0"></a>');

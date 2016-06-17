@@ -1,0 +1,99 @@
+
+body,html{ 
+padding:0px; 
+margin:0px; 
+
+}
+ul,li,img,p{margin:0; padding:0; border:none; list-style-type:none;}
+ 
+
+
+.SmallBar .Small
+{ 
+width:800px; 
+overflow:hidden; 
+height:63px; 
+float:left; 
+/*padding:0px 0px; 
+margin:10px; 10px; */
+display:inline; 
+position:relative;
+}
+.SmallBar
+{
+width:950px;
+height:80px;
+}
+.Small
+{
+margin-top:8px;
+margin-left:2px;
+
+}
+.SmallBar .list_in
+{
+height:56px;
+position:absolute;
+overflow:hidden;
+left:2px;
+top:-16px;
+width:950px;
+
+}
+.SmallBar .list_in li
+{ 
+float:left;
+text-align:center; 
+width:72px;
+margin: 0px 1.5px;
+}
+.SmallBar .list_in li img
+{
+border:1px solid #DEDCDD;
+padding:0px;
+height:50px; 
+width:66px;
+}
+.SmallBar .list_in li img:hover
+{ 
+border:#FF0000 solid 2px; 
+padding:1px;
+}
+.SmallBar .list_in li .imgcurt
+{
+border:#ff0000 solid 2px; 
+padding:1px;
+}
+.Con_l
+{
+margin:0px;
+float:left;
+background-image:url(../image/con_l_1.jpg);
+background-color:#FF0000;
+width:40px;
+height:80px;
+cursor:pointer;
+}
+.SmallBar 
+{
+width:950px;
+height:80px;
+border:2px solid #DEDCDD;
+}
+.Con_r
+{
+margin-top:0px;
+float:right;
+background-image:url(../image/p_con_r_2.jpg);
+background-color:#FF0000;
+width:40px; 
+height:80px; 
+cursor:pointer;
+}
+
+.SmallBar,.list_in
+{
+margin-top:20px;
+}
+
+

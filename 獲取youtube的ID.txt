@@ -1,0 +1,38 @@
+$urlString =  'http://i2.ytimg.com/vi/';
+			$imgStyle =   'hqdefault.jpg';
+			preg_match("/v=([^&]+)/i", $obj['video_src'], $matche);
+			if(!empty($matche[1])){	//http://www.youtube.com/watch?v=baccF-PPURI
+				return $urlString.$matche[1].'/'.$imgStyle;
+			}else{	//http://youtu.be/W_OnqCM04gE
+				$pattern = '/(http(s)?\:\/\/)?(www.)?youtu.be\/([\w]+)/';
+				preg_match($pattern,$obj['video_src'],$match);
+				if (!empty($match)){
+					return $urlString.$match[4].'/'.$imgStyle;
+				}
+}
+
+
+
+
+
+
+
+///·½·¨2
+
+$pattern = '/(http(s)?\:\/\/)?(www.)?youtu.be\/([\w]+)/';
+$youtube = "http://youtu.be/kCYL_f6EscI";
+preg_match($pattern,$youtube,$match);
+var_dump($match);
+
+$youtube = "http://www.youtu.be/kCYL_f6EscI";
+preg_match($pattern,$youtube,$match);
+var_dump($match);
+
+$youtube = "https://youtu.be/kCYL_f6EscI";
+preg_match($pattern,$youtube,$match);
+var_dump($match);
+
+
+$youtube = "http://youtu.be/sa6nkxn5mEs";
+preg_match($pattern,$youtube,$match);
+var_dump($match);

@@ -1,0 +1,12 @@
+function checkvalue3(){
+	var g=document.getElementById("name1");
+	var c=document.getElementById("name");
+	/*c.value.replace(/&nbsp;/g,'');*/
+	c = c.value.replace(/\s+/g,"");   //加上这句替换才能实现
+	if(c==""){
+		g.innerHTML='姓名不能为空，请输入信息';
+		return false;
+	}else{
+		g.innerHTML='';
+	}
+}

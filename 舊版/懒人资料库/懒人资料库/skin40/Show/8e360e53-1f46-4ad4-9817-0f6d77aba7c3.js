@@ -1,0 +1,1 @@
+document.write('<a href="http://www.v5shop.com.cn/" title="" target="_blank"><img src="Images//ad_270x185.jpg" width="270" height="185" border="0"></a>');

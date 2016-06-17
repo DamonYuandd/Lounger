@@ -1,0 +1,39 @@
+body
+{
+margin:0px;
+padding:0px;
+font:"微软雅黑", "宋体";
+font-size:13px;
+color:#666666;
+
+}
+table
+{
+border-top:#999999 solid 1px;
+border-bottom:#999999 solid 1px;
+}
+td
+{
+text-align:center;
+}
+.head
+{
+background-color:#F7F7F7;
+color:#77061D;
+font-weight:bold;
+
+
+height:30px;
+line-height:27px;
+}
+/*.text
+{
+border-top:#CCCCCC solid 1px;
+border-left:#CCCCCC solid 1px;
+border-bottom:#CCCCCC solid 1px;
+}
+*/
+.text
+{
+border:#CCCCCC solid 1px;
+}

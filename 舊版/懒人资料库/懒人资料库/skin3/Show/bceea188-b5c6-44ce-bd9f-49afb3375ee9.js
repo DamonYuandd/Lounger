@@ -1,0 +1,1 @@
+document.write('<a href="/Yxj_Cloth_V5Shop8_Template/member/Advertisement_Ads_ClickCount.aspx?mark=bceea188-b5c6-44ce-bd9f-49afb3375ee9&&uri=aHR0cDovL3d3dy52NXNob3AuY29tLmNuLw==" title="1" target="_blank"><img src="Images/skin/bangzhu_02.jpg" width="1002" height="175" border="0"></a>');

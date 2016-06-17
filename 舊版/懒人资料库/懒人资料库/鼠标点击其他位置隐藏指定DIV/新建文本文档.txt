@@ -1,0 +1,4 @@
+ $(document).click(function(e){
+		 if(e.target.id!="show"&&e.target.id!="select_one"&&!$(e.target).hasClass("list")&&e.target.id!="show_title"&&e.target.id!="s_one"&&e.target.id!="s_two"&&e.target.id!="s_three"){
+		 $("#show").hide();}
+		 });

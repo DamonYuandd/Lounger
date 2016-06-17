@@ -1,0 +1,13 @@
+<div class="tit01">{$root_title}</div>
+	<volist name="categoryList" id="vo">
+		<empty name="vo.alias">
+			<?php $url = __APP__.'/'.MODULE_NAME.'/index/cid/'.$vo['id'].'.html';?>
+		<else/>
+			<?php $url = __APP__.'/'.$vo['alias'].'.html';?>
+		</empty>
+		<eq name="vo.id" value="$cid">
+			<li><a href="{$url}" class="cur">{$vo.pid}{$vo.title}</a></li>
+		<else/>
+			<li><a href="{$url}">{$vo.pid}【{$vo.title}】</a></li>
+		</eq>
+    </volist>

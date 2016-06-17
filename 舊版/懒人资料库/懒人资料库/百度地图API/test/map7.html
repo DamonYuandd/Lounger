@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<title>HTML5 Geolocation API结合百度地图的使用</title> 
+<style type="text/css"> 
+html{height:100%} 
+body{height:100%;margin:0px;padding:0px} 
+#container{height:100%} 
+</style> 
+<script  type="text/javascript" src="http://api.map.baidu.com/api?v=1.3"></script> 
+</head> 
+<body>
+<div id="container"></div>
+<script type ="text/javascript">
+    var lat = 116.404;
+    var lon = 39.915;
+    if (navigator.geolocation) {
+     navigator.geolocation.getCurrentPosition(function(position) {
+     lat = position.coords.latitude;   //你的位置经度
+     lon = position.coords.longitude;  //你的位置纬度
+    }, function(err) {
+    document.getElementById('container').innerHTML = err.code + "" + err.message;
+       });
+    }
+
+    var map = new BMap.Map("container"); // 创建地图实例 创建地图实例
+    var point = new BMap.Point(lat, lon); // 创建点坐标
+    map.centerAndZoom(point, 16); // 初始化地图，设置中心点坐标和级别 初始化地图，设置中心点坐标和级别
+    var marker = new BMap.Marker(point); // 创建标注
+    map.addOverlay(marker); //将标注添加到地图中
+    //以下是拖拽、比例等
+    map.addControl(new BMap.NavigationControl());
+    //map.addControl(new BMap.ScaleControl()); 
+    map.addControl(new BMap.OverviewMapControl()); 
+    map.addControl(new BMap.MapTypeControl()); 
+    map.setCurrentCity("广州");
+</script>
+</body> 
+</html>

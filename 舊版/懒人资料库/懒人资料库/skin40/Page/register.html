@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTmL 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>{web_skin40_通用头部关键字}
+
+<link href="Css/css_login.css" type="text/css" rel="stylesheet" />
+<script language="javascript">var path = '[$syspath]';</script>
+<script language="javascript" src="js/register.js" type="text/javascript"></script>
+</head>
+    <body><div style="width:990px; margin:10px auto"><div style="width:990px">
+<div class="top">
+{web_skin40_通用头导航2}
+<div class="clear"></div> 
+</div>
+  </div>
+<!--内容区域开始-->
+<div class="reg2">
+<div class="reg2_top"><img src="Images/pic_title.gif" /></div>
+<div class="reg2_top1">
+<form id="frmRegister" name="frmRegister" method="post" action="">
+	<input type="hidden" id="_OP" name="_OP" value="" />
+	<input type="hidden" id="url" name="url" value="{url}" />
+  <div class="reg_01">用户名：</div><div class="reg_02">    <input name="txtUID" size="40" type="text" class="input" maxlength="16" id="txtUID" /></div>
+  <div class="reg_01">Email地址：</div><div class="reg_02">    <input name="txtEmail" size="40" type="text" class="input" maxlength="50" id="txtEmail" /></div>
+  <div class="reg_01">请设定密码：</div><div class="reg_02"><input name="txtPass01" size="40" type="password" class="input" id="txtPass01" maxlength="50" />　 密码请设为6-16位字母或数字</div>
+  <div class="reg_01">请再次输入设定密码：</div><div class="reg_02"><input name="txtPass02" size="40" type="password" class="input" id="txtPass02" maxlength="50" /></div>
+  <div class="reg_01">请输入验证码：</div><div class="reg_02"><input class="input" id="checkcode" size="8" maxlength="4" name="verify" type="text" />
+				<img id="verifyimg" style="cursor:pointer" alt="看不清，点击换一张" onclick="ChangeVerifyImg()" align="absmiddle" />
+<script language="javascript">
+function ChangeVerifyImg(){
+	document.getElementById("verifyimg").src = '[$syspath]member/verifyimg.aspx?d=' + Date();
+}
+//初始化
+ChangeVerifyImg();
+</script></div>
+<div style="clear:both"></div>
+<br/>
+<div style=" margin-left:145px"><img src="Images/button_wc.gif" id="imgSubMit" onclick="return imgSubMit_onclick()"/></div>
+<br/>
+</form>
+</div>
+</div>
+
+
+<!--底部信息-->
+<div class="bottom_pz">
+  {web_skin40_帮助类别}
+ {web_skin40_底部订购热线}
+ <div class="clear"></div>
+</div>
+<div class="bottom_bq">
+  {web_skin40_底部版权}
+</div>
+</div></body>
+</html>

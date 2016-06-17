@@ -1,0 +1,107 @@
+/*
+网站公用CSS部分，主要包括body,a,p,h1,2等常用标签设置
+
+作者：袁德民
+*/
+@charset "utf-8";
+/* CSS Document */
+
+/*清除浮动*/
+.clearfloat {clear:both;height:0;font-size: 1px;line-height: 0px;} 
+/*对链接设置*/
+a { color:#0066CC;  /*超链默认为蓝色*/
+text-decoration:none;}
+a:hover { color:#f00;}
+/*通配符设计默认内,外间距为0*/
+* {margin:0; padding:0}
+/*body,其他常用页面标签设置*/
+body {
+	margin:0;
+	 font-size:12px; 
+ font-family:宋体,Verdana, Geneva, sans-serif; 
+ line-height:1.5;}
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p,table {
+	padding:0;
+	margin:0;
+	
+}
+table
+{
+	 font-size:12px; 
+ font-family:宋体,Verdana, Geneva, sans-serif;
+  
+	}
+.title_lv_1 /*一级标题*/
+{
+	font-size:18px;
+	font-family:宋体,黑体;
+	font-weight:bold;
+}
+
+.title_lv_2 /*二级标题*/
+{
+	font-size:16px;
+	font-family:宋体,黑体;
+	font-weight:bold;
+}
+
+.title_lv_3 /*三级标题*/
+{
+	font-size:14px;
+	font-family:宋体,黑体;
+	font-weight:bold;
+}
+.title_lv_4 /*四级标题*/
+{
+	font-size:12px;
+	font-family:宋体,黑体;
+	font-weight:bold;
+}
+.warning
+{
+	font-size:11px;
+	font-family:宋体,黑体;
+	font-weight:bold;
+	color:#F00;
+}
+ul { list-style:none;}
+img { border:0px;}
+
+/*页面顶部的默认CSS*/
+.container /* 页面整体 */
+{   
+    padding-bottom: 8px;
+	width:950px;
+	text-align:center;
+	margin:0 auto;
+     
+	}
+#top_center/* 最上面的助手行中间部分*/
+{   width: 950px;
+	margin:0 auto;
+	height:39px;
+	text-align:left;
+	
+	}
+#top_center table 
+{   
+	font-family:宋体;
+	font-size:12px;
+}
+
+
+
+
+/*网站脚部设置*/
+.footer{
+    background-image: url(../InfoMgr/image/topbg.gif) ;
+    background-repeat: repeat-x;
+    border-top-color: #E5E5E5;
+    border-top-style: solid;
+    border-top-width: 1px;
+    text-align:center;
+    width:950px;
+	margin:0 auto;
+	margin-top:5px;
+	
+}

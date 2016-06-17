@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	padding:0; margin:0; font-size:12px;
+	font-family:"微软雅黑", "宋体";
+	color: #666;
+}
+li, ul {padding:0;margin:0;list-style-type:none;}
+div, p, br, div, h1, h2, h3 {padding:0;margin:0;}
+img {border:0;}
+a {color:#666; font-size:12px; text-decoration:none;}
+a:hover {color:#7ea803; text-decoration:underline;}
+.clear {clear:both;}
+
+
+/****************首页样式代码********************/
+.main2 .mainr1 .slideBox{ width:950px; overflow:hidden; position:relative; margin:0 auto;} 
+
+.main2 .mainr1 .slideBox .hd{ overflow:hidden;} 
+.main2 .mainr1 .slideBox .hd ul{overflow:hidden;zoom:1;width:80px;height:20px; margin-top:-25px; position:absolute; z-index:9999; left:445px;} 
+.main2 .mainr1 .slideBox .hd ul li{ float:left; margin:4px; text-align:center; background:url(../images/d1.png); height:12px; width:12px;  cursor:pointer;} 
+.main2 .mainr1 .slideBox .hd ul li.on{ background:url(../images/d2.png); height:12px; width:12px; color:#fff; } 
+
+.main2 .mainr1 .slideBox .bd{ position:relative; height:383px; z-index:0; overflow:hidden; } 
+.main2 .mainr1 .slideBox .bd img{ height:383px; width:950px;}
+.main2 .mainr1 .effect .btnleft{ height:63px; width:25px; float:left; margin-left:3px; background:url(images/pro_daitel_left.png) no-repeat; top:153px; position: absolute;}
+.main2 .mainr1 .effect .btnright{ height:63px; width:25px; float:right; background:url(images/pro_daitel_arrow.png) no-repeat;top:153px; position: absolute; left:940px;}

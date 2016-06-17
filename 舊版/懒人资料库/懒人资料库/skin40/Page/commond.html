@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+{web_skin40_通用头部关键字}
+<link href="css/category.css" rel="stylesheet" type="text/css">
+<link href="css/css_cate.css" rel="stylesheet" type="text/css">
+<body>
+<center>
+<div class="top">
+{web_skin40_通用头导航2}
+<div class="clear"></div> 
+</div>
+<div class="commondlabel"><img src="images/products/label_commend.gif" align="absmiddle" />　把好的商品推荐给我的朋友们！</div>
+<div class="commondbg"></div>
+<div class="commond">
+  <div class="commondl">
+
+<#loop productdetail,["+cid+"],* 999#>
+    <span><a href="[$syspath]product.aspx?id={productdetail[id]}" target="_blank"><img src="{gettmpimg({productdetail[srcdetail]},280,280)}" border="0" /></a></span><br />
+	<p><a href="[$syspath]product.aspx?id={productdetail[id]}" target="_blank">{productdetail[name]}</a></p>
+	市场价<s>{productdetail[marketprice]}</s>   <b>￥{productdetail[memberprice]}</b><br />
+	<p><a href="[$syspath]cart.aspx?act=buy&id={productdetail[id]}" target="_blank"><img src="images/products/buttons_buy.gif" border=0 /></a> 　 <a href="[$syspath]cart.aspx?act=collect&id={productdetail[id]}" target="_blank"><img src="images/products/buttons_fav1.gif" border=0 /></a></p>
+<#/loop#>
+
+  </div>
+  <div class="commondr">
+<form onsubmit="this.action = '[$syspath]product.as' + 'px?id={cid}&act=sendmail';return chkForm();" name="form1" method="post">
+    <p><span>收件人：</span></p>
+	<p><input name="emailaddress" type="text" style="width:350px" /></p>
+    <p><span>发件人：</span>（您可以填写您的真实姓名，以便让您好友知道是您。）</p>
+	<p><input name="yourname" type="text" style="width:350px" /></p>
+    <p><span>对好友的留言：</span></p>
+	<p>
+	  <textarea name="mailcontent" cols="" rows="" style="width:350px; height:100px">这款商品真的很赞，我想你应该很喜欢的，快来看看吧！</textarea>
+	</p>
+	<p><input type="submit" name="Submit2" value="发送给推荐的邮箱" /></p>
+</form>
+  </div>
+  <div style="clear:both"></div>
+</div>
+<div class="bottom_pz">
+  {web_skin40_帮助类别}
+ {web_skin40_底部订购热线}
+ <div class="clear"></div>
+</div>
+<div class="bottom_bq">
+ {web_skin40_底部版权}　
+</div>
+</center>
+</body>
+</html>

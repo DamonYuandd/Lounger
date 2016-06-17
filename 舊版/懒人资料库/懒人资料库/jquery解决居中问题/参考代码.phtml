@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- 供应信息页面
+作者:袁德民
+ 
+/*
+ * supplyInfo view page
+ * edit by 梁学斌
+ */
+-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>供应信息</title>
+<link href="/xinyi2/public/css/common.css" rel="stylesheet" type="text/css" />
+<link href="/xinyi2/public/css/InfoMgr/supplyInfo/supplyInfoCss.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/xinyi2/public/js/jquery-1.6.2.js"></script>
+<script type="text/javascript"  src="/xinyi2/public/js/InfoMgr/supplyInfo/supplyInfoJs.js" charset="gb2312" ></script>  
+<script type="text/javascript"  src="/xinyi2/public/js/png.js"></script>  
+<script>
+PNG.fix('#logo');
+PNG.fix('#k1');
+PNG.fix('#k2');
+PNG.fix('#k3');
+/*解决兼容问题的JS*/
+$(document).ready(function(){
+	$(window).resize(function() {
+	if($(window).width()>950){
+	var i=$(window).width()-950;
+	var g=i/2;
+	$("body").css("margin","0 "+g+"px");
+	}else{
+	$("body").css("margin","0");
+	}
+
+	});
+	if($(window).width()>950){
+	var i=$(window).width()-950;
+	var g=i/2;
+	$("body").css("margin","0 "+g+"px");
+	}else{
+	$("body").css("margin","0");
+	}
+	});
+</script>
+
+</head>
+
+<body>
+<?php echo $this->action('indextop','index');?>
+<div class="container"></div>
+<!-- 
+<div class="container">
+<div class="logo_search">
+<div id="logo"></div>
+<div id="search" style="position:relative;">
+<div id="con" style="position:relative;_left:-60px;*left:-60px;">
+<ul id="tags">
+  <li class="selectTag"><a onclick="selectTag('tagContent0',this)" 
+  href="javascript:void(0)">产品</a></li>
+  <li><a onclick="selectTag('tagContent1',this)" 
+  href="javascript:void(0)">企业</a> </li>
+  <li><a onclick="selectTag('tagContent2',this)" 
+  href="javascript:void(0)">求购</a> </li></ul>
+<div id="tagContent" style="position:absolute;top:30px;_left:65px;*left:65px;">
+<div class="tagContent selectTag" id="tagContent0" >
+<img  id="k1"  src="/xinyi2/public/images/InfoMgr/supplyInfo/san.png" height="30" width="30" style="position:absolute;top:-18px; left:18px;" />
+<input name="" type="text" style="height:30px; width:400px;" />
+<div class="outside_search_buttom" style="position:absolute;_top:10px; *top:10px;">
+<a href="##" title="搜索">
+  <img src="/xinyi2/public/images/InfoMgr/supplyInfo/666.png"  />
+  </a>
+  </div>
+</div>
+<div class="tagContent" id="tagContent1">
+<img  id="k2" src="/xinyi2/public/images/InfoMgr/supplyInfo/san.png" height="30" width="30" style="position:absolute;top:-18px; left:72px;" />
+<input name="" type="text" style="height:30px; width:400px;" />
+<div class="outside_search_buttom" style="position:absolute;_top:10px; *top:10px;">
+<a href="##" title="搜索">
+  <img src="/xinyi2/public/images/InfoMgr/supplyInfo/666.png"  />
+  </a>
+  </div></div>
+<div class="tagContent" id="tagContent2">
+<img id="k3" src="/xinyi2/public/images/InfoMgr/supplyInfo/san.png" height="30" width="30" style="position:absolute;top:-18px; left:121px;" />
+<input name="" type="text" style="height:30px; width:400px;" />
+<div class="outside_search_buttom" style="position:absolute;_top:10px; *top:10px;">
+<a href="##" title="搜索">
+  <img src="/xinyi2/public/images/InfoMgr/supplyInfo/666.png"/>
+  </a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- 搜索及LOGO结束-->
+<div class="clearfloat"></div>
+<!-- 导航-->
+<div class="navigation">
+  <ul>
+     <li style="margin-left:106px;"><a href="/xinyi2/public">首页</a></li>
+     <li id="nav_now"><a href="##">供应信息</a></li>
+  </ul>
+</div>
+<!-- 导航结束-->
+<div class="clearfloat"></div>
+<div class="container"><!-- 页面主体DIV开始-->
+  <div id="content_title"><?php echo $this->supply[0]['title']; ?> <div id="time">发布时间:<?php echo $this->supply[0]['issue_date']; ?></div></div>
+ <div id="content_details"><!--内容细节 -->
+ <div id="infoshow">详细介绍</div>
+<?php  echo $this->supply[0]['content']; ?> </div><!-- 内容细节-->  
+ <div id="content_contact_way"><!-- 联系方式-->
+     <div class="content_contact_way_1">
+        <ul>
+           <li>姓　　名:<?php echo $this->supply[0]['name']; ?></li> 
+           <li>电　　话:<?php echo $this->supply[0]['telephone']; ?></li>
+           <li>移动电话:<?php echo $this->supply[0]['mobile_phone']; ?></li>
+           <li>地　　址:<?php echo $this->supply[0]['address']; ?></li>
+           <li>传　　真:<?php echo $this->supply[0]['fax']; ?></li>
+           <li>Email：<a href="mailto:<?php echo $this->supply[0]['email']; ?>" style="text-decoration:underline; color:#000;"><?php echo $this->supply[0]['email']; ?></a></li>
+           <li><a href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo $this->supply[0]['QQ']; ?>&site=qq&menu=yes" hidefocus="true"><img border="0" src="http://wpa.qq.com/pa?p=2:<?php echo $this->supply[0]['QQ']; ?>:45" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+    <a href="msnim:chat?contact=<?php echo $this->supply[0]['MSN']; ?>"  hidefocus="true"><img alt="点击给我发MSN消息"   src="/xinyi2/public/images/InfoMgr/supplyInfo/MSN_ICON.GIF"  border="0"  title="点击这里给我发消息"/></a></li>
+        </ul>
+     </div>
+  </div><!-- 联系方式结束-->
+</div><!-- 页面主体DIV结束-->
+<?php echo $this->action('bottom','index');?>
+</body>
+</html>

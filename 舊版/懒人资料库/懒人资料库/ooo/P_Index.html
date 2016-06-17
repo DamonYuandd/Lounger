@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript"  src="js/jquery-1.6.2.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--图片左右滚动js---->
+<script language="javascript"  content="text/html; charset=utf-8">
+$(document).ready(function (){
+var the_item_li = $("#list_in li");
+var the_num = the_item_li.length;
+$("#list_in").width(the_num*100);
+var count = 0;
+var iMax = the_num-4;
+
+ $('#the_control_l').click(
+   function()
+   {
+       if(count <= 0){
+          $(this).attr({title:""});
+        }else{
+         count--;
+	     $("#list_in").animate({left:count*(-100)},100);
+        }
+   }
+ );
+ $('#the_control_r').click(
+   function()
+   {
+     if(count >=iMax){
+       $(this).attr({title:""});
+     }else{
+       count++;
+	   $('#list_in').animate({left:count*(-100)},100);
+    } 
+   }
+ );
+
+
+});
+</script>
+
+<!---商品图片放大js -->
+
+
+
+</head>
+
+
+
+
+
+
+<body>
+    
+
+      
+    
+                   <!---商品图片显示---->
+
+                     <div class="SmallBar">
+                          <div class="Con_l" id="the_control_l">
+                                 <a><img src="image/con_l_1.jpg" name="Image12" width="40" height="80" border="0" id="Image12" /></a>
+                          </div>
+                          <div class="Small">
+                                <ul class="list_in" id="list_in">
+                                      <li><a href="javascript:;"><img src="image/img1_a.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img2_a.jpg" width="100" height="63" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img3_a.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img4_a.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img5_a.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img6_a.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img7_a.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img8_a.jpg" width="100" height="65" /></a></li>
+                                </ul>
+                          </div>
+                          
+                          <div class="Con_r" id="the_control_r"><a ><img src="image/con_r_1.jpg" name="Image11" width="40" height="80" border="0" id="Image11" /></a></div>
+                        </div>
+                    </div>
+                    
+                    
+                   
+</body>
+</html>

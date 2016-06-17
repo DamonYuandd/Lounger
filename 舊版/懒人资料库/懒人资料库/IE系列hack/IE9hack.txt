@@ -1,0 +1,6 @@
+:root #big_img img
+{
+	max-height:762px\0/IE9;;
+	max-width:762px\0/IE9;;
+	}
+

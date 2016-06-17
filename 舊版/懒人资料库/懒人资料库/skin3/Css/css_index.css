@@ -1,0 +1,127 @@
+body.{
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:0;}
+.div1 {width:920px; height:760px; background:#FFFFFF}
+.div1l {width:176px; height:760px; float:left}
+.div1dbqbt {width:176px; height:31px; background:url(../images/index/dbqblabel.gif)}
+.div1dbqbt div {padding:7px 8px 0; text-align:right}
+.div1dbqb {width:176px; height:220px; background:url(../images/index/dbqbbg.gif)}
+.div1dbqb div {width:160px; padding:3px 0; text-align:left; color:#757575}
+.div1m {width:568px; height:760px; float:left}
+.div1mbanner {width:550px; height:326px}
+.div1mad {width:550px; height:136px; margin-bottom:24px; background:url(../images/index/salebg.gif)}
+.div1madl {width:25px; text-align:right; padding-top:30px; float:left}
+.div1madm {width:1250px; height:136px; float:left;}
+.div1madm div {width:125px; width:115px !important; _width:115px; padding:7px 5px 0; text-align:center; line-height:14px; float:left}
+.div1madm div img {border:1px #DEDEDE solid; margin-bottom:5px; width:90px; height:90px}
+.div1madr {width:25px; text-align:left; padding-top:30px; float:right}
+.div1mshuxin {width:550px; height:31px; text-align:left}
+.div1mshuxinlist {width:546px; height:220px; border-left:2px #BFB3DB solid; border-right:2px #BFB3DB solid}
+.div1mshuxinlist div {width:540px; height:220px}
+.div1mshuxinlist div div {width:135px; width:125px !important; _width:125px; padding:20px 5px 0; text-align:center; line-height:14px; float:left}
+.div1mshuxinlist div div img {border:1px #DEDEDE solid; margin-bottom:5px; width:100px; height:100px}
+.div1mshuxinlistspan1 {font-size:10px; text-decoration:line-through}
+.div1mshuxinlistspan2 {font-size:14px; color:#7964AA; font-weight:bolder}
+.div1r {width:176px; float:right; height:760px}
+.div1rbanner {width:176px; height:223px}
+.div1rnotice {width:176px; height:96px; background:url(../images/index/noticebg.gif); margin-top:7px; margin-bottom:13px}
+.div1rnotice div {padding:20px 0 0 70px; text-align:left; line-height:12px}
+.div1rnotice span { font-size:10px; color:#FF6600}
+.div1rnotice p  {margin:0; padding-top:10px; text-align:right}
+.div1rnotice a:link {color:#666666}
+.div1rnotice a:hovor {color:#11ACA0; text-decoration:none}
+.div1rnotice a:visited {color:#666666}
+
+
+.div1tgspt {width:176px; background:url(../images/index/tgzqbgt.gif); height:31px}
+.div1tgspbg {width:176px; background:url(../images/index/tgzqbg.gif); height:357px}
+.div1tgsp {width:160px; text-align:left}
+.div1tgsp ul { margin:0; padding:0}
+.div1tgsp ul li {height:82px; height:62px !important; _height:62px; padding:10px 0px;  list-style: none}
+
+.div1tgsp ul li span img {border:1px #DEDEDE solid; width:60px; height:60pxwidth:62px; float:left; clear:left}
+.div1tgsp ul li div {width:95px; float:right; font-family:Arial; line-height:14px}
+.div1tgsp ul li div span {color:#FF6600; font-size:10px; font-family:Verdana}
+.div1tgspb {background:url(../images/index/tgzqbgb.gif); height:14px; width:176px}
+
+
+.div2 {width:920px; height:445px; padding-bottom:30px; background:#FFFFFF}
+.div2l {width:176px; height:445px; float:left}
+.div2ad {margin-bottom:11px}
+.div2m {width:568px; height:445px; float:left}
+.div2m1 {width:548px; height:236px; background:url(../images/index/middle1bg.gif); border-top:1px #000000 solid; border:1px #DEDEDE solid}
+.div2m1l {width:272px; width:262px !important; _width:262px; height:236px; float:left; padding-left:10px}
+.indexevents {padding:23px 0; text-align:left; color:#858585; font-family:Arial}
+.indexevents a:link {color:#000000}
+.indexevents a:visited {color:#000000}
+#indexevents {text-align:left; color:#858585; font-family:Arial}
+#indexevents ul { margin:0; padding:0 }
+#indexevents ul li { margin:0; height:16px; line-height:16px; list-style: none}
+#indexevents a:link {color:#000000}  
+#indexevents a:hover {color:#000000}  
+
+
+.div2m1r {width:272px; width:262px !important; _width:262px; height:236px; float:right; padding-right:10px}
+.div2label1 {height:33px; text-align:left}
+.div2label2 {width:528px; height:55px; text-align:left}
+.div2guide {width:550px; height:150px; border-bottom:1px #DEDEDE solid}
+.div2guide div {text-align:left; padding:0 5px; float:left}
+.div2guide div img {width:172px; border:0; margin-bottom:5px}
+.div2r {width:176px; height:445px; float:right}
+.div3 {width:920px; height:233px; border-bottom:1px #DEDEDE solid; border-top:2px #30A83F solid}
+.div31 {width:320px; height:233px; float:left}
+.div31list ul { margin:0; padding:0}
+.div31list ul li {text-align:left; height:95px; list-style:none; color:#444444}
+.div31list ul li img {float:left; margin:0 10px; border:1px #dddddd solid}
+.div31list ul li div {widht:180px; height:95px; color:#444444}
+.div31list span {color:#858585; font-family:Arial}
+.div32 {float:left; width:230px; height:233px}
+#indexbrand {width:220px; height:190px; border-right:1px #DEDEDE solid}
+#indexbrand ul { margin:0; padding:0 }
+#indexbrand ul li {padding:0; margin:10; list-style: none; width:110px; float:left; text-align:left}  
+.div33 {width:185px; height:233px; float:left}
+#indexscore {text-align:left; color:#858585; font-family:Arial; background:url(../images/index/rankbg.gif) no-repeat; height:190px; border-right:1px #DEDEDE solid}
+#indexscore ul { margin:0; padding:0 }
+#indexscore ul li { padding:0; margin-left:30px; height:18px; line-height:18px; list-style: none; color:#FF6600}  
+.div34 {float:left; width:185px; height:233px}
+#indexcoupon {text-align:left; color:#858585; font-family:Arial; background:url(../images/index/rankbg.gif) no-repeat; height:190px}
+#indexcoupon ul { margin:0; padding:0 }
+#indexcoupon ul li { padding:0; margin-left:30px; height:18px; line-height:18px; list-style: none; color:#339900}  
+.div3label {height:42px; text-align:left}
+.list1 {width:920px; padding:5px 0; background:#FFFFFF}
+.list1label {width:920px; height:35px; background:url(../images/index/listlabel.gif); margin:5px 0; border-bottom:2px #000000 solid}
+.list1labell {float:left; height:35px; line-height:35px; font-size:16px; font-weight:bolder; padding-left:20px; color:#000000}
+.list1labelm {float:right; padding:7px 30px 0; color:#666666}
+.list1labelr {float:right; height:35px; line-height:35px; padding-right:10px; color:#666666}
+.list1m {width:920px; height:344px}
+.list1ml {width:176px; height:344px; float:left}
+.list1mr {width:734px; height:344px; float:right}
+.list1mrlabel {height:31px; height:25px !important; _height:25px; padding-top:6px; background:url(../images/index/listbgt.gif)}
+.list1mrnull {height:25px; padding-right:40px; float:right}
+.list1mlist {height:308px; background:url(../images/index/listbg.gif)}
+.list1mlist div {width:700px; padding-top:8px}
+.list1mlist div ul { padding:0; margin:0}
+.list1mlist div ul li {width:140px; width:120px !important; _width:120px; height:150px; text-align:center; padding:0 10px; line-height:14px; float:left; list-style:none}
+.list1mlist img {border:1px #DEDEDE solid; border:1px #DEDEDE solid; margin:8px 0 6px; width:88px; height:88px}
+.list1mlist b {color:#11ACA0}
+.list1mb {height:5px}
+
+
+.shuxindefault {float:left; width:139px; height:31px; line-height:31px; text-align:center; font-weight:bolder; color:#2A68A3; background:url(../images/index/defaultbg.gif); margin-right:-2px; font-size:12px}
+.shuxindefault a:link {color:#FFFFFF}
+.shuxindefault a:hover {color:#FFFFFF; text-decoration:none}
+.shuxindefault a:visited {color:#FFFFFF}
+.shuxinselect {float:left; width:139px; height:31px; line-height:31px; text-align:center; font-weight:bolder; color:#2A68A3; background:url(../images/index/selectbg.gif); margin-right:-2px; font-size:12px}
+.shuxinselect a:link {color:#000000}
+.shuxinselect a:hover {color:#000000; text-decoration:none}
+.shuxinselect a:visited {color:#000000}
+.listdefault {float:right; width:121px; height:25px; line-height:25px; text-align:center; color:#2A68A3; background:url(../images/index/listdefault.gif); margin-right:-2px; font-size:12px}
+.listdefault a:link {color:#666666}
+.listdefault a:hover {color:#666666; text-decoration:none}
+.listdefault a:visited {color:#666666}
+.listselect {float:right; width:121px; height:25px; line-height:25px; text-align:center; font-weight:bolder; color:#2A68A3; background:url(../images/index/listselect.gif); margin-right:-2px; font-size:12px}
+.listselect a:link {color:#11ACA0}
+.listselect a:hover {color:#11ACA0; text-decoration:none}
+.listselect a:visited {color:#11ACA0}  

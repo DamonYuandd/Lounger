@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="jquery-1.6.2.js"></script>
+<title>无标题文档</title>
+</head>
+<script>
+    $(document).ready(function(){
+		$(".out ul li").hover(function(){
+			var kk = $(this).find("a").attr("title");
+			$(this).find("em").text(kk);
+			$(this).find("em").animate({opacity:"show",top:"-30"},"slow");
+		},
+		   function(){ $(this).find("em").animate({opacity:"hide",top:"-50"},"fast");
+		});
+	});
+</script>
+<style>
+.out
+{ width:500px;
+height:500px;
+position:absolute;
+top:300px;
+left:300px;
+}
+.out ul li
+{ list-style:none;
+width:100px;
+height:20px;
+float:left;
+position:relative;
+background:#FF0;
+border:1px #000 solid;
+}
+.out ul li em
+{ position:absolute;
+top:-80px;
+left:-10px;
+width:100px;
+background:#9F0;
+border:#000 1px solid;
+display:none;
+}
+</style>
+<body>
+<div class="out">
+     <ul>
+         <li>
+            <a href="#" title="1111">11111</a>
+            <em></em>
+         </li>
+         <li>
+             <a href="#" title="2222">22222</a>
+             <em></em>
+         </li>
+         <li>
+              <a href="#" title="3333">33333</a>
+              <em></em>
+         </li>
+         <li>
+               <a href="#" title="4444">44444</a>
+               <em></em>
+          </li>
+     </ul> 
+</div>
+</body>
+</html>

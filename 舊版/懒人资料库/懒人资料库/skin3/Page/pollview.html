@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Created Page at 2008-8-8 18:47:50,by V5Shop.com.cn   V5Shop Management Systeme 8.0-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<link href="css/css_others.css" rel="stylesheet" type="text/css">
+<title>查看投票结果</title>
+</head>
+<body>
+<div class="prolabel2"><img src="images/others/pulllabel2.gif" width="214" height="32" /></div><br>
+<#loop votesearch,id$title 1#>
+ <table width="96%" border="0" align="center" cellpadding="5" cellspacing="0" style="border:1px #CCCCCC dashed; margin-bottom:20px">
+	<tr>
+	  <td height="50" style="border:1px #CCCCCC dashed; background:#F3F3F3">{votesearch[title]}</td>
+	</tr>
+	 <#loop voteoptionsearch,||"id$name$voteid$count$orderid"||#>
+	  	<#if voteoptionsearch_member["voteid"].ToString() == cid.ToString()#>
+	<tr>
+	  <td height="20">
+			{voteoptionsearch[orderid]}. <label for="vote_{voteoptionsearch[id]}">{voteoptionsearch[name]}</label>
+		[	<b style="color:#00C0C0">{voteoptionsearch[count]}</b> 次  ]
+	  </td>
+	</tr>
+		<#/if#>
+	  <#/loop#>  
+  </table>
+<#/loop#>  
+</body>
+</html>

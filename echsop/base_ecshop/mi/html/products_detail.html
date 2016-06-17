@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- PAGE INFO -->
+	<title>小米官网</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Mr.Yu" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="../data/css/base.css" />
+	<link rel="stylesheet" type="text/css" href="../data/css/layout.css" />
+	<link rel="stylesheet" type="text/css" href="../data/css/page.css" />
+	
+	<!-- JavaScript -->
+	<script src="../data/js/jquery-1.11.1.min.js"></script>
+	<script src="../data/js/base.js"></script>
+	<script src="../data/js/hammer.js"></script>
+	<script src="../data/js/plugin.js"></script>
+</head>
+
+<body>
+	<div id="container">
+		<!--顶部导航 START-->
+		<header id="header">
+			<a class="icon_24_arrow_l" href="products.html"></a>
+			<h1>小米4移动合约版</h1>
+			<i class="icon_24_share"></i>
+		</header>
+		<!--顶部导航 END-->
+		
+		<!--主内容区 START-->
+		<div id="wrapper" style="background:#fff;">
+			<div id="scroller">
+				<!--轮播图 START-->
+				<div class="pbd_focus" id="product_detial_focus">
+					<div class="box">
+						<ul class="clearfix">
+							<li>
+								<a href="products_detail.html">
+									<img src="../data/images/product/500x500_1.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="products_detail.html">
+									<img src="../data/images/product/500x500_1.jpg" />
+								</a>
+							</li>
+							<li>
+								<a href="products_detail.html">
+									<img src="../data/images/product/500x500_1.jpg" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!--轮播图 END-->
+				<!--产品筛选 START-->
+				<div class="detail_tabs">
+					<ul class="tabs_nav clearfix">
+						<li class="tabs_btn on"><span>商品介绍</span></li>
+						<li class="tabs_btn"><span>规格参数</span></li>
+						<li class="tabs_btn"><span>包装售后</span></li>
+					</ul>
+					<div class="tabs_bd">
+						<div class="tabs_item show">
+							<p class="fc_black">产品特色：</p>
+							<p>小米手机4不仅是手中汇聚的新科技，更是一件掌中艺术品，精心打磨的不锈钢金属边框、镁合金极轻构架成就了坚固的机身，窄边屏幕的精妙设计，宛如艺术品般的后盖赋予了小米手机良好的手感。全新一代小米手机，由内至外全面升级。</p>
+						</div>
+						<div class="tabs_item">
+							<img src="../data/images/product/290x290_2.jpg" />
+						</div>
+						<div class="tabs_item"><p>包装售后</p></div>
+					</div>
+				</div>
+				<!--产品筛选 END-->
+				<!--首页菜单 START-->
+				<!--首页菜单 END-->
+				
+			</div>
+		</div>
+		<!--主内容区 END-->
+		
+		<!--底部导航 START-->
+		<footer id="footer">
+			<ul class="clearfix">
+				<li>
+					<a href="index.html">
+						<i class="icon_24_home"></i>
+						<span>首页</span>
+					</a>
+				</li>
+				<li class="on">
+					<a href="products.html">
+						<i class="icon_24_product"></i>
+						<span>产品展示</span>
+					</a>
+				</li>
+				<li>
+					<a href="news.html">
+						<i class="icon_24_news"></i>
+						<span>新闻中心</span>
+					</a>
+				</li>
+				<li>
+					<a href="contact.html">
+						<i class="icon_24_contact"></i>
+						<span>联系我们</span>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		<!--底部导航 END-->
+	</div>
+</body>
+</html>
+<script>
+$(function(){
+	$(".detail_tabs").Tabs();
+})
+$(function(){
+	// 图片轮播
+	$(".pbd_focus").slideBox({
+		arrow:false,	//显示箭头
+		dots:true,		//显示原点导航
+		autoplay:false,	//开启自动播放
+		delay:2500,		//自动播放时的滑动延迟
+		speed:300		//滑动速度
+	});
+	
+});
+</script>

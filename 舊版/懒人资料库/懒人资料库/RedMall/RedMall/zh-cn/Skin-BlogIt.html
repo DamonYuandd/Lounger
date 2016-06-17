@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+        <!--系统页头信息标签-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <%<Hishop:HeadContainer ID="HeadContainer1" runat="server" />%>
+        <%<Hishop:PageTitle runat="server" />%>
+        <%<Hishop:MetaTags runat="server" />%>
+        <!--结束-->
+		<link href="/style/css.css" rel="stylesheet" type="text/css" />
+		<script src="/utility/jquery-1.3.2.min.js" type="text/javascript"></script>
+		<script src="/script/web_qq.js" type="text/javascript"></script>
+		<script src="/utility/validate/pagevalidator.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/style/pagevalidator.css" type="text/css" media="screen" />
+        <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<form runat="server" id="form1">
+<%<Hishop:TQOnlineServer runat="server" />%>
+<!--在线客服-->
+<div id="qq_right" style="top:30px;left:-146px;position:absolute;z-index:100;">
+<div class="a">
+  <div class="b"></div>
+  <div class="c">
+  	<%<Hishop:HiOnLineServiceGroup ID="HiOnLineServiceGroup1" runat="server" />%>
+	<div class="closekf" onclick="closekf();">关闭在线客服</div>
+  </div>
+  <div class="d"></div>
+</div>
+<div class="e" id="e" onmouseover="showKefu(this);"></div>
+</div>
+<!--新top-->
+
+
+
+
+
+
+<div id="top" class="width-global">
+  <div id="logo">
+    
+    <%<Hishop:Common_Logo runat="server" />%>
+  </div><!--Logo-->
+  <div class="quicklinkbox">
+    <ul class="quicklink">
+      
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="right"><ul class="quicklink">
+		 <li> <Hishop:Common_Link_CreateUser ID="Common_Link_CreateUser1" Text="注册" runat="server" /> </li>
+		 <li>  <Hishop:Common_Link_Login ID="Common_Link_Login1" runat="server" /></li>
+		 <li>  <%<Hishop:Common_Link_MyAccount runat="server" />%> </li>
+          <li>   <%<Hishop:SiteUrl UrlName="shoppingCart" Text="购物车"   target="_blank"  runat="server" />%></li>
+          
+          <li>   <%<Hishop:SiteUrl UrlName="Promotes" Text="优惠活动中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_OrderQuery Text="订单查询" runat="server" />%></li>
+            
+            <li> <%<Hishop:SiteUrl UrlName="AllHelps" Text="帮助中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_LeaveComments Text="客户留言" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_IntegrateDiscuz Text="论坛" runat="server" />%> </li>
+          </ul>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <%<Hishop:Common_ShoppingCart_Info SkinName="/ascx/custom/common_shoppingcart_info.ascx" runat="server" />%>         </td>
+        </tr>
+      </table>
+      </ul>
+  </div>
+  <br class="clear-all" />
+</div>
+<!--顶部信息结束-->
+<div id="header" class="width-global">
+  <div class="nav-box">
+    <ul class="navlist">
+      <li>
+        <h1 id="tag-index"><%<Hishop:SiteUrl UrlName="home" runat="server">首页</Hishop:SiteUrl>%></h1>
+      </li>
+      <li class="nav-proclass"><%<Hishop:Common_PrimaryClass RepeatColumns="6" SeparatorString="" runat="server" MaxNum="6" />%>
+     </li>
+    </ul>
+    <ul class="nav-slist">
+      <li class="bg-slist-left"><%<Hishop:SiteUrl UrlName="allBrand" Text="品牌专卖" runat="server" />%></li>
+	   
+	    <li><%<Hishop:SiteUrl UrlName="AllArticles" Text="文章中心" runat="server" />%></li>
+	    <li><%<Hishop:SiteUrl UrlName="Category" Text="全部分类" runat="server" />%></li>
+      <li class="bg-slist-right"></li>
+    </ul>
+  </div>
+  <div class="search-box">
+    <div class="bg-searchbox-left">
+      <div class="bg-searchbox-right">
+	   <%<Hishop:Common_Search ID="Search" SkinName="/ascx/custom/user-search.ascx" runat="server" />%>
+   
+       <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--导航、搜索栏样式结束-->
+<div class="width-global" style="overflow:hidden; width:980px;"> <%<Hishop:Common_ShowAds AdsID="1" runat="server" />%></div><!--顶部广告位结束-->
+<!-- InstanceBeginEditable name="EditRegion" -->
+<style type="text/css">
+          .fpright{float:right;}
+          .fpleft{float:left;}
+          .fpclear{clear body;}
+          .ischeck{display:block}
+          .a{display:none;}
+</style>
+<script language="javascript" type="text/javascript">
+    function testImages() {
+        var img = document.getElementById("login_imgUrl");
+        if (img == null) {
+            alert("该商品未上传图片。请上传商品图片，再调整或者放在blog里展示");
+            return;
+        }
+        var lblheight = document.getElementById("login_lblHeight");
+        var lblwidth = document.getElementById("login_lblWidth");
+        var lblfloat = document.getElementById("login_lblFloat");
+        var lblPStye = document.getElementById("login_lblIscenter");
+        var check = document.getElementById("login_chcPhoto");
+        var msg = document.getElementById("massage");
+        //alert (radiSize[0].value);
+        var radiSize = document.getElementsByName("radiobuttonSize");
+        var radiSizeText = null;
+        for (var i = 0; i < radiSize.length; i++) {
+            if (radiSize[i].checked) {
+                var radiSizeText = radiSize[i].value;
+            }
+        }
+        //alert(radiSizeText);
+        var radiFloat = document.getElementsByName("radiobuttonFloat");
+        var radiFloatText = null;
+        for (var i = 0; i < radiFloat.length; i++) {
+            if (radiFloat[i].checked) {
+                radiFloatText = radiFloat[i].value;
+            }
+        }
+        if (radiSizeText == "small") {
+            //alert("小图");
+            img.style.height = 100 + "px";
+            img.style.width = 100 + "px";
+            lblheight.innerHTML = "100px";
+            lblwidth.innerHTML = "100px";
+
+        }
+        else {
+            //alert("大图");
+            img.style.height = 500 + "px";
+            img.style.width = 500 + "px";
+            lblheight.innerHTML = "500px";
+            lblwidth.innerHTML = "500px";
+        }
+        if (radiFloatText == "left" && !check.checked) {
+            //alert("居左");
+            img.className = "fpleft";
+            lblfloat.innerHTML = "float:left";
+            lblPStye.innerHTML = "";
+        }
+        else if (radiFloatText == "right" && !check.checked) {
+            //alert("居右");
+            img.className = "fpright";
+            lblfloat.innerHTML = "float:right";
+            lblPStye.innerHTML = "";
+        }
+        else if (radiFloatText == "left" && check.checked) {
+            //alert("独占一行居左");
+            img.className = "fpclear";
+            msg.align = "left";
+            lblfloat.innerHTML = "margin:auto;";
+            lblPStye.innerHTML = "align='left'";
+        }
+        else if (radiFloatText == "right" && check.checked) {
+            //alert("独占一行居右");
+            img.className = "fpclear"
+            msg.align = "right";
+            lblfloat.innerHTML = "margin:auto";
+            lblPStye.innerHTML = "align='right'";
+        }
+        else {
+            img.className = "fpclear";
+            msg.align = "center";
+            lblPStye.innerHTML = "align='center'";
+            
+        }
+    } 
+</script>
+<table width="960" border="0" cellspacing="0" cellpadding="0" class="bodycontent">
+  <tr>
+    <td align="center" valign="top"><table width="911" border="0" cellspacing="0" cellpadding="0">
+         <tr>
+        <td width="18" align="left" class="help_center_topbg"><img src="/images/help_center_l.jpg" width="3" height="32" /></td>
+        <td width="877" align="left" class="help_center_topbg" ><span class="color_333_14b">把&nbsp;&nbsp;</span><span class="color_ff8f00_14b">" 【<%<Hishop:ProductNavigationDetails ID="lblProductName" runat="server"/>%>】  "&nbsp;&nbsp;</span><span class="color_333_14b">放在你的blog里</span></td>
+        <td width="16" align="right" class="help_center_topbg"><img src="/images/help_center_r.jpg" width="3" height="32" /></td>
+      </tr>
+    </table>
+	<table width="911" border="0" cellpadding="0" cellspacing="0" class="flower_regist">
+
+      <tr>
+        <td colspan="3" align="center" valign="top" class="border_lr2"><table width="874" border="0" cellpadding="0" cellspacing="0" class="mar_5">
+          <tr>
+            <td height="92" colspan="2" align="left" class="dash_bottom_line pad_10">
+			<div  id="massage"><%<UI:ResizeableImage ID="imgUrl" runat="server" width="100" height="100" CssClass="fpleft" />%></div>
+			<div>我们为您提供了多种样式的代码。您只需在下面的代码生成器中任选“图片大小”及“图片对齐方式”并点击“确定”按钮，在浅黄色背景区域就会自动生成一段代码。将生成的代码片断添加在您的blog中即让您blog的浏览者知道这件产品及其链接。</div>
+			
+			</td>
+            </tr>
+          <tr>
+            <td height="10" colspan="2" align="left" valign="top" ></td>
+            </tr>
+          <tr>
+            <td width="663" height="60" align="left" valign="top"><table width="653" border="0" cellpadding="0" cellspacing="0" class="mar_bto10">
+              <tr>
+                <td height="18">编辑你的博客文章的时候，插入这段代码可以显示上面商品图片</td>
+              </tr>
+              <tr>
+                <td class="border_blogit"><table width="651" border="0" cellpadding="0" cellspacing="0" class="blogit_bg">
+                  <tr>
+                    <td>&lt;p <%<asp:Label id="lblIscenter" runat="server"></asp:Label>%>
+	            &gt;&lt;a href='<%<asp:Label ID="lblUrl" runat="server"></asp:Label>%>'
+	            &gt;&lt;img border='0' src='<%<asp:Label ID="lblImgUrl" runat="server"></asp:Label>%>'
+	              higth= '<%<asp:Label id="lblHeight" Text="100px" runat="server"></asp:Label>%>'
+	              width='<%<asp:Label runat="server" Text="100px" id="lblWidth"></asp:Label>%>'
+	              style='<%<asp:Label runat="server" Text="float:left" id="lblFloat"></asp:Label>%>' /&gt;&lt;/a&gt;&lt;/p&gt;
+				<%<asp:Label ID="lblProductNameLinkText" runat="server"></asp:Label>%>
+				<p class="code">&lt;a href='<%<asp:Label ID="lblUrl2" runat="server"></asp:Label>%>'&gt;<%<asp:Label ID="lblProductName2" runat="server" ></asp:Label>%>&lt;/a&gt;</p>
+				  </td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+			</td>
+            <td width="211" align="left" valign="top" ><table width="211" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="20" align="center">代码生成器</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" class="blogit_creat_bg"><table width="190" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="61" height="51">图象大小</td>
+                    <td width="129"><input type="radio" name="radiobuttonSize" value="small"  checked="checked"/>小(100*100) <br />
+                      <input type="radio" name="radiobuttonSize" value="big" />大(500*500) </td>
+                  </tr>
+                  <tr>
+                    <td height="25">对齐方式</td>
+                    <td><input type="radio" name="radiobuttonFloat" value="left" checked="checked" />左
+                        <input type="radio" name="radiobuttonFloat" value="center" />中
+                        <input type="radio" name="radiobuttonFloat" value="right" />右</td>
+                  </tr>
+                  <tr>
+                    <td height="25">&nbsp;</td>
+                    <td><input type="checkbox" id="chcPhoto" runat="server" />独占一行</td>
+                  </tr>
+                  <tr>
+                    <td height="50" colspan="2" align="center" valign="middle">
+                        <input id="btnOK" type="button" value="调整" class="btn_sub" onclick="testImages();"/></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">&nbsp;</td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+            </tr>
+
+        </table>        </td>
+      </tr>
+      <tr>
+        <td colspan="3" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="yuanjiao_bottombg">
+          <tr>
+            <td align="left"><img src="/images/yuanjiao_bottom_left.jpg" width="3" height="4" /></td>
+            <td></td>
+            <td align="right"><img src="/images/yuanjiao_bottom_right.jpg" width="3" height="4" /></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+
+	</td>
+    </tr>
+</table>
+	<!-- InstanceEndEditable --><!--可编辑区域-->
+
+
+
+
+
+
+
+  
+  <table width="960" border="0" align="center" cellpadding="0" cellspacing="0" class="table_help" style="margin-top:20px;">
+  <tr>
+    <td ><div class="border-inside">
+     <%<Hishop:Common_Help runat="server" />%>
+  </div></td>
+    </tr>
+</table>
+
+<div class="page_w marginCenter">
+  <div class="userLink">
+  <div class="width-global friendlink">    <!--友情链接开始-->
+<table><tr><td>  <h1>友情链接：</h1></td><td> <%<Hishop:Common_FriendLinks SkinName="/ascx/custom/user-FriendLinks.ascx" runat="server"  />%> </td></tr></table>
+  </div>
+    </div>
+</div>
+
+</div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="mar_tb6" >
+  <tr>
+    <td  align="center" class="bottom">
+		<%<Hishop:CnzzShow ID="CnzzShow1" runat="server" />%>
+		<%<Hishop:PageFooter ID="PageFooter" runat="server"></Hishop:PageFooter>%>
+		<%<Hishop:LicenseControl runat="server" />%>
+        <%<Hishop:SiteCopyright runat="server" />%> 
+	</td>
+  </tr>
+</table>
+</form>
+</body>
+<!-- InstanceEnd --></html>

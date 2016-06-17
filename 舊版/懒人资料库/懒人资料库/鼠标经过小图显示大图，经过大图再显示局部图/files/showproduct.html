@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>商品放大显示</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css" />
+<link rel="stylesheet" type="text/css" href="../css/more_info.css" />
+
+
+<script type="text/javascript" src="../js/more_info.js"></script>
+<script src="../js/jquery-1.3.2.min.js.js" type="text/javascript"></script>
+<script src="../js/jqzoom.pack.1.0.1.js" type="text/javascript"></script>
+<!--回到顶部js-->
+<script type="text/javascript" src="../js/Totop.js"></script>
+
+<!--图片左右滚动js---->
+<script language="javascript">
+$(document).ready(function (){
+var the_item_li = $("#list_in li");
+var the_num = the_item_li.length;
+$("#list_in").width(the_num*100);
+var count = 0;
+var iMax = the_num-4;
+
+ $('#the_control_l').click(
+   function()
+   {
+       if(count <= 0){
+          $(this).attr({title:""});
+        }else{
+         count--;
+	     $("#list_in").animate({left:count*(-100)},100);
+        }
+   }
+ );
+ $('#the_control_r').click(
+   function()
+   {
+     if(count >=iMax){
+       $(this).attr({title:""});
+     }else{
+       count++;
+	   $('#list_in').animate({left:count*(-100)},100);
+    } 
+   }
+ );
+ $('#list_in li').mouseover(
+    function(){
+	
+	 $(this).find('img').addClass('imgcurt');
+	 $(this).siblings().find('img').removeClass('imgcurt');
+	 var bigimg = $(this).find('img').attr('name');
+	
+	 //显示大图src
+	 $('.ImgBar img').attr("src",bigimg);
+	 //替换大图预览图large
+	 var largeImg = $(this).find('img').attr('big')
+	 $('.ImgBar .ShowZoom').attr("href",largeImg);
+	}
+ );
+
+});
+</script>
+
+<!---商品图片放大js--> 
+<script type="text/javascript">
+$(document).ready(function()
+{
+	var options = {
+		    zoomWidth: 350,
+		    zoomHeight:300,
+	        xOffset: 20,
+	        yOffset: 0,
+	        position: "right", 
+			title: false
+	};
+		$('.ShowZoom').jqzoom(options);
+});
+</script>
+
+
+
+<!--箭头图片切换js-->
+<script>
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+</head>
+<body onload="MM_preloadImages('../image/con_l_2.jpg','../image/con_r_2.jpg')">
+
+    <!---顶部显示欢迎信息条----->
+
+    <!----end---------------->  
+
+        <!----商品价格、图片以及商品名称显示----->
+        <div id="Top">
+            <!--商品名字--->
+            <div id="topname">
+               <div id="topname_head">
+                   <p>超级跑车900 R</p>
+               </div>
+            </div>
+            <!---end---->
+        
+            <!--左边商品图片显示---->
+            <div id="left_container">
+                <div class="ImgBar"><a href="image/1_big.jpg" class="ShowZoom" onfocus=""><img src="../image/img1_name.jpg" height="267" width="420" /></a></div>
+            
+                <div class="SmallBar">
+                  <div class="Con_l" id="the_control_l"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image10','','../image/con_l_2.jpg',1)"><img src="../image/con_l_1.jpg" name="Image10" width="40" height="80" border="0" id="Image10" /></a></div>
+                      <div class="Small">
+                            <ul class="list_in" id="list_in">
+                                  <li><a href="javascript:;"><img src="../image/img1_a.jpg" name="../image/img1_name.jpg" big="../image/img1.jpg" width="100" height="65" /></a></li>
+                                  <li><a href="javascript:;"><img src="../image/img2_a.jpg" name="../image/img2_name.jpg" big="../image/img2.jpg" width="100" height="63" /></a></li>
+                                  <li><a href="javascript:;"><img src="../image/img3_a.jpg" name="../image/img3_name.jpg" big="../image/img3.jpg" width="100" height="65" /></a></li>
+                                  <li><a href="javascript:;"><img src="../image/img4_a.jpg" name="../image/img4_name.jpg" big="../image/img4.jpg" width="100" height="65" /></a></li>
+                                  <li><a href="javascript:;"><img src="../image/img5_a.jpg" name="../image/img5_name.jpg" big="../image/img5.jpg" width="100" height="65" /></a></li>
+                                  <li><a href="javascript:;"><img src="../image/img6_a.jpg" name="../image/img6_name.jpg" big="../image/img6.jpg" width="100" height="65" /></a></li>
+                                  <li><a href="javascript:;"><img src="../image/img7_a.jpg" name="../image/img7_name.jpg" big="../image/img7.jpg" width="100" height="65" /></a></li>
+                                  <li><a href="javascript:;"><img src="../image/img8_a.jpg" name="../image/img8_name.jpg" big="../image/img8.jpg" width="100" height="65" /></a></li>
+                            </ul>
+                      </div>
+                  <div class="Con_r" id="the_control_r"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','../image/con_r_2.jpg',1)"><img src="../image/con_r_1.jpg" name="Image11" width="40" height="80" border="0" id="Image11" /></a></div>
+                </div>
+            </div>
+            <!---end------>
+        
+        
+            <!---商品价格运费相关信息----->
+            <div id="right_container">
+              <iframe scrolling="no" frameborder="0" src="productinfo.html" width="380" height="375"></iframe>
+            </div>
+            <!----ends------>
+        </div>
+        <!-----end 商品名字，商品图片以及商品价格等相关信息---->
+        
+        
+        <!---商品评价运费成交记录等详细信息---->
+        <div id="more_container">
+           <div class="more_tab">
+              <ul>
+                  <li id="head1" class="hover" onclick="settab('head',1,7)" >详细信息</li>
+                  <li id="head2" onclick="settab('head',2,7)" >商品评价</li>
+                  <li id="head3" onclick="settab('head',3,7)" >成交记录</li>
+                  <li id="head4" onclick="settab('head',4,7)" >运费说明</li>
+                  <li id="head5" onclick="settab('head',5,7)" >批发说明</li>
+                  <li id="head6" onclick="settab('head',6,7)" >交易方式</li>
+                  <li id="head7" onclick="settab('head',7,7)" >联系方式</li>
+              </ul>
+           </div>
+           
+           <div class="spare">
+           </div>
+          
+           <div id="contentbox">
+              <div id="con_1" class="hover">
+                &nbsp;&nbsp;&nbsp;详细信息版块
+               
+                
+              </div>
+              
+              <div id="con_2" style="display:none;">
+                &nbsp;&nbsp;&nbsp;商品评价板块
+              </div>
+              
+              <div id="con_3" style="display:none;">
+              &nbsp;&nbsp;&nbsp;成交记录板块
+              </div>
+              
+              <div id="con_4" style="display:none;">
+              &nbsp;&nbsp;&nbsp;运费说明板块
+              </div>
+              
+              <div id="con_5" style="display:none;">
+              &nbsp;&nbsp;&nbsp;批发说明板块
+              </div>
+              
+              <div id="con_6" style="display:none;">
+              &nbsp;&nbsp;&nbsp;交易方式板块
+              </div>
+              
+              <div id="con_7" style="display:none;">
+              &nbsp;&nbsp;&nbsp;联系方式板块
+              </div>
+           </div>
+        </div>
+        <!---end 商品评价运费成交记录等详细信息----->
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>视频编辑</title>
+
+<layout name="Inc:edit_page" cache="0" />
+
+<link href="__ADMIN__/Public/css/swfupload.css" rel="stylesheet" type="text/css" />
+<link href="__ADMIN__/Public/css/idtabs.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="__ADMIN__/Public/js/swfupload/swfupload.js"></script>
+<script type="text/javascript" src="__ADMIN__/Public/js/swfupload/handlers.js"></script>
+<script type="text/javascript" src="__ADMIN__/Public/js/swfupload/fileprogress.js"></script>
+
+<script>
+
+var swfu;
+window.onload = function () {
+    swfu = new SWFUpload({
+        // Backend Settings
+        upload_url: "__APP__/Admin/Video/upload/",
+        post_params: {"PHPSESSID": "<?php echo session_id(); ?>"},
+
+        // File Upload Settings
+        file_size_limit : "2 MB",	// 10MB
+        file_types : "*.avi;*.rmvb;*.rm;*.asf;*.divx;*.mpg;*.mpeg;*.mpe;*.wmv;*.mp4;*.mkv;*.vob;*.3gp",
+        file_types_description : "AllFiles",
+        file_upload_limit : 1,
+        file_queue_limit: "1",
+        
+        // Event Handler Settings - these functions as defined in Handlers.js
+        //  The handlers are not part of SWFUpload but are part of my website and control how
+        //  my website reacts to the SWFUpload events.
+        file_queued_handler : fileQueued,
+        file_queue_error_handler : fileQueueError,
+        file_dialog_complete_handler : fileDialogComplete,
+        upload_progress_handler : uploadProgress,
+        upload_error_handler : uploadError,
+        upload_success_handler : uploadSuccess,
+        upload_complete_handler : uploadComplete,
+
+        // Button Settings
+        button_image_url : "",
+        button_placeholder_id : "spanButtonPlaceholder",
+        button_width: 110,
+        button_height: 22,
+        button_text : '<span >浏览我的电脑...</span>',
+        button_text_style : '.button { font-family: Helvetica, Arial, sans-serif; font-size: 12px;width:30px; }',
+        button_text_top_padding: 0,
+        button_text_left_padding: 18,
+        button_window_mode: SWFUpload.WINDOW_MODE.TRANSPARENT,
+        button_cursor: SWFUpload.CURSOR.HAND,
+
+        // Flash Settings
+        flash_url : "__ADMIN__/Public/js/swfupload/swfupload.swf",
+
+        custom_settings : {
+            progressTarget : "fsUploadProgress",
+            cancelButtonId : "btnCancel"
+        },
+
+        // Debug Settings
+        debug: false
+    });
+};
+
+function uploadSuccess(file, serverData) {
+
+   try {
+		var arry = new Array();
+		arry = serverData.split(":");
+		
+		if(arry[1]=='error'){
+			alert(arry[2]);
+		}else{	
+			 
+	   		$("#downfile").val(arry[2]);
+	   		$('#size').val(file.size);
+		}
+	} catch (ex) {
+       this.debug(ex);
+   }
+}
+</script>
+
+</head>
+<body>
+<div class="nav-site">{~getNavSite($nav_site,$_GET['cid'])} > 编辑内容</div>
+<form action="__APP__/Admin/Video/<?php echo $obj==null?'add':'update'; ?>" method="post" enctype="multipart/form-data" class="form">  
+	<input type="hidden" id="id" name="id" value="{$obj.id}">
+	<input type="hidden" name="category_id" value="{.cid}">
+	<input type="hidden" name="is_publish" value="1">
+	<input type="hidden" name="hardware" value="{$Think.session.hardware}">
+	<input type="hidden" name="lang" value="{.lang}">
+   <fieldset>
+       <ul class="align-list align_list_li">
+           <li>
+               <label>视频标题</label>
+               <input type="text" id="title" name="title" value="{$obj.title}" class="type-text">
+           </li>
+             <li>
+           		<label>视频来源</label>
+				<input type="radio" name="y_or_t" value="2" <?php if($obj['y_or_t'] == 2) echo "checked"; ?>> <a>本地</a>&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="y_or_t" value="0" <?php if($obj['y_or_t'] == 0) echo "checked"; ?>> <a href="http://www.youku.com/" target="_blank">优酷</a>&nbsp;&nbsp;&nbsp;
+                <input type="radio" name="y_or_t" value="1" <?php if($obj['y_or_t'] == 1) echo "checked"; ?>> <a href="http://www.tudou.com/" target="_blank">土豆</a>
+           </li>
+            <li id="net_code">
+               <label>分享代码<a href="#" class="issue" title="优酷或者土豆分享功能提供的HTML代码">?</a></label>
+               <textarea type="text" id="url" name="url"  class="type-text">{$obj.url}</textarea><br>
+			   <small style="color:rgb(255, 0, 0);margin-left: 140px;">备注：移动版上浏览视频，调整height=100% width=100% 效果更佳</small>
+           </li>
+		   <div id="local_code">
+           <li>
+               <label style="float:left;">上传视频</label>               
+                <div class="fieldset flash" id="fsUploadProgress" style="float:left;margin-left: 7px;">
+                <span class="legend">上传队列</span>                
+                </div>                  			
+           </li>
+           <li>
+               <label style="float:left;"></label>
+               <input type="text" id="downfile" name="downfile" value="{$obj.downfile}"  size="40" style="float:left;margin-left: 7px;">
+               <span style="border: solid 1px #7FAAFF; background-color: #C5D9FF;margin-left:20px;float:left;height:20px;">
+                <span id="spanButtonPlaceholder" ></span>&nbsp;
+				</span>
+				<input type="button" value="上传到网站" class="btn_startupload" onClick="swfu.startUpload();" style="float:left;"/>   <div style=" float:left;margin:3px 3px 3px 28px;">建议格式视频格式:<span style="color:#F00;">avi,rmvb,rm,mp4,3gp</span></div> 
+           </li>
+           <li style="display:none;">
+               <label>视频大小</label>
+              <span style="vertical-align:middle"> <input type="text" id="size" name="size" value="{$obj.size}"  size="40"></span>
+           </li>     
+		   <li>
+               <label>封面图片</label>
+               <?php if( !empty($obj['image']) ) { ?>
+               <span id="span_image">
+               	<input type="hidden" name="image" value="{$obj.image}">
+			   <img alt="" align="middle" height="80" vspace="5" src="<?php echo $upload_root_path.'images/video/s_'.$obj['image']; ?>">
+           	   <a href="javascript:void(0)" id="delete_image">删除封面</a>&nbsp;&nbsp;&nbsp;&nbsp;
+           	   </span>
+           	   <?php } ?>
+			    <input type="file" name="image">
+           </li>
+		   </div>
+		   <?php if( $_SESSION['hardware']=='pc' ) { ?>
+            <li id="li_synch_mobile">
+                <label>手机同步</label>
+                <input type="checkbox" name="synch_mobile" id="synch_mobile" value="1"> <small class="fc-999"> --如果手机版对应栏目也有这个视频，您还可以同步过去</small>
+            </li>
+			<li id="li_mobile_category">
+                <label>手机分类</label>
+                <select id="one_mobile_category_id" name="one_mobile_category_id" style="width:200px;" onchange="changeCategory(this,'two_mobile_category_id','mobile')">
+                	{~selectCateoryOptions($_SESSION['c_root'], 'all')}
+                </select>
+            </li>
+			<script>$('#li_mobile_category').hide();</script>
+            <?php } ?>
+			<li>
+               <label></label>
+           </li>
+           <li>
+               <label></label>
+               <input type="submit" value="确定并保存" name="save" class="button button-green button-big" />
+               <input type="button" value="返回列表" onclick="javascript:history.go(-1);" class="button button-big" />
+            </li>
+        </ul>
+    </fieldset>
+</form>
+<script>
+$(function(){
+
+	$('input[name=y_or_t]').change(function(){
+		if($('input[name=y_or_t]:checked').val()==2) {
+			$('#net_code').hide();
+			$('#local_code').show();
+		} else {
+			$('#net_code').show();
+			$('#local_code').hide();
+		}
+	});
+	
+	$('input[name=y_or_t]').trigger('change');
+	
+});
+</script>
+</body>
+</html>

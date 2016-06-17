@@ -1,0 +1,20 @@
+.help_left {width:213px; border:1px #ccc solid; margin-bottom:10px; float:left}
+.help_left h1 {background:url(../images/index/left-bg1.gif); line-height:24px; height:24px; margin:0; font-size:12px; color:#D70034; font-weight:bold; padding-left:22px}
+.help_left ul {margin:8px; border-top:1px #ccc solid; border-left:1px #ccc solid; border-right:1px #ccc solid}
+.help_left ul li {line-height:26px; padding:0 0 0 20px; list-style:none; border-bottom:1px #ccc solid; line-height:39px; height:39px}
+.help_right ul {margin:0; padding:0}
+.help_right h1 {font-size:12px; color:#666}
+.help_right h1,.help_right_2 h1 {margin:10px 0 0 0; border:1px #DAD3D3 solid; background-color:#F8F9F9; line-height:30px; padding-left:15px}
+.help_right ul li {border-bottom:1px #ccc dashed; line-height:30px; padding-left:20px}
+.help_right_2 h1 {text-align:center; font-size:12px; color:#666}
+.help_right_2 span {padding:10px; line-height:22px; display:block}
+.fahuo_list {text-align:center; background:url(../images/fahuo/bg_tm2_ing.gif) no-repeat top; padding:10px}
+.fahuo_list table th {height:25px; line-height:25px; border-bottom:1px #ccc solid}
+.fahuo_list table td {line-height:30px; border-bottom:1px #ccc dashed; text-align:center}
+
+/*发货通知*/
+.listmessage { padding:10px 0; text-align:left; border:1px #ccc solid}
+.listmessage div { margin:0; padding:7px 10px 10px; list-style: none; color:#757575; border-bottom:1px #DDDDDD dashed; line-height:22px}
+.listmessage div font{ color:#FF6600; font-family:Arial, Helvetica, sans-serif; font-size:12px}
+.listmessage div p{ color:#333333; font-weight:bolder; margin:0; padding:0; text-align:right}
+.listmessage div span{ font-size:10px; color:#AAAAAA}

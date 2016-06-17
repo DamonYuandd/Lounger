@@ -1,0 +1,30 @@
+	<div class="mainright">
+      <div class="tit02">
+        <div class="th">{$location[3]['title']}</div>
+        <div class="thr">当前位置：<a href="__APP__">首页</a> > <a href="__APP__/{$location[2]['alias']}.html">{$location[2]['title']}</a> > <span>{$location[3]['title']}</span></div>
+      </div>
+      <div class="textbox">
+         <div class="new">
+           <ul>
+           	   <volist name="dataList" id="vo">
+               <li>
+	               <span>[{$vo.create_time|date="Y-m-d",###}]</span> 
+	               <notempty name="vo.image"><img src="__PUBLIC__/data/upload/images/download/s_{$vo.image}" align="top" /></notempty>
+	               <notempty name="vo.url">
+	               <a href="{$vo.url}" target="_blank">{$vo.title}</a></li>
+	               <else/>
+	               <!--a href="__APP__/Download/show/cid/{$vo.category_id}/id/{$vo.id}.html" target="_blank">{$vo.title}</a-->
+	               <a href="__PUBLIC__/data/upload/download/{$vo.downfile}" target="_blank">{$vo.title}</a>
+	               </notempty>
+               </li>
+               </volist>
+           </ul>
+       </div>
+       <div class="page">
+          <div class="scott">
+          	{$pageBar}
+          </div>
+       </div>
+      </div>
+      <div style="clear:both;"></div>
+    </div>

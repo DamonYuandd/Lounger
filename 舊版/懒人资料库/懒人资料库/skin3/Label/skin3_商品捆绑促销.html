@@ -1,0 +1,33 @@
+﻿<div class="binder">
+    <ul>
+        <#loop bindingsalesearch,["+cid+"] 5#>
+        <li>
+            <h1>
+                <img src="images/others/binderimg.gif" align="absmiddle" />
+                {bindingsalesearch[bindingname]}
+            </h1>
+            <div>
+                <ul>
+                    <#loop bindingproductbybindingid,["+bindingsalesearch_member["bindingid"].ToString()+"] 100#> 
+                    <#if bindingproductbybindingid__loop__id != 1#>
+                    <li class="plu">
+                        <img src="images/others/plusimg.gif" /></li>
+                    <#/if#>
+                    <li><strong><a href="[$syspath]product.aspx?id={bindingproductbybindingid[id]}" target="_blank">
+                        <img src="[$syspath]{bindingproductbybindingid[srcdetail]}" /></a></strong><br />
+                        <a href="[$syspath]product.aspx?id={bindingproductbybindingid[id]}" target="_blank">
+                            {bindingproductbybindingid[name]}</a> X {bindingproductbybindingid[productcount]}<br />
+                        <b>￥{bindingproductbybindingid[memberprice]}</b></li>
+                    <#/loop#>
+                </ul>
+                <span>捆绑价：<strong>￥{bindingsalesearch[memberprice]}</strong><br />
+                    原 价：<s>￥{bindingsalesearch[marketprice]}</s><br />
+                    节 省：<b>￥{bindingsalesearch[giftprice]}</b><br />
+                    <a href="[$syspath]cart.aspx?act=buy&bindingid={bindingsalesearch[bindingid]}">
+                        <img src="images/others/buykey.gif" /></a></span>
+            </div>
+        </li>
+        <#/loop#>
+    </ul>
+</div>
+<br />

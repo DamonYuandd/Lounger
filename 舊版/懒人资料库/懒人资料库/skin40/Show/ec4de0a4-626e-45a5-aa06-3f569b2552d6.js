@@ -1,0 +1,1 @@
+document.write('<a href="#" title="" target="_blank"><img src="Images//ad14.gif" width="123" height="123" border="0"></a>');

@@ -1,0 +1,36 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0;}
+ul,ol,li{list-style:none;}
+input,button{margin:0;font-size:12px;vertical-align:middle;}
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif;  text-align:center; margin:0 auto; background:#212121;}
+table{border-collapse:collapse;border-spacing:0;}
+/* Download by http://sc.xueit.com */
+.clearfloat{height:0;font-size:1px;clear:both;line-height:0;}
+a{color:#333;text-decoration:none;}
+a:hover{color:#ef9b11; text-decoration:underline;}
+
+#lupus_left { min-height:440px; background: url(../images/bg_left2.jpg) repeat-x; }
+#lupus_center { width:960px;  min-width:960px; margin:0 auto 0 -490px; padding-bottom:20px; text-align:left;}
+#lupus_right { margin-left:50%; background: url(../images/bg_right2.jpg) repeat-x; }
+
+
+
+/* SlideShow CSS */
+#slideshow { float:left; width:960px; height:207px; margin-top:10px; }
+#slideshow #slidesContainer {float:left; width:890px; height:207px; overflow:auto; /* allow scrollbar */  }
+#slideshow #slidesContainer .slide { margin:0 auto; width:890px; /* reduce by 20 pixels of #slidesContainer to avoid horizontal scroll */ height:205px; }
+
+#slideshow #slidesContainer .slide .part01{ padding:33px 20px 10px 25px; width:256px; float:left; }
+#slideshow #slidesContainer .slide .part01 h2{ text-align:center; padding-bottom:6px;}
+#slideshow #slidesContainer .slide .part01 h2 a{ font-size:16px; color:#c4c4c4;}
+#slideshow #slidesContainer .slide .part01 h2 a:hover{color:#ef9b11; }
+#slideshow #slidesContainer .slide .part01 .p{ line-height:18px; color:#c4c4c4; padding-bottom:15px;}
+#slideshow #slidesContainer .slide .part01 .more{ float:right;}
+#slideshow #slidesContainer .slide .part02{ width:580px; float:left;}
+
+/* Slideshow controls style rules. */
+.control { display:block; width:35px; height:207px; text-indent:-10000px; float:left; cursor: pointer; }
+#leftControl { float:left; background: url(../images/control_left.jpg) no-repeat 0 0; }
+#rightControl { top:0; right:0; background:url(../images/control_right.jpg) no-repeat 0 0; }
+
+
+

@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTmL 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Created Page at 2008-8-8 18:47:50,by V5Shop.com.cn   V5Shop Management Systeme 8.0-->
+<html>
+    <head>
+        {web_skin1_通用头部关键字}
+        <link href="css/css_cate.css" type="text/css" rel="stylesheet" />
+	<script language="javascript" src="../public/js/Common.js" type="text/javascript"></script>
+    </head>
+    <body text="#000000" bottommargin="0" vlink="#0000cc" alink="#ff6600" link="#0000cc" leftmargin="0" topmargin="0" rightmargin="0">
+        <center>{web_skin1_顶部栏目}{web_skin1_顶部导航}{web_skin1_商品搜索}
+        <div class="address2"><b>您的位置</b> {pathstr}</div>
+        {web_skin1_商品详细标题}
+        <div class="proinfo">
+        <div class="proinfol">
+		<div class="proinfolabel">
+	      <ul>
+	        <li id="proselect">　　购 买 咨 询</li>
+	      </ul>
+	    </div>
+        <div class="proinfodetail" id="special_2">
+        	<!--购买咨询-->
+			<#PUBLIC detailaskall#>
+	 		<br clear="all" />
+			<div id="askdetail" style="background:#f9f9f9; border:1px #e1e1e1 solid; margin-top:10px; padding:20px; color:#006699">
+			    请在这里提交您的问题：<br />
+	 		    <textarea id="txtaskdetail" rows="5" cols="50" style="width:600px"></textarea><br />
+	 		    <input type="button" id="subaskdetail" onclick="javascript:AskDetail({cid})" value="提交" /> <span style="color:#999999">点击提交我们将及时回复您的信息</span>
+	 		
+	 		</div>
+        </div>
+        </div>
+        <div class="proinfor">{web_skin1_商品详细浏览} {web_skin1_商品相关文章}</div>
+        <br clear="all" />
+        </div>
+        {web_skin1_底部帮助}{web_skin1_友情链接}{web_skin1_版权信息} </center>
+    </body>
+</html>

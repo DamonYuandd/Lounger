@@ -1,0 +1,1 @@
+document.write('<a href="/member/Advertisement_Ads_ClickCount.aspx?mark=f83f2fb7-e66d-4dc8-af93-6a9768d8f7a0&&uri=aHR0cDovL3d3dy52NXNob3AuY29tLmNu" title="4" target="_blank"><img src="Images/bn/0873013565645302.jpg" width="220" height="400" border="0"></a>');

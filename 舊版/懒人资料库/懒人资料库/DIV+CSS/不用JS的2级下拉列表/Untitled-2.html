@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html><head><title>菜单</title>
+
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+
+<META content="ZhangPeng" name="author">
+
+<script language="javascript">
+
+function showsubmenu(sid,evt){
+
+    evt = evt ? evt : (window.event ? window.event : null);
+
+    if (document.getElementById("submenu" + sid).style.display == "none"){
+
+        document.getElementById("submenu" + sid).style.display = "block";
+
+        document.getElementById("imgmenu" + sid).style.background= 'url(images/menuup.gif)';
+
+    }else{
+
+        document.getElementById("submenu" + sid).style.display = "none";
+
+        document.getElementById("imgmenu" + sid).style.background= 'url(images/menudown.gif)';
+
+    }
+
+}
+
+</script>
+
+<style type="text/css">
+
+UL.leftnav{
+
+    margin:5px auto 0px;
+
+    font: 14px verdana,geneva,arial,helvetica,sans-serif;
+
+    width: 170px;
+
+    PADDING: 5px 0px 0px 0px ; 
+
+    background: url("images/menudown.gif");
+
+    text-align: left;
+
+    LIST-STYLE-TYPE:none;
+
+    cursor: hand;
+
+    overflow:hidden;
+
+    }
+
+A.navalpha {
+
+    MARGIN:     0px; 
+
+    DISPLAY:     block;
+
+    BORDER:     0px; 
+
+    BACKGROUND-COLOR:#d6dff7; 
+
+    PADDING: 5px 0px 3px 10px ; 
+
+    COLOR:         #000; 
+
+    FONT-WEIGHT:     normal; 
+
+    TEXT-ALIGN:     left; 
+
+    TEXT-DECORATION:none; 
+
+    WIDTH:         100%;
+
+    font: 12px verdana,geneva,arial,helvetica,sans-serif;
+
+}
+
+A.navalpha:visited {
+
+    BACKGROUND-COLOR: #d6dff7;
+
+}
+
+A.navalpha:hover {
+
+    BACKGROUND-COLOR:    #E4E4E4;
+
+    color: #EC870E;
+
+    font: 12px verdana,geneva,arial,helvetica,sans-serif;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div>
+
+    <span id="imgmenu0"></span>
+
+    <span id="submenu0"></span>
+
+    <UL id="imgmenu1" class="leftnav" onclick="showsubmenu(1,event)" ><span style="padding-left:8px" >修改注册信息</span>
+
+        <div id="submenu1" style="display: block;">
+
+            <li><a class="navalpha" href="#">基本信息</a></li>
+
+            <li><a class="navalpha" href="#">安全信息</a></li>
+
+            <li><a class="navalpha" href="#">附加信息</a></li>
+
+        </div>
+
+    </ul>
+
+
+
+    <ul id="imgmenu2" class="leftnav" onclick="javascript:showsubmenu(2,event)"><span style="padding-left: 8px;">帖子管理</span>
+
+        <div id="submenu2" style="display: none;">
+
+            <li><a class="navalpha" href="#">需求信息</a></li>
+
+            <li><a class="navalpha" href="#">供应信息</a></li>
+
+        </div>
+
+    </ul>
+
+    <script>window.onload=function(){showsubmenu(0);}</script>
+
+</div>
+
+</body></html>

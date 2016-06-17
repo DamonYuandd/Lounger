@@ -1,0 +1,1 @@
+document.write('<a href="/member/Advertisement_Ads_ClickCount.aspx?mark=2a1e6591-5a2a-43da-aa6d-572da01fe86e&&uri=aHR0cDovL3d3dy52NXNob3AuY29tLmNu" title="http://www.v5shop.com.cn" target="_blank"><img src="Images/index/0_16.jpg" width="126" height="39" border="0"></a>');

@@ -1,0 +1,26 @@
+1.调用Jquery    ====>
+<script type="text/javascript" src="/xinyi2/public/js/jquery-1.6.2.js"></script>
+
+2.
+调用jquery方法
+
+/*解决兼容问题的JS*/
+$(document).ready(function(){
+	$(window).resize(function() {
+	if($(window).width()>950){
+	var i=$(window).width()-950;
+	var g=i/2;
+	$("body").css("margin","0 "+g+"px"); //这里写最外层的标签，或者DIV的ID，类等等
+	}else{
+	$("body").css("margin","0");  //这里写最外层的标签，或者DIV的ID，类等等
+	}
+
+	});
+	if($(window).width()>950){
+	var i=$(window).width()-950;
+	var g=i/2;
+	$("body").css("margin","0 "+g+"px");   //这里写最外层的标签，或者DIV的ID，类等等
+	}else{
+	$("body").css("margin","0");   //这里写最外层的标签，或者DIV的ID，类等等
+	}
+	});

@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+a {
+	color: #0066CC;
+	text-decoration: none;
+	outline:none; 
+}
+
+a:hover {
+	color: #f00;
+}
+
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+body {
+	margin: 0;
+	font-size: 12px;
+	font-family: 宋体, Verdana, Geneva, sans-serif;
+	line-height: 1.5;
+}
+
+ul,dl,dd,h1,h2,h3,h4,h5,h6,form,p,table {
+	padding: 0;
+	margin: 0;
+}
+
+table {
+	font-size: 12px;
+	font-family:宋体,Verdana, Geneva, sans-serif;
+}
+
+.title_lv_1  {
+	font-size: 18px;
+	font-family:宋体 Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+.title_lv_2  {
+	font-size: 16px;
+	font-family:宋体 Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+.title_lv_3  {
+	font-size: 14px;
+	font-family:宋体 Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+.title_lv_4  {
+	font-size: 12px;
+	font-family:宋体 Verdana, Geneva, sans-serif;
+	font-weight: bold;
+}
+
+.warning {
+	font-size: 11px;
+	font-family:宋体 Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: #F00;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	border: 0px;
+}
+
+
+.container  {
+	padding-bottom: 8px;
+	width: 950px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+#top_center {
+	width: 950px;
+	margin: 0 auto;
+	height: 39px;
+	text-align: left;
+}
+
+#top_center table {
+	font-family:宋体 Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+
+.footer {
+	text-align: center;
+	width: 952px;
+	margin:0 auto;
+	margin-top: 14px;
+	border-top:2px solid #707070;
+}
+.top_foot
+{ width:652px;
+*width:752px;
+height:146px;
+margin:0 auto;
+margin-top:10px;
+padding-left:120px;
+}
+.top_foot ul
+{ width:140px;
+float:left;}
+.top_foot ul li
+{ height:25px;
+margin-left:5px;
+text-align:left;
+}
+.top_foot ul li a
+{ color:#4a4a4a;}
+.top_foot ul li a:hover
+{ text-decoration:underline;}
+.title1
+{	font-size:13px;
+	font-weight:bold;}
+.bottom_foot
+{ background-image: url(/xinyi2/public/images/default/index/topbg.gif);
+	background-repeat: repeat-x;
+	border-top-color: #E5E5E5;
+	border-top-style: solid;
+	border-top-width: 1px;
+	padding-bottom: 8px;
+	width: 950px;
+	text-align: center;
+	margin: 0 auto;}

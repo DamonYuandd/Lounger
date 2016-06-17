@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTmL 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Created Page at 2008-8-8 18:47:50,by V5Shop.com.cn   V5Shop Management Systeme 8.0-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-cn">
+<head>
+        {web_skin1_通用头部关键字}
+        <link href="css/css.css" type="text/css" rel="stylesheet" />
+        <link href="css/css_user.css" type="text/css" rel="stylesheet" />
+        <link href="css/css_top.css" type="text/css" rel="stylesheet" />
+
+<script language="javascript" src="../public/js/prototype.js" type="text/javascript"></script>
+<script language="javascript">var path = '[$syspath]';</script>
+<script language="javascript" type="text/javascript" src="../public/js/register.js"></script>
+</head>
+<body>
+    <center>
+        <div>{web_skin1_顶部栏目}{web_skin1_顶部导航}{web_skin1_商品搜索}
+        </div>
+        <div class="address3">
+            <b>当前位置：</b><a href="[$syspath]index.aspx">首页</a> &gt; 会员中心 &gt; 会员注册</div>
+        <div class="div3">
+		  <div class="div3l">
+            <div class="div1lbg">{web_skin1_会员信息}</div>
+		    <div>
+		      <script language="JavaScript" src="Show/f457f8fd-f7ea-4c9d-8f34-73b277bdeee0.js" type="text/javascript"></script>
+	        </div>
+	      </div>
+		  
+            <div class="div4r">
+                <div align="center">
+                    <script language="javascript" src="Show/5b22b32e-ed04-425d-aa08-0fbd84f29536.js"></script></div>
+                <div class="prolabel2">
+                    <img src="images/member/registerlabel.gif" width="214" height="32" alt="" /></div>
+                <div class="helpbg">
+                    <div class="helplist3" id="frmMain">
+                        <form id="frmRegister" name="frmRegister" action="">
+                            <input type="hidden" id="_OP" name="_OP" value="" />
+                            <input type="hidden" id="_OP" name="url" value="{url}" />
+                            <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                <tr>
+                                    <td height="35" colspan="2" bgcolor="#F7F7F7">
+                                        <strong><font color="#000000">请填写用户信息( * 为必填)</font></strong></td>
+                                </tr>
+                                <tr>
+                                    <td height="1" colspan="2" align="right" background="images/dian.gif">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="15%" height="35" align="right">
+                                        <strong><font color="#009900">* 用 户 名：</font></strong></td>
+                                    <td width="85%">
+                                        <input name="txtUID" type="text" class="input" maxlength="16" id="txtUID" />
+                                        <input id="btnVaildUID"  type="image" src="images/member/checkkey.gif" onclick="return btnVaildUID_onclick()" style="vertical-align:bottom" />
+                                        <font color="#999999">用户名在5~16字符之间。</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right">
+                                        <strong><font color="#009900">* 会员密码：</font></strong></td>
+                                    <td>
+                                        <input name="txtPass01" type="password" class="input" id="txtPass01" maxlength="50" />
+                                        <font color="#999999">长度必须大于6个字符。</font></td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right">
+                                        <strong><font color="#009900">* 确认密码：</font></strong></td>
+                                    <td>
+                                        <input name="txtPass02" type="password" class="input" id="txtPass02" maxlength="50" /></td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right">
+                                        <strong><font color="#009900">性 别：</font></strong></td>
+                                    <td>
+                                        <input id="sex_1" type="radio" name="rblSex" value="1" /><label for="sex_1">男</label>
+                                        <input id="sex_2" type="radio" name="rblSex" value="2" /><label for="sex_2">女</label>
+                                        <input id="sex_3" type="radio" name="rblSex" value="0" checked="checked" /><label for="sex_3">保密</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right">
+                                        <strong><font color="#009900">真实姓名：</font></strong></td>
+                                    <td>
+                                        <input name="txtTrueName" type="text" class="input" size="40" id="txtTrueName" />
+                                        <font color="#999999">收货人姓名。</font></td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right">
+                                        <strong><font color="#009900">* E - mail：</font></strong></td>
+                                    <td>
+                                        <input name="txtEmail" type="text" class="input" size="40" id="txtEmail" />
+                                        <font color="#999999">请您务必填写正确的E-mail地址，便于我们与您联系； </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right">
+                                        <strong><font color="#009900"> 身份证号：</font></strong></td>
+                                    <td>
+                                        <input name="txtIdentityCard" type="text" class="input" size="40" maxlength="18" id="txtIdentityCard" />
+                                        <font color="#999999">此项信息用于必要时以核实身份,不可更改, 请如实填写</font></td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right">
+                                        <strong><font color="#009900">* 联系地址：</font></strong></td>
+                                    <td>
+                                        <select id="areafid_1" name="txtAreaID_1" class="input7" height="100" onchange="changecat(this,1)">
+											<option value="" selected="selected">-请选择-</option>
+											<#loop areasearch,||"0,1"||#>
+												<option value="{areasearch[id]}" >{areasearch[name]}</option>
+											<#/loop#>
+										</select>
+										&nbsp;
+										<span id="areafid_2"></span>
+										&nbsp;
+										<span id="areafid_3"></span>
+										&nbsp;
+										<span id="areafid_4"></span>
+                                        <input name="txtAddress" type="text" class="input" size="40" id="txtAddress" /></td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right">
+                                        <strong><font color="#009900">联系电话：</font></strong>
+                                    </td>
+                                    <td>
+                                        <input name="txtTelephone" type="text" class="input" size="40" id="txtTelephone" />
+                                        <font color="#999999">请填写正确的号码，以便有急事联系。</font></td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right">
+                                        <strong><font color="#009900">QQ,MSN：</font></strong></td>
+                                    <td>
+                                        <input name="txtQQ" type="text" class="input" size="40" id="txtQQ" />
+                                        <font color="#999999">在线联系方式</font></td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right">
+                                        <strong><font color="#009900">推荐人：</font></strong></td>
+                                    <td>
+                                        <input name="txtCommendUser" type="text" class="input" size="20" id="txtCommendUser" value="{u}" />
+                                        <font color="#999999">如有推荐人请填写您推荐人的用户名，没有则为空</font></td>
+                                </tr>
+                                <tr>
+                                    <td height="1" colspan="2" align="right" background="images/dian.gif">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="35" align="right" bgcolor="#F7F7F7">
+                                        <strong><font color="#009900">保护问题： </font></strong>
+                                    </td>
+                                    <td bgcolor="#F7F7F7">
+                                        <select name="txtQuestion" id="txtQuestion">
+										<#loop menucontent,regquestion 100#>
+                                            <option value="{menucontent[code]}">{menucontent[name]}</option>
+                                        <#/loop#>
+									    </select></td>
+                                </tr>
+                                <tr>
+                                    <td height="40" align="right" bgcolor="#F7F7F7">
+                                        <font color="#009900"><strong>保护答案：</strong></font></td>
+                                    <td bgcolor="#F7F7F7">
+                                        <input name="txtAnswer" type="text" class="input" size="50" id="txtAnswer" /></td>
+                                </tr>
+								<#if config.SafeCode_Reg.Value == "0"#>
+                                <tr>
+                                    <td height="40" align="right" bgcolor="#F7F7F7">
+                                        <font color="#009900"><strong>验 证 码：</strong></font></td>
+                                    <td bgcolor="#F7F7F7">
+                                        <input class="input" id="checkcode" size="8" maxlength="4" name="verify" type="text" />
+                      					<img id="verifyimg" style="cursor:pointer" alt="看不清，点击换一张" onclick="ChangeVerifyImg()" align="absmiddle" />
+					  	<script language="javascript">
+						function ChangeVerifyImg(){
+							document.getElementById("verifyimg").src = '[$syspath]member/verifyimg.aspx?d=' + Date();
+						}
+						//初始化
+						ChangeVerifyImg();
+						</script>
+										</td>
+                                </tr>
+								<#/if#>
+                                <tr>
+                                    <td height="40" colspan="2" align="center" bgcolor="#F7F7F7">
+                                        <input type="checkbox" checked="checked" value="1" id="agree" name="agree" />
+                                        <font color="#FF6600" id="txtAgree">同意〖{webname}〗注册协议</font>
+										<!-- |
+                                        <input type="checkbox" checked="checked" value="1" name="ordermail" />
+                                        <font color="#007700">订购会员赠阅</font>
+										-->
+										</td>
+                                </tr>
+                                <tr>
+                                    <td height="40" colspan="2" align="center" bgcolor="#F7F7F7">
+                                        <img src="images/member/backkey.gif" style="border:0px; cursor:pointer;" id="imgReset" onclick="window.location.href='[$syspath]index.aspx'" />
+                                        <img src="images/member/nextkey.gif" style="border:0px; cursor:pointer;" id="imgSubMit" onclick="return imgSubMit_onclick()" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                    <div class="prolabel2">
+                        <img src="images/member/tratylabel.gif" width="214" height="32" /></div>
+                    <div class="helplist3">
+						{config.Protocol}
+					</div>
+                    <br clear="all" />
+                </div>
+            </div>
+            <br clear="all" />
+      </div>
+        {web_skin1_底部帮助}{web_skin1_友情链接}{web_skin1_版权信息} </center>
+</body>
+</html>

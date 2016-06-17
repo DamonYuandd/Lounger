@@ -1,0 +1,14 @@
+
+/**
+ * 
+ * 自動給字符串中的URL添加a連接
+ * @param $string
+ * @param $rel
+ */
+function replace_urls($string){
+    $host = "([a-z\d][-a-z\d]*[a-z\d]\.)+[a-z][-a-z\d]*[a-z]";
+    $port = "(:\d{1,})?";
+    $path = "(\/[^?<>\#\"\s]+)?";
+    $query = "(\?[^<>\#\"\s]+)?";
+    return preg_replace("#((ht|f)tps?:\/\/{$host}{$port}{$path}{$query})#i", "<a href=\"$1\" target=\"\_blank\">$1</a>", $string);
+}

@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTmL 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Created Page at 2008-8-8 18:47:50,by V5Shop.com.cn   V5Shop Management Systeme 8.0-->
+<html>
+<head>
+{web_skin3_通用头部关键字}
+<link href="css/css1.css" rel="stylesheet" type="text/css" />
+<style>
+.proinfo {width:980px; padding:20px 0; text-align:center}
+.proinfol {width:732px; text-align:left}
+.proinfolabel {height:31px; background:#f1f1f1; border:1px #ccc solid}
+.proinfolabel ul { margin:0; padding:0 }
+.proinfolabel ul li {width:348px; height:31px; float:left; line-height:31px; color:#000; margin-right:-2px; list-style: none; font-weight:bolder}
+.proinfolabel a:link {color:#999999}
+.proinfolabel a:active {color:#999999}
+.proinfolabel a:visited {color:#999999}
+.proinfolabel a:hover {color:#12A7AB; text-decoration:none}
+.prodefault {background:url(images/products/vprodefault.gif) top;  text-align:center}
+.proselect {background:url(images/products/vproselect.gif); color:#12A7AB; font-size:14px; text-align:center}
+.proinfodetail {padding:20px 0;}
+.proact {padding:10px 0}
+.actunitbg {width:924px} 
+.actunit {width:303px; width:304px !important; text-align:center; color:#000000; _width:304px; padding:0 2px; float:left}
+.actunit1 {height:10px}
+.actunit2 {padding:1px 0; background:url(images/products/actunitbg.gif)}
+.actunit3 {width:304px; width:284px !important; _width:284px; padding:0 10px; background:#666666; color:#FFFFFF; height:25px; line-height:25px; text-align:left}
+.actunit4 {padding:5px 0; line-height:20px; background:#FFFFFF}
+.actunit a:active {color:#666666}
+.actunit a:visited {color:#666666}
+.actunit a:link {color:#666666}
+.actunit a:hover {color:#ff6600; text-decoration:none}
+.actinfo {width:410px; width:400px !important; text-align:left; color:#000000; _width:400px; float:right; background:#EDEDED; padding:5px}
+.procomment tr td {border-bottom:1px #CCCCCC solid; padding:5px}
+.procomment a {font-weight:border}
+#procomment1 td {border-bottom:2px #999999 solid; font-weight:bolder; color:#000000}
+.propraise tr td {border-bottom:1px #CCCCCC dashed; padding:5px; background:#f7f7f7}
+#propraise1 td {border-bottom:2px #999999 solid; font-weight:bolder; color:#000000; background:#EEFBFB}
+.proinfor {width:176px; text-align:center; float:right}
+.proinforlabel {width:176px; background:url(images/products/vprorlabel.gif); height:45px; line-height:45px; font-weight:bolder; color:#2EB6B3}
+.proinforbg {width:176px; width:160px !important; _width:160px; background:url(images/products/vprorbg.gif); text-align:center; padding:0 8px}
+.proinfosp {width:160px; text-align:left}
+.proinfosp ul { margin:0; padding:0}
+.proinfosp ul li {height:82px; height:62px !important; _height:62px; padding:10px 0px; border-bottom:1px #dddddd dashed; list-style:none}
+.proinfosp img {border:1px #DEDEDE solid; width:60px; height:60px; float:left}
+.proinfosp div {width:95px; float:right; font-family:Arial; line-height:14px; color:#999999}
+.proinforbg2 {width:176px; text-align:left}
+.proinforbg2 ul {margin:0; padding:0}
+.proinforbg2 ul li {height:23px; line-height:23px; border-bottom:1px #dddddd dashed; list-style: none }
+.proinforbgb {background:url(images/products/vprorbgb.gif); height:8px; width:176px; margin-bottom:20px}
+.proinfocomment {padding:20px 0}
+.proinfocomment ul { margin:0; padding:0 }
+.proinfocomment li { list-style:none; color:#666666; padding-bottom:15px; font-size:12px }
+.proinfocomment b { color:#000000 }
+.proinfocomment font { color:#1F7A78; font-size:12px }
+.proinfocomment div { border:1px #2EB6B3 solid; background:#EBFAFA; padding:0 10px; height:30px; margin:5px 0 }
+.proinfocomment p { float:right; margin:0; padding-top:8px }
+.proinfocomment span { float:left; line-height:30px }
+.proinfocomment strong { font-size:10px }
+</style>
+</head>
+
+<body text="#000000" bottommargin="0" vlink="#0000cc" alink="#ff6600" link="#0000cc" leftmargin="0" topmargin="0" rightmargin="0" bgcolor="#F1F1F1">
+<center>
+  <div style="background:url(images/top/bg.gif); height:77px" align="center">{web_skin3_顶部导航} </div>
+  <div style="background:#004DA5" align="center">{web_skin3_位置导航} </div>
+  <div style="background:#EBEBEB; margin-bottom:2px"> {web_skin3_商品搜索公共标签} </div>
+  <div class="proinfo">
+        <div class="proinfol">
+		<div class="proinfolabel">
+	      <ul>
+	        <li id="proselect">　网 友 评 价 | Comment</li>
+	      </ul>
+	    </div>
+        <div class="proinfodetail" id="special_1">
+        	<!--网友评价-->
+			<#PUBLIC product/detailreview#>
+	 		<br clear="all" />
+        </div>
+        <div id="divproductreviewto" style="display:none;">
+            回复：<textarea type="text" id="txtproductreviewto" cols="50" rows="5"></textarea><br />
+            <input type="button" id="subproductreviewto" value="提交回复" onclick="SendProductReviewTo()" />
+            <input type="hidden" id="hidreviewtoID" value="{reviewtoid}" />
+        </div>
+        </div>
+        <br clear="all" />
+        </div>
+  <div style="background:#4081B9" align="center"> {web_skin3_底部分栏} </div>
+  <div style="background:#FFFFFF" align="center"> {web_skin3_底部版权} </div>
+
+</center>
+</body>
+</html>

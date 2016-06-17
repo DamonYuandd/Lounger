@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery-1.5.2.js"></script>
+<script type="text/javascript" src="district.js"></script>
+<script type = "text/javascript" src="minejs.js" ></script>
+<title></title>
+
+</head>
+<style>
+div
+{
+	text-align:left;
+	width:100%;
+	height:100px;
+	background:#6CC;}
+div ul li
+{
+	float:left;
+	margin-left:8px;
+	cursor:pointer;
+	background:#FF3;}
+#departure_two
+{
+	display:none;}	
+#departure_three
+{display:none;}
+</style>
+<body>
+<div class="container" style="text-align:left;">
+省<div id="departure_one" class="sel bi" bt=0 title="departure" name="departure1"><ul></ul></div>
+市<div id="departure_two" class="sel bi" bt=1 title="departure" name="departure2"><ul></ul></div>
+区<div id="departure_three" class="sel bi" bt=2 title="departure" name="departure3"><ul></ul></div>
+<input value="" id="nimei" autocomplete="off" />
+</div>
+</body>
+</html>

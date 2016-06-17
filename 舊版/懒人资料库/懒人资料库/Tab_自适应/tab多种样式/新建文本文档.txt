@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>网页层切换效果_TAB效果大全</title>
+<style>
+*{margin:0;padding:0;}
+body{margin:50px;font-size:12px;color:#666;}
+li{list-style:none;}
+div{width:210px;}
+.tab1 ,.tab2{width:398px;height:34px;border:1px #cfedff solid;border-bottom:0;background:url(/jzxy/UploadFiles_333/201008/20100817155557621.gif) repeat-x;}
+.tab1 ul ,.tab2 ul{margin:0;padding:0;}
+.tab1 li,.tab2 li{float:left;padding:0 30px;height:34px;line-height:34px;text-align:center;border-right:1px #ebf7ff solid;cursor:pointer;}
+.tab1 li.now,.tab2 li.now{color:#5299c4;background:#fff;font-weight:bold;}
+.tablist{width:378px;height:100px;padding:10px;font-size:14px;line-height:24px;border:1px #cfedff solid;border-top:0;display:none;}
+.block{display:block;}
+.red{color:#BD0A01;}
+fieldset{width:378px;border:1px #B0C0D1 solid;padding:10px;}
+legend{background:#B0C0D1;padding:4px 10px;color:#fff;}
+#c{margin-top:10px;}
+.c1,.c2{width:378px;line-height:20px;}
+.c1{color:#014CC9;}
+.c2{color:#7E6095;display:none;}
+h3{font-size:16px;padding:5px 0;}
+</style>
+<script type="text/javascript">
+function tab(o, s, cb, ev){ //tab切换类
+var $ = function(o){return document.getElementById(o)};
+var css = o.split((s||'_'));
+if(css.length!=4)return;
+this.event = ev || 'onclick';
+o = $(o);
+if(o){
+this.ITEM = [];
+o.id = css[0];
+var item = o.getElementsByTagName(css[1]);
+var j=1;
+for(var i=0;i<item.length;i++){
+if(item[i].className.indexOf(css[2])>=0 || item[i].className.indexOf(css[3])>=0){
+if(item[i].className == css[2])o['cur'] = item[i];
+item[i].callBack = cb||function(){};
+item[i]['css'] = css;
+item[i]['link'] = o;
+this.ITEM[j] = item[i];
+item[i]['Index'] = j++;
+item[i][this.event] = this.ACTIVE;
+}
+}
+return o;
+}
+}
+tab.prototype = {
+ACTIVE:function(){
+var $ = function(o){return document.getElementById(o)};
+this['link']['cur'].className = this['css'][3];
+this.className = this['css'][2];
+try{
+$(this['link']['id']+'_'+this['link']['cur']['Index']).style.display = 'none';
+$(this['link']['id']+'_'+this['Index']).style.display = 'block';
+}catch(e){}
+this.callBack.call(this);
+this['link']['cur'] = this;
+}
+}
+</script>
+</head>
+<body>
+<h1>鼠标移动<strong><font color="#FF0000">切换</font></strong>标签的例子</h1>
+<div class="tab1">
+<ul id="test1_li_now_">
+<li class="now">儒家</li>
+<li>法家</li>
+<li>墨家</li>
+<li>道家</li>
+</ul>
+</div>
+<div>
+<div id="test1_1" class="tablist block">
+<span>儒家，代表人物为孔丘、孟轲，代表作《春秋》、《论语》、《孟子》。 </span>
+</div>
+<div id="test1_2" class="tablist">
+<span>法家，代表人物韩非、李斯、管仲、商鞅，代表作《韩非子》、《管子》。 </span>
+</div>
+<div id="test1_3" class="tablist">
+<span>墨家，代表人物墨翟，代表作《墨子》。 </span>
+</div>
+<div id="test1_4" class="tablist">
+<span>道家，代表人物李耳、庄周，代表作《老子》、《庄子》。 </span>
+</div>
+</div>
+<br /><br /><br />
+<h1>单击时<strong><font color="#FF0000">切换</font></strong>标签的例子</h1>
+<div class="tab2">
+<ul id="test2_li_now_">
+<li class="now">阴阳家</li>
+<li>杂家</li>
+<li>兵家</li>
+<li>纵横家</li>
+</ul>
+</div>
+<div>
+<div id="test2_1" class="tablist block">
+<span>阴阳家，代表人物邹衍，代表作《邹子》。</span>
+</div>
+<div id="test2_2" class="tablist">
+<span>杂家，代表人物吕不韦，代表作《吕氏春秋》。</span>
+</div>
+<div id="test2_3" class="tablist">
+<span>兵家，代表人物孙武、孙膑，代表作《孙子》、《孙膑兵法》。</span>
+</div>
+<div id="test2_4" class="tablist">
+<span>纵横家，代表人物苏秦、张仪，代表作《战国纵横家书》。</span>
+</div>
+</div>
+<br /><br /><br />
+<h1>单击时触发函数的例子</h1>
+<div class="tab2">
+<ul id="test3_li_now_">
+<li class="now">阴阳家</li>
+<li>杂家</li>
+<li>兵家</li>
+<li>纵横家</li>
+</ul>
+</div>
+<div>
+<div id="test3_1" class="tablist block">
+<span>阴阳家，代表人物邹衍，代表作《邹子》。</span>
+</div>
+<div id="test3_2" class="tablist">
+<span>杂家，代表人物吕不韦，代表作《吕氏春秋》。</span>
+</div>
+<div id="test3_3" class="tablist">
+<span>兵家，代表人物孙武、孙膑，代表作《孙子》、《孙膑兵法》。</span>
+</div>
+<div id="test3_4" class="tablist">
+<span>纵横家，代表人物苏秦、张仪，代表作《战国纵横家书》。</span>
+</div>
+</div>
+<form name="ck">
+<fieldset id="test4-input-input_tab1-input_tab2">
+<legend>I'm Radio</legend>
+<h3>请选择您要学习的内容：</h3>
+<input class="input_tab1" name="myradio" id="r1" type="radio" checked="checked"/><label for="r1" class="red">XML教程</label>
+<input class="input_tab2" name="myradio" id="r2" type="radio" /><label for="r2" class="red">浏览器脚本</label>
+<div id="c">
+<div class="c1" id="test4_1">
+<input name="c2" type="checkbox" id="xml" value="" /><label for="xml">XML</label>
+<input name="c2" id="dtd" type="checkbox" value="" /><label for="dtd">DTD</label>
+<input name="c2" id="xmldom" type="checkbox" value="" /><label for="xmldom">XML DOM</label>
+<input name="c2" id="xsl" type="checkbox" value="" /><label for="xsl">XSL</label>
+<input name="c2" id="xslt" type="checkbox" value="" /><label for="xslt">XSLT</label>
+<input name="c2" id="xslfo" type="checkbox" value="" /><label for="xslfo">XSL-FO</label>
+<input name="c2" id="xpath" type="checkbox" value="" /><label for="xpath">XPath</label>
+<input name="c2" id="xquery" type="checkbox" value="" /><label for="xquery">XQuery</label>
+<input name="c2" id="xlink" type="checkbox" value="" /><label for="xlink">XLink </label>
+<input name="c2" id="xpointer" type="checkbox" value="" /><label for="xpointer">XPointer</label>
+</div>
+<div class="c2" id="test4_2">
+<input name="c3" id="js" type="checkbox" value="" /><label for="js">JavaScript</label>
+<input name="c3" id="hd" type="checkbox" value="" /><label for="hd">HTML DOM</label>
+<input name="c3" id="dhtml" type="checkbox" value="" /><label for="dhtml">DHTML</label>
+<input name="c3" id="vbs" type="checkbox" value="" /><label for="vbs">VBScript</label>
+<input name="c3" id="ajax" type="checkbox" value="" /><label for="ajax">AJAX</label>
+<input name="c3" id="e4x" type="checkbox" value="" /><label for="e4x">E4X</label>
+<input name="c3" id="wml" type="checkbox" value="" /><label for="wml">WMLScript</label>
+</div>
+</div>
+</fieldset>
+</form>
+<script type="text/javascript">
+/*
+tab 使用方法:
+new tab(标签ID, id分隔符, 单击事触发函数, 什么事件触发TAB<strong><font color="#FF0000">切换</font></strong>);
+标签ID: ID命名格式为: 前缀+分隔符+TAB标签的HTML标签名+激活状态下标签样式+分隔符+非激活状态下标签样式(必须)
+id分隔符: 分隔符(必须)
+TAB<strong><font color="#FF0000">切换</font></strong>时触发函数: TAB<strong><font color="#FF0000">切换</font></strong>时触发函数(可选)
+什么事件触发TAB<strong><font color="#FF0000">切换</font></strong>:可选(默认为onclick)
+注: 标签ID命名时的前缀将做为 该标签的新ID值,所以前缀不要与现在任何元素的ID值相同.
+返回值为: 标签ID所对象的对象.
+<strong><font color="#FF0000">切换</font></strong>标签时对应的 项目名称命名规则:
+前缀+_+顺序值
+具体理解,可以看上面的代码,比如
+ID为 "test3_li_now_" 的对象代表的意思是:
+前缀为 test3
+li 为 id为 "test3_li_now_" 标签下面的 li 标签 做为TAB项.
+now 为 标签激活时的样式
+"" 最后的空为 非激活状态下的样式
+每个标签项 激活 状态下对应的元素的ID应该命名为:
+test3_1 第一个标签项对应项目
+test3_2 第二个标签项对应项目
+test3_3 第三个标签项对应项目
+等等
+*/
+window.onload = function(){
+new tab('test1_li_now_', '_', null, 'onmouseover');
+new tab('test2_li_now_');
+new tab('test3_li_now_', '_', function(){
+alert('您现在单的是第:'+this['Index']+'个!');
+});
+new tab('test4-input-input_tab1-input_tab2', '-');
+}
+</script>
+</body>
+</html>
+

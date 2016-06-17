@@ -1,0 +1,66 @@
+﻿<div class="promiddle1"><a target="_blank" href="[$syspath]product.aspx?id={gs:productid}"><img alt="" src="{gs:srcdetail}" /></a><br />
+<a target="_blank" href="[$syspath]product.aspx?id={gs:productid}"><img height="16" alt="" width="85" border="0" src="images/others/vpro.gif" /></a><br />
+</div>
+<div class="promiddle2">
+<div class="promiddle2a">
+<div class="promiddle2s">
+<div class="promiddle2sl">　市场价格</div>
+<div class="promiddle2sr">￥{gs:marketprice}</div>
+</div>
+<div class="promiddle2s">
+<div class="promiddle2sl">　目前团购价格</div>
+<div class="promiddle2sr"><b style="font-size: 18px; color: #ff9900">￥{gs:price}</b></div>
+</div>
+<div class="promiddle2s">
+<div class="promiddle2sl">　开始时间</div>
+<div class="promiddle2sr" style="font-weight: bolder; color: #858585">{gs:startdate}</div>
+</div>
+<div class="promiddle2s">
+<div class="promiddle2sl">　结束时间</div>
+<div class="promiddle2sr" style="font-weight: bolder; color: #ee3300">{gs:enddate}</div>
+</div>
+<div class="promiddle2s">
+<div class="promiddle2sl">　赠送积分</div>
+<div class="promiddle2sr"><b style="color: #12a7ab">score.{gs:score}</b></div>
+</div>
+<div class="promiddle2s">
+<div class="promiddle2sl">　库存</div>
+<div class="promiddle2sr">{gs:storage}</div>
+</div>
+<div class="promiddle2s">
+<div class="promiddle2sl">　每人限购</div>
+<div class="promiddle2sr">{gs:maxcount}</div>
+</div>
+<div class="promiddle2s">
+<div class="promiddle2sl">　保证金</div>
+<div class="promiddle2sr">￥{gs:needprice}</div>
+</div>
+<div class="promiddle2s">
+<div class="promiddle2sl">　团购状态</div>
+<div class="promiddle2sr"><strong id="groupstatus">loading...</strong></div>
+</div>
+<br clear="all" />
+</div>
+<div class="promiddle2a">
+<div class="promiddle2s">
+<div class="promiddle2sl">　目前订购数量</div>
+<div class="promiddle2sr"><b><span id="nowcount">loading..</span> </b></div>
+</div>
+</div>
+<div class="promiddle2b">
+<div class="promiddle2s">
+<div class="promiddle2sl">　<strong>价格阶梯</strong></div>
+<div class="promiddle2sr"></div>
+</div>
+
+<#loop groupbuyprice,||"["+cid+"],[price]$[count]"||#>
+
+<div class="promiddle2s">
+<div class="promiddle2sl">　{groupbuyprice[count]}</div>
+<div class="promiddle2sr">{groupbuyprice[price]}</div>
+</div>
+
+<#/loop#>
+</div>
+<div class="promiddle2c" id="groupbuybutton">购买数量：<input class="input" id="buycount" size="4" value="1" type="text" /> <input id="limitcount" type="hidden" value="{gs:maxcount}" /> <input id="pathnow" type="hidden" value="[$syspath]" /> <img style="cursor: pointer" height="45" alt="参加团购" width="124" align="absMiddle" border="0" onclick="JoinGroupBuy({cid})" src="images/products/TGKEY.gif" /></div>
+</div>

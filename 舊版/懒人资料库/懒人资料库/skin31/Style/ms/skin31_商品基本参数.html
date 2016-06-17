@@ -1,0 +1,15 @@
+﻿<!--h1 class="productname">{ms:name}</h1-->
+<p><span>会员价：</span><b><span class="price1">￥{ms:memberprice}</span></b></p>
+<p><span>市场价：</span><strong><i class="mktprice1">￥{ms:marketprice}</i></strong></p>
+<p><span class="discount">优惠：</span></p>
+<!--商品编号-->
+<dl>
+    <dt><span>商品编号：</span></dt><dd>{ms:number}</dd></dl>
+<dl>
+    <dt><span>货号：</span></dt><dd><span id="goodsBn">{ms:number}</span></dd></dl>
+<!--品牌-->
+<#if {ms:brandid} != "0"#>
+<dl>
+    <dt><span>品牌：</span></dt><dd><a href="[$syspath]brand.aspx?id={ms:brandid}"
+        title="点击查看同品牌的更多商品" target="_blank">{ms:brandname}</a></dd></dl>
+<#/if#>

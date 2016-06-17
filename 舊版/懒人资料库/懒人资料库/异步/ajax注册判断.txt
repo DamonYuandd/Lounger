@@ -1,0 +1,119 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+<title>用户注册</title>
+
+<script language="javascript" type="text/javascript">
+
+function checkUser(){
+
+//获取用户输入的值
+
+var user=document.form1.user.value;
+
+//初始化ajax引擎
+
+var xhr= new XMLHttpRequest();
+
+//定义一个url地址
+
+var url="test2.php?user="+encodeURI(user)+"&r="+Math.random();
+
+
+
+//获取div对象
+
+var div=document.getElementById("info");
+
+//创建一个xhr的请求 open
+
+xhr.open("get",url,true);
+
+//发送请求，并且等待回复
+
+xhr.send(null);
+
+div.innerHTML="<img src='images/loading.gif' width='50' height='50'><font color='red'>等待</font>";
+
+//得到回复内容，并且做出处理
+
+xhr.onreadystatechange= function (){
+
+//判断当前的xhr对象的状态值是否4
+
+if(xhr.readyState == 4){
+
+
+
+//判断服务器响应结果
+
+if(xhr.responseText == "no"){
+
+//提示不可用
+
+div.innerHTML="<img src='images/false.png' width='50' height='50'><font color='red'>对不起，用户名已存在</font>";
+
+
+
+}else if(xhr.responseText == "ok"){
+
+//提示可以用
+
+div.innerHTML="<img src='images/ok.jpg' width='50' height='50'><font color='green'>恭喜您，此用户名可以使用</font>";
+
+
+
+   }
+
+  }
+
+}
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<form action="" name="form1" method="post">
+
+用户名：<input type="text" name="user" onblur="checkUser()"/><div id="info"></div><br />
+
+密码：<input type="password" name="password" /><br />
+
+<input type="submit" value="提交" />
+
+</form>
+
+</body>
+
+</html>
+
+
+<?php
+//接受客户端传来的参数
+$user=$_GET['user'];
+//连接数据库
+include_once("conn.php");
+getDBlink();
+
+if(isset($user)){
+$sql="select * from user where Uname='".$user."'";
+$rs=mysql_query($sql);
+//根据查询结果，返回不同的标识
+if(mysql_num_rows($rs)){
+echo "no";
+}else{
+echo "ok";
+}
+}
+?>

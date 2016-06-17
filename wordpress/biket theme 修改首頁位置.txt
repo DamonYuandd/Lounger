@@ -1,0 +1,20 @@
+<script type='text/javascript'>
+jQuery(document).ready(function($) {
+var num = $('.two-thirds').length ;
+screenWidth = jQuery(window).width();
+var startNum = 0;
+  if( num > 1 && screenWidth > 900 ){
+     for(i=1;i<num;i++){
+          var n = startNum+i;
+          var htmlInfo =  $('.two-thirds:eq('+n+')').html();
+          $('.two-thirds:eq('+startNum+')').after('<div class="grid__item  two-thirds  palm-one-whole">'+htmlInfo+'</div>');
+          startNum++;
+      }
+   
+   var delNum = num-1;
+   $('div.two-thirds:gt('+delNum+')').remove();
+   $('div.one-third:gt(0)').remove();
+     $('.two-thirds').css({'float':'left'});
+  }
+}); 
+</script>

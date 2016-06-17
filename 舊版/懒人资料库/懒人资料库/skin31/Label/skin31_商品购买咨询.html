@@ -1,0 +1,99 @@
+﻿<style type="text/css">
+dl, dt, dd {
+margin:0;
+padding:0;
+}
+.refer {
+margin-bottom:10px;
+padding:8px 15px;
+}
+.refer .r_info {
+color:#999999;
+padding-right:5px;
+text-align:right;
+}
+.refer dl {
+margin-bottom:5px;
+overflow:hidden;
+width:731px;
+}
+.ask dt {
+background:transparent url(../../template/public/images/products/refer_item_03.gif) no-repeat scroll 0 2px;
+padding-left:17px;
+}
+.refer dl {
+margin-bottom:5px;
+overflow:hidden;
+width:731px;
+}
+.refer dd {
+width:490px;
+}
+.refer dt, .refer dd {
+float:left;
+}
+.answer {
+color:#D75509;
+}
+.answer dt {
+background:transparent url(../../template/public/images/products/refer_item_06.gif) no-repeat scroll 0 2px;
+padding-left:17px;
+}
+.refer dd.an_time {
+color:#999999;
+text-align:right;
+width:130px;
+}
+a.link_1:link, a.link_1:visited {
+color:#005AA0;
+}
+.refer_bg {
+background:#F4F9FF none repeat scroll 0 0;
+border:1px solid #EDF0F1;
+}
+.refer dd.an_time {
+color:#999999;
+text-align:right;
+width:130px;
+}
+em {
+font-style:normal;
+}
+</style>
+<div>
+<#loop productask,["+cid+"] 10#>
+<div class="refer
+    <#if productask__loop__id % 2 == 1#>
+		refer_bg
+    <#/if#>
+">
+  <div class="r_info">网友：{productask[username]}    <em name="796299757_704737903" id="level"><em style="color: rgb(153, 153, 153);">
+  <#if {productask[username]} != ""#>
+  注册会员
+  <#else#>
+  未注册会员
+  <#/if#>
+  </em></em>    {productask[date]}</div>
+  <dl class="ask">
+    <dt>咨询内容：</dt>
+    <dd>{productask[content]}</dd>
+  </dl>
+  <dl class="answer">
+    <dt>管理回复：</dt>
+    <dd>{productask[remark]}</dd>
+    <dd class="an_time">{productask[remarkdate]}</dd>
+  </dl>
+  <div class="r_info" id="3694916_{productask[id]}">您对我们的回复：
+      <a class="link_1" href="javascript:void(0)" name="2" onclick="javascript:Pleased({productask[id]},'Pleased')">满意</a>
+      (<span>
+      {productask[Pleased]}
+      </span>)
+      <a href="javascript:void(0)" class="link_1" onclick="javascript:Pleased({productask[id]},'Displeased')" name="4">不满意</a>
+      (<span>
+      {productask[Displeased]}
+      </span>)
+  </div>
+</div>
+<#/loop#>
+<div style="float:right;"><a href="[$syspath]productask.aspx?id={cid}" target="_blank">查看更多咨询内容</a></div>
+</div>

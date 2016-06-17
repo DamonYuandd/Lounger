@@ -1,0 +1,15 @@
+1. 功能说明，在页面使用smarty循环100次输出，类似for循环100次
+{section name=total loop=100}
+{$smarty.section.total.index+1} //当前的索引
+{$smarty.section.total.iteration} //用于显示循环的次数
+{/section}
+{assign var=i value=0}
+{section name=total loop=100}
+{assign var=i value=$i+1} {$i}     //使用assign的方式赋值
+{/section}
+输出结果：  1 2 3 4 5 ... ... 100
+
+
+
+
+http://www.jb51.net/article/38668.htm

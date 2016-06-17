@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTmL 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Created Page at 2008-8-8 18:47:50,by V5Shop.com.cn   V5Shop Management Systeme 8.0-->
+<html>
+<head>
+        {web_skin1_通用头部关键字}
+<link href="css/css_user.css" rel="stylesheet" type="text/css">
+<script language="javascript" type="text/javascript" src="../public/js/subscription.js"></script>
+</head>
+<body text=000000 link=0000cc vlink=0000cc alink=ff6600 topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0">
+<center>
+
+<div>{web_skin1_顶部栏目}{web_skin1_顶部导航}{web_skin1_商品搜索}
+</div>
+<div class="address3">
+  <b>当前位置：</b><a href="[$syspath]index.aspx">首页</a> &gt; 邮件订阅</div>
+<div class="div3">
+  <div class="div3l">
+    <div class="div1lbg">{web_skin1_邮件订阅}</div>
+    <div>
+      <script language="JavaScript" src="Show/f457f8fd-f7ea-4c9d-8f34-73b277bdeee0.js" type="text/javascript"></script>
+    </div>
+  </div>
+  <div class="div4r">
+    <div align="center"><script language="javascript" src="Show/5b22b32e-ed04-425d-aa08-0fbd84f29536.js"></script></div>
+	<div class="prolabel2"><img src="images/others/maillabel2.gif" width="214" height="32" /></div>
+	<div class="helpbg">
+              <div class="helplist3">
+			  <form id="subform" method="post" onsubmit="this.action = '[$syspath]subscription' + '.aspx'">
+			  <input type="hidden" name="act" value="" id="act" />
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="40%" height="35">　　<strong><font color="#3359BD">邮件订阅类型：</font></strong>
+                      <select name="subscriptioncategoryid" id="category">
+						<#loop subscriptioncategory#>
+							<option value="{subscriptioncategory[id]}">{subscriptioncategory[name]}</option>
+						<#/loop#>
+                    </select></td>
+                  </tr>
+                  <tr>
+                    <td height="35">　　<strong><font color="#3359BD">邮　箱地　址：</font></strong>
+                        <input type="text" name="email" id="email" class="input" /></td>
+                  </tr>
+                  <tr>
+                    <td height="35">　　<strong><font color="#3359BD">姓　　　　名：</font></strong>
+                      <input name="username" type="text" id="username" class="input" size="10" maxlength="10" /></td>
+                  </tr>
+                  <tr>
+                    <td height="1" background="images/dian.gif"><img src="images/null.gif" width="1" height="1" /></td>
+                  </tr>
+                  <tr>
+                    <td height="35" bgcolor="#f7f7f7"></td>
+                  </tr>
+                  <tr>
+                    <td height="35" bgcolor="#f7f7f7">　　
+						<input type="image" src="images/index/pollb1.gif" onclick="return InsertSubmit()" />　
+						<input type="image" src="images/index/mailkey.gif" onclick="return DeleteSubmit()" />
+					</td>
+                  </tr>
+                </table>
+			 </form>
+              </div>	
+              <br clear="all" />
+	</div>
+	</div>
+  <br clear="all" />
+</div>
+{web_skin1_底部帮助}{web_skin1_友情链接}{web_skin1_版权信息}
+</center>
+
+</body>
+</html>

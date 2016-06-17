@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>Schillmania! | png.js demo</title>
+
+<!-- Refer to minimal_demo.html for better code examples. -->
+
+<style type="text/css">
+
+a {
+ color:#3333cc;
+ text-decoration:none;
+}
+
+a:hover {
+ color:#cc3333;
+}
+
+body {
+ font-family:"Lucida Grande","Lucida Sans Unicode",verdana,lucida,sans-serif;
+ font-size:76%;
+ color:#333333;
+ padding-bottom:16px;
+}
+
+h1 {
+ font-size:1.2em;
+}
+
+h2 {
+ font-size:1.0em;
+}
+
+.float {
+ float:left;
+ width:228px;
+ border-right:1px solid #cccccc;
+ height:190px;
+}
+
+hr {
+ font-size:1px;
+ height:1px;
+ color:#cccccc;
+}
+
+</style>
+<script type="text/javascript">
+function foo() {
+  var rndColor = '#';
+  var hexValues = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'];
+  for (var i=0; i<6; i++) {
+    rndColor += ''+hexValues[parseInt(Math.random()*hexValues.length)];
+  }
+  document.getElementById('pngDIV').style.backgroundColor = rndColor;
+  document.getElementById('pngDIV2').style.backgroundColor = rndColor;
+}
+</script>
+
+<script type="text/javascript" src="png.js"></script>
+<script type="text/javascript" src="http://www.reinvigorate.net/archive/app.bin/jsinclude.php?6024"></script>
+</head>
+
+<body>
+
+<h1 style="margin-bottom:0">png.js demo</h1>
+<span style="font-size:xx-small">An Internet Explorer PNG workaround by scott | <a href="http://www.schillmania.com">schillmania.com</a></span>
+<hr />
+
+<h1>Summary</h1>
+<p>
+ png.js attempts to replace GIF images that have a class name of png (ie. &lt;img src="image.gif" alt="" class="png" /&gt;) with PNG images where supported; in the case of IE:win32, the necessary filters are applied which enable alpha transparency (a big PNG feature) to work. Disappointing on MS' part that it isn't supported natively, but oh well.
+</p>
+
+<h1>Restrictions</h1>
+<ul>
+ <li>PNG alpha transparency only supported under IE 5.5:win32 and up.</li>
+ <li>Image width and height must be specified under IE for PNG to work.</li>
+ <li>PNGs as background images may break under Netscape 6.x.</li>
+ <li>PNG backgrounds <i>will</i> break under IE:mac. (eg. on a DIV element - known browser bug.)</li>
+ <li>PNG backgrounds do not tile under IE:win32.</li>
+ <li>"none.gif" placeholder image required for IE:win32 (due to proprietary filter crap.)</li>
+</ul>
+
+<h1>Download</h1>
+
+<a href="png-demo.zip">Library and example</a> (this page)
+
+<h1>Minimal example</h1>
+
+<p>
+ <i>How do I use this on my own pages?</i>
+</p>
+
+<p>
+ Refer to the <a href="minimal_demo.html">Minimal demo</a> page. This uses the basic code required and is what you should reference if you want to use this library with your own work.
+</p>
+
+<h1>Demo</h1>
+
+Click below to randomize the PNG backgrounds (showing the alpha transparency on the shadow.)<br />
+
+<br />
+<button onclick="foo()"> Randomize it! </button>
+
+<hr />
+
+<div class="float">
+
+ <h2>GIF</h2>
+
+ <img src="foo.gif" alt="This is a regular GIF." />
+
+</div>
+
+<div id="pngDIV" class="float" style="padding-left:48px">
+
+ <h2>PNG<sup>*</sup></h2>
+
+ <img src="foo.gif" alt="this is a GIF that is replaced with a PNG image under supported browsers, and a GIF everywhere else." class="png" style="width:220px;height:100px" />
+
+ <p style="font-size:xx-small">* only where supported; displays as GIF otherwise.</p>
+
+</div>
+
+<div id="pngDIV2" class="float" style="padding-left:48px">
+
+ <h2>PNG (background image)<sup>*</sup></h2>
+
+ <div alt="this DIV has a background GIF that is replaced with a PNG image under supported browsers, and a GIF everywhere else." class="png" style="width:220px;height:100px;background-image:url(foo.gif);background-repeat:no-repeat">
+  &nbsp;
+ </div>
+
+ <p style="font-size:xx-small">* same restrictions as IMG, but this method breaks on ie:mac.</p>
+
+</div>
+
+<script type="text/javascript">
+pngHandler.init();
+</script>
+
+</body>
+</html>

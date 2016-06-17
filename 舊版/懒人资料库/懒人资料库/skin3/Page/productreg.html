@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTmL 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Created Page at 2008-8-8 18:47:50,by V5Shop.com.cn   V5Shop Management Systeme 8.0-->
+<html>
+<head>
+{web_skin3_通用头部关键字}
+<link href="css/css1.css" rel="stylesheet" type="text/css" />
+<style>
+.proinfo {width:980px; padding:20px 0; text-align:center}
+.proinfol {width:732px; text-align:left}
+.proinfolabel {height:31px; background:#f1f1f1; border:1px #ccc solid}
+.proinfolabel ul { margin:0; padding:0 }
+.proinfolabel ul li {width:348px; height:31px; float:left; line-height:31px; color:#000; margin-right:-2px; list-style: none; font-weight:bolder}
+.proinfolabel a:link {color:#999999}
+.proinfolabel a:active {color:#999999}
+.proinfolabel a:visited {color:#999999}
+.proinfolabel a:hover {color:#12A7AB; text-decoration:none}
+.prodefault {background:url(images/products/vprodefault.gif) top;  text-align:center}
+.proselect {background:url(images/products/vproselect.gif); color:#12A7AB; font-size:14px; text-align:center}
+.proinfodetail {padding:20px 0;}
+.proact {padding:10px 0}
+.actunitbg {width:924px} 
+.actunit {width:303px; width:304px !important; text-align:center; color:#000000; _width:304px; padding:0 2px; float:left}
+.actunit1 {height:10px}
+.actunit2 {padding:1px 0; background:url(images/products/actunitbg.gif)}
+.actunit3 {width:304px; width:284px !important; _width:284px; padding:0 10px; background:#666666; color:#FFFFFF; height:25px; line-height:25px; text-align:left}
+.actunit4 {padding:5px 0; line-height:20px; background:#FFFFFF}
+.actunit a:active {color:#666666}
+.actunit a:visited {color:#666666}
+.actunit a:link {color:#666666}
+.actunit a:hover {color:#ff6600; text-decoration:none}
+.actinfo {width:410px; width:400px !important; text-align:left; color:#000000; _width:400px; float:right; background:#EDEDED; padding:5px}
+.procomment tr td {border-bottom:1px #CCCCCC solid; padding:5px}
+.procomment a {font-weight:border}
+#procomment1 td {border-bottom:2px #999999 solid; font-weight:bolder; color:#000000}
+.propraise tr td {border-bottom:1px #CCCCCC dashed; padding:5px; background:#f7f7f7}
+#propraise1 td {border-bottom:2px #999999 solid; font-weight:bolder; color:#000000; background:#EEFBFB}
+.proinfor {width:176px; text-align:center; float:right}
+.proinforlabel {width:176px; background:url(images/products/vprorlabel.gif); height:45px; line-height:45px; font-weight:bolder; color:#2EB6B3}
+.proinforbg {width:176px; width:160px !important; _width:160px; background:url(images/products/vprorbg.gif); text-align:center; padding:0 8px}
+.proinfosp {width:160px; text-align:left}
+.proinfosp ul { margin:0; padding:0}
+.proinfosp ul li {height:82px; height:62px !important; _height:62px; padding:10px 0px; border-bottom:1px #dddddd dashed; list-style:none}
+.proinfosp img {border:1px #DEDEDE solid; width:60px; height:60px; float:left}
+.proinfosp div {width:95px; float:right; font-family:Arial; line-height:14px; color:#999999}
+.proinforbg2 {width:176px; text-align:left}
+.proinforbg2 ul {margin:0; padding:0}
+.proinforbg2 ul li {height:23px; line-height:23px; border-bottom:1px #dddddd dashed; list-style: none }
+.proinforbgb {background:url(images/products/vprorbgb.gif); height:8px; width:176px; margin-bottom:20px}
+.proinfocomment {padding:20px 0}
+.proinfocomment ul { margin:0; padding:0 }
+.proinfocomment li { list-style:none; color:#666666; padding-bottom:15px; font-size:12px }
+.proinfocomment b { color:#000000 }
+.proinfocomment font { color:#1F7A78; font-size:12px }
+.proinfocomment div { border:1px #2EB6B3 solid; background:#EBFAFA; padding:0 10px; height:30px; margin:5px 0 }
+.proinfocomment p { float:right; margin:0; padding-top:8px }
+.proinfocomment span { float:left; line-height:30px }
+.proinfocomment strong { font-size:10px }
+</style>
+</head>
+
+<body text="#000000" bottommargin="0" vlink="#0000cc" alink="#ff6600" link="#0000cc" leftmargin="0" topmargin="0" rightmargin="0" bgcolor="#F1F1F1">
+<center>
+  <div style="background:url(images/top/bg.gif); height:77px" align="center">{web_skin3_顶部导航} </div>
+  <div style="background:#004DA5" align="center">{web_skin3_位置导航} </div>
+  <div style="background:#EBEBEB; margin-bottom:2px"> {web_skin3_商品搜索公共标签} </div>
+
+
+<div class="list1">
+  <div class="list1label">
+    <div class="list1labell">缺货登记 <font color="#B5B5B5">SHOPPING　PROGRAM</font></div>
+    <div class="list1labelr"></div>
+  </div>
+  <div class="list1m">
+    <div class="list1mrlabel">
+      <div class="listselect">缺货登记</div>
+    </div><br><br>
+    <form id="regform" action="[$syspath]productreg.aspx?id={cid}" method="post">
+	<input type="hidden" name="act" value="productreg" />
+      <table width="72%" border="0" cellspacing="0" cellpadding="5" class="BORDER">
+        <tr>
+          <td colspan="2" align="left" bgcolor="#F7F7F7"><span class="STYLE4">商品信息 ：</span></td>
+        </tr>
+        <tr>
+          <td width="29%" align="right">缺货商品名称：</td>
+          <td width="71%" align="left">
+		  <#loop productdetail,["+cid+"],id$name 1#>
+		  <a href="[$syspath]product.aspx?id={productdetail[id]}" target="_blank"><font color="#688A00">{productdetail[name]}</font></a>
+		  <#/loop#>
+		  </td>
+        </tr>
+        <tr>
+          <td align="right">需要商品的数量：</td>
+          <td align="left"><input name="Count" type="text" class="input_addnogoods" id="Count" size="8" maxlength="8" value="1" style="ime-mode:Disabled"/>
+            <span class="STYLE5">*</span> <span class="STYLE5">您需要该商品的数量 </span></td>
+        </tr>
+        <tr>
+          <td align="right">最晚到货的时间：</td>
+          <td align="left"><span class="STYLE5">
+            <input name="Date" type="text" class="input_addnogoods" value="2008-7-25" id="Date"  size="15" />
+            *您最晚需要该商品的时间</span></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="left" bgcolor="#F7F7F7"><span class="STYLE4">登记人信息 ：</span></td>
+        </tr>
+        <tr>
+          <td align="right">您的真实姓名：</td>
+          <td align="left"><input name="TrueName" type="text" class="input_addnogoods" id="TrueName" size="20" maxlength="20" />
+            <span class="STYLE5">*您的真实姓名</span></td>
+        </tr>
+        <tr>
+          <td align="right">您的联系方式：</td>
+          <td align="left"><input name="Address" type="text" class="input_addnogoods" id="Address" size="45" maxlength="45" />
+            <span class="STYLE5">*您的联系地址</span></td>
+        </tr>
+        <tr>
+          <td align="right">您的联系电话：</td>
+          <td align="left"><input name="Telephone" type="text" class="input_addnogoods" id="Telephone" size="20" maxlength="20" />
+            <span class="STYLE5">*您的真联系电话</span></td>
+        </tr>
+        <tr>
+          <td align="right">您的Email：</td>
+          <td align="left"><input name="Email" type="text" class="input_addnogoods" id="Email" size="20" maxlength="20" />
+            <span class="STYLE5">*您的Email</span></td>
+        </tr>
+        <tr>
+          <td align="right" valign="middle">登记备注说明：</td>
+          <td align="left"><textarea name="Remark" cols="50" rows="4" class="input_addnogoods1" id="Remark"></textarea></td>
+        </tr>
+        <tr>
+          <td height="20" align="right">&nbsp;</td>
+          <td align="left">
+              <input name="Submit" type="submit" class="input_addnogoods" onclick="return check_str();" value=" 确 定 " />
+            <input name="Submit2" type="reset" class="input_addnogoods" value=" 取 消 " /></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="left"><span class="STYLE5">注：带 * 号的是必填项 </span></td>
+        </tr>
+      </table>
+	
+    <div style="height:20px; line-height:20px; padding:10px 20px; text-align:center"></div>
+	</form>
+  </div>
+  <div class="list1mb"><img src="images/cart/listbgb.gif" /></div>
+</div>
+</div>
+
+<div style="background:#4081B9" align="center"> {web_skin3_底部分栏} </div>
+  <div style="background:#FFFFFF" align="center"> {web_skin3_底部版权} </div>
+
+</center>
+</body>
+</html>

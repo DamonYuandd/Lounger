@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>飞飞input表单输入框默认提示信息插件，获得焦点自动清空默认值，失去焦点对比确认默认值</title>
+<!--
+/**
+ +------------------------------------------------------------------------------
+ * input用户名自动提示插件
+ +------------------------------------------------------------------------------
+ * @author    飞飞
+ * @version   1.0
+ * @QQ        276230416
+ +------------------------------------------------------------------------------
+ * 参数
+ * @input 入参
+ *     json对象
+ *     @ dvalue       input表单提示默认值
+ *     @ tip          默认提示信息样式名class
+ *     @ tipnone      在指定的input执行click时替换的样式名class
+ +------------------------------------------------------------------------------
+ *使用方法:
+ * $("#xxx").autoTip();
+ * @ #xxx 为需要提示的input的id
+ */
+-->
+<script src="jquery-1.4.2.min.js"></script>
+<script src="jquery.autotip.js"></script>
+<style type="text/css">
+*,body,div,form,{font-size:12px}
+#txtUsername.tip{ color:#CCC;}
+#txtUsername.tipnone{color:#000; font-weight:bold}
+
+
+/*ex*/
+.ex{ background-color:#CCC; border:1px solid #333; width:500px; padding:10px;}
+</style>
+</head>
+<body>
+<p><strong>Jquery插件</strong>：autoTip<br />
+  <strong>作者</strong>：飞飞<br />
+  <strong>版本</strong>：v1.0<br />
+  <strong>QQ群</strong>：72840059<br />
+  <strong>下载地址</strong>：<a href="http://www.ffasp.com/content.asp?newsid=1655" target="_blank">http://www.ffasp.com/content.asp?newsid=1655 </a><br />
+  <strong>功能说明：</strong><br /> 
+本插件是为输入用户名的提示信息而写的。功能虽然简单但对于做开发的人来说每次写这几行代码也实属繁琐，所以我就把这几行代码写成了jquery的插件以求以后用起来更加便捷。<br />
+简单说明：<br />
+1.可以自动默认提示信息，若不设置则默认值为：用户名/邮箱<br />
+2.当input获得焦点时，input的值会被自动清除；当input失去焦点时，会判断输入值与默认值是否一致，如果一致（或空）则再次显示默认提示信息，若不一致（已输入信息）则input值为所输入值<br />
+3.此插件是jquery插件，调用方式为
+ 
+* $(&quot;#xxx&quot;).autoTip(); 并可以指定input获得焦点和失去焦点的CSS样式。以下为参数说明<br />
++------------------------------------------------------------------------------<br />
+* 参数<br />
+* @input 入参<br />
+*     json对象<br />
+*     @ dvalue       input表单提示默认值<br />
+*     @ tip          默认提示信息样式名class<br />
+*     @ tipnone      在指定的input执行click时替换的样式名class<br />
++------------------------------------------------------------------------------<br />
+*使用方法:<br />
+* $(&quot;#xxx&quot;).autotip();<br />
+* @ #xxx 为需要提示的input的id<br />
+</p>
+<br />
+<div class="ex">
+<strong>以下是演示示例：</strong><br />
+  <form id="form1" name="form1" method="post" action="">
+    <input id="txtUsername" type="text" name="textfield"  />
+  </form>
+  <a href="http://www.ffasp.com/contactus.asp" target="_blank" >与作者沟通</a>
+</div>
+
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>
+  <script type="text/javascript">
+$("#txtUsername").autoTip();
+  </script>
+</p>
+</body>
+</html>

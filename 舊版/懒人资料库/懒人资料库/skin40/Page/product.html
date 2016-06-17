@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+<meta content="IE=EmulateIE7" http-equiv="X-UA-Compatible" />
+<meta content="{keywords}" name="keywords" />
+<meta content="{description}" name="description" />
+<script language="javascript" src="../public/mootools/mootools.js" type="text/javascript"></script>
+
+<script language="javascript" src="../public/js/Common.js" type="text/javascript"></script>
+
+<script language="javascript" src="js/common.js" type="text/javascript"></script>
+
+<script language="javascript" type="text/javascript" src="/js_userdiscount.aspx"></script>
+
+<title>{shoptitle}</title>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="[$syspath]favicon.ico" />
+<link href="css/product.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript">
+function setTab(m,n){
+	if(document.getElementById("menu"+m))
+		var tli=document.getElementById("menu"+m).getElementsByTagName("li");
+	if(document.getElementById("main"+m))
+		var mli=document.getElementById("main"+m).getElementsByTagName("ol");
+	for(i=0;i<tli.length;i++)
+	{
+		tli[i].className=i==n?"tab_on":"";
+		mli[i].style.display=i==n?"block":"none";
+	}
+} 
+function setTabT(m,n)
+{
+	var tli,mli;
+	if(document.getElementById("NumT"+m))
+		tli=document.getElementById("NumT"+m).getElementsByTagName("li");
+	if(document.getElementById("Num"+m))
+		mli =document.getElementById("Num"+m).getElementsByTagName("ol");
+	for(i=0;i<tli.length;i++)
+	{
+		tli[i].className=i==n?"tab_on2":"";
+		mli[i].style.display=i==n?"block":"none";
+	}
+} 
+</script>
+</head>
+<body>
+<div class="top">
+{web_skin40_通用头导航2}
+  <div class="clear"></div> 
+</div>
+<div class="dqwz"><b>您当前的位置：</b>{pathstr}</div>
+<div class="product_bao">
+ <div class="product_left">
+  <div class="product_xg">
+   <dl>
+    <dd><img src="images/xiaobtu/product_03.jpg" /></dd>
+    <dt>
+    <div>
+     {web_skin40_商品详细相关商品}
+    </dt>
+   </dl>
+   <div class="clear"></div>
+  </div>
+   <div class="category_liul">
+  <h1><img src="images/xiaobtu/category_10.jpg" /></h1>
+  <div>
+  {web:ms=mallviewnext┆Loop$6┆输出格式$out_Ul┆排列列数$55┆标签样式$classname┆引用样式$skin40_大类浏览记录样式┆标题数$6┆简介长度$200┆日期格式$YY02-MM-DD┆缩略图宽高$80*80┆打开窗口$1}
+  <div class="clear"></div>
+  </div>
+  
+  <div class="clear"></div>
+  </div>
+  <div class="category_leftgg"><script language="javascript" src="Show/7c7b52c0-c16c-4643-b44c-e33dbb2a926c.js"></script></div>
+  <div class="category_leftgg"><script language="javascript" src="Show/42b71443-0e60-4c4d-bf85-b5aa655cb7b6.js"></script></div>
+ </div>
+ <div class="product_right">
+  <div class="product_title">{web:ms=readmalls┆引用样式$skin40_商品详细标题}</div>
+  <div class="product" id="goods-viewer">
+   <div class="product_lrleft">{web_skin40_商品详细图片}</div>
+   <div class="product_lrright">
+    {web_skin40_商品详细参数}
+    <div>{web_skin40_商品规格购买}</div> 
+   </div>
+   <div class="clear"></div>
+  </div>
+  <div class="product_xx">
+   <div class="product_xxtitle">
+    <div class="product_xxtitleh"><a onclick="selecttab(this,'product_xxtitleh','product_xxtitleq','','test');" href="javascript:void(0);">商品详细</a></div>
+    <div class="product_xxtitleq"><a onclick="selecttab(this,'product_xxtitleh','product_xxtitleq','','test');" href="javascript:void(0);">网友评价</a></div>
+    <div class="product_xxtitleq"><a onclick="selecttab(this,'product_xxtitleh','product_xxtitleq','','test');" href="javascript:void(0);">购买咨询</a></div>
+   </div>
+   <div id="test_0">{web_skin40_商品详细属性}<br />{web_skin40_商品详细内容}</div>
+   <div id="test_1" style=" display:none">{web_skin40_商品网友评价}</div>
+   <div id="test_2" style="display:none">{web_skin40_商品购买咨询}</div>
+  </div>
+ </div>
+ <div  class="clear"></div>
+</div>
+<div class="clear"></div>
+<div class="bottom_gg"><script language="javascript" src="Show/ebd6a515-8da5-4c9b-b413-075f538681e2.js"></script><script language="javascript" src="Show/bb7be4f3-64a2-48c0-af9b-ea68fb347100.js"></script><script language="javascript" src="Show/dfc53c26-6c0a-4086-924e-c89cba468c72.js"></script><script language="javascript" src="Show/b14afc2c-135b-47ca-9424-fd4c463af2a9.js"></script></div>
+<div class="bottom_pz">
+  {web_skin40_帮助类别}
+ {web_skin40_底部订购热线}
+ <div class="clear"></div>
+</div>
+<div class="bottom_bq">
+  {web_skin40_底部版权}　
+</div>
+</body>
+</html>

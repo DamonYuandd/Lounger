@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>jquery特效,js特效,css群:185668397,jquery教程</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link href="css/163css.css" rel="stylesheet" type="text/css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/jquery.touchslider.js"></script>
+</head>
+<body>
+<section class="demo">
+	<div class="touchslider touchslider-demo-auto">
+		<div class="touchslider-viewport">
+			<div class="touchslider-item" ><img src="images/img01.jpg" ></div>
+			<div class="touchslider-item" ><img src="images/img02.jpg" ></div>
+			<div class="touchslider-item" ><img src="images/img03.jpg"></div>
+			<div class="touchslider-item"><img src="images/img04.jpg"></div>
+		</div>
+		<div class="touchslider-nav">
+			<a class="touchslider-prev"><img src="images/prev.png" /></a>
+			<div class="sonpic">
+				<a class="touchslider-nav-item touchslider-nav-item-current"><img src="images/img01.jpg" ></a>
+				<a class="touchslider-nav-item"><img src="images/img02.jpg" ></a>
+				<a class="touchslider-nav-item"><img src="images/img03.jpg" ></a>
+				<a class="touchslider-nav-item"><img src="images/img04.jpg" ></a>	
+			</div>
+			<a class="touchslider-next"><span class="touchslider-next-in"><img src="images/next.png" /></span></a>
+	  </div>
+	</div>
+	<div class="touchslider touchslider-demo">
+		<div class="touchslider-viewport">
+			<div class="touchslider-item" ><img src="images/img01.jpg" ></div>
+			<div class="touchslider-item" ><img src="images/img02.jpg" ></div>
+			<div class="touchslider-item" ><img src="images/img03.jpg"></div>
+			<div class="touchslider-item"><img src="images/img04.jpg"></div>
+		</div>
+		<div class="touchslider-nav">
+			<a class="touchslider-prev"><img src="images/prev.png" /></a>
+			<div class="sonpic">
+				<a class="touchslider-nav-item touchslider-nav-item-current"><img src="images/img01.jpg" ></a>
+				<a class="touchslider-nav-item"><img src="images/img02.jpg" ></a>
+				<a class="touchslider-nav-item"><img src="images/img03.jpg" ></a>
+				<a class="touchslider-nav-item"><img src="images/img04.jpg" ></a>	
+			</div>
+			<a class="touchslider-next"><span class="touchslider-next-in"><img src="images/next.png" /></span></a>
+	  </div>
+	</div>
+</section>
+
+<script>
+	$(".touchslider-demo-auto").touchSlider({mouseTouch: true,autoplay: true});
+	$(".touchslider-demo").touchSlider({mouseTouch: true,autoplay: false});
+</script>
+</body>
+</html>

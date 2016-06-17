@@ -1,0 +1,212 @@
+[ 2013-02-26T10:05:01+08:00 ] /yy_v2/y_dd/yconfig/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:05:01+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001871s ]
+[ 2013-02-26T10:05:01+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002948s ]
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002520s ]
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003271s ]
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000460s ]
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: searchkey IndexAction.class.php 第 28 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: vo ae4ccf388766686c7b43ce2ff8116269.php 第 14 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: website_name ae4ccf388766686c7b43ce2ff8116269.php 第 19 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: url ae4ccf388766686c7b43ce2ff8116269.php 第 22 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: contract_number ae4ccf388766686c7b43ce2ff8116269.php 第 29 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: yy_price ae4ccf388766686c7b43ce2ff8116269.php 第 31 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: service_price ae4ccf388766686c7b43ce2ff8116269.php 第 32 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 35 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 39 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002048s ]
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003782s ]
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 166 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 188 行.
+[ 2013-02-26T10:05:02+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.004654s ]
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.004429s ]
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000499s ]
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: searchkey IndexAction.class.php 第 28 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: vo ae4ccf388766686c7b43ce2ff8116269.php 第 14 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: website_name ae4ccf388766686c7b43ce2ff8116269.php 第 19 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: url ae4ccf388766686c7b43ce2ff8116269.php 第 22 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: contract_number ae4ccf388766686c7b43ce2ff8116269.php 第 29 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: yy_price ae4ccf388766686c7b43ce2ff8116269.php 第 31 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: service_price ae4ccf388766686c7b43ce2ff8116269.php 第 32 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 35 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 39 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002099s ]
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003838s ]
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 166 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 188 行.
+[ 2013-02-26T10:06:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T10:06:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-02-26T10:06:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:06:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001685s ]
+[ 2013-02-26T10:06:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002750s ]
+[ 2013-02-26T10:06:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000395s ]
+[ 2013-02-26T10:06:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000929s ]
+[ 2013-02-26T10:06:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000771s ]
+[ 2013-02-26T10:06:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000692s ]
+[ 2013-02-26T10:06:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T10:06:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001694s ]
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002534s ]
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002151s ]
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.005279s ]
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000521s ]
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: searchkey IndexAction.class.php 第 28 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: vo ae4ccf388766686c7b43ce2ff8116269.php 第 14 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: website_name ae4ccf388766686c7b43ce2ff8116269.php 第 19 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: url ae4ccf388766686c7b43ce2ff8116269.php 第 22 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: contract_number ae4ccf388766686c7b43ce2ff8116269.php 第 29 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: yy_price ae4ccf388766686c7b43ce2ff8116269.php 第 31 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: service_price ae4ccf388766686c7b43ce2ff8116269.php 第 32 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 35 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 39 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001831s ]
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003512s ]
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 166 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 188 行.
+[ 2013-02-26T10:17:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T10:17:14+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-02-26T10:17:14+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:17:14+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001533s ]
+[ 2013-02-26T10:17:14+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002757s ]
+[ 2013-02-26T10:17:14+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000340s ]
+[ 2013-02-26T10:17:14+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000871s ]
+[ 2013-02-26T10:17:14+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.001481s ]
+[ 2013-02-26T10:17:14+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000689s ]
+[ 2013-02-26T10:17:14+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T10:17:14+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T10:17:15+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-02-26T10:17:15+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:17:15+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001742s ]
+[ 2013-02-26T10:17:15+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.004786s ]
+[ 2013-02-26T10:17:15+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000377s ]
+[ 2013-02-26T10:17:15+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000886s ]
+[ 2013-02-26T10:17:15+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000759s ]
+[ 2013-02-26T10:17:15+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000656s ]
+[ 2013-02-26T10:17:15+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T10:17:15+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001553s ]
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002877s ]
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1499' ) LIMIT 1  [ RunTime:0.000478s ]
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000937s ]
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000649s ]
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-26T10:21:23+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001552s ]
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002603s ]
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002013s ]
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003597s ]
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000965s ]
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: searchkey IndexAction.class.php 第 28 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: vo ae4ccf388766686c7b43ce2ff8116269.php 第 14 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: website_name ae4ccf388766686c7b43ce2ff8116269.php 第 19 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: url ae4ccf388766686c7b43ce2ff8116269.php 第 22 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: contract_number ae4ccf388766686c7b43ce2ff8116269.php 第 29 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: yy_price ae4ccf388766686c7b43ce2ff8116269.php 第 31 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: service_price ae4ccf388766686c7b43ce2ff8116269.php 第 32 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 35 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 39 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002347s ]
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003698s ]
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 166 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 188 行.
+[ 2013-02-26T16:24:16+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T16:24:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-02-26T16:24:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T16:24:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001623s ]
+[ 2013-02-26T16:24:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002486s ]
+[ 2013-02-26T16:24:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000377s ]
+[ 2013-02-26T16:24:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000886s ]
+[ 2013-02-26T16:24:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000928s ]
+[ 2013-02-26T16:24:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000857s ]
+[ 2013-02-26T16:24:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T16:24:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001600s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002601s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000361s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000857s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000726s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000654s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002697s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002494s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000389s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000834s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000756s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000962s ]
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T16:24:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T16:26:04+08:00 ] /yy_v2/y_dd/yconfig/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T16:26:04+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001511s ]
+[ 2013-02-26T16:26:04+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002532s ]
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001644s ]
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002603s ]
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 166 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 188 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001672s ]
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002692s ]
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000430s ]
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: searchkey IndexAction.class.php 第 28 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: vo ae4ccf388766686c7b43ce2ff8116269.php 第 14 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: website_name ae4ccf388766686c7b43ce2ff8116269.php 第 19 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: url ae4ccf388766686c7b43ce2ff8116269.php 第 22 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: contract_number ae4ccf388766686c7b43ce2ff8116269.php 第 29 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: yy_price ae4ccf388766686c7b43ce2ff8116269.php 第 31 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: service_price ae4ccf388766686c7b43ce2ff8116269.php 第 32 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 35 行.
+[ 2013-02-26T16:26:05+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 39 行.

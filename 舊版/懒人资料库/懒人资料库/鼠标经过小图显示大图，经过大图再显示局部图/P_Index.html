@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type="text/javascript" src="js/jquery-1.3.2.min.js.js"></script>
+<script type="text/javascript" src="js/jqzoom.pack.1.0.1.js"></script>
+<script type="text/javascript" src="js/more_info.js"></script>
+<script type="text/javascript" src="js/Totop.js"></script>
+
+<!---鼠标移动到箭头图片切换js---->
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<!--图片左右滚动js---->
+<script language="javascript">
+$(document).ready(function (){
+var the_item_li = $("#list_in li");
+var the_num = the_item_li.length;
+$("#list_in").width(the_num*100);
+var count = 0;
+var iMax = the_num-4;
+
+ $('#the_control_l').click(
+   function()
+   {
+       if(count <= 0){
+          $(this).attr({title:""});
+        }else{
+         count--;
+	     $("#list_in").animate({left:count*(-100)},100);
+        }
+   }
+ );
+ $('#the_control_r').click(
+   function()
+   {
+     if(count >=iMax){
+       $(this).attr({title:""});
+     }else{
+       count++;
+	   $('#list_in').animate({left:count*(-100)},100);
+    } 
+   }
+ );
+ $('#list_in li').mouseover(
+    function(){
+	
+	 $(this).find('img').addClass('imgcurt');
+	 $(this).siblings().find('img').removeClass('imgcurt');
+	 var bigimg = $(this).find('img').attr('name');
+	
+	 //显示大图src
+	 $('.ImgBar img').attr("src",bigimg);
+	 //替换大图预览图large
+	 var largeImg = $(this).find('img').attr('big')
+	 $('.ImgBar .ShowZoom').attr("href",largeImg);
+	}
+ );
+
+});
+</script>
+
+<!---商品图片放大js -->
+<script type="text/javascript">
+$(document).ready(function()
+{
+
+	var options = {
+		    zoomWidth: 350,
+		    zoomHeight:300,
+	        xOffset: 20,
+	        yOffset: 0,
+	        position: "right", 
+			title: false
+	};
+		$('.ShowZoom').jqzoom(options);
+});
+</script>
+
+
+</head>
+
+<link rel="stylesheet" type="text/css" href="css/P_Index.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/more_info.css" />
+<link rel="stylesheet" type="text/css" href="css/P_left.css" />
+
+
+
+
+<body onload="MM_preloadImages('image/con_l_2.jpg','image/con_r_2.jpg')">
+<div id="P_Container">
+      <!---TopContainer--->
+      <div id="TopContainer">
+         <div id="TopContainerHead">
+           <table>
+              <tr>
+                 <td width="350">新易交易平台</td>
+                 <td></td>
+              </tr>
+           </table>
+         </div>
+      </div>
+      <!---TopContainer End--->
+
+      
+      <div id="MiddleContainer">  
+         <!---MiddleContainer_content居中框-->
+         <div id="MiddleContainer_content">
+             <div id="MC_Banner_Container">
+             </div>
+             
+             <div id="MC_ShowP_Container">
+             
+                <!--左边企业资料显示区---->
+                <div id="MC_ShowP_l">
+                        <div id="Container">
+                            <!--商家信息---->
+                            <div id="Entp_info">
+                                  <div id="Entp_info_head">
+                                      商家信息
+                                  </div>
+                      
+                                  <div id="Entp_info_contant">
+                                     <ul>
+                                        <li>企业名称:&nbsp;<a href="#">科尼赛克股份有限公司</a></li>
+                                        <li>所属行业:&nbsp;<a href="#">汽车制造业</a></li>
+                                        <li>所在地区:&nbsp;<a href="#">瑞典 欧洛夫斯特隆</a></li>
+                                        <li>供应商品:&nbsp;<a href="#">561</a>项</li>
+                                     </ul>
+                                     <div id="b_line"></div>
+                                     
+                                     <ul>
+                                        <li>诚信指数:&nbsp;<a href="#">10000</a></li>
+                                        <li>证书荣誉:&nbsp;<a href="#">210</a>项</li>
+                                        <li>工商注册信息:&nbsp;<a href="#">已经通过认证</a></li>
+                                        <li>联系方式:&nbsp;<a href="#">徐先生</a></li>
+                                     </ul>
+                                     <div id="b_line"></div>
+                                     
+                                     <ul>
+                                        <li><a href="http://www.baidu.com"><img src="image/sc_btn.jpg" width="90" height="25" style="margin-left:49px; display:block;" border="0" /></a></li>
+                                     </ul>
+                                  </div>
+                            </div>
+    
+                           <!---商品分类---->
+                           <div id="pro_sort">
+                               <div id="pro_sort_head">
+                                    供应商品分类
+                               </div>
+                    
+                               <div id="pro_sort_contant">
+                                   <ul>
+                                     <li>»<a href="#">Koenigsegg CC 8S </a></li>
+                                     <li>»<a href="#">Koenigsegg CC</a></li>
+                                     <li>»<a href="#">Koenigsegg CCR </a></li>
+                                     <li>»<a href="#">Koenigsegg CCX </a></li>
+                                     <li>»<a href="#">Koenigsegg CCXR </a></li>
+                                     <li>»<a href="#">Koenigsegg CCXR Trevita  </a></li>
+                                     <li>»<a href="#">Koenigsegg quant concept </a></li>
+                                     <li>»<a href="#">Koenigsegg Agera</a></li>
+                                   </ul>
+                                   <div id="b_line"></div>
+                                   <ul>
+                                       <li id="pro_sort_more"><a href="#">更多....</a></li>
+                                   </ul>
+                               </div>
+                           </div>
+    
+
+                            <!---站内搜索--->
+                            <div id="web_sear">
+                               <div id="web_sear_head">
+                               站内搜索
+                               </div>
+       
+                                <div id="web_sear_contant">
+                                              <form method="post" name="search">
+                                                  <table width="219" border="0" cellspacing="0" cellpadding="0">
+                                      <tr>
+                                        <th width="61" scope="row" align="right">产品名:&nbsp;</th>
+                                        <td width="158"><input type="text" size="18"/></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row" align="right">&nbsp;</th>
+                                        <td>&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">价格:</th>
+                                        <td><input type="text" size="4" />
+                                          &nbsp;到&nbsp;&nbsp;<input type="text" size="4" /></td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">&nbsp;</th>
+                                        <td>&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <th colspan="2" scope="row" align="center"><a href="#"><img src="image/search_btn.jpg" width="80" height="27" border="0" /></a></th>
+                                        </tr>
+                                        <td>&nbsp;</td>
+                                    </table>
+                                    </form>
+                               </div>
+                           </div>
+    
+                            <!---联系方式--->
+                            <div id="link_type">
+                               <div id="link_type_head">
+                               联系方式
+                               </div>
+                               
+                               <div id="link_type_contant">
+                                 <ul>
+                                     <li>»<a href="#">亚太汽车销售总部</a></li>
+                                  
+                                   </ul>
+                               </div>
+                            </div>
+                        </div><!---end Container--->
+                   
+                </div>
+                
+                <!----右边商品显示区--->
+                <div id="MC_ShowP_r">
+                   <!--title:商品名称---->
+                   <div id="topname">
+                       <div id="topname_head">
+                           <p>超级跑车900 R</p>
+                       </div>
+                    </div>
+                   
+                   <!---商品图片显示---->
+                    <div id="left_container">
+                        <div class="ImgBar"><a href="image/1_big.jpg" class="ShowZoom" onfocus=""><img src="image/img1_name.jpg" height="267" width="420" /></a></div>
+            
+                        <div class="SmallBar">
+                          <div class="Con_l" id="the_control_l"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','image/con_l_2.jpg',1)"><img src="image/con_l_1.jpg" name="Image12" width="40" height="80" border="0" id="Image12" /></a></div>
+                          <div class="Small">
+                                <ul class="list_in" id="list_in">
+                                      <li><a href="javascript:;"><img src="image/img1_a.jpg" name="image/img1_name.jpg" big="image/img1.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img2_a.jpg" name="image/img2_name.jpg" big="image/img2.jpg" width="100" height="63" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img3_a.jpg" name="image/img3_name.jpg" big="image/img3.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img4_a.jpg" name="image/img4_name.jpg" big="image/img4.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img5_a.jpg" name="image/img5_name.jpg" big="image/img5.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img6_a.jpg" name="image/img6_name.jpg" big="image/img6.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img7_a.jpg" name="image/img7_name.jpg" big="image/img7.jpg" width="100" height="65" /></a></li>
+                                      <li><a href="javascript:;"><img src="image/img8_a.jpg" name="image/img8_name.jpg" big="/image/img8.jpg" width="100" height="65" /></a></li>
+                                </ul>
+                          </div>
+                          
+                          <div class="Con_r" id="the_control_r"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image11','','image/con_r_2.jpg',1)"><img src="image/con_r_1.jpg" name="Image11" width="40" height="80" border="0" id="Image11" /></a></div>
+                        </div>
+                    </div>
+                    
+                    
+                    <!--商品价格信息---->
+                    <div id="right_container">
+                          <iframe scrolling="no" frameborder="0" src="files/productinfo.html" width="380" height="375"></iframe>
+                    </div>
+                    
+                    <!---商品评价运费成交记录等详细信息---->
+                    <div id="more_container">
+                           <div class="more_tab">
+                              <ul>
+                                  <li id="head1" class="hover" onclick="settab('head',1,7)" >详细信息</li>
+                                  <li id="head2" onclick="settab('head',2,7)" >商品评价</li>
+                                  <li id="head3" onclick="settab('head',3,7)" >成交记录</li>
+                                  <li id="head4" onclick="settab('head',4,7)" >运费说明</li>
+                                  <li id="head5" onclick="settab('head',5,7)" >批发说明</li>
+                                  <li id="head6" onclick="settab('head',6,7)" >交易方式</li>
+                                  <li id="head7" onclick="settab('head',7,7)" >联系方式</li>
+                              </ul>
+                           </div>
+                           
+                           <div class="spare">
+                           </div>
+                          
+                           <div id="contentbox">
+                              <!---商品详细信息---->
+                              <div id="con_1" class="hover" style="margin-left:0px;">
+                                   <iframe frameborder="0" scrolling="no" height="600" width="790" src="Eg/P_example.html"></iframe> 
+                              </div>
+                              
+                              <!----商品评价---->
+                              <div id="con_2" style="display:none;">
+                                &nbsp;&nbsp;&nbsp;商品评价板块
+                              </div>
+                              
+                              <!--成交记录---->
+                              <div id="con_3" style="display:none;">
+                              &nbsp;&nbsp;&nbsp;成交记录板块
+                              </div>
+                              
+                              <!--运费说明---->
+                              <div id="con_4" style="display:none;">
+                              &nbsp;&nbsp;&nbsp;运费说明板块
+                              </div>
+                              
+                              <!--批发说明---->
+                              <div id="con_5" style="display:none;">
+                              &nbsp;&nbsp;&nbsp;批发说明板块
+                              </div>
+                              
+                              <!--交易方式---->
+                              <div id="con_6" style="display:none;">
+                              &nbsp;&nbsp;&nbsp;交易方式板块
+                              </div>
+                              
+                              <!--联系方式---->
+                              <div id="con_7" style="display:none;">
+                              &nbsp;&nbsp;&nbsp;联系方式板块
+                              </div>
+                           </div>
+                    </div>
+                    <!--end商品评价--->
+                    
+                    
+                
+               </div><!----ends MC_ShowP_r---->
+            
+             </div><!---Ends MC_ShowP_Container---->
+             
+         </div> 
+      </div><!--End MiddleContainer-->
+</div>
+</body>
+</html>

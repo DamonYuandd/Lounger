@@ -1,0 +1,10 @@
+http://localhost/img/outPutImg.php?url=http://localhost/img/big/zheng.jpg&pw=300&ph=300
+把该内容放到img 的src 属性即可
+<img src="http://localhost/0-Webdemo-ftp/Core/Lib/ORG/Util/outPutImg.php?url=http://localhost__PUBLIC__/data/upload/images/product/s_{$vo.image}&pw=140&ph=280"/>
+             
+
+url分析
+
+url 参数为图片在网络上的地址
+pw  要求宽度
+ph  要求高度

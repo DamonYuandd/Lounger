@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTmL 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>{web_skin40_通用头部关键字}
+<style type="text/css">
+/* 注册*/
+a:link
+{
+text-decoration: none;
+color: #333;
+}
+a:visited
+{
+text-decoration: none;
+color: #333;
+}
+a:hover
+{
+text-decoration:underline;
+color: #a10000;
+}
+
+#Login{width:978px; font-size:12px; color:#666666; border:1px solid #dcdfe5; margin:0; padding-top:36px;}
+#Login h1{width:889px; border-bottom:1px solid #565662; margin:0; padding:0; margin-bottom:25px;}
+#Login input{width:217px; height:19px; border:1px solid #a5afc3;}
+.inputyz { width:100px; height:19px; border:1px scroll #a5afc3}
+#Login .inputSty01{width:106px; height:19px; border:1px solid #a5afc3;}
+#Login .lineJL{margin:0px 0 59px 0;}
+.sty01{padding-bottom:2px;}
+.sty02{padding-bottom:2px; text-align:left;}
+.sty03{padding-top:5px;}
+.sty04{color:#999999;}
+.sty05{color:#333333;}
+
+#dl{ width:800px; font-size:12px; color:#999999; margin:15px 0;}
+
+#dl h1{margin:0; font:100 12px "宋体"; padding-bottom:15px;}
+#dl .dl, .zc{width:385px; width:383px !important; height:400px; border:1px solid #dcdfe5;}
+#dl .dl{clear:left; float:left;}
+#dl .zc{float:right;}
+#dl h2{margin:0; border-bottom:1px solid #565662; width:343px; padding-top:20px; margin-bottom:5px;}
+#dl input{ border:1px solid #a5afc3; line-height:19px; }
+
+#shoppingstep_0 { font-weight:bold; color:#990000;}
+
+	.dlC{width:343px;}
+	.dlC p{ margin:0; padding-left:65px; }
+	.dlC .sty01{ padding-bottom:5px; padding-top:20px; color:#999999;}
+	.dlC .sty02{ padding-bottom:20px; color:#000;}
+	.dlC .sty03{ padding-bottom:8px; color:#000;}
+	.dlC .sty04{ padding-left:113px; padding-bottom:23px; color:#333333;}
+	.dlC .sty05{ clear:left;  padding-left:113px;}	
+	.dlC .sty06{ clear:left; width:280px; margin-top:36px;}
+	.dlC .sty07{ color:#333333;}
+	
+	.dlC ul{margin:0px; padding:0px;}
+	.dlC li{ list-style:none; margin:0; padding:0 0 10px 0;}
+	.dlC .sty08{ padding-top:0px; color:#000;}
+	.dlC .sty088{ padding-top:0px; color:#000;}
+	.dlC .sty09{ text-indent:0px; text-align:left !important; text-align:right; padding-left:140px !important; margin-left:0; line-height:18px;}
+	.dlC .sty10{ padding:15px 0 0 140px;}
+	.dlC .pwdli span{ line-height:17px; display: block; padding-left:140px; text-align:left}
+	.dlC .emailli{ height:45px; width:200px; float:right; text-align:left;}
+	
+	.Reginput{display:block; height:16px; vertical-align:middle; text-align:center;margin-top:2px;line-height:140%;}
+	.Error{border:1px solid #A10000; background-color:#f5f5f5;}
+	.errorword{display:block; height:16px;margin-top:2px;clear:both; width:200px; margin:0 0 5px 114px;text-align:center; line-height:140%;}
+	.rihtReg{border:1px solid #08a63a; background-color:#f5f5f5; color:#08a63a;}
+
+
+
+</style>
+<script language="javascript" src="../public/js/common.js" type="text/javascript"></script>
+<script language="javascript" src="../public/js/prototype.js" type="text/javascript"></script>
+<script language="javascript">var path = '[$syspath]';</script>
+<script language="javascript" src="js/register.js" type="text/javascript"></script>
+<script language="javascript" src="js/login.js" type="text/javascript"></script>
+
+</head>
+    <body><center>
+<center>
+<div class="top">
+{web_skin40_通用头导航2}
+  <div class="clear"></div> 
+</div>
+<div style="text-align:left; width:810px; font-size:12px; line-height:25px; color:#999999 " align="center">结算步骤: <span id="shoppingstep_0" >1.登录注册</span> &gt;&gt  <span id="shoppingstep_2" >2.填写核对订单信息</span> &gt;&gt <span id="shoppingstep_3">3.提交订单</span></div>
+
+<div id="dl">
+
+	<form name="loginform" action="" method="post">
+			  <input type="hidden" name="act" value="login" />
+	<div class="dl">
+		<h2 align="left"><img src="Images/pic_dl.gif" /></h2>
+		<div align="left" class="dlC">
+			<p class="sty01" style="margin-bottom:10px">已注册用户请从这里登录</p>
+			<span class="errorword" id="errorword" style="clear:both;"></span>
+			<p class="sty02">用户名：<input type="text" name="username" id="username" class="input" value="{base.CookieLoginIDTemp}" /></p>
+			<p class="sty03" style="color:#000">密　码：<input type="password" name="password" id="password" class="input" /></p>
+				<#if config.SafeCode_Login.Value == "0"#>
+			<p class="sty02">验证码：<span class="sty088">
+			  <input class="input" id="checkcode2" size="8" maxlength="4" name="verify" type="text" style="width:55px;">
+			</span>
+			<img id="verifyimg2" style="cursor:pointer" alt="看不清，点击换一张" onclick="ChangeVerifyImg()" align="absmiddle" />
+			<a href="javascript:ChangeVerifyImg()" style=" padding-bottom:0px;vertical-align:bottom;">看不清，换一张</a>
+			</p>
+				  <#/if#>
+			<p class="sty04"><a href="[$syspath]pswback.aspx">密码忘记了？</a></p>
+			<p class="sty05">
+			  <input type="image" src="Images/button_dl.gif" onclick="return CheckLogin()" style="border:0;"/>
+			</p>
+			<p class="sty06" align="right">有任何疑问请点击 <a href="[$syspath]helpindex.aspx" target="_blank">帮助中心</a> 或 <a href="[$syspath]message.aspx" target="_blank">联系客服</a></p>
+		</div>
+	</div>
+	</form>
+          
+      <form id="frmRegister" name="frmRegister" method="post" action="">
+	<input type="hidden" id="_OP" name="_OP" value="" />
+	<input type="hidden" id="url" name="url" value="" />
+	
+	<div class="zc">
+		<h2 align="left" ><img src="Images/pic_zc.gif"/></h2>
+				<div align="right" class="dlC">
+		    <ul>
+		    <span class="errorword" id="Regerrorword"></span>
+			<li class="sty08">用户名：
+			  <input name="txtUID" size="40" type="text" class="input" maxlength="16" id="txtUID" style="width:200px" />
+			</li>
+			<li class="sty08">Email地址： <input name="txtEmail" size="40" type="text" class="input" maxlength="50" id="txtEmail"  style="width:200px" /></li>
+			<li class="pwdli"><span>请填写有效的Email地址</span></li>
+			<li class="sty088">请设定密码：<input name="txtPass01" size="40" type="password" class="input" id="txtPass01" maxlength="50"  style="width:200px"/></li>
+			<li class="pwdli"><span>密码请设为6-16位字母或数字&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><br /></li>
+			<li class="sty088">请再次输入设定密码：<input name="txtPass02" size="40" type="password" class="input" id="txtPass02" maxlength="50"  style="width:200px"/></li>
+				<#if config.SafeCode_Reg.Value == "0"#>
+            <li class="sty088">请输入验证码：<input class="input" id="checkcode" size="8" maxlength="4" name="verify" type="text" style="width:55px;"  />
+			<img id="verifyimg" style="cursor:pointer" alt="看不清，点击换一张" onclick="ChangeVerifyImg()" align="absmiddle" />
+<script language="javascript">
+function ChangeVerifyImg(){
+	var date=Date();
+	if(document.getElementById("verifyimg"))
+	{
+	document.getElementById("verifyimg").src = '[$syspath]member/verifyimg.aspx?d=' +date;
+	}
+	if(document.getElementById("verifyimg2"))
+	{
+	document.getElementById("verifyimg2").src = '[$syspath]member/verifyimg.aspx?d=' +date;
+	}
+}
+//初始化
+ChangeVerifyImg();
+</script>
+<a href="javascript:ChangeVerifyImg()" style=" padding-bottom:0px;vertical-align:bottom;">看不清，换一张</a></li>	
+	  <#/if#>
+<li class="sty10" style=" margin-top:5px;*margin-top:-7px; text-align:left;"><img id="imgSubMit" style="cursor:pointer; border:0;" src="Images/button_wc.gif" onclick="return imgSubMit_onclick()"/></li>
+			</ul>
+      </div>
+      </div>
+	</form>
+	<div style="clear:both"></div>
+</div>
+</center>
+<div class="bottom_pz">
+  {web_skin40_帮助类别}
+ {web_skin40_底部订购热线}
+ <div class="clear"></div>
+</div>
+<div class="bottom_bq">
+  {web_skin40_底部版权}
+</div>
+</center></body>
+</html>

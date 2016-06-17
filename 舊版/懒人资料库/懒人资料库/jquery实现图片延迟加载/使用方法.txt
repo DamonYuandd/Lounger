@@ -1,0 +1,11 @@
+ <script src="/xinyi2/public/js/lazyload.js" type="text/javascript" ></script>//先载入库
+   
+ <script>
+        　jQuery(document).ready(
+　　function($){
+　　$(".select_img img").lazyload({
+　　 placeholder:"/xinyi2/public/images/default/index/specialperformance/grey.gif",//过渡图片，实现加载模糊效果，而不是显示叉叉
+　　 effect:"fadeIn"//加载完显示原图
+　　});
+　　});
+    </script>

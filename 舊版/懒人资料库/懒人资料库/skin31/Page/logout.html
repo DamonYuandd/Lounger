@@ -1,0 +1,60 @@
+<html dir="ltr"><head><title></title><base href="http://clothes4.v5shop.com.cn/template/skin20/" /><script>
+function getobj(id){
+	return document.getElementById(id);	
+}
+
+function selecttab(obj, act, def, special, areaname){
+	var node = childs(obj.parentNode.parentNode.childNodes);
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			node[i].className = def;	
+			if(getobj(areaname + "_" + i))
+				getobj(areaname + "_" + i).style.display = "none";
+		}
+	}
+	obj.parentNode.className = act;
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			if(node[i].className == act){
+				if(getobj(areaname + "_" + i))
+					getobj(areaname + "_" + i).style.display = "";
+			}
+		}
+	}
+}
+//兼容FF下的childNodes
+function childs(nodes)
+{
+    if(!nodes.length) 
+        return [];
+    var ret=[];
+    for(var i=0;i<nodes.length;i++)
+    {
+        if(nodes[i].nodeType!=1) 
+            continue;
+        ret.push(nodes[i]);
+    }
+    return ret;
+}
+
+function ShowCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "";
+		objli.className = "menu_bg2";
+	}
+}
+
+function HiddenCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "none";
+		objli.className = "menu_bg1";
+	}
+}
+</script>
+</head><body>注销成功... <br /><a href="[$syspath]index.aspx">返回首页</a> </body></html>

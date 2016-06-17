@@ -1,0 +1,14 @@
+ <div data-role="content">
+    	<ul data-role="listview" data-divider-theme="a" data-inset="true">
+            <li data-role="list-divider" role="heading">
+                选择语言：
+            </li>
+            <volist name="user_langs" id="vo">
+                <li data-theme="<eq name="_SESSION.lang" value="$vo.alias">c<else/>c</eq>">
+                    <a href="__APP__/Admin/Index/part?l={$vo.alias}" data-ajax="false" data-inline="true">
+                        {$vo.title}<eq name="_SESSION.lang" value="$vo.alias">【默认】</eq>
+                    </a>
+                </li>
+            </volist>           
+        </ul>
+    </div> 

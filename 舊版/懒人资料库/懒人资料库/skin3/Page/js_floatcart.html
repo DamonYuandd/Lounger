@@ -1,0 +1,50 @@
+﻿document.write('<div id="Layer1" style="display:none" onmousemove="showcart()" onmouseout="hiddencart()"></div>');
+
+function hiddencart(){
+	document.getElementById("Layer1").style.display="none";
+}
+
+function showcart(){
+	document.getElementById("Layer1").style.display="";
+}
+
+function cartdelproduct(id){
+	var hiddenli = document.getElementById('minicart_' + id);
+	hiddenli.style.display = 'none';
+	
+	var newurl = '[$syspath]cart.aspx?act=del&cartid=' + id + '&d=' + escape(Date());
+	
+	//Ajax请求
+	var myRequest = new Request({
+	    url: newurl, 
+	    method: 'get',
+        onSuccess : showCartInfo
+	}).send();
+}
+
+function cartdelproductbind(id){
+	var hiddenli = document.getElementById('minicartbind_' + id);
+	hiddenli.style.display = 'none';
+	
+	var newurl = '[$syspath]cart.aspx?act=del&bindingid=' + id + '&d=' + escape(Date());
+
+	//Ajax请求
+	var myRequest = new Request({
+	    url: newurl, 
+	    method: 'get',
+        onSuccess : showCartInfo
+	}).send();
+}
+
+function showCartInfo(){
+	var newurl = '[$syspath]js_floatcarttext.aspx?d=' + escape(Date());
+	//Ajax请求
+	$('Layer1').set('load', {onSuccess : InitCartCount});
+	$('Layer1').load(newurl);
+}
+
+function InitCartCount(){
+	$('topcarttotal').innerHTML = $('minicarttotal').innerHTML;
+}
+
+showCartInfo();

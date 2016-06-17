@@ -1,0 +1,268 @@
+﻿<style type="text/css">
+<!--
+#Layer1 {	
+	z-index:1;
+	position:absolute;
+	top:140px;
+	right:137px;
+}
+#Layer2 {position:absolute;
+	width:160px;
+	z-index:1;
+	left:0px;
+	top: 87px;
+}
+--></style>
+<div class="top_gg"><script language="javascript" src="Show/5a30f5c2-775f-425b-9989-625978c48a92.js"></script><span><script language="javascript" src="Show/be4653d7-a924-436e-8da6-413325b2e8c8.js"></script></span></div>
+<div class="top_logobao">
+<div class="top_logo"><a href="{logourl}"><img border="0" alt="" src="{logo}" /></a></div>
+<div class="top_cat">
+<div class="top_hyz"><script language="javascript" type="text/javascript" src="[$syspath]js_userinfo.aspx?p={pagenow}"></script>&nbsp;&nbsp;&nbsp;<a target="_blank" href="[$syspath]member/">会员中心</a>| <a href="[$syspath]message.aspx">商城留言</a> | <a title="收藏本站到你的收藏夹" onclick="javascript:window.external.AddFavorite('http://www.v5shop.com.cn','仿红孩子2.母婴用品模板')" href="http://common20.v5shop.com.cn">收藏本站</a> | <a target="_blank" href="[$syspath]helpindex.aspx">帮助中心</a></div>
+<div class="top_catcontent" onmousemove="showcart()" onmouseout="hiddencart()"><font size="+0"><a class="cartjs" target="_blank" href="[$syspath]cart.aspx">去结算</a></font><span> 购物车中有 <b id="topcarttotal"><script language="javascript" type="text/javascript" src="[$syspath]js_cartcount.aspx"></script></b>件商品</span></div>
+<script language="javascript" type="text/javascript" src="[$syspath]js_floatcart.aspx"></script></div>
+<div class="clear"></div>
+</div>
+<div class="navigation">
+<div class="shuxindefault"><a href="[$syspath]index.aspx" name="topurl"><span>首页</span></a></div>
+{Web:MS=ClassCode┆大类调用数量$5┆输出格式$out_None┆大类调用样式$skin40_顶部分类导航┆标题数$4┆排列字段$OrderID┆排列方式$ASC}
+<div class="shuxindefault"><a href="[$syspath]brandindex.aspx" name="topurl"><span>品牌</span></a></div>
+<script language="javascript">
+function showmenu(){
+    var url = document.URL;
+    
+    var urls = document.getElementsByName("topurl");
+    for(var i=0;i<urls.length;i++){
+        if(urls[i] == url){
+            urls[i].parentNode.className = 'shuxinselect';
+			return;
+        }
+    }
+	
+	urls[0].parentNode.className = 'shuxinselect';
+}
+
+showmenu();
+</script>
+<h2 class="dh_maosha"><a class="red" href="[$syspath]special.aspx?id=0">特价商品</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="red" href="[$syspath]groupbuyindex.aspx">团购区</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a class="red" href="[$syspath]scoreindex.aspx">积分专区</a></h2>
+<h1 class="dh_squ"><a class="red" href="[$syspath]articleindex.aspx">保健知识</a></h1>
+</div>
+<script type="text/javascript">
+    function showDiv(divId) {
+        document.getElementById(divId).style.display = '';
+    }
+    function hideDiv(divId) {
+        document.getElementById(divId).style.display = 'none';
+    }
+</script>
+<div class="daoh">
+<div class="headSort">
+<div class="headSortTitle headSortChannelTitle" onmouseout="hideDiv('headSortChannelBody')" onmousemove="showDiv('headSortChannelBody')"><a href="[$syspath]list.aspx">全部商品分类</a></div>
+<div style="display: none" id="headSortChannelBody" class="headSortBody" onmouseout="hideDiv('headSortChannelBody')" onmouseover="showDiv('headSortChannelBody')">
+<ul id="list1">
+    <li class="jingyingzj">{Web:MS=ClassCode┆大类调用数量$1┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}
+    <div class="floatSort">
+    <div class="former">{Web:MS=ClassCode┆大类调用数量$1┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+    <div class="clear"></div>
+                  <div class="nextSort">
+<div class="sortTitle">选择分类</div>
+{Web:MS=ClassCode┆分类序列$1┆大类调用数量$10┆输出格式$out_None┆大类调用样式$skin40_商品分类导航2级┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+                    <div class="nextBrand">
+                        <div class="sortTitle">推荐品牌</div>
+                        <div class="sortList">
+                        {Web:bs=mallbrand┆Loop$8┆输出格式$out_None┆引用样式$skin40_商品分类推荐品牌┆标题数$6┆排列字段$OrderID┆排列方式$ASC}</div>                  
+                        <div class="sortTitle">促销专题</div>
+                        <div class="feature">
+                        {Web:HS=Activity┆Loop$3┆输出格式$out_None┆引用样式$skin40_商品分类促销专题┆标题数$7┆排列字段$Date┆排列方式$ASC}</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+<!--精英早教 完成--></li>
+    <li class="xiaoxuejy">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$1┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}    
+    <div class="floatSort">
+    <div class="former">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$1┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+    <div class="clear"></div>
+    <div class="nextSort">
+<div class="sortTitle">选择分类</div>
+{Web:MS=ClassCode┆分类序列$2┆大类调用数量$10┆输出格式$out_None┆大类调用样式$skin40_商品分类导航2级┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+                    <div class="nextBrand">
+                        <div class="sortTitle">推荐品牌</div>
+                        <div class="sortList">
+                        {Web:bs=mallbrand┆Loop$8┆输出格式$out_None┆引用样式$skin40_商品分类推荐品牌┆标题数$6┆排列字段$OrderID┆排列方式$ASC}</div>                  
+                        <div class="sortTitle">促销专题</div>
+                        <div class="feature">
+                        {Web:HS=Activity┆Loop$3┆输出格式$out_None┆引用样式$skin40_商品分类促销专题┆标题数$7┆排列字段$Date┆排列方式$ASC}</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+<!--小学精英 完成--></li>
+    <li class="zhongxuejy">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$2┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}
+    <div class="floatSort">
+        <div class="former">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$2┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+    <div class="clear"></div>
+                  <div class="nextSort">
+<div class="sortTitle">选择分类</div>
+{Web:MS=ClassCode┆分类序列$3┆大类调用数量$10┆输出格式$out_None┆大类调用样式$skin40_商品分类导航2级┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+                    <div class="nextBrand">
+                        <div class="sortTitle">推荐品牌</div>
+                        <div class="sortList">
+                        {Web:bs=mallbrand┆Loop$8┆输出格式$out_None┆引用样式$skin40_商品分类推荐品牌┆标题数$6┆排列字段$OrderID┆排列方式$ASC}</div>                  
+                        <div class="sortTitle">促销专题</div>
+                        <div class="feature">
+                        {Web:HS=Activity┆Loop$3┆输出格式$out_None┆引用样式$skin40_商品分类促销专题┆标题数$7┆排列字段$Date┆排列方式$ASC}</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+<!--中学精英 完成--></li>
+    <li class="daxuejy">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$3┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}
+        <div class="floatSort">
+    <div class="former">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$3┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+        <div class="clear"></div>
+
+                  <div class="nextSort">
+<div class="sortTitle">选择分类</div>
+{Web:MS=ClassCode┆分类序列$4┆大类调用数量$10┆输出格式$out_None┆大类调用样式$skin40_商品分类导航2级┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+                    <div class="nextBrand">
+                        <div class="sortTitle">推荐品牌</div>
+                        <div class="sortList">
+                        {Web:bs=mallbrand┆Loop$8┆输出格式$out_None┆引用样式$skin40_商品分类推荐品牌┆标题数$6┆排列字段$OrderID┆排列方式$ASC}</div>                  
+                        <div class="sortTitle">促销专题</div>
+                        <div class="feature">
+                        {Web:HS=Activity┆Loop$3┆输出格式$out_None┆引用样式$skin40_商品分类促销专题┆标题数$7┆排列字段$Date┆排列方式$ASC}</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+    <!--大学精英 完成--></li>
+    <li class="chengrenjy">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$4┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}
+    <div class="floatSort">
+    <div class="former">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$4┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+        <div class="clear"></div>
+
+                  <div class="nextSort">
+<div class="sortTitle">选择分类</div>
+{Web:MS=ClassCode┆分类序列$5┆大类调用数量$10┆输出格式$out_None┆大类调用样式$skin40_商品分类导航2级┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+                    <div class="nextBrand">
+                        <div class="sortTitle">推荐品牌</div>
+                        <div class="sortList">
+                        {Web:bs=mallbrand┆Loop$8┆输出格式$out_None┆引用样式$skin40_商品分类推荐品牌┆标题数$6┆排列字段$OrderID┆排列方式$ASC}</div>                  
+                        <div class="sortTitle">促销专题</div>
+                        <div class="feature">
+                        {Web:HS=Activity┆Loop$3┆输出格式$out_None┆引用样式$skin40_商品分类促销专题┆标题数$7┆排列字段$Date┆排列方式$ASC}</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+<!--成人精英 完成--></li>
+    <li class="dianzicp">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$5┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}
+    <div class="floatSort">
+        <div class="former">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$5┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+        <div class="clear"></div>
+                  <div class="nextSort">
+<div class="sortTitle">选择分类</div>
+{Web:MS=ClassCode┆分类序列$6┆大类调用数量$10┆输出格式$out_None┆大类调用样式$skin40_商品分类导航2级┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+                    <div class="nextBrand">
+                        <div class="sortTitle">推荐品牌</div>
+                        <div class="sortList">
+                        {Web:bs=mallbrand┆Loop$8┆输出格式$out_None┆引用样式$skin40_商品分类推荐品牌┆标题数$6┆排列字段$OrderID┆排列方式$ASC}</div>                  
+                        <div class="sortTitle">促销专题</div>
+                        <div class="feature">
+                        {Web:HS=Activity┆Loop$3┆输出格式$out_None┆引用样式$skin40_商品分类促销专题┆标题数$7┆排列字段$Date┆排列方式$ASC}</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+<!--电子产品 完成--></li>
+    <li class="pinpaizq">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$6┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}
+    <div class="floatSort">
+      <div class="former">{Web:MS=ClassCode┆大类调用数量$1┆分类开始序号$6┆输出格式$out_None┆大类调用样式$skin40_首页大类样式┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+        <div class="clear"></div>
+                  <div class="nextSort">
+<div class="sortTitle">选择分类</div>
+{Web:MS=ClassCode┆分类序列$7┆大类调用数量$10┆输出格式$out_None┆大类调用样式$skin40_商品分类导航2级┆标题数$10┆排列字段$OrderID┆排列方式$ASC}</div>
+                    <div class="nextBrand">
+                        <div class="sortTitle">推荐品牌</div>
+                        <div class="sortList">
+                        {Web:bs=mallbrand┆Loop$8┆输出格式$out_None┆引用样式$skin40_商品分类推荐品牌┆标题数$6┆排列字段$OrderID┆排列方式$ASC}</div>                  
+                        <div class="sortTitle">促销专题</div>
+                        <div class="feature">
+                        {Web:HS=Activity┆Loop$3┆输出格式$out_None┆引用样式$skin40_商品分类促销专题┆标题数$7┆排列字段$Date┆排列方式$ASC}</div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+<!--品牌专区 完成--></li>
+</ul>
+<div class="headbt"><img alt="" src="images/nav/flaotnav_15.jpg" /></div>
+<div class="clear"></div>
+</div>
+</div>
+<script type="text/javascript">
+//分类区 弹出 效果
+sp_list()
+function sp_list() {
+	var mEls = document.getElementById("list1").getElementsByTagName("li");
+	for (var i=0; i<mEls.length; i++)
+	{
+		mEls[i].onmouseover=function() 
+		{			
+			this.className+=(this.className.length>0? " ": "") + "mhover";
+			
+		}
+		mEls[i].onMouseDown=function() 
+		{
+			this.className=this.className.replace(" mhover","");
+			
+		}
+		mEls[i].onMouseUp=function() 
+		{
+			this.className+=(this.className.length>0? " ": "") + "mhover";
+			
+		}
+		mEls[i].onmouseout=function()
+		{
+			this.className=this.className.replace(" mhover","");
+			
+		}
+	}
+
+
+//	var mEls = document.getElementById("list2").getElementsByTagName("li");
+//	for (var i=0; i<mEls.length; i++) 
+//	{
+//		mEls[i].onmouseover=function() 
+//		{
+//			this.className+=(this.className.length>0? " ": "") + "mhover";
+//		}
+//		mEls[i].onMouseDown=function() 
+//		{
+//			this.className+=(this.className.length>0? " ": "") + "mhover";
+//		}
+//		mEls[i].onMouseUp=function() 
+//		{
+//			this.className+=(this.className.length>0? " ": "") + "mhover";
+//		}
+//		mEls[i].onmouseout=function() 
+//		{
+//			this.className=this.className.replace(new RegExp("( ?|^)mhover\\b"),"");
+//		}
+//	}
+
+}
+
+</script><!-- Google Code for &#26469;&#36807;&#39318;&#39029;&#30340;&#20154; Remarketing List -->
+<div class="my_right">
+<div class="ss"><b>热门搜索：</b>{Web:PUB=productkey┆Loop$4┆输出格式$out_None┆引用样式$skin40_头部热门搜索关键词┆标题数$4┆打开窗口$1}</div>
+<div class="gjz">
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+    <tbody>
+        <tr>
+            <script language="javascript">var spath = '[$syspath]';</script><script language="javascript" src="js/changeType.js"></script>
+            <form id="searchform" action="[$syspath]list.aspx" onsubmit="changeURL()">
+                <td width="33%"><input style="border-bottom: medium none; border-left: medium none; line-height: 28px; padding-left: 5px; width: 339px; background: url(images/top/index_44.jpg) no-repeat; height: 26px; color: #666; border-top: medium none; border-right: medium none" class="input" name="wd" value="你想买什么？" type="text" /></td>
+                <td width="67%"><input style="vertical-align: bottom" src="images/top/index_46.jpg" type="image" /></td>
+            </form>
+            <script language="javascript">ChooseSelect()</script>
+        </tr>
+    </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div></div>

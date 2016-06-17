@@ -1,0 +1,15 @@
+function inject_check($str){
+ $tmp=eregi('select|insert|update|delete|\'|\/\*|\*|\.\.\/|\.\/|union|into|load_file|outfile', $str); // 进行过滤
+ if($tmp){
+  echo "输入非法注入内容！";
+  exit();
+ }else{
+  return $str;
+ }
+}
+
+ 
+
+给你个现成的函数吧！！！get获取值的时候你加上去就是啦！！
+
+比如：$id=inject_check($_GET['id']); 

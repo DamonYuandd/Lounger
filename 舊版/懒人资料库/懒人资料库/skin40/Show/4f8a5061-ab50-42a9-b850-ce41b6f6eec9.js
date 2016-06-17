@@ -1,0 +1,1 @@
+document.write('<a href="/v5shop/member/Advertisement_Ads_ClickCount.aspx?mark=4f8a5061-ab50-42a9-b850-ce41b6f6eec9&&uri=MjIy" style="color:#fff333;" title="111" target="_blank">111</a>');

@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+{web_skin31_通用头部关键字}
+<style>
+.proinfo {width:980px; padding:20px 0; text-align:center}
+.proinfol {width:732px; text-align:left}
+.proinfolabel {height:31px; background:#f1f1f1; border:1px #ccc solid}
+.proinfolabel ul { margin:0; padding:0 }
+.proinfolabel ul li {width:348px; height:31px; float:left; line-height:31px; color:#000; margin-right:-2px; list-style: none; font-weight:bolder}
+.proinfolabel a:link {color:#999999}
+.proinfolabel a:active {color:#999999}
+.proinfolabel a:visited {color:#999999}
+.proinfolabel a:hover {color:#12A7AB; text-decoration:none}
+.prodefault {background:url(images/products/vprodefault.gif) top;  text-align:center}
+.proselect {background:url(images/products/vproselect.gif); color:#12A7AB; font-size:14px; text-align:center}
+.proinfodetail {padding:20px 0;}
+.proact {padding:10px 0}
+.actunitbg {width:924px} 
+.actunit {width:303px; width:304px !important; text-align:center; color:#000000; _width:304px; padding:0 2px; float:left}
+.actunit1 {height:10px}
+.actunit2 {padding:1px 0; background:url(images/products/actunitbg.gif)}
+.actunit3 {width:304px; width:284px !important; _width:284px; padding:0 10px; background:#666666; color:#FFFFFF; height:25px; line-height:25px; text-align:left}
+.actunit4 {padding:5px 0; line-height:20px; background:#FFFFFF}
+.actunit a:active {color:#666666}
+.actunit a:visited {color:#666666}
+.actunit a:link {color:#666666}
+.actunit a:hover {color:#ff6600; text-decoration:none}
+.actinfo {width:410px; width:400px !important; text-align:left; color:#000000; _width:400px; float:right; background:#EDEDED; padding:5px}
+.procomment tr td {border-bottom:1px #CCCCCC solid; padding:5px}
+.procomment a {font-weight:border}
+#procomment1 td {border-bottom:2px #999999 solid; font-weight:bolder; color:#000000}
+.propraise tr td {border-bottom:1px #CCCCCC dashed; padding:5px; background:#f7f7f7}
+#propraise1 td {border-bottom:2px #999999 solid; font-weight:bolder; color:#000000; background:#EEFBFB}
+.proinfor {width:176px; text-align:center; float:right}
+.proinforlabel {width:176px; background:url(images/products/vprorlabel.gif); height:45px; line-height:45px; font-weight:bolder; color:#2EB6B3}
+.proinforbg {width:176px; width:160px !important; _width:160px; background:url(images/products/vprorbg.gif); text-align:center; padding:0 8px}
+.proinfosp {width:160px; text-align:left}
+.proinfosp ul { margin:0; padding:0}
+.proinfosp ul li {height:82px; height:62px !important; _height:62px; padding:10px 0px; border-bottom:1px #dddddd dashed; list-style:none}
+.proinfosp img {border:1px #DEDEDE solid; width:60px; height:60px; float:left}
+.proinfosp div {width:95px; float:right; font-family:Arial; line-height:14px; color:#999999}
+.proinforbg2 {width:176px; text-align:left}
+.proinforbg2 ul {margin:0; padding:0}
+.proinforbg2 ul li {height:23px; line-height:23px; border-bottom:1px #dddddd dashed; list-style: none }
+.proinforbgb {background:url(images/products/vprorbgb.gif); height:8px; width:176px; margin-bottom:20px}
+.proinfocomment {padding:20px 0}
+.proinfocomment ul { margin:0; padding:0 }
+.proinfocomment li { list-style:none; color:#666666; padding-bottom:15px; font-size:12px }
+.proinfocomment b { color:#000000 }
+.proinfocomment font { color:#1F7A78; font-size:12px }
+.proinfocomment div { border:1px #2EB6B3 solid; background:#EBFAFA; padding:0 10px; height:30px; margin:5px 0 }
+.proinfocomment p { float:right; margin:0; padding-top:8px }
+.proinfocomment span { float:left; line-height:30px }
+.proinfocomment strong { font-size:10px }
+</style>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/products.css" rel="stylesheet" type="text/css" />
+<script>
+function getobj(id){
+	return document.getElementById(id);	
+}
+
+function selecttab(obj, act, def, special, areaname){
+	var node = childs(obj.parentNode.parentNode.childNodes);
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			node[i].className = def;	
+			if(getobj(areaname + "_" + i))
+				getobj(areaname + "_" + i).style.display = "none";
+		}
+	}
+	obj.parentNode.className = act;
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			if(node[i].className == act){
+				if(getobj(areaname + "_" + i))
+					getobj(areaname + "_" + i).style.display = "";
+			}
+		}
+	}
+}
+//兼容FF下的childNodes
+function childs(nodes)
+{
+    if(!nodes.length) 
+        return [];
+    var ret=[];
+    for(var i=0;i<nodes.length;i++)
+    {
+        if(nodes[i].nodeType!=1) 
+            continue;
+        ret.push(nodes[i]);
+    }
+    return ret;
+}
+
+function ShowCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "";
+		objli.className = "menu_bg2";
+	}
+}
+
+function HiddenCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "none";
+		objli.className = "menu_bg1";
+	}
+}
+</script>
+</head>
+
+<body>
+<center>
+{web_skin31_网站顶部logo}
+{web_skin31_网站导航}
+<div id="search">
+  <div><img src="images/top/search_left.gif" /></div>
+  <div class="search_bg">
+    {web_skin31_顶部搜索}
+	<div>
+	  <div class="search_img"><img src="images/top/search_img3.gif" align="absmiddle" /></div>
+      {web_skin31_顶部最新文章滚动}
+	</div>
+  </div>
+  <div><img src="images/top/search_right.gif" /></div>
+</div>
+
+        <div class="address2"><b>您的位置</b> {pathstr}</div>
+        <div class="proinfo">
+        <div class="proinfol">
+		<div class="proinfolabel">
+	      <ul>
+	        <li id="proselect">　　网 友 评 价</li>
+	      </ul>
+	    </div>
+        <div class="proinfodetail" id="special_1">
+        	<!--网友评价-->
+			<#PUBLIC product/detailreview#>
+	 		<br clear="all" />
+        </div>
+        <div id="divproductreviewto" style="display:none;">
+            回复：<textarea type="text" id="txtproductreviewto" cols="50" rows="5"></textarea><br />
+            <input type="button" id="subproductreviewto" value="提交回复" onclick="SendProductReviewTo()" />
+            <input type="hidden" id="hidreviewtoID" value="{reviewtoid}" />
+        </div>
+        </div>
+        <br clear="all" />
+        </div>
+        <div class="bottom_bk">
+  {web_skin31_底部客服联系方式}
+  <div class="bottom_right">
+    {web_skin31_底部友情链接}
+	<div class="bottom_right_2">
+	  <ul>
+	    {web_skin31_底部帮助分类}
+	  </ul>
+	</div>
+  </div>
+<div class="clear"></div></div>
+<div class="bottom_1">{web_skin31_底部信息}</div>
+{web_skin31_版权信息}</center>
+        <script language="javascript" type="text/javascript">
+            window.addEvent('domready', function(){
+                if({reviewtoid} != "")
+                {
+                    if($("ProductReview"))
+                    {
+                        $("ProductReview").style.display = "none";
+                    }
+                    if($("divproductreviewto"))
+                    {
+                        $("divproductreviewto").style.display = "block";
+                    }
+                }
+            });
+        </script>
+    </body>
+    
+</html>

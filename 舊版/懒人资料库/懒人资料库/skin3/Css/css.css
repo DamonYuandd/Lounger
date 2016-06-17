@@ -1,0 +1,111 @@
+﻿<style type="text/css">
+body.{
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:0;}
+td {color:#666666;font-size: 12px; font-family:Arial, Helvetica, sans-serif}
+td,div,p { font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; line-height:16px; word-break : break-all;}
+img{border:0}
+form {margin:0; padding:0}
+A:link {text-decoration: none; color: #696969;}       
+A:visited {text-decoration: none; color: #696969;}      
+A:active {text-decoration: none; color: #696969;}      
+A:hover {text-decoration: underline; color:#0000CC;}
+.input {font-family:Arial, Helvetica, sans-serif; 	font-size: 12px; color:#000000; border: 1px #999999 solid; height: 18px; background-image: url(../images/inputback.gif)}
+#category {width:197px; padding:5px; line-height:18px}
+#cate {font-weight:bold; color:#703EC4}
+#sort {width:93px; float:left}
+
+
+
+/**/
+.top1 {width:920px; height:60px; background:#FFFFFF}
+.top1l {height:60px; width:270px}
+.top1ll {float:left; padding:5px}
+.top1lr {float:left; padding:15px 0 0 5px; text-align:left}
+.top1lr A:link {color:#2AA3A1}
+.top1lr A:visited {color:#2AA3A1}
+.top1lr A:active {color:#2AA3A1}
+.top1lr A:hover {color:#2AA3A1; text-decoration:none}
+.toplogo {float:left; width:370px; text-align:center}
+.top1r {float:right; padding-top:20px}
+.top2 {height:23px; width:920px}
+.top2r {float:right; line-height:23px; color:#2AA3A1}
+.top3 {height:28px; background:#2A68A3}
+.top3m {width:920px; height:28px}
+.top3ml {float:left; width:176px; height:28px}
+.top3mm {float:left; width:350px; height:28px; margin-left:4px; text-align:left}
+.top3mm form {padding-top:3px}
+.top3mr {float:right; height:28px; width:350px; line-height:28px; text-align:right}
+.top4 {height:10px; width:920px; text-align:left}
+.lanmudefault a{float:left;  height:23px; line-height:23px; font-weight:bolder; color:#2A68A3; background:url(../images/top/defaultbg.gif); font-size:12px; background-position:0 23px; cursor:pointer; float:left; padding:0 0 0 8px;}
+.lanmudefault a span{float:left;  height:23px; line-height:23px; font-weight:bolder; color:#2A68A3; background:url(../images/top/defaultbg.gif); margin-right:-1px; font-size:12px; background-position:100% 23px; float:left; padding:0 8px 0 0;}
+lanmudefault a.end span{ _margin:0}
+.lanmudefault a:link {color:#2A68A3}
+.lanmudefault a:hover {color:#000000; text-decoration:none}
+.lanmudefault a:visited {color:#000000}
+.lanmudefault a:active {color:#000000}
+.lanmuselect a{float:left;  height:23px; line-height:23px; font-weight:bolder; color:#FFFFFF; background:url(../images/top/defaultbg.gif); font-size:12px; background-position:0 0; cursor:pointer; float:left; padding:0 0 0 8px;}
+.lanmuselect a span{float:left;  height:23px; line-height:23px; font-weight:bolder; color:#FFFFFF; background:url(../images/top/defaultbg.gif); margin-right:-1px; font-size:12px; background-position:100% 0; float:left; padding:0 8px 0 0;}
+.lanmuselect a:link {color:#FFFFFF}
+.lanmuselect a:hover {color:#00FF00; text-decoration:none}
+.lanmuselect a:visited {color:#00FF00}
+.lanmuselect a:active {color:#00FF00}
+
+
+/*ײ*/
+.bottom1 {width:920px; padding:10px 0; background:#FFFFFF}
+.bottom11 {height:8px}
+.bottom12 {width:916px; height:150px; background:url(../images/bottom/bg.gif); border:#DEDEDE solid; border-width:0 2px; text-align:center}
+.bottom12m {width:900px; height:150px; margin:0 auto}
+.bottom12ml {width:185px; height:150px ; float:left; text-align:left}
+.bottom12mlkey {background:url(../images/bottom/helpkey.gif) no-repeat;width:90px; width:64px!important; _width:64px; height:25px; line-height:25px; padding-left:26px; font-size:12px; margin-bottom:5px; float:left}
+.bottom12mr {width:700px; width:680px !important; height:135px !important; height:150px; _width:680px;  _height:135px; padding-top:15px; padding-left:20px; float:right; text-align:left}
+.bottom12mr ul { margin: 0; padding: 0 }
+.bottom12mr ul li { margin:0; padding:0; list-style: none; float:left; width:100px; height:135px}
+.bottom2 {height:110px; background:url(../images/bottom/linkbg.gif); text-align:center}
+.bottom2m {width:920px; height:110px; text-align:center; margin:0 auto}
+#link1{ width:920px; padding-top:30px}
+#link1 ul { margint: 0; padding: 0; display: inline; }
+#link1 ul li { margin:15px; padding:3px; list-style: none; display: inline}   
+#link1 ul li.here { border-bottom: 1px solid #ffc; list-style: none; display: inline; }
+
+
+#link2{ width:920px; }
+#link2 ul { margin-left: 0; padding-left: 0; display: inline; }
+#link2 ul li { margin:5x; margin-bottom:0px; padding:2px 8px 1px 12px; list-style: none; color:#555555; display: inline}
+#link2 ul li.here { border-bottom: 1px solid #ffc; list-style: none; display: inline; }
+.bottom3 {width:920px; margin-top:14px; height:80px}
+.bottom3l {width:250px; height:80px; float:left; text-align:left}
+.bottom3r {width:600px; height:80px; line-height:14px; float:left; text-align:left; color:#B5B5B5}
+.bottom3rA {list-style:20px; height:20px; font-weight:bolder; color:#777777}
+.bottom3rA  A:link {color:#777777}
+.bottom3rA  A:visited {color:#777777}
+.bottom3rA  A:active {color:#777777}
+.bottom3rA  A:hover {color:#2AA3A1; text-decoration:none}
+.helpcate {height:18px; line-height:18px; font-weight:bolder; color:#333333}
+.helplist {text-align:left; color:#858585; font-family:Arial}
+.helplist ul { margin:0; padding:0 }
+.helplist ul li { padding:0; margin:0; height:18px; line-height:18px; color:#858585} 
+
+/**/
+.catebg {width:172px; height:445px; background:url(../images/index/catebg2.gif) bottom repeat-x; border-left:2px #3A89CA solid; border-right:2px #3A89CA solid}
+.catebgb {width:176px; height:17px; background:url(../images/index/catebgb.gif); margin-bottom:24px}
+.catebgb2 {width:176px; height:17px; background:url(../images/index/catebgb.gif); margin-bottom:10px}
+.catebgb3 {width:88px; height:17px; background:url(../images/index/catebgb.gif); margin-bottom:10px; float:left}
+.catelist{ width:160px; padding-top:5px; text-align:left }
+.catelist ul { margin: 0; padding: 0; display: inline; }
+.catelist ul li { margin:0; padding:0 10px 0 0; display: inline; list-style: none}
+.catelist ul li A:link { color:#888888}
+.catelist ul li A:visited { color:#888888}
+.catelist ul li A:active { color:#888888}
+.catelist ul li A:hover { color:#FFFFFF; text-decoration:none; background:#2AA3A1}
+.cate {font-weight:bold; color:#703EC4; padding:5px 0; width:100%}
+.cate A:link {color:#000000}
+.cate A:hover {color:#FFFFFF; text-decoration:none; background:#2AA3A1}
+
+.address1 {width:734px; height:22px; float:right; text-align:left}
+.address2 {width:920px; width:910px !important; _width:910px; padding-left:10px; height:28px; text-align:left; line-height:28px}
+.address3 {width:920px; padding:5px 0; text-align:left; }
+</style>

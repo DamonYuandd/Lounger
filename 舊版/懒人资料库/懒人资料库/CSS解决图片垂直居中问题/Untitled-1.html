@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+<style>
+.box {
+        /*非IE的主流浏览器识别的垂直居中的方法*/
+        display: table-cell;
+        vertical-align:middle;
+
+        /*设置水平居中*/
+        text-align:center;
+
+        /* 针对IE的Hack */
+        *display: block;
+        *font-size: 700px;/*约为高度的0.873，高度*0.873所得的值，就是这里的值，否则IE6,7无法垂直居中*/
+        *font-family:Arial;/*防止非utf-8引起的hack失效问题，如gbk编码*/
+
+        width:800px;
+        height:800px;
+        border: 1px solid #000;
+}
+.box img {
+        /*设置图片垂直居中*/
+        vertical-align:middle;
+}
+
+</style>
+<body>
+
+<div class="box">
+        <img  src="456.jpg" />
+</div>
+</body>
+</html>

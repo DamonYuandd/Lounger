@@ -1,0 +1,283 @@
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | NOTIC: [8] Undefined variable: var functions.php 第 214 行.
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given functions.php 第 214 行.
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:27+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | NOTIC: [8] Undefined variable: var functions.php 第 214 行.
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given functions.php 第 214 行.
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | NOTIC: [8] Undefined variable: var functions.php 第 214 行.
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given functions.php 第 214 行.
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | NOTIC: [8] Undefined variable: var functions.php 第 214 行.
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given functions.php 第 214 行.
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:28+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | NOTIC: [8] Undefined variable: var functions.php 第 214 行.
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given functions.php 第 214 行.
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:06:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | NOTIC: [8] Undefined variable: var functions.php 第 214 行.
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given functions.php 第 214 行.
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:26+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:45+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:07:53+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | NOTIC: [8] Undefined variable: var functions.php 第 214 行.
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given functions.php 第 214 行.
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:06+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:08:19+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:29+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:09:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:03+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:07+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:10:07+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:07+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:10+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:10:10+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.015625s ]
+[ 2014-02-24T12:10:10+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.015625s ]
+[ 2014-02-24T12:10:13+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:10:13+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:13+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --START--
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --START--
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Run ParseTemplate Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --START--
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --START--
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:32+08:00 ] /myUpLoad/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:34+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:10:34+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:34+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:36+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Tag[ app_begin ] --START--
+[ 2014-02-24T12:10:36+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2014-02-24T12:10:36+08:00 ] /myUpLoad/index.php?a=upload&m=Index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2014-02-24T12:12:14+08:00 ] /myUpLoad/index.php?a=upload&m=Index/del | ERR: (ThinkException) 无法加载模块Index/del
+[ 2014-02-24T12:12:16+08:00 ] /myUpLoad/index.php?a=upload&m=Index/del | ERR: (ThinkException) 无法加载模块Index/del

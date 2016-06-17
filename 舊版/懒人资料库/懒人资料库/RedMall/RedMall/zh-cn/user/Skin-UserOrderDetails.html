@@ -1,0 +1,752 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Default_User.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+        <!--系统页头信息标签-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <%<Hishop:HeadContainer ID="HeadContainer1" runat="server" />%>
+        <%<Hishop:PageTitle runat="server" />%>
+        <%<Hishop:MetaTags runat="server" />%>
+        <!--结束-->
+		<link href="/style/css.css" rel="stylesheet" type="text/css" />
+		<link href="/style/style_user.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="/utility/validate/pagevalidator.css" type="text/css" media="screen" />
+		<script src="/utility/jquery-1.3.2.min.js" type="text/javascript"></script>
+		<script src="/utility/validate/pagevalidator.js" type="text/javascript"></script>
+        <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<form runat="server" id="form1">
+<%<Hishop:TQOnlineServer runat="server" />%>
+<!--新top-->
+<div id="top" class="width-global">
+  <div id="logo">
+    
+    <%<Hishop:Common_Logo runat="server" />%>
+  </div><!--Logo-->
+  <div class="quicklinkbox">
+    <ul class="quicklink">
+      
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="right"><ul class="quicklink">
+		 <li> <Hishop:Common_Link_CreateUser ID="Common_Link_CreateUser1" Text="注册" runat="server" /> </li>
+		 <li>  <Hishop:Common_Link_Login ID="Common_Link_Login1" runat="server" /></li>
+		 <li>  <%<Hishop:Common_Link_MyAccount runat="server" />%> </li>
+          <li>   <%<Hishop:SiteUrl UrlName="shoppingCart" Text="购物车"   target="_blank"  runat="server" />%></li>
+          
+          <li>   <%<Hishop:SiteUrl UrlName="Promotes" Text="优惠活动中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_OrderQuery Text="订单查询" runat="server" />%></li>
+            
+            <li> <%<Hishop:SiteUrl UrlName="AllHelps" Text="帮助中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_LeaveComments Text="客户留言" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_IntegrateDiscuz Text="论坛" runat="server" />%> </li>
+          </ul>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <%<Hishop:Common_ShoppingCart_Info SkinName="/ascx/custom/common_shoppingcart_info.ascx" runat="server" />%>         </td>
+        </tr>
+      </table>
+      </ul>
+  </div>
+  <br class="clear-all" />
+</div>
+<!--顶部信息结束-->
+<div id="header" class="width-global">
+  <div class="nav-box">
+    <ul class="navlist">
+      <li>
+        <h1 id="tag-index"><%<Hishop:SiteUrl UrlName="home" runat="server">首页</Hishop:SiteUrl>%></h1>
+      </li>
+      <li class="nav-proclass"><%<Hishop:Common_PrimaryClass RepeatColumns="6" SeparatorString="" runat="server" MaxNum="6" />%>
+     </li>
+    </ul>
+    <ul class="nav-slist">
+      <li class="bg-slist-left"><%<Hishop:SiteUrl UrlName="allBrand" Text="品牌专卖" runat="server" />%></li>
+	   
+	    <li><%<Hishop:SiteUrl UrlName="AllArticles" Text="文章中心" runat="server" />%></li>
+	    <li><%<Hishop:SiteUrl UrlName="Category" Text="全部分类" runat="server" />%></li>
+      <li class="bg-slist-right"></li>
+    </ul>
+  </div>
+  <div class="search-box">
+    <div class="bg-searchbox-left">
+      <div class="bg-searchbox-right">
+	   <%<Hishop:Common_Search ID="Search" SkinName="/ascx/custom/user-search.ascx" runat="server" />%>
+   
+       <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--导航、搜索栏样式结束-->
+<div class="width-global" style="overflow:hidden; width:980px;"> <%<Hishop:Common_ShowAds AdsID="1" runat="server" />%></div><!--顶部广告位结束-->
+<div class="web_width">
+  <table width="960" border="0" cellspacing="0" cellpadding="0" class="bodycontent">
+    <tr>
+      <td align="left" valign="top"><div class="web_width">
+        <div class="user_center_left">
+          <h2  class="user_center_left_title">用户中心</h2>
+          <div class="pad_5" style="padding-top:14px;padding-left:12px;">
+            <div id="leftbox">
+              <ul class="NavClass">
+                <li>
+                  <h2 id="MyRec">我的交易记录</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserPoints" CssClass="n1" runat="server">我的积分</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_MyCoupons" runat="server">我的优惠券</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserOrders" runat="server">订单管理</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="ProFavRev">商品收藏与评论</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_Favorites" runat="server">收藏夹</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserConsultations" runat="server">咨询/回复</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserProductReviews" runat="server">我参与的评论</Hishop:SiteUrl>%>
+                    </li>
+                    <li><%<Hishop:SiteUrl UrlName="user_BatchBuy" runat="server">商品批量购买</Hishop:SiteUrl>%></li>
+                  </ul>
+                </li>
+                <li id="htmlLiReferral" runat="server">
+                  <h2 id="MumRec">会员推荐提成</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_ReferralMembers" runat="server">我推荐的会员</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_DeductDetails" runat="server">推荐提成明细</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Acu">预付款账户</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_MyAccountSummary" runat="server">预付款账户</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_RechargeRequest" runat="server">预付款充值</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Opt">个人设置</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserProfile" runat="server">个人信息</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UpdatePassword" runat="server">修改密码</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserShippingAddresses" runat="server">我的收货地址</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="ProFavRev">站内消息</h2>
+                  <ul>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserReceivedMessages" runat="server">收件箱</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserSendedMessages" runat="server">发件箱</Hishop:SiteUrl>%>
+                    </li>
+                    <li>
+                      <%<Hishop:SiteUrl UrlName="user_UserSendMessage" runat="server">给管理员发消息</Hishop:SiteUrl>%>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <h2 id="Acu">
+                    <%<Hishop:SiteUrl UrlName="logout" runat="server">退出</Hishop:SiteUrl>%>
+                  </h2>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="user_center_right"><!-- InstanceBeginEditable name="EditRegion" -->
+
+<style type="text/css">
+#menulist1
+{
+	color:#248AB0!important;
+	background-position:left bottom!important;
+}
+#menulist1 a
+{
+	color:#248AB0!important;
+	background-position:left bottom!important;
+}
+.peisongstyle th{border:0}
+.peisongstyle td{border:0}
+.PaymentCheckBox td{width:160px;}
+</style>
+<table class="classlistindex" style="margin: 0;" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td>
+           <div><span class="color-blue225982">您的位置：<%<Hishop:SiteUrl UrlName="home" runat="server" style="color:blue;">首页</Hishop:SiteUrl>%> &gt; <%<Hishop:SiteUrl UrlName="user_UserDefault" runat="server" style="color:blue;">会员中心</Hishop:SiteUrl>%> &gt; 订单详细</span></div>
+        </td>
+    </tr>
+    <tr>
+        <td class="userManager_TD">
+
+          <div class="DD_main_top">
+            <table width="775" border="0" cellpadding="1" cellspacing="1">
+              <tr>
+                <td align="left"><b>订单号：</b></td>
+                <td><%<asp:Literal ID="litOrderId" runat="server"></asp:Literal>%></td>
+                <td align="right"><span><b>订单总金额：</b></span></td>
+                <td class="spanC"><%<asp:Literal ID="litTotalPrice1" runat="server" />%></td>
+                <td align="right"><b>订单状态：</b></td>
+                <td>
+                    <%<Hishop:PaymentStatusLabel ID="lblOrderPaymentStatus" runat="server" />%>
+                    <%<Hishop:ShippingStatusLabel ID="lblOrderShippingStatus" runat="server" />%>
+                    <%<Hishop:ActivityStatusLabel ID="lblOrderActivityStatus" runat="server" />%>
+                </td>
+                <td align="right"><span><b>下单时间：</b></span></td>
+                <td><%<Hishop:FormatedTimeLabel ID="litAddDate" ShopTime="true" runat="server" />%> </td>
+              </tr>
+            </table>
+          </div>
+          <div class="userPanels">    
+            <div id="TabbedPanels1" class="TabbedPanels">
+                <!--选项卡代码开始-->
+                <ul class="TabbedPanelsTabGroup">
+                  <li class="TabbedPanelsTab" tabindex="0"><%<asp:Label ID="Label101" runat="server" Text="订单信息"></asp:Label>%></li>
+                  <li class="TabbedPanelsTab" tabindex="1"><%<asp:Label ID="Label103" runat="server" Text="订单历史操作"></asp:Label>%></li>
+                </ul>                    
+                    <div class="TabbedPanelsContentGroup">
+                      <div class="TabbedPanelsContent" >
+                      <div class="DD_cuent_mian">
+                         <div class="DD_title">
+                          <table width="745" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="111"><span class="spanA">&gt;</span><span class="spanD">&gt; 收货人信息</span></td>
+                              <td width="253"><%<asp:HyperLink ID="hlEditAddress" runat="server" Text="修改" onclick="dlgShipTo.Show()" style="color:Blue;cursor:hand" />%></td>
+                              <td width="193"><span class="spanA">&gt;</span><span class="spanD">&gt; 购买人信息</span></td>
+                              <td width="190">&nbsp;</td>
+                            </tr>
+                          </table>
+                        </div>
+                         <div class="DD_content">
+                          <table width="715" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="85">收货人姓名：</td>
+                              <td width="279"><%<asp:Literal ID="lblShipTo" runat="server" />%><br /></td>
+                              <td width="109">购买人姓名：</td>
+                              <td width="244"><%<asp:Literal ID="lblUserName" runat="server" />%></td>
+                            </tr>
+                            <tr>
+                              <td>详细地址：</td>
+                              <td><%<asp:Literal ID="lblRegion" runat="server" />%><%<asp:Literal ID="lblAddress" runat="server" />%></td>
+                              <td>详细地址：</td>
+                              <td><%<asp:Literal ID="lblUserAddress" runat="server" />%></td>
+                            </tr>
+                            <tr>
+                              <td>邮政编码：</td>
+                              <td><%<asp:Literal ID="lblZipcode" runat="server" />%></td>
+                              <td>电话号码：</td>
+                              <td><%<asp:Literal ID="lblUserTellPhone" runat="server" />%></td>
+                            </tr>
+                            <tr>
+                              <td>电子邮箱：</td>
+                              <td><%<asp:Literal ID="lblEmail" runat="server" />%></td>
+                              <td>电子邮箱：</td>
+                              <td><%<asp:Literal ID="lblUserEmail" runat="server" />%></td>
+                            </tr>
+                            <tr>
+                              <td>电话号码：</td>
+                              <td><%<asp:Literal ID="lblTellPhone" runat="server" />%></td>
+                              <td>手机号码：</td>
+                              <td><%<asp:Literal ID="lblUserPhone" runat="server" />%></td>
+                            </tr>
+                            <tr>
+                              <td>手机号码：</td>
+                              <td><%<asp:Literal ID="lblPhone" runat="server" />%></td>
+                              <td>QQ：</td>
+                              <td><%<asp:Literal ID="lblUserQQ" runat="server" />%></td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                              <td>MSN：</td>
+                              <td><%<asp:Literal ID="lblUserMSN" runat="server" />%> </td>
+                            </tr>
+                          </table>
+                        </div>
+                         <!-- 支付方式信息 -->
+                         <div class="DD_title_b">
+                          <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td width="122" class="spanD"><span class="spanB">&gt;</span>&gt;支付配送信息</td>
+                              <td><%<asp:HyperLink ID="hlEditMode" runat="server" Text="修改" onclick="dlgShipPay.Show()" style="color:Blue;cursor:hand" />%></td>
+                            </tr>
+                          </table>
+                        </div>
+                         <div class="DD_content">
+                              <table width="715" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                  <td width="81">配送方式：</td>
+                                  <td width="390"><%<asp:Literal ID="lblModeName" runat="server"  />%></td>
+                                  <td width="78">支付方式：</td>
+                                  <td width="361"><%<asp:Literal ID="lblPaymentType" runat="server" />%></td>
+                                </tr>
+                              </table>
+                          </div>
+                          <% <asp:Panel ID="plOrderSended" runat="server">
+                                 <div class="title_b"> <span class="spanA">&gt;</span><span class="spanC">&gt; </span><span class="spanD"><asp:Literal ID="Literal1" runat="server" Text="发货信息"></asp:Literal></span></div>
+                                    <div class="content">
+                                      <table width="908" border="0" cellspacing="0" cellpadding="0">
+                                        <tr>
+                                          <td width="90"><asp:Literal ID="Literal11" runat="server" Text="实际配送方式" />：</td>
+                                          <td width="380"><asp:Literal ID="litRealModeName" runat="server" /><br /></td>
+                                          <td width="78"><asp:Literal ID="Literal15" runat="server" Text="发货单号" />：</td>
+                                          <td width="361"><asp:Literal ID="litShippNumber" runat="server" /></td>
+                                        </tr>
+                                      </table>
+                                    </div>
+                           </asp:Panel>%>
+                         <% <asp:Panel ID="plOrderOption" runat="server">
+                            <div class="DD_title_b"> <span class="spanA">&gt;</span><span class="spanC">&gt; </span><span class="spanD">订单选项</span></div>
+                            <table id="Table2" border="0" cellspacing="0" cellpadding="0" style="width: 100%;
+                                margin: 0 auto; margin-top: 6px;">
+                                <tr class="grdrow">
+                                    <td valign="top" style="width: 60%">
+                                        <asp:GridView ID="grdOrderOption" runat="server" AutoGenerateColumns="false" ShowHeader="true"
+                                            CssClass="cartdetile" GridLines="Both" RowStyle-CssClass="grdrow" HeaderStyle-CssClass="GridViewHeaderStyle"
+                                            Style="width: 100%">
+                                            <Columns>
+                                                <asp:BoundField HeaderText="选项名称" DataField="ListDescription" ItemStyle-Width="30%" HeaderStyle-HorizontalAlign="Left" />
+                                                <asp:BoundField HeaderText="选项值" DataField="ItemDescription" ItemStyle-Width="20%" HeaderStyle-HorizontalAlign="Left" />
+                                                <Hishop:MoneyColumn HeaderText="购买金额"  DataField="AdjustedPrice" HeaderStyle-HorizontalAlign="Left" />
+                                                <asp:BoundField HeaderText="用户标题" DataField="CustomerTitle" />
+                                                <asp:BoundField HeaderText="用户信息" DataField="CustomerDescription" HeaderStyle-HorizontalAlign="Left" />
+                                            </Columns>
+                                        </asp:GridView>
+                                    </td>
+                                </tr>
+                            </table>
+                            </asp:Panel>%>
+                         <!--订单列表-->
+                         <div class="DD_title_b"><span class="spanA">&gt;</span><span class="spanC">&gt; </span><span class="spanD">商品信息</span><span class="spanC">　</span></div>
+                         <%<Hishop:Common_OrderManage_OrderItems runat="server" />%>
+                         <!--订单礼品-->
+			             <% <asp:Panel ID="plOrderGift" runat="server">
+			                <div style="padding:10px;text-align:left;">
+			                    <asp:GridView ID="grdOrderGift" runat="server" AutoGenerateColumns="false" ShowHeader="true" 
+                                    GridLines="None"  DataKeyNames="GiftId" Width="100%" HeaderStyle-CssClass="title_c1" CssClass="content_b">
+                                    <Columns>
+                                        <asp:BoundField HeaderText="礼品名称" DataField="GiftName" HeaderStyle-HorizontalAlign="Left" />
+                                        <Hishop:MoneyColumn HeaderText="礼品价格" DataField="AdjustedPrice" ItemStyle-Width="50%" HeaderStyle-HorizontalAlign="Left" />
+                                    </Columns>
+                                </asp:GridView>
+                             </div>
+                            </asp:Panel>%>
+                         <div style="text-align:right;"><span class="spanA">商品总重量（含礼品）</span>： <span class="spanC"><%<Hishop:WeightLabel ID="litWeight" runat="server" />%> g</span></div>
+                         <div class="DD_title_b"><span class="spanA">&gt;</span><span class="spanC">&gt; </span><span class="spanD">金额明细</span><span class="spanC">　</span></div>
+                         <div class="DD_content_c">
+                              <table width="747" border="0" cellpadding="0" cellspacing="0">
+                                <tr class="content_table">
+                                  <td width="131" align="right" class="content_table">商品金额：</td>
+                                  <td align="left"><%<asp:Literal ID="litCartMoney" runat="server" />%></td>
+                                </tr>
+                                <tr>
+                                  <td align="right">满额打折活动：</td>
+                                  <td align="left" class="spanF"><%<asp:Literal ID="litDiscountValue" runat="server" />%></td>
+                                </tr>
+                                <tr>
+                                  <td align="right">礼品金额：</td>
+                                  <td align="left"><%<asp:Literal ID="litGiftAmount" runat="server" />%></td>
+                                </tr>
+                                <tr>
+                                  <td align="right">满额免费用活动：</td>
+                                  <td align="left"><span class="spanE"><%<asp:Literal ID="litFree" runat="server" />%></span></td>
+                                </tr>
+                                <tr>
+                                  <td align="right">运费：</td>
+                                  <td align="left"><%<asp:Literal ID="litFreight" runat="server" />%></td>
+                                </tr>
+                                <tr>
+                                  <td align="right">支付手续费：</td>
+                                  <td align="left"><%<asp:Literal ID="litPayCharge" runat="server" />%><input runat="server" id="htmInputPaymentId" style="display:none;"/></td>
+                                </tr>
+                                <tr>
+                                  <td align="right">订单选项费用：</td>
+                                  <td align="left"><asp:Literal ID="litOptionPrice" runat="server" /></td>
+                                </tr>
+                                <tr>
+                                  <td align="right">优惠劵抵扣金额：</td>
+                                  <td align="left"><%<asp:Literal ID="litCouponValue" runat="server" />%></td>
+                                </tr>
+                                <tr>
+                                  <td align="right">买家折扣：</td>
+                                  <td align="left" class="spanF"><%<asp:Literal ID="litDiscount" runat="server" />%></td>
+                                </tr>
+                                <tr>
+                                  <td align="right" bgcolor="#f2f2f2" class="spanB">订单金额总计：</td>
+                                  <td align="left" bgcolor="#f2f2f2"><span class="spanC"><%<asp:Literal ID="litTotalPrice" runat="server" />%></span></td>
+                                </tr>
+                                <tr>
+                                  <td align="right"><span class="spanB">订单可得积分：</span></td>
+                                  <td align="left"><span class="spanC"><%<asp:Literal ID="litPoints" runat="server" />%></span></td>
+                                </tr>
+                              </table>
+                            </div>
+                            <div class="spanD" style="padding-left:10px;">买家备注：</div>
+                             <div style="word-break:break-all;padding:8px 0px;padding-left:10px;"><%<asp:Literal ID="litRemark" runat="server"></asp:Literal>%></div>
+                     </div>
+                     <div><%<Hishop:Private_SummitOrder_OrderButton CssClass="btn_sub" Text="确认支付" runat="server" Visible="false" />%></div>
+                     </div>
+                     
+                      <!--订单状态及操作记录-->
+                      <div class="TabbedPanelsContent">
+                            <table border="0" cellspacing="0" cellpadding="0" style="margin: auto; margin-top: 6px;
+                                width: 100%;">
+                                <tr class="grdrow">
+                                    <td >
+                                        <%<asp:GridView ID="grdOrderActionHistorys" runat="server" AutoGenerateColumns="false"
+                                            ShowHeader="true" CssClass="GridViewStyle" GridLines="both" RowStyle-CssClass="grdrow"
+                                            HeaderStyle-CssClass="GridViewHeaderStyle" Width="100%">
+                                            <Columns>
+                                                <asp:BoundField HeaderText="操作人" DataField="Username" ItemStyle-Width="20%" HeaderStyle-HorizontalAlign="Left" />
+                                                <asp:TemplateField HeaderText="操作" SortExpression="ActionCode" ItemStyle-Width="200" HeaderStyle-HorizontalAlign="Left">
+                                                    <ItemTemplate>
+                                                        <Hishop:OrderActionLabel ID="lblOrderAction" DataField="ActionCode" runat="server" />
+                                                    </ItemTemplate>
+                                                </asp:TemplateField>
+                                                <asp:TemplateField HeaderText="操作时间"
+                                                    SortExpression="StatusCode" ItemStyle-Width="180" HeaderStyle-HorizontalAlign="Left">
+                                                    <ItemTemplate>
+                                                        <Hishop:FormatedTimeLabelOnBind ID="litDateTime2" runat="server" ShopTime="true" DataField="ActionDate" />
+                                                    </ItemTemplate>
+                                                </asp:TemplateField>
+                                                 <asp:TemplateField HeaderText="备注" >
+                                                    <ItemTemplate>
+                                                        <UI:BindableLabel  runat="server" DataField="Remark" style="word-break:break-all;" Width="300"/>
+                                                    </ItemTemplate>
+                                                </asp:TemplateField>
+                                            </Columns>
+                                        </asp:GridView>%>
+                                    </td>
+                                </tr>
+                            </table>
+                    <%<asp:Panel Visible="true" runat="server" ID="refundPanel">
+                          <table style="background: #efefef; width: 100%; margin: 0 auto; border-bottom: solid 1px #ccc;
+                                margin-top: 20px;" border="0" cellspacing="0" cellpadding="5">
+                                <tr>
+                                    <td>
+                                        <strong>
+                                            <asp:Literal ID="Literal22" runat="server" Text="退款订单信息"></asp:Literal>
+                                        </strong>
+                                    </td>
+                                </tr>
+                            </table>
+                        <table style="width: 100%; margin-bottom:20px;" border="1px" cellpadding="0px" cellspacing="0px">
+                        <tr>
+                            <td style="height: 25px; text-align:left;border-bottom: 1px solid #ddd">
+                                <asp:Literal ID="Literal19" runat="server" Text="退款总金额" />：
+                                <asp:Literal ID="litTotalBalance" runat="server" />
+                            </td>
+                            <td style="text-align:left;border-bottom: 1px solid #ddd">
+                                <asp:Literal ID="Literal20" runat="server" Text="退款到预付款账户" />：
+                                <asp:Literal ID="litIsOrderRefund" runat="server" />
+                            </td>
+                            <td style="height: 25px; text-align:left;border-bottom: 1px solid #ddd">
+                                <asp:Literal ID="Literal21" runat="server" Text="订单退款状态" />：                                
+                                <Hishop:RefundStatusLabel ID="lblOrderRefundStatus" runat="server" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:left;border-bottom: 1px solid #ddd" colspan="3">
+                                <asp:Literal ID="Literal23" runat="server" Text="退款备注" />：
+                                <asp:Literal ID="litRefundOrderRemark" runat="server" />
+                            </td>
+                        </tr>
+                        </table>
+                    </asp:Panel>%>                            
+                </div>
+                    </div>
+            </div>
+           </div>
+
+        </td>
+    </tr>
+</table> 
+
+<UI:Dialog ID="dlgShipTo" Title="修改收货人信息" Modal="true" ShowTransition="Pixelate" CloseTransition="Pixelate" AnimationDuration="200" AllowDrag="true" AllowResize="true" Alignment="MiddleCentre" runat="server" Width="510">
+    <Content>
+        <table width="90%" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:20px; margin-bottom:20px;">
+            <tr>
+              <td class="right">收货人姓名：</td>
+              <td class="left"><%<asp:TextBox ID="txtShipTo" runat="server" Width="300px"></asp:TextBox>%></td>
+            </tr>
+            <tr>
+              <td class="right">收货人地址：</td>
+              <td class="left"><%<Hishop:RegionSelector runat="server" id="dropRegions" />%></td>
+            </tr>
+            <tr>
+              <td class="right" style="height: 30px"><span class="fontred"></span>详细地址：</td>
+              <td class="left" style="height: 30px"><%<asp:TextBox ID="txtAddress" runat="server" Width="300px" TextMode="multiLine"></asp:TextBox>%></td>
+            </tr>
+            <tr>
+              <td class="right">邮政编码：</td>
+              <td class="left">
+                  <%<asp:TextBox ID="txtZipcode" runat="server" Width="300px"></asp:TextBox>%>
+              </td>
+            </tr>
+            <tr>
+              <td class="right">电子信箱：</td>
+              <td class="left">
+                  <%<asp:TextBox ID="txtEmailAddress" runat="server" Width="300px"></asp:TextBox>%>
+              </td>
+            </tr>
+            <tr>
+              <td class="right"><span class="fontred"></span>电话号码：</td>
+              <td class="left">
+                   <%<asp:TextBox ID="txtTelPhone" runat="server" Width="300px"></asp:TextBox>%>
+              </td>
+            </tr>
+            <tr>
+              <td class="right">手机号码：</td>
+              <td class="left"><%<asp:TextBox ID="txtCellPhone" runat="server" Width="300px"></asp:TextBox>%></td>
+            </tr>
+            <tr>
+              <td class="right">&nbsp;</td>
+              <td class="left">
+                  <%<asp:Button ID="btnMondifyAddress"  runat="server" Text="修改" OnClientClick="return ValidationAddress()"  ValidationGroup="valsShipping" />%>
+                  <input type="button" value="返回" onclick="dlgShipTo.Close();" />
+              </td>
+            </tr>
+          </table>
+    </Content>
+</UI:Dialog>
+
+<script type="text/javascript">
+    function ValidationAddress() {
+        var selectedRegionId = GetSelectedRegionId();
+        if (selectedRegionId == null || selectedRegionId.length == "" || selectedRegionId == "0") {
+            alert("请选择您的收货人地址");
+            return false;
+        }
+        var shipTo = document.getElementById("UserOrderDetails_txtShipTo").value;
+        if (shipTo.length < 2 || shipTo.length > 20) {
+            alert("收货人名字不能为空，长度在2-20个字符之间");
+            return false;
+        }
+        var address = document.getElementById("UserOrderDetails_txtAddress").value;
+        if (address.length < 3 || address.length > 200) {
+            alert("详细地址不能为空，长度在3-200个字符之间");
+            return false;
+        }
+        var zipcode = document.getElementById("UserOrderDetails_txtZipcode").value;
+        if (zipcode.length < 3 || zipcode.length > 20) {
+            alert("邮政编码不能为空，长度在3-20个字符之间");
+            return false;
+        }
+        var emailAddress = document.getElementById("UserOrderDetails_txtEmailAddress").value;
+        if (emailAddress.length > 0 && emailAddress.search(/^\w+((-\w+)|(\.\w+))*\@[A-Za-z0-9]+((\.|-)[A-Za-z0-9]+)*\.[A-Za-z0-9]+$/) == -1) {
+            alert("电子邮件地址格式不对");
+            return false;
+        }
+        var telPhone = document.getElementById("UserOrderDetails_txtTelPhone").value;
+        if (telPhone.length == 0) {
+            return true;
+        }
+        else {
+            if (telPhone.length < 3 || telPhone.length > 20) {
+                alert("电话号码可以为空，如果填写长度在3-20个字符之间");
+                return false;
+            }
+        }
+        var cellPhone = document.getElementById("UserOrderDetails_txtCellPhone").value;
+        if (cellPhone.length == 0) {
+            return true;
+        }
+        else {
+            if (cellPhone.length < 3 || cellPhone.length > 20) {
+                alert("手机号码可以为空，如果长度在3-20个字符之间");
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+    $(document).ready(function() {
+
+        // 配送方式选择触发事件
+        $("input[name='UserOrderDetails$radioListShippingModeTable']").bind('click', function() {
+            var weight = $("#SubmitOrder_Weight").html();
+            var regionId = $("#regionSelectorValue").val();
+            var shippmodeId = $(this).attr("value");
+
+            $.ajax({
+                url: "PaymentHandler.aspx",
+                type: 'post', dataType: 'json', timeout: 10000,
+                data: { ModeId: shippmodeId, Total: 0, Weight: weight, RegionId: regionId,Action:'CreatePaymentList' },
+                success: function(resultData) {
+                    if (resultData.Status == "OK") {
+                        CreatePaymentTable(resultData.Payment);
+                    }
+                    else {
+                        alert("格式化json数据或构造支付表格出错!");
+                    }
+                }
+            });
+        })
+
+        // 支付方式选择触发事件
+        $("input[name='UserOrderDetails$radioListPaymentTable']").bind('click', function() {
+            $.myfn.PaymentSelect($(this).attr("value"));
+        })
+        
+        jQuery.myfn = {
+            // 支付方式选择触发事件
+            PaymentSelect: function(gaeway) {
+                $('#UserOrderDetails_htmInputPaymentId').val(gaeway);
+            }
+        }
+
+        // 修改
+        $("#UserOrderDetails_btnMondifyShipPay").click(function() {
+            var tag = true;
+            $("input[name='UserOrderDetails$radioListPaymentTable']").each(function(index) {
+                if (this.checked == true) {
+                    tag = false;
+                }
+            });
+            if (tag) {
+                alert("请选择支付方式");
+                return false;
+            }
+
+
+        })
+    });
+
+    //构造支付方式表格类;
+    var CreatePaymentTable = function(PaymentData) {
+        var PaymentBody = document.getElementById("PaymentList");
+        PaymentBody.innerHTML = "";
+        PaymentTable = document.createElement("table");
+        PaymentTableBody = document.createElement("tbody");
+
+        //PayTableCurrent_Row0 = document.createElement("tr");
+        //for (var hCell = 0; hCell <= 2; hCell++) {
+        //    PayTableCurrent_hCell = document.createElement("th");
+        //    if (hCell == 0) {
+        //        PayTableCurrent_hCell.innerHTML = "选择";
+        //        PayTableCurrent_hCell.setAttribute("width", "5%");
+        //        PayTableCurrent_hCell.setAttribute("align", "center");
+        //    }
+        //    if (hCell == 1) {
+        //        PayTableCurrent_hCell.innerHTML = "支付方式";
+        //        PayTableCurrent_hCell.setAttribute("width", "20%");
+        //        PayTableCurrent_hCell.setAttribute("align", "center");
+        //    }
+        //    if (hCell == 2)
+        //        PayTableCurrent_hCell.innerHTML = "详细介绍";
+        //    PayTableCurrent_Row0.appendChild(PayTableCurrent_hCell);
+        //}
+        
+        //PaymentTableBody.appendChild(PayTableCurrent_Row0);
+
+        PayTableCurrent_Row = document.createElement("tr");
+        
+        for (var nRows = 0; nRows < PaymentData.length; nRows++) {
+        
+            PayTableCurrent_Cell = document.createElement("td");
+                
+            PayTableCurrent_Cell.innerHTML = "<input id=UserOrderDetails_grd_Common_ShoppingCart_PaymentTable___grdPayment"
+                + PaymentData[nRows].ModeId + " type=radio value=" + PaymentData[nRows].ModeId
+                + " name=UserOrderDetails$radioListPaymentTable onclick=\"$.myfn.PaymentSelect('" + PaymentData[nRows].ModeId + "');\">"
+                + PaymentData[nRows].Name;
+
+           PayTableCurrent_Row.appendChild(PayTableCurrent_Cell);
+           PayTableCurrent_Cell.setAttribute("align", "left");
+        }
+        
+        PaymentTableBody.appendChild(PayTableCurrent_Row);
+        
+        PaymentTable.appendChild(PaymentTableBody);
+        PaymentBody.appendChild(PaymentTable);
+        PaymentTable.setAttribute("cellSpacing", "0");
+        PaymentTable.setAttribute("class", "PaymentCheckBox");
+        if (document.all) { PaymentTable.setAttribute("className", "PaymentCheckBox"); }
+        return PaymentTable;
+    }
+</script>
+<UI:Dialog ID="dlgShipPay" Title="修改配送支付信息" Modal="true" ShowTransition="Pixelate" CloseTransition="Pixelate" AnimationDuration="200" AllowDrag="true" AllowResize="true" Alignment="MiddleCentre" runat="server" Width="710">
+    <Content>
+        <div class="color_ff8f00_14b">选择配送方式：</div>
+        <div id="Div1"><%<asp:RadioButtonList runat="server" Id="radioListShippingModeTable" RepeatDirection="Vertical" RepeatColumns="6"  CssClass="PaymentCheckBox" />%></div>
+        <div class="color_ff8f00_14b">选择支付方式：</div>
+        <div id="PaymentList">
+            <%<asp:RadioButtonList runat="server" Id="radioListPaymentTable" RepeatDirection="Horizontal" CssClass="PaymentCheckBox" />%>     
+        </div>
+        <div style="margin:20px">
+            <%<asp:Button ID="btnMondifyShipPay"  runat="server" Text="修改"  ValidationGroup="valsShipping" />%>
+            <input type="button" value="返回" onclick="dlgShipPay.Close();" />
+        </div>
+    </Content>
+</UI:Dialog>
+<script src="/script/tags.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+    var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+//-->
+</script>
+	<script src="/utility/region.helper.js" type="text/javascript"></script>
+	<!-- InstanceEndEditable --></div>
+      </div></td>
+    </tr>
+  </table> 
+  </div>
+<table width="960" border="0" align="center" cellpadding="0" cellspacing="0" class="table_help" style="margin-top:20px;">
+  <tr>
+    <td ><div class="border-inside">
+     <%<Hishop:Common_Help runat="server" />%>
+  </div></td>
+    </tr>
+</table>
+
+<div class="page_w marginCenter">
+  <div class="userLink">
+  <div class="width-global friendlink">    <!--友情链接开始-->
+<table><tr><td>  <h1>友情链接：</h1></td><td> <%<Hishop:Common_FriendLinks SkinName="/ascx/custom/user-FriendLinks.ascx" runat="server"  />%> </td></tr></table>
+  </div>
+    </div>
+</div>
+
+</div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="mar_tb6" >
+  <tr>
+    <td  align="center" class="bottom">
+		<%<Hishop:CnzzShow ID="CnzzShow1" runat="server" />%>
+		<%<Hishop:PageFooter ID="PageFooter" runat="server"></Hishop:PageFooter>%>
+		<%<Hishop:LicenseControl runat="server" />%>
+        <%<Hishop:SiteCopyright runat="server" />%>
+	</td>
+  </tr>
+</table>
+</form>
+</body>
+<!-- InstanceEnd --></html>

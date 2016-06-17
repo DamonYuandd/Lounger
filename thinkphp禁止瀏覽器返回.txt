@@ -1,0 +1,10 @@
+ThinkPHP框架防止页面后退的方法  
+
+在http头中设置Cache-Control: no-cache, no-store。方式可以防止页面后退
+
+ThinkPHP的模板渲染机制上，打开 ThinkPHP/Lib/Think/Core/View.class.php 看第173行 header("Cache-control: private");
+
+
+ header('Cache-control: '.C('HTTP_CACHE_CONTROL'));  // 页面缓存控制
+
+通过修改上述代码可 在新版本中可以使用 C('HTTP_CACHE_CONTROL'，'****')来动态修改

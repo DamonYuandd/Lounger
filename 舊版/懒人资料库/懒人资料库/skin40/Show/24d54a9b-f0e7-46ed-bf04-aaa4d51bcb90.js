@@ -1,0 +1,1 @@
+document.write('<a href="/v5shop/member/Advertisement_Ads_ClickCount.aspx?mark=24d54a9b-f0e7-46ed-bf04-aaa4d51bcb90&&uri=" title="" target="_blank"><img src="Images/ad/g1.gif" width="180" height="105" border="0"></a>');

@@ -1,0 +1,88 @@
+
+-------------------------------- 代码修改过程-------------
+
+首先
+
+admin  includes  languages这3个文件放到您网站的跟目录覆盖
+
+覆盖前须知admin目录为后台目录如果改动请修改此目录名称在覆盖。后面的 admin 都代表 后台目录 
+
+images文件放到您模板文件夹下覆盖
+
+
+----------------------------------修改 1
+修改根目录下的 user.php
+以下 代码段 
+大概 在 30 行
+// 不需要登录的操作或自己验证是否登录（如ajax处理）的act
+
+$not_login_arr =
+array('login','act_login','register','act_register','act_edit_password','get_password','send_pwd_email','password', 'signin', 'add_tag', 'collect', 'return_to_cart', 'logout', 'email_list', 'validate_email', 'send_hash_mail', 'order_query', 'is_registered', 'check_email','clear_history','qpassword_name', 'get_passwd_question', 'check_answer');
+
+在  'check_answer'  后面 添加 'oath' , 'oath_login'
+
+结果 如 
+
+$not_login_arr =
+array('login','act_login','register','act_register','act_edit_password','get_password','send_pwd_email','password', 'signin', 'add_tag', 'collect', 'return_to_cart', 'logout', 'email_list', 'validate_email', 'send_hash_mail', 'order_query', 'is_registered', 'check_email','clear_history','qpassword_name', 'get_passwd_question', 'check_answer' , 'oath' , 'oath_login');
+
+
+--------------------------------修改 2   添加调用接口
+修改根目录下的user.php：
+查找位置  /* 验证用户注册邮件 */
+将调用代码.txt文件中的内容复制到此句上面
+
+
+
+--------------------------------修改 3  插入菜单项
+//  admin 为 你的后台目录
+
+文件路径 = admin/includes/inc_menu.php
+插入代码 = $modules['11_system']['website']  = 'website.php?act=list';
+位置     = 随意 
+
+
+--------------------------------修改 4   检查权限的
+
+文件路径 = admin/includes/inc_priv.php 
+插入代码 = $purview['website']              = 'website';
+位置     = 随意
+
+-------------------------------修改 5 插入 语言包  这样 菜单 管理就出来了！！！
+
+文件路径 =  languages/zh_cn/admin/common.php
+插入代码 =  $_LANG['website'] = '第三方登录插件管理';  //名字你可以自己定
+位置     =  随意'
+
+
+
+-------------------------------修改 6 调用代码，在您模板文件下的user_passport.dwt文件 找到对应的位置加调用代码，参考：
+
+<tr>
+            <td align="right" valign="middle">&nbsp;</td>
+            <td colspan="2" valign="middle"><table width="360" border="0" cellpadding="0" cellspacing="0">
+                <tbody><tr>
+                  <td height="30" colspan="4">使用合作网站账号登录：</td>
+                </tr>
+                <tr>
+                  <td><a href="user.php?act=oath&type=qq"><img src="images/qq_login.gif"/></a>
+</td>
+                                   <td><a href="user.php?act=oath&type=weibo"><img src="images/sina_login_logo.gif"/></a>
+</td>                  <td><a href="user.php?act=oath&type=alipay"><img src="images/alipay_login.png"/></a>
+</td>
+                </tr>
+              </tbody></table></td>
+          </tr>
+
+----------------------------安装过程---------------------
+
+打开你的商城后台 ， 在【系统设置】里面 看到
+【第三方登录插件管理】
+
+------------------------- 操作流程 开始-------------
+
+第一此使用此插件需要 进行一次 初始化工作， 进入到【系统设置】-》
+
+【第三方登录插件管理】 找到 右上方按钮 【初始化插件】 点击 初始化成功,
+
+接下来就是安装 QQ  淘宝  新浪微博插件 就可以使用了

@@ -1,0 +1,555 @@
+[ 2013-02-27T09:42:25+08:00 ] /yy_v2/y_dd/yconfig/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:25+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001722s ]
+[ 2013-02-27T09:42:25+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002651s ]
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002189s ]
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003199s ]
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000486s ]
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: searchkey IndexAction.class.php 第 28 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: vo ae4ccf388766686c7b43ce2ff8116269.php 第 14 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: website_name ae4ccf388766686c7b43ce2ff8116269.php 第 19 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: url ae4ccf388766686c7b43ce2ff8116269.php 第 22 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: contract_number ae4ccf388766686c7b43ce2ff8116269.php 第 29 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: yy_price ae4ccf388766686c7b43ce2ff8116269.php 第 31 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: service_price ae4ccf388766686c7b43ce2ff8116269.php 第 32 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 35 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 39 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001829s ]
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003980s ]
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 166 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 188 行.
+[ 2013-02-27T09:42:26+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-27T09:42:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-02-27T09:42:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001774s ]
+[ 2013-02-27T09:42:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002562s ]
+[ 2013-02-27T09:42:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000443s ]
+[ 2013-02-27T09:42:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000880s ]
+[ 2013-02-27T09:42:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000739s ]
+[ 2013-02-27T09:42:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000650s ]
+[ 2013-02-27T09:42:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-27T09:42:27+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001573s ]
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002559s ]
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '28' ) LIMIT 1  [ RunTime:0.000434s ]
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000795s ]
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000679s ]
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:31+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001582s ]
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003266s ]
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '28' ) LIMIT 1  [ RunTime:0.000452s ]
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000788s ]
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000657s ]
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:32+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001675s ]
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002654s ]
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '26' ) LIMIT 1  [ RunTime:0.000425s ]
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.001920s ]
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000651s ]
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:36+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001981s ]
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002620s ]
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '28' ) LIMIT 1  [ RunTime:0.000489s ]
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000918s ]
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000663s ]
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:37+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001555s ]
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002912s ]
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '29' ) LIMIT 1  [ RunTime:0.000438s ]
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000873s ]
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000751s ]
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001552s ]
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002936s ]
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '28' ) LIMIT 1  [ RunTime:0.000439s ]
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000789s ]
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000610s ]
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:39+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001625s ]
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002748s ]
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '29' ) LIMIT 1  [ RunTime:0.000427s ]
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000876s ]
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000710s ]
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:40+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001660s ]
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002980s ]
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '26' ) LIMIT 1  [ RunTime:0.000731s ]
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000891s ]
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000616s ]
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001906s ]
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003386s ]
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '37' ) LIMIT 1  [ RunTime:0.000441s ]
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000856s ]
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000675s ]
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:41+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001742s ]
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002720s ]
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '23' ) LIMIT 1  [ RunTime:0.000440s ]
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000784s ]
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000651s ]
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/23/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001776s ]
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002795s ]
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '37' ) LIMIT 1  [ RunTime:0.000457s ]
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.001105s ]
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000650s ]
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:42+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/37/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001661s ]
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002878s ]
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '29' ) LIMIT 1  [ RunTime:0.000432s ]
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000782s ]
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000685s ]
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/29/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001820s ]
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002773s ]
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '28' ) LIMIT 1  [ RunTime:0.000506s ]
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000828s ]
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000644s ]
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:42:43+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/28/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001650s ]
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002739s ]
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002107s ]
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003298s ]
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000579s ]
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: searchkey IndexAction.class.php 第 28 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined variable: vo ae4ccf388766686c7b43ce2ff8116269.php 第 14 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: website_name ae4ccf388766686c7b43ce2ff8116269.php 第 19 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: url ae4ccf388766686c7b43ce2ff8116269.php 第 22 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: contract_number ae4ccf388766686c7b43ce2ff8116269.php 第 29 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: yy_price ae4ccf388766686c7b43ce2ff8116269.php 第 31 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: service_price ae4ccf388766686c7b43ce2ff8116269.php 第 32 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 35 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 39 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002056s ]
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003445s ]
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 166 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 188 行.
+[ 2013-02-27T09:56:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Index/left | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001664s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002826s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000361s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.001008s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000801s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000662s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001606s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002522s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000381s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000965s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000790s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000674s ]
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-02-27T09:56:59+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001793s ]
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002459s ]
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '36' ) LIMIT 1  [ RunTime:0.000444s ]
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000988s ]
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000655s ]
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:58:49+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/36/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001937s ]
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002599s ]
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1170' ) LIMIT 1  [ RunTime:0.000448s ]
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY ordernum desc [ RunTime:0.000986s ]
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000824s ]
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:58:56+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1170/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:58:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/act/update/id/1170/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:58:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/act/update/id/1170/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001623s ]
+[ 2013-02-27T09:58:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/act/update/id/1170/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002677s ]
+[ 2013-02-27T09:58:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/act/update/id/1170/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:58:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/act/update/id/1170/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1170' ) LIMIT 1  [ RunTime:0.000463s ]
+[ 2013-02-27T09:58:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/act/update/id/1170/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '36' ) ORDER BY ordernum desc [ RunTime:0.000943s ]
+[ 2013-02-27T09:58:57+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/act/update/id/1170/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000729s ]
+[ 2013-02-27T09:58:58+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/act/update/id/1170/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002062s ]
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002674s ]
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1499' ) LIMIT 1  [ RunTime:0.000426s ]
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000910s ]
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000656s ]
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:59:03+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1499/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002111s ]
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003420s ]
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1501' ) LIMIT 1  [ RunTime:0.000445s ]
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '1499' ) ORDER BY ordernum desc [ RunTime:0.000708s ]
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000643s ]
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:59:04+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1501/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001572s ]
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002621s ]
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '1500' ) LIMIT 1  [ RunTime:0.000419s ]
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '1499' ) ORDER BY ordernum desc [ RunTime:0.000650s ]
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000748s ]
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-02-27T09:59:06+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/edit/id/1500/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.
+[ 2013-02-27T09:59:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/editNav/account_id/231/id/36 | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-02-27T09:59:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/editNav/account_id/231/id/36 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002062s ]
+[ 2013-02-27T09:59:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/editNav/account_id/231/id/36 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.024476s ]
+[ 2013-02-27T09:59:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/editNav/account_id/231/id/36 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '36' ) LIMIT 1  [ RunTime:0.000419s ]
+[ 2013-02-27T09:59:13+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/editNav/account_id/231/id/36 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000662s ]
+[ 2013-02-27T09:59:21+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/231/tab_id/test3 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002715s ]
+[ 2013-02-27T09:59:21+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/231/tab_id/test3 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002677s ]
+[ 2013-02-27T09:59:21+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/231/tab_id/test3 | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000343s ]
+[ 2013-02-27T09:59:21+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/231/tab_id/test3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000846s ]
+[ 2013-02-27T09:59:21+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/231/tab_id/test3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000915s ]
+[ 2013-02-27T09:59:21+08:00 ] /yy_v2/y_dd/yconfig/index.php/Account/edit/id/231/tab_id/test3 | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000713s ]
+[ 2013-02-27T10:14:21+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/editNav/account_id/231/id/28 | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.001679s ]
+[ 2013-02-27T10:14:21+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/editNav/account_id/231/id/28 | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.002752s ]
+[ 2013-02-27T10:14:21+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/editNav/account_id/231/id/28 | SQL: SELECT * FROM `y_category` WHERE ( `id` = '28' ) LIMIT 1  [ RunTime:0.000445s ]
+[ 2013-02-27T10:14:21+08:00 ] /yy_v2/y_dd/yconfig/index.php/Category/editNav/account_id/231/id/28 | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000612s ]

@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+margin:0px;
+padding:0px;
+font-size:14px;
+font:"微软雅黑", "幼圆", "宋体";
+color:#6C6C6C;
+font-weight:lighter;
+}
+
+.spare
+{
+float:left;
+height:20px;
+width:805px;
+border-left:#db1d1d solid 2px;
+border-right:#db1d1d solid 2px;
+}
+
+.more_tab ul
+{
+margin:0px;
+padding:0px;
+position:absolute;
+z-index:2px;
+margin-left:-5px;
+}
+.more_tab
+{
+background-image:url(../image/med_bottom.jpg);
+width:809px;
+height:29px;
+line-height:29px;
+position:relative;
+overflow:hidden;
+float:left;
+}
+.more_tab li
+{
+
+list-style:none;
+display:block;
+cursor:pointer;
+float:left;
+width:80px;
+height:29px;
+margin-left:5px;
+text-align:center;
+}
+.more_tab li.hover
+{
+border-left:#db1d1d solid 2px;
+border-right:#db1d1d solid 2px;
+border-top:#db1d1d solid 2px;
+border-bottom:#FFFFFF solid 2px;
+line-height:27px;
+background-color:#FFFFFF;
+font-weight:bold;
+color:#262626;
+font-size:14px;
+}
+#more_container
+{
+width:810px;
+height:auto;
+}
+#contentbox
+{
+float:left;
+width:805px;
+border-left:#db1d1d solid 2px;
+border-right:#db1d1d solid 2px;
+border-bottom:#db1d1d solid 2px;
+
+}

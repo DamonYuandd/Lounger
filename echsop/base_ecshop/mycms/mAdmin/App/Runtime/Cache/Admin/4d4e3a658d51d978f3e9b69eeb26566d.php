@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><div data-role="header" data-theme="a"><h1>欢迎使用移动版后台</h1></div>

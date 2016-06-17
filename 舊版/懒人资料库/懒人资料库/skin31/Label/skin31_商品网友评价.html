@@ -1,0 +1,197 @@
+﻿<style type="text/css">
+ul, ol {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+
+.PR_list {
+margin:0;
+padding:0;
+margin-bottom:25px;
+overflow:hidden;
+padding-left:0;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+width:728px;
+background:#F8FBFF;
+border:1px #D1E2F3 solid;
+}
+
+.PR_list_l {
+float:left;
+overflow:hidden;
+text-align:center;
+width:100px;
+padding:5px
+}
+
+.PR_list_r {
+float:left;
+overflow:hidden;
+width:610px;
+}
+
+div.re_topic {
+background:#F8FBFF url(../../template/public/images/products/w_dot_3.gif) repeat-x scroll 0 top;
+color:#9C9A9D;
+padding:4px 10px 1px;
+}
+
+div.re_con {
+background:transparent url(../../template/public/images/products/w_dot_3.gif) repeat-x scroll 0 top;
+padding:10px 10px 5px;
+}
+
+.float_Right {
+float:right;
+}
+
+span.topic {
+font-weight:bold;
+}
+
+a.link_1:link, a.link_1:visited {
+color:#005AA0;
+}
+
+div.re_con {
+background:transparent url(../../template/public/images/products/w_dot_3.gif) repeat-x scroll 0 top;
+padding:10px 10px 5px;
+}
+
+.PR_list_r div {
+overflow:hidden;
+width:600px;
+}
+
+div.re_con_buttons {
+color:#9C9A9D;
+padding:5px 0 0;
+}
+
+div.re_con_buttons .btn1 {
+background:transparent url(../../template/public/images/products/button_bg1.gif) repeat scroll 0 0;
+border:0 none;
+cursor:pointer;
+font-size:12px;
+height:22px;
+width:60px;
+}
+
+div.re2 {
+background:transparent url(../../template/public/images/products/w_dot_3.gif) repeat-x scroll 0 top;
+padding:5px 10px;
+}
+
+div.re2 em {
+color:#CCCCCC;
+display:block;
+float:left;
+font-family:arial;
+font-size:20px;
+font-style:italic;
+height:36px;
+
+line-height:36px;
+text-align:center;
+width:60px;
+margin:0;
+}
+
+div.re2 ul {
+float:right;
+width:514px;
+margin:0;
+}
+
+.PR_list_r div {
+overflow:hidden;
+width:600px;
+}
+
+.refer_info {
+background:transparent url(../../template/public/images/products/w_dot_3.gif) repeat-x scroll 0 top;
+padding:10px 10px 0;
+}
+
+.refer_info em {
+color:#FF7403;
+font-weight:bold;
+padding:0 5px;
+}
+
+a.link_1:link, a.link_1:visited {
+color:#005AA0;
+text-decoration:none;
+}
+a.link_FF7403:link, a.link_FF7403:visited {
+color:#FF7403;
+text-decoration:none;
+}
+</style>
+<div class="right">
+<#loop productreview,["+cid+"],* 10#>
+<ul class="PR_list">
+	<#loop usergroup,["+productreview_member["username"].ToString()+"] 10#>
+        <li name="chinaxiaecho" class="PR_list_l"><img src="{gettmpimg({usergroup[ico]},55,55)}" width="55" height="55">
+          <div>{productreview[username]}</div>
+          <div>{usergroup[name]}</div>
+        </li>
+    <#/loop#>
+    <li class="PR_list_r">
+      <div class="re_topic">
+      	<span class="float_Right">{productreview[date]}</span> 
+        <span class="topic"><a href="javascript:void(0);" class="link_1">{productreview[title]}</a></span>
+        <img src="../../template/public/images/products/star{productreview[star]}.gif" width="72" height="12">
+      </div>
+      <div class="re_con">
+        <div>{productreview[content]}</div>
+        <div class="re_con_buttons"><span id="spanproductreview_{productreview[id]}" class="float_Right">这条评价对您有用吗？&nbsp;
+          <button id="agree_{productreview[id]}" class="btn1" name="agree" onclick="javascript:ProductViewPlease('goodcount',{productreview[id]})" title="0"> 有用[{productreview[goodcount]}]</button>
+          &nbsp;
+          <button id="oppose_{productreview[id]}" class="btn1" name="oppose" onclick="javascript:ProductViewPlease('badcount',{productreview[id]})" title="0">没用[{productreview[badcount]}]</button>
+          </span>
+          <button id="btnreviewto_{productreview[id]}" class="btn1" onclick="ProductReviewToPage({cid},{productreview[id]})"> 回复[{productreview[reviewcount]}]</button>
+          &nbsp;&nbsp;购买日期：{productreview[date]}</div>
+      </div>
+      <#if {productreview[remark]} != ""#>
+        <b style="padding-left:10px">商城回复：</b><font style="font-size: 12px">{productreview[remark]}</font>
+      <#/if#>
+      <#loop productreviewto,["+productreview_member["id"].ToString()+"] 999#>
+        <div class="re2">
+			<em>{productreviewto__loop__id}<font style="font-size: 12px; font-style: normal;">楼</font></em>
+			<ul>
+				<li>
+					<span class="float_Right"><span style="color: rgb(0, 0, 0);">
+                    <#loop usergroup,["+productreview_member["username"].ToString()+"] 10#>
+                    {usergroup[name]}
+                    <#/loop#>
+                    </span>    {productreviewto[date]}</span>
+					<a class="link_1" href="javascript:void(0);">{productreviewto[username]}</a> 回复说:
+				</li>
+				<li class="re2_con">{productreviewto[content]}</li>
+			</ul>
+		</div>
+      <#/loop#>
+    </li>
+</ul>
+<#/loop#>
+
+<div class="refer_info">
+	<span class="float_Right">共<em>{reviewcount}</em>条
+    <a target="_blank" class="link_1" href="[$syspath]productreview.aspx?id={cid}">浏览所有用户评价>></a></span>
+    <div id="ProductReview" style="float:left;">
+    Loading……
+    </div>
+</div>
+<script language="javascript" type="text/javascript">
+//加载发表评论
+window.addEvent('domready', function(){
+    if($('ProductReview')){
+        $('ProductReview').load("[$syspath]member/AjaxRequest.aspx?Command=ProductReview&proID={cid}&d=" + Date());
+    }
+});
+</script>
+</div>

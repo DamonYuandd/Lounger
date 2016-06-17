@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<layout name="Inc:jq_mobile" cache="0" />
+</head>
+<body>
+<div data-role="page">
+	<layout name="Inc:edit_head" cache="0" />
+     <div data-role="content">
+	 <form action="__APP__/Admin/News" method="post" id="form_list">
+		<input type="hidden" name="cid" value="{.cid}" />
+        <ul data-role="listview" data-divider-theme="a" data-inset="true" data-filter="true" data-filter-placeholder="请出入标题">
+            <li data-role="list-divider" role="heading">
+                    当前位置：{~getNavSite($nav_site,$_GET['cid'])}
+            </li>
+        <notempty name="dataList">
+           <volist name="dataList" id="vo">
+                <li>
+               	  <a href="__APP__/Admin/News/edit/id/{$vo.id}/lang/{$vo.lang}/cid/{$vo.category_id}" data-ajax="false">{~getLangTextTitle($vo['lang'])}{$vo.title}</a> 
+                 </li>
+           </volist>
+           <else/>
+           <li>没有找到数据！！！</li>
+		</notempty>
+        </ul>
+         <ul id="goodsList" data-role="listview" data-divider-theme="a" data-inset="true" >
+               <li style="text-align:center;">{$pageBar}</li>
+         </ul>
+        </form>
+     </div>
+<layout name="Inc:edit_footer" cache="0" />
+</div>
+</body>
+</html>
+
+
+ 

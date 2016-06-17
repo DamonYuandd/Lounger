@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+{web_skin31_通用头部关键字}
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<script>
+function getobj(id){
+	return document.getElementById(id);	
+}
+
+function selecttab(obj, act, def, special, areaname){
+	var node = childs(obj.parentNode.parentNode.childNodes);
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			node[i].className = def;	
+			if(getobj(areaname + "_" + i))
+				getobj(areaname + "_" + i).style.display = "none";
+		}
+	}
+	obj.parentNode.className = act;
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			if(node[i].className == act){
+				if(getobj(areaname + "_" + i))
+					getobj(areaname + "_" + i).style.display = "";
+			}
+		}
+	}
+}
+//兼容FF下的childNodes
+function childs(nodes)
+{
+    if(!nodes.length) 
+        return [];
+    var ret=[];
+    for(var i=0;i<nodes.length;i++)
+    {
+        if(nodes[i].nodeType!=1) 
+            continue;
+        ret.push(nodes[i]);
+    }
+    return ret;
+}
+
+function ShowCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "";
+		objli.className = "menu_bg2";
+	}
+}
+
+function HiddenCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "none";
+		objli.className = "menu_bg1";
+	}
+}
+</script>
+</head>
+
+<body>
+{web_skin31_网站顶部logo}
+{web_skin31_网站导航}
+<div id="search">
+  <div><img src="images/top/search_left.gif" /></div>
+  <div class="search_bg">
+    {web_skin31_顶部搜索}
+	<div>
+	  <div class="search_img"><img src="images/top/search_img3.gif" align="absmiddle" /></div>
+      {web_skin31_顶部最新文章滚动}
+	</div>
+  </div>
+  <div><img src="images/top/search_right.gif" /></div>
+</div>
+<div class="banner">
+  <div class="index_a_left">
+    <ul>
+
+	  {web_skin31_首页左侧分类大类标签}
+
+	</ul>
+  </div>
+  <div class="banner_img"><script language="javascript" src="Show/59dd8bdc-dcfc-43d1-a94c-34caabd912b8.js"></script></div>
+  {web_skin31_首页公告}
+</div>
+<div class="info">
+  <div class="info_left">
+    <div class="info_left_1">
+	  <h1>特价商品</h1>
+	  <ul>
+	    {web_skin31_首页左侧特价商品}
+	  </ul>
+	</div>
+	<div class="info_left_2">
+	  <h1>最新商品</h1>
+	  <div>{web_skin31_首页左侧最新商品一}</div>
+	  <ul>
+	    {web_skin31_首页左侧最新商品二}
+	  </ul>
+	</div>
+	<div class="info_left_3">
+	  <h1>发货通知</h1>
+	  <ul>
+	    <marquee onmouseover="this.stop()" onmouseout="this.start()" scrollamount="2" direction="up" height="310">{web_skin31_首页发货通知}</marquee>
+	  </ul>
+	</div>
+  <div class="clear"></div></div>
+  <div class="info_center">
+    <div class="info_center_1">
+		{web_skin31_首页商品属性按钮}
+		<div class="center_pro1">
+		  <ul>
+			{web_skin31_首页推荐商品}
+		  </ul>
+		<div class="clear"></div></div>
+		<div class="center_pro2">
+		  <ul>
+			{web_skin31_首页推荐商品－文字}
+		  </ul>
+		<div class="clear"></div></div>
+	</div>
+	<div class="info_center_2bk">
+	  <div class="info_center_2bg">
+	    <div class="info_center_2title"><img src="images/index/img-2.gif" />　{web_skin31_首页推荐商品分类名称一}</div>
+		<div class="tab_1"><a onclick="selecttab(this,'tab_1','tab_2','','test');" href="javascript:void(0);">{web_skin31_首页切换分类1－1}</a></div>
+		<div class="tab_2"><a onclick="selecttab(this,'tab_1','tab_2','','test');" href="javascript:void(0);">{web_skin31_首页切换分类1－2}</a></div>
+		<div class="tab_2"><a onclick="selecttab(this,'tab_1','tab_2','','test');" href="javascript:void(0);">{web_skin31_首页切换分类1－3}</a></div>
+		<div class="tab_2"><a onclick="selecttab(this,'tab_1','tab_2','','test');" href="javascript:void(0);">{web_skin31_首页切换分类1－4}</a></div>
+		<div class="tab_more">{web_skin31_首页推荐商品分类更多一}</div>
+	  </div>
+	  {web_skin31_首页中部推荐分类小类}
+	  <script language="javascript">
+		  	var obj = document.getElementById("test_1");
+			if(obj){
+				obj.style.display = "";
+			}
+	  </script>
+	<div class="clear"></div></div>
+	<div class="info_center_2bk">
+	  <div class="info_center_2bg">
+	    <div class="info_center_2title"><img src="images/index/img-2.gif" />　{web_skin31_首页推荐商品分类名称二}</div>
+		<div class="tab_1"><a onclick="selecttab(this,'tab_1','tab_2','','test2');" href="javascript:void(0);">{web_skin31_首页切换分类2－1}</a></div>
+		<div class="tab_2"><a onclick="selecttab(this,'tab_1','tab_2','','test2');" href="javascript:void(0);">{web_skin31_首页切换分类2－2}</a></div>
+		<div class="tab_2"><a onclick="selecttab(this,'tab_1','tab_2','','test2');" href="javascript:void(0);">{web_skin31_首页切换分类2－3}</a></div>
+		<div class="tab_2"><a onclick="selecttab(this,'tab_1','tab_2','','test2');" href="javascript:void(0);">{web_skin31_首页切换分类2－4}</a></div>
+		<div class="tab_more">{web_skin31_首页推荐商品分类更多二}</div>
+	  </div>
+	  {web_skin31_首页中部推荐分类小类二}
+	  <script language="javascript">
+		  	var obj = document.getElementById("test2_1");
+			if(obj){
+				obj.style.display = "";
+			}
+	  </script>
+	<div class="clear"></div></div>
+  <div class="clear"></div></div>
+  <div class="info_right">
+    <h1><img src="images/index/img-3.gif" /> 最新活动</h1>
+	<div class="info_right_1">{web_skin31_首页活动一}
+	  <ul>
+	    {web_skin31_首页活动二}
+	  </ul>
+	</div>
+	<h2><img src="images/index/img-3.gif" /> 销售排行</h2>
+	<div class="info_right_2">
+	  {web_skin31_首页首页热销排行1}
+	  {web_skin31_首页首页热销排行2}
+	  {web_skin31_首页首页热销排行3}
+	  <ul>
+	    {web_skin31_首页首页热销排行4}
+	  </ul>
+	</div>
+	<h2><img src="images/index/img-3.gif" /> 最新文章</h2>
+	<div class="info_right_3">{web_skin31_首页文章一}
+	  <ul>
+	    {web_skin31_首页文章二}
+	  </ul>
+	</div>
+  </div>
+<div class="clear"></div></div>
+<div class="bottom_bk">
+  {web_skin31_底部客服联系方式}
+  <div class="bottom_right">
+    {web_skin31_底部友情链接}
+	<div class="bottom_right_2">
+	  <ul>
+	    {web_skin31_底部帮助分类}
+	  </ul>
+	</div>
+  </div>
+<div class="clear"></div></div>
+<div class="bottom_1">{web_skin31_底部信息}</div>
+{web_skin31_版权信息}
+</body>
+</html>

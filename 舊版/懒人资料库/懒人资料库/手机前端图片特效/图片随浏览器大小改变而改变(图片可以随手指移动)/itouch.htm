@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link href="itouch_files/ntouch4.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="itouch_files/jquery-1.4a2.min.js"></script>
+		<script type="text/javascript" src="itouch_files/huaping.js"></script>
+        <script type="text/javascript">
+		  function changeSize(){
+              var width = $(this).width();
+              var height = $(this).height();
+			  $(".mod_01 a img").width(width).height(height);
+		  }
+        </script>
+	</head>
+	<body onResize="changeSize()">
+		<div class="content">
+			<div class="mod_c1">
+				<div id="slide_01" class="slide_01">
+					<div>
+						<div>
+							<div class="mod_01">
+								<a href="http://i.ifeng.com/news/pic/jjss/news?aid=39583414&amp;mid=6BCTjT&amp;vt=5&amp;vt=5&amp;v=5">
+									<img src="itouch_files/201207120850596914.jpg" alt="img" width="100%">
+								</a>
+							</div>
+							<div class="mod_01">
+								<a href="http://i.ifeng.com/news/pic/qjsh/news?aid=39588547&amp;mid=6BCTjT&amp;vt=5&amp;vt=5&amp;v=5">
+									<img src="itouch_files/201207121001045322.jpg" alt="img" width="100%">
+								</a>
+							</div>
+							<div class="mod_01">
+								<a href="http://i.ifeng.com/news/pic/qjsh/news?aid=39599487&amp;mid=6BCTjT&amp;vt=5&amp;vt=5&amp;v=5">
+									<img src="itouch_files/201207121316149682.jpg" alt="img" width="100%">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="buttonscoll">
+					<div id="slide_01_dot">
+					</div>
+				</div>
+				<div id="sl_left" class="prev_touch1">
+				</div>
+				<div id="sl_right" class="next_touch1">
+				</div>
+				<script type="text/javascript">
+					<!--
+					var slide_01 = new ScrollPic();
+					slide_01.scrollContId = "slide_01"; //内容容器ID
+					slide_01.dotListId = "slide_01_dot"; //点列表ID
+					slide_01.dotOnClassName = "selected";
+					slide_01.arrLeftId = "sl_left"; //左箭头ID
+					slide_01.arrRightId = "sl_right"; //右箭头ID
+					slide_01.frameWidth = 300;
+					slide_01.pageWidth = 300;
+					slide_01.upright = false;
+					slide_01.speed = 10;
+					slide_01.space = 30;
+					slide_01.initialize(); //初始化
+					//-->
+				</script>
+			</div>
+		</div>
+	</body>
+
+</html>

@@ -1,0 +1,184 @@
+<style type="text/css">
+body.{
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:0;}
+.div1 {width:920px; background:#FFFFFF}
+.div1l {width:176px; float:left}
+.div1dbqbt {width:176px; height:31px; background:url(../images/index/dbqblabel.gif)}
+.div1dbqbt div {padding:7px 8px 0; text-align:right}
+.div1dbqb {width:176px; height:220px; background:url(../images/index/dbqbbg.gif)}
+.div1dbqb div {padding:10px 23px; text-align:left}
+.div1r {width:734px; float:right; text-align:left}
+.div1r2 {width:734px; height:440px; margin-bottom:10px}
+.div1r2l {width:320px; float:left; height:440px; text-align:left}
+.div1r2r1 {width:414px; float:left; height:268px; text-align:left}
+.div1r2r1ad {width:200px; float:left; height:268px; text-align:left}
+.div1r2r1brand {width:204px; float:right; height:268px; text-align:left}
+.div1r2r2 {width:414px; float:left; height:172px; text-align:left}
+.div1tgspt { background:url(../images/products/tgsplabel.gif); height:45px}
+.div1tgspbg {background:url(../images/products/tgspbg.gif); height:464px}
+.div1tgsp {width:160px; text-align:left}
+.div1tgsp ul { margin:0; padding:0}
+.div1tgsp ul li {height:82px; height:62px !important; _height:62px; padding:10px 0px;  list-style: none}
+.div1tgsp ul li span img {border:1px #DEDEDE solid; width:60px; height:60pxwidth:62px; float:left}
+.div1tgsp ul li div {width:95px; float:right; font-family:Arial; line-height:14px}
+.div1tgsp ul li div span {color:#FF6600; font-size:10px; font-family:Verdana}
+.div1tgspb {background:url(../images/products/tgspbgb.gif); height:14px}
+.div1rshuxin {width:734px; height:45px; text-align:left; background:url(../images/products/shuxinbg.gif)}
+.div1rshuxinlist {width:732px; height:477px; border-left:1px #DFDFDF solid; border-right:1px #DFDFDF solid; border-bottom:1px #DFDFDF solid}
+.div1rpro1 {width:320px; height:359px; border-right:1px #DFDFDF solid; border-bottom:1px #DFDFDF solid; float:left}
+.div1rpro1 div {width:320px; width:300px !important; _width:300px; padding:5px 10px; text-align:center; line-height:14px}
+.div1rpro1 div img {margin-bottom:5px; width:250px; height:250px}
+.div1rpro2 {width:411px; height:360px; float:left}
+.div1rpro2 ul{margin:0; padding:0}
+.div1rpro2 ul li {width:411px; height:179px; border-bottom:1px #DFDFDF solid;  list-style: none}
+.div1rpro2 ul li img {width:160px; height:160px; padding:7px; float:left}
+.div1rpro2 ul li div {width:230px; padding:30px 0; float:right; text-align:left}
+.div1rpro3 {width:732px; height:116px; float:left}
+.div1rpro3 ul {margin:0; padding:0}
+.div1rpro3 ul li {width:244px; height:116px; float:left;  list-style: none}
+.div1rpro3 ul li img {width:90px; height:90px; padding:12px; float:left}
+.div1rpro3 ul li div {width:130px; padding:12px 0; float:right; text-align:left}
+
+
+
+
+.list1 {width:920px; padding:5px 0; background:#FFFFFF}
+.list1label {width:920px; height:50px; background:url(../images/products/listlabel.gif); margin:5px 0}
+.list1labell {width:300px; width:270px !important; _width:270px; float:left; height:45px; line-height:45px; font-size:16px; font-weight:bolder; padding-left:30px; color:#FFFF00; text-align:left}
+.list1labelm {float:left; height:45px; line-height:45px; color:#8B8E7C}
+.list1labelr {float:right; height:45px; line-height:45px; padding-right:20px; color:#8B8E7C; font-weight:bolder}
+.list1bgt {width:920px; height:11px; background:url(../images/products/listbgt.gif)}
+.list1bg {width:920px; height:550px; background:url(../images/products/listbg.gif)}
+.list1m1 {width:900px; height:215px; border-bottom:1px #DFDFDF solid}
+.list1m1 ul {margin:0; padding:0}
+.list1m1 ul li {width:450px; height:215px; float:left;  list-style: none}
+.list1m1 ul li span img {width:200px; height:200px; border:1px #DFDFDF solid; margin:7px; float:left}
+.list1m1 ul li div {width:230px; padding:10px 0; float:right; text-align:left; color:#999999}
+.list1m1 ul li a:link {color:#000000}
+.list1m1 ul li a:visited {color:#000000}
+.list1m1 ul li a:active {color:#000000}
+.list1m1 ul li a:hover {color:#3186CB}
+.list1pro1r span { background:#F2F5FA; color:#999999}
+.list1m2 {width:900px; height:318px}
+.list1m2 ul {margin:0; padding:0}
+.list1m2 ul li {width:180px; width:170px !important; _width:170px; padding:20px 5px 0; text-align:center; line-height:16px; float:left; color:#999999;  list-style: none}
+.list1m2 ul li span img {border:1px #DEDEDE solid; margin-bottom:5px}
+.list1m2 a:link {color:#000000}
+.list1m2 a:visited {color:#000000}
+.list1m2 a:active {color:#000000}
+.list1m2 a:hover {color:#3186CB}
+.list1bgb {width:920px; height:11px}
+.label {width:734px; height:31px; margin:5px 0; border-bottom:1px #A47ADD solid}
+.labell {float:left; height:31px; line-height:31px; font-size:12px; font-weight:bolder; padding-left:10px; color:#999999}
+.labell span {font-size:14px; color:#000000}
+.labelr {float:right; height:31px; line-height:31px}
+
+
+/*guide*/
+.guidebgt {width:734px; background:url(../images/products/guidebgt.gif); height:17px}
+.guide1 {width:734px; width:724px !important; _width:724px; padding:0 0 0 10px; background:url(../images/products/guidebg.gif)}
+.guide1unit {width:724px} 
+.guide1unita {width:600px; font-weight:bolder; text-align:left; padding:0 8px 10px 0; float:left; color:#FFFFFF}
+.guide1unita span {font-size:14px}
+.guide1unitb {width:360px; width:350px !important; _width:350px; text-align:left; padding:0 8px 10px 0; float:left; color:#FFFFFF}
+.guide1unitb img { width:340; height:265px; border:1px #FFFFFF solid}
+.guide1unitc {width:360px; width:350px !important; _width:350px; text-align:right; padding:0 8px 0 0; float:left; color:#FFFFFF; border-top:1px #FFFFFF dashed; height:30px; line-height:30px}
+.guide1unit a:actice {color:#FFFFFF}
+.guide1unit a:visited {color:#FFFFFF}
+.guide1unit a:link {color:#FFFFFF}
+.guide1unit a:hover {color:#00FF00; text-decoration:none}
+.guide2 {width:734px; width:724px !important; _width:724px; padding:0 0 0 10px; background:#E5E5E5}
+.guide2unit {width:724px} 
+.guide2unit ul { margin:0; padding:0} 
+.guide2unit ul li {text-align:left; padding:10px 8px 0 0; float:left; color:#000000; list-style:none}
+.guide2unit span {font-size:14px}
+.guide2unit img {width:172px; border:0; margin-bottom:5px}
+.guide2unit a:actice {color:#666666}
+.guide2unit a:visited {color:#666666}
+.guide2unit a:link {color:#666666}
+.guide2unit a:hover {color:#ff6600; text-decoration:none}
+.guidebgb {width:734px; background:url(../images/products/guidebgb.gif); height:17px}
+
+.guidelbgt {background:url(../images/products/guidelbgt.gif); height:17px}
+.guidellabel {font-weight:bolder; text-align:left; padding-left:10px; color:#FFFFFF; background:url(../images/products/guidellabel.gif); height:33px}
+.guidelbg {background:url(../images/products/guidelbg.gif)}
+.guidelunit {width:160px; text-align:right}
+.guidelunit ul { margin:0; padding:0}
+.guidelunit a:actice {color:#348E34}
+.guidelunit a:visited {color:#348E34}
+.guidelunit a:link {color:#348E34}
+.guidelunit a:hover {color:#000000; text-decoration:none}
+.guidelunit ul li {height:82px; height:62px !important; _height:62px; padding:10px 0px; border-bottom:1px #BBBBBB dashed; list-style:none}
+.guidelunit b img {border:3px #FFFFFF solid; width:54px; height:54px; float:left}
+.guidelunit ul li div {width:92px; float:right; font-family:Arial; line-height:14px; color:#348E34; text-align:left}
+.guidelunit span {color:#FF6600; font-size:10px; font-family:Verdana; font-weight:bolder; color:#666666}
+#guidelunit b img {border:3px #348E34 solid}
+#guidelunit div {font-weight:bolder}
+.guidelbgb {background:url(../images/products/guidelbgb.gif); height:12px}
+.guidepro {width:730px; width:720px !important; _width:720px; background:#FFFFFF; text-align:center; border-left:2px #E5E5E5 solid; border-right:2px #E5E5E5 solid; padding:5px}
+.guidepro ul { margin:0; padding:0 }
+.guidepro ul li {width:180px; width:170px !important; _width:170px; padding:20px 5px 0; text-align:left; line-height:16px; float:left; color:#999999;  list-style: none}
+.guidepro ul li img {margin-bottom:5px}
+.guidepro a:link {color:#000000}
+.guidepro a:visited {color:#000000}
+.guidepro a:active {color:#000000}
+.guidepro a:hover {color:#3186CB}
+
+
+/*activity*/
+.actlabel {width:920px; height:31px; margin-bottom:5px; border-top:3px #000000 solid; background:url(../images/products/catelabelbg.gif)}
+.actlabell {float:left; height:31px; line-height:31px; font-size:12px; font-weight:bolder; padding-left:10px; color:#999999}
+.actlabell span {font-size:14px; color:#000000}
+.actlabelr {float:right; height:31px; line-height:31px}
+.actunitbg {width:924px} 
+.actunit {width:303px; width:304px !important; text-align:center; float:left; color:#000000; _width:304px; padding:0 2px 35px}
+.actunit div {padding:1px 0; background:url(../images/products/actunitbg.gif)}
+.actunit p {width:304px; width:284px !important; _width:284px; padding:0 10px; margin:0; background:#666666; color:#FFFFFF; height:25px; line-height:25px; text-align:left}
+.actunit ul { margin:0; padding:1px ; height:85px}
+.actunit ul li { margin:0px 5px;  list-style: none; float:left; height:85px; background:#FFFFFF}
+.actunit a:actice {color:#666666}
+.actunit a:visited {color:#666666}
+.actunit a:link {color:#666666}
+.actunit a:hover {color:#ff6600; text-decoration:none}
+
+
+.actname {width:920px; width:900px !important; _width:900px; padding:0 10px; background:#666666; color:#FFFFFF; height:25px; line-height:25px; text-align:left}
+.actbanner {width:920px; padding:2px 0; background:#FFFFFF}
+.actcate {width:920px; background:#FFFFFF; text-align:left; padding-bottom:50px}
+.actcate a:link {color:#000000}
+.actcate a:visited {color:#000000}
+.actcate a:active {color:#666666}
+.actcate a:hover {color:#3186CB; text-decoration:none}
+.actcate ul { margin:0; padding:0 }
+.actcate ul li { width:460px; width:440px !important; _width:440px; height:32px; text-align:left; float:left; padding-left:20px; line-height:32px; background:url(../images/products/actcatebg.gif); margin:4px 0; font-weight:bolder;  list-style: none;} 
+
+.actlist {width:920px; height:18px; margin-bottom:5px; background:#DDDDDD}
+.actlistl {float:left; height:18px; line-height:18px; font-size:14px; font-weight:bolder; color:#13B9DA; background:#FFFFFF; padding-right:10px}
+.actlistl span {font-size:16px}
+.actlistr {float:right; height:18px; line-height:18px;; background:#FFFFFF; padding-left:10px}
+
+.actpro {width:920px; background:#FFFFFF; text-align:center}
+.actpro ul { margin:0; padding:0 }
+.actpro ul li {width:180px; width:170px !important; _width:170px; padding:0 5px; height:300px; text-align:left; line-height:16px; float:left; color:#999999;  list-style: none}
+.actpro ul li img {margin-bottom:5px}
+.actpro a:link {color:#000000}
+.actpro a:visited {color:#000000}
+.actpro a:active {color:#000000}
+.actpro a:hover {color:#3186CB}
+
+
+/* gift */
+
+.giftlabel { width:920px; height:52px; margin-top:10px; background:url(../images/products/giftlabel.gif)}
+.giftpro { width:918px; width:898px !important; _width:898px; padding:0 10px; border-left:1px #DDDDDD solid; border-right:1px #DDDDDD solid}
+.giftpro ul { margin:0; padding:0 }
+.giftpro ul li {width:128px; width:108px !important; _width:108px; padding:20px 10px; text-align:left; line-height:16px; float:left; color:#999999;  list-style: none}
+.giftpro ul li img {margin-bottom:5px; width:90px; height:90px; border:1px #DDDDDD solid}
+.giftpro a:link {color:#000000}
+.giftpro a:visited {color:#000000}
+.giftpro a:active {color:#000000}
+.giftpro a:hover {color:#3186CB}
+.giftbgb { width:920px; height:7px; margin-bottom:10px; background:url(../images/products/giftbgb.gif)}

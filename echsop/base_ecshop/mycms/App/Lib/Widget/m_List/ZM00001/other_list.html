@@ -1,0 +1,14 @@
+<volist name="dataList" id="vo">
+	<li><a href="__APP__/News/show/cid/{$vo.category_id}/id/{$vo.id}" class="myclearfix">
+    	<span class="floatl images">
+    		<img src="<notempty name="vo.image">{$data.userNum}/images/news/m_{$vo.image}<else/>{$data.sysImg}</notempty>" />
+        </span>
+        <span class="text">{$vo.title|str_cut=0,10}</span>
+        </a>
+    </li>
+</volist>
+
+</ul>
+<div class="pagination myclearfix">
+ {$pageBar}
+</div>

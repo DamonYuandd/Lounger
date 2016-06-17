@@ -1,0 +1,215 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+        <!--系统页头信息标签-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <%<Hishop:HeadContainer ID="HeadContainer1" runat="server" />%>
+        <%<Hishop:PageTitle runat="server" />%>
+        <%<Hishop:MetaTags runat="server" />%>
+        <!--结束-->
+		<link href="/style/css.css" rel="stylesheet" type="text/css" />
+		<script src="/utility/jquery-1.3.2.min.js" type="text/javascript"></script>
+		<script src="/script/web_qq.js" type="text/javascript"></script>
+		<script src="/utility/validate/pagevalidator.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/style/pagevalidator.css" type="text/css" media="screen" />
+        <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<form runat="server" id="form1">
+<%<Hishop:TQOnlineServer runat="server" />%>
+<!--在线客服-->
+<div id="qq_right" style="top:30px;left:-146px;position:absolute;z-index:100;">
+<div class="a">
+  <div class="b"></div>
+  <div class="c">
+  	<%<Hishop:HiOnLineServiceGroup ID="HiOnLineServiceGroup1" runat="server" />%>
+	<div class="closekf" onclick="closekf();">关闭在线客服</div>
+  </div>
+  <div class="d"></div>
+</div>
+<div class="e" id="e" onmouseover="showKefu(this);"></div>
+</div>
+<!--新top-->
+
+
+
+
+
+
+<div id="top" class="width-global">
+  <div id="logo">
+    
+    <%<Hishop:Common_Logo runat="server" />%>
+  </div><!--Logo-->
+  <div class="quicklinkbox">
+    <ul class="quicklink">
+      
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="right"><ul class="quicklink">
+		 <li> <Hishop:Common_Link_CreateUser ID="Common_Link_CreateUser1" Text="注册" runat="server" /> </li>
+		 <li>  <Hishop:Common_Link_Login ID="Common_Link_Login1" runat="server" /></li>
+		 <li>  <%<Hishop:Common_Link_MyAccount runat="server" />%> </li>
+          <li>   <%<Hishop:SiteUrl UrlName="shoppingCart" Text="购物车"   target="_blank"  runat="server" />%></li>
+          
+          <li>   <%<Hishop:SiteUrl UrlName="Promotes" Text="优惠活动中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_OrderQuery Text="订单查询" runat="server" />%></li>
+            
+            <li> <%<Hishop:SiteUrl UrlName="AllHelps" Text="帮助中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_LeaveComments Text="客户留言" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_IntegrateDiscuz Text="论坛" runat="server" />%> </li>
+          </ul>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <%<Hishop:Common_ShoppingCart_Info SkinName="/ascx/custom/common_shoppingcart_info.ascx" runat="server" />%>         </td>
+        </tr>
+      </table>
+      </ul>
+  </div>
+  <br class="clear-all" />
+</div>
+<!--顶部信息结束-->
+<div id="header" class="width-global">
+  <div class="nav-box">
+    <ul class="navlist">
+      <li>
+        <h1 id="tag-index"><%<Hishop:SiteUrl UrlName="home" runat="server">首页</Hishop:SiteUrl>%></h1>
+      </li>
+      <li class="nav-proclass"><%<Hishop:Common_PrimaryClass RepeatColumns="6" SeparatorString="" runat="server" MaxNum="6" />%>
+     </li>
+    </ul>
+    <ul class="nav-slist">
+      <li class="bg-slist-left"><%<Hishop:SiteUrl UrlName="allBrand" Text="品牌专卖" runat="server" />%></li>
+	   
+	    <li><%<Hishop:SiteUrl UrlName="AllArticles" Text="文章中心" runat="server" />%></li>
+	    <li><%<Hishop:SiteUrl UrlName="Category" Text="全部分类" runat="server" />%></li>
+      <li class="bg-slist-right"></li>
+    </ul>
+  </div>
+  <div class="search-box">
+    <div class="bg-searchbox-left">
+      <div class="bg-searchbox-right">
+	   <%<Hishop:Common_Search ID="Search" SkinName="/ascx/custom/user-search.ascx" runat="server" />%>
+   
+       <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--导航、搜索栏样式结束-->
+<div class="width-global" style="overflow:hidden; width:980px;"> <%<Hishop:Common_ShowAds AdsID="1" runat="server" />%></div><!--顶部广告位结束-->
+<!-- InstanceBeginEditable name="EditRegion" -->
+     <div class="width-global">
+	 
+	 <table width="980" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"> <table width="688" border="0" align="center" cellpadding="0" cellspacing="0" class="border-notop" style="margin:20px 0px;">
+  <tr>
+    <td colspan="3"><img src="/images/login_title.jpg" width="688" height="52" /> </td>
+  </tr>
+  <tr>
+    <td width="333" height="18" align="center" valign="top"><table width="246" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="246" height="18"></td>
+      </tr>
+      <tr>
+        <td height="38" align="left">欢迎你的登陆，如果你还未注册，请先 <span class="color-redb">
+          <%<Hishop:Common_Link_CreateUser  runat="server" Text="注册" />%>
+        </span></td>
+      </tr>
+      <tr>
+        <td><Hishop:SmallStatusMessage id="Status" runat="server" Visible="False" /></td>
+      </tr>
+      <tr>
+        <td><table width="246" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="55" height="30" align="left">用户名：</td>
+            <td colspan="2" align="left"><%<Hishop:Common_Login_UserName ID="Common_Login_UserName" CssClass="input1" runat="server" width="120"/>%>
+                    <%<asp:RequiredFieldValidator ID="valrUserName" runat="server" Display="Dynamic" ControlToValidate="txt_Common_Login_UserName"  ValidationGroup="valsLogin" ErrorMessage="*" SetFocusOnError="True" />%>            </td>
+            <td width="28" align="left"></td>
+          </tr>
+          <tr>
+            <td height="30" align="left">密&nbsp;&nbsp;&nbsp;码：</td>
+            <td colspan="2" align="left"><%<Hishop:Common_Login_Password ID="Common_Login_Password" CssClass="input1" runat="server" width="120"/>%>
+                    <%<asp:RequiredFieldValidator ID="valrPwd" runat="server" Display="Dynamic" ControlToValidate="txt_Common_Login_Password"
+                            ValidationGroup="valsLogin" ErrorMessage="*" SetFocusOnError="True" />%>            </td>
+            <td align="left"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="5"></td>
+      </tr>
+      <tr>
+        <td height="28" align="center"><%<Hishop:Common_Login_Button runat="server" style="height:27px;width:111px;background:url(/images/login_submit.jpg) no-repeat;border:0; cursor:hand;"  />%>        </td>
+      </tr>
+    </table>
+        <table width="280" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td colspan="2"><hr class="Xhr"/></td>
+          </tr>
+          <tr>
+            <td width="108" align="center"><%<Hishop:SiteUrl UrlName="ForgotPassword"  ImageUrl="/images/login_forgotpass.jpg" runat="server">忘记密码？</Hishop:SiteUrl>%>            </td>
+            <td width="172" align="center"><%<Hishop:Common_Link_CreateUser ImageUrl="/images/login_register.jpg"   runat="server"  />%>            </td>
+          </tr>
+      </table></td>
+    <td width="7"><Hishop:ThemesImage src="images/login_middle_line.jpg" runat="server"></Hishop:ThemesImage></td>
+    <td width="348" align="center" valign="middle"><img src="/images/001_shoppingcart_full.jpg" width="200" height="200"  /></td>
+  </tr>
+  <tr>
+    <td height="5"></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table></td>
+  </tr>
+</table>
+
+  
+  </div>
+
+
+<!-- InstanceEndEditable --><!--可编辑区域-->
+
+
+
+
+
+
+
+  
+  <table width="960" border="0" align="center" cellpadding="0" cellspacing="0" class="table_help" style="margin-top:20px;">
+  <tr>
+    <td ><div class="border-inside">
+     <%<Hishop:Common_Help runat="server" />%>
+  </div></td>
+    </tr>
+</table>
+
+<div class="page_w marginCenter">
+  <div class="userLink">
+  <div class="width-global friendlink">    <!--友情链接开始-->
+<table><tr><td>  <h1>友情链接：</h1></td><td> <%<Hishop:Common_FriendLinks SkinName="/ascx/custom/user-FriendLinks.ascx" runat="server"  />%> </td></tr></table>
+  </div>
+    </div>
+</div>
+
+</div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="mar_tb6" >
+  <tr>
+    <td  align="center" class="bottom">
+		<%<Hishop:CnzzShow ID="CnzzShow1" runat="server" />%>
+		<%<Hishop:PageFooter ID="PageFooter" runat="server"></Hishop:PageFooter>%>
+		<%<Hishop:LicenseControl runat="server" />%>
+        <%<Hishop:SiteCopyright runat="server" />%> 
+	</td>
+  </tr>
+</table>
+</form>
+</body>
+<!-- InstanceEnd --></html>

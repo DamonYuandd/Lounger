@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<layout name="Inc:jq_mobile" cache="0" />
+<layout name="Inc:common_js" cache="0" />
+</head>
+<body>
+<div data-role="page">
+	<layout name="Inc:edit_head" cache="0" />
+     <div data-role="content">
+<div class="nav-site">{~getNavSite($nav_site,$_GET['cid'])}</div>
+<form method="post" enctype="multipart/form-data" class="form">  
+<input type="hidden" name="id" value="{$obj.id}">
+<input type="hidden" name="my_id" value="{$obj.my_id}">  
+<input type="hidden" name="one_category_id" value="{$obj.category_id}" />
+<input type="hidden" name="dbName" value="Guestbook">
+	<fieldset>
+    	<div data-role="fieldcontain">
+            	<p>留言标题：{$obj.title}</p>
+                <p>留言内容：{$obj.content}</p>
+                <p>联系人：{$obj.linkman}</p>
+                <p>email：{$obj.email}</p>
+                <p>联系电话：{$obj.mobile}</p>
+                <p>传真：{$obj.fax}</p>
+                <p>留言时间：{$obj.create_time|date='Y-m-d',###}</p>
+       </div>	
+		<ul data-role="listview" data-divider-theme="a" data-inset="true">	
+			<li>
+				<label>回复内容 </label>
+				<textarea  name="reply" rows="10" style="width:98%">{$obj.reply|htmlspecialchars_decode}</textarea>
+			</li>
+		</ul>
+         <fieldset data-role="controlgroup">
+            <input type="checkbox" name="is_publish" id="is_publish" class="custom" value="1" <eq name="obj.is_publish" value="1">checked</eq>  />
+            <label for="is_publish">是否审核通过</label>
+         </fieldset>
+           <div data-role="navbar" data-iconpos="top" id="submitDiv">
+         <ul>
+            <li id="submitButton">
+             <a data-role="button" href="javascript:void(0)"  id="submint"  data-theme="a">保存</a>
+          </li>
+            <li id="resetButton">
+		<input type="button" value="返回列表" onclick="javascript:history.go(-1);" />
+             </li>
+            </ul>
+            </div>
+	</fieldset>
+</form>
+</div>
+<layout name="Inc:edit_footer" cache="0" />
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#submint").click(function(){
+			var params = $('input,textarea').serialize(); //序列化表单的值
+			$.mobile.loadingMessageTextVisible = true;
+			$.ajax({
+				type:'POST',
+				url:'__APP__/Index/sortUpdate',
+				data:params,
+				beforeSend:$.mobile.showPageLoadingMsg('a','正在提交....'),
+				success:ajaxTips,
+				complete:$.mobile.hidePageLoadingMsg()
+				})
+		})
+	})
+</script>
+</div>
+</body>
+</html>

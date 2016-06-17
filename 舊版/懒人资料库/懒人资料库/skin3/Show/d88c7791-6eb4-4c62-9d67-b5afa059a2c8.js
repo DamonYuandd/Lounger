@@ -1,0 +1,1 @@
+document.write('<a href="/Yxj_Cloth_V5Shop8_Template/member/Advertisement_Ads_ClickCount.aspx?mark=d88c7791-6eb4-4c62-9d67-b5afa059a2c8&&uri=aHR0cDovL3d3dy52NXNob3AuY29t" title="" target="_blank"><img src="Images//ad14.gif" width="200" height="100" border="0"></a>');

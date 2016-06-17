@@ -1,0 +1,21 @@
+
+<volist name="dataList" id="vo">
+	<table width="680" border="0" cellspacing="1" cellpadding="0" style="border: 1px solid #CCC; margin:0 auto; margin-bottom:5px;">
+       <tr>
+         <td height="30" style="padding-left:4px;" align="left" bgcolor="#E7E7E7">name：{$vo.linkman}</td>
+         <td class="hei_a_u_b" style="padding-left:4px;" bgcolor="#E7E7E7">mess：{~c_title($vo['category_id'])}</td>
+         <td style="padding-left:4px;" align="center" bgcolor="#E7E7E7">time：{$vo.create_time|date='Y-m-d',###}</td>
+       </tr>
+       <tr>
+         <td  colspan="3" style="padding-bottom:17px;padding-top:7px;padding-left:7px;padding-right:7px;"><b>title：{$vo.title} </b></td>
+       </tr>
+       <tr>
+         <td  colspan="3" style="padding-bottom:17px;padding-top:7px;padding-left:7px;padding-right:7px;">{$vo.content} </td>
+       </tr>
+       <tr>
+         <td  colspan="3" style="padding-bottom:17px;padding-top:7px;padding-left:7px;padding-right:7px; border-top:1px solid #CCC"><b>reply：</b>{$vo.reply}</td>
+       </tr>
+     </table>
+     <div class="blank10"></div>
+</volist>
+     <div class="page"><div class="yahoo2">{$pageBar}</div></div>

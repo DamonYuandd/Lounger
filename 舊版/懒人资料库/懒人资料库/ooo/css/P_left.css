@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+margin:0px;
+padding:0px;
+font:"微软雅黑", "幼圆", "宋体";
+}
+
+
+#Container
+{
+width:218px;
+height:auto;
+margin:0px;
+padding:0px;
+}
+
+ #Entp_info,#pro_sort,#web_sear,#link_type
+ {
+ width:218px;
+ height:auto;
+ float:left;
+ border:#e6e6e6 solid 2px;
+ }
+ #Entp_info_head,#pro_sort_head,#web_sear_head,#link_type_head
+ {
+ width:215px;
+ float:left;
+ line-height:23px;
+ background-color:#c60e0c;
+ color:#FFFFFF;
+ text-align:left;
+ padding-left:3px;
+
+ font-weight:bold;
+ font-size:14px;
+ }
+ #Entp_info_contant,#pro_sort_contant,#web_sear_contant,#link_type_contant
+ {
+ width:218px;
+ height:auto;
+ float:left;
+ }
+ #Entp_info_contant ul,#pro_sort_contant ul,#link_type_contant ul
+ {
+ margin-top:8px;
+ margin-left:5px;
+ padding:0px;
+ display:block;
+ margin-bottom:8px;
+ float:left;
+ width:213px;
+ }
+ #Entp_info_contant ul li,#pro_sort_contant ul li,#link_type_contant ul li
+ {
+ list-style:none;
+ font-size:13px;
+ color:#202020;
+ margin-top:5px;
+ font:"微软雅黑", "幼圆", "宋体";
+ }
+ #Entp_info_contant ul li a,#pro_sort_contant ul li a,#link_type_contant ul li a
+ {
+ text-decoration:none;
+ color:#6F0611;
+ }
+ #b_line
+ {
+ float:left;
+ width:208px;
+ margin-left:5px;
+ height:1px;
+ border-bottom:dotted #999999 1px;
+ }
+
+/*商品分类*/
+#pro_sort
+{
+margin-top:18px;
+}
+#pro_sort_contant ul
+{
+margin-bottom:15px;
+margin-left:8px;
+}
+#pro_sort_contant ul li a
+{
+color:#050C7C;
+}
+#pro_sort_contant ul li a:hover
+{
+text-decoration:underline;
+color:#0A044A;
+margin-left:5px;
+}
+
+/*站内搜索*/ 
+#web_sear
+{
+margin-top:18px;
+}
+#web_sear_contant
+{
+margin-top:12px;
+}
+#web_sear table
+{
+color:#360304;
+font-size:13px;
+}
+/*联系方式*/
+#link_type
+{
+margin-top:18px;
+}
+#link_type_contant ul li a
+{
+color:#4D4D4D;
+}
+#link_type_contant ul li a:hover
+{
+color:#000000;
+text-decoration:underline;
+margin-left:2px;
+
+}

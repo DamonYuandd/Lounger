@@ -1,0 +1,2 @@
+// photo size :default hqdefault mqdefault sddefault maxresdefault
+ $vphoto = 'http://i2.ytimg.com/vi/[#photo#]/sddefault.jpg';

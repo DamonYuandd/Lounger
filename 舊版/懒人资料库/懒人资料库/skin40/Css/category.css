@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.category_lrbao{ width:990px; margin:auto; padding-bottom:10px}
+.category_left{ float:left; width:210px}
+.category_fl{ background:#e5e5e5; padding:3px; margin-bottom:10px;}
+.category_fl h1{ height:28px; background: url(../images/xiaobtu/category_06.jpg); line-height:28px; font-weight:bold; color:#fff; padding-left:20px}
+.category_fl li{ background:url(../images/xiaobtu/category_11.jpg) no-repeat 8px 12px; line-height:30px; border-bottom:1px solid #eae9e7; padding-left:20px; text-align:left}
+.category_fl a:link{ color:#666;}
+.category_fl a:hover{ color:#ca0000; text-decoration:none}
+.category_fl ul{ border:1px solid #ea3d13; border-top:none; background:#fff}
+.category_liul{ border:1px solid #cdcdcd; width:208px}
+.category_liul h1{ padding:1px}
+.category_liul h2{ text-align:center; border-top:1px dashed #cacaca; line-height:40px;}
+.category_liul ul{ margin:10px 0;}
+.category_liul li{ float:left; text-align:center; width:82px; margin:2px 11px; display:inline}
+.category_liul span{ color:#ca0000}
+.category_liul li img{ border:1px solid #cacaca;}
+.category_fldatu{ margin-bottom:10px;}
+.category_right{ float:right; width:772px;}
+.category_sbtjbao{ background:#e5e5e5; padding:3px;}
+.category_sbtj{ background:#fff; border:1px solid #ea3d13; padding:0 5px;}
+.category_sbtj h1{ font-weight:bold; color:#ca0000; border-bottom:1px solid #cacaca; line-height:30px} 
+.category_sbtj li{ float:left; width:160px; padding:10px 14px; background:url(../images/xiaobtu/category_19.jpg) no-repeat left; text-align:center}
+.category_sbtj span{ color:#ca0000;}
+.category_sbtj font{ height:40px; line-height:20px; font-size:12px; display:block;}
+.category_sbtj li img{ padding-bottom:5px;}
+.category_lb{ margin-top:10px;}
+.category_lb li{ float:left; width:150px; text-align:center; margin:10px 0px; border-left:21px #fff solid; border-right:21px #fff solid}
+.category_lb li img{ padding-bottom:15px;}
+.category_lb span{ color:#ca0000;}
+.sbbt{ height:40px; line-height:20px; font-size:12px; display:block}
+
+
+.category_lb div{ text-align:center;  border:1px dashed #cdcdcd;}
+
+.category_xbsj{ line-height:28px; font-weight:bold; padding-left:15px; border:1px dashed #EA3D13; color:#ca0000; background:#F7F7F7}
+
+

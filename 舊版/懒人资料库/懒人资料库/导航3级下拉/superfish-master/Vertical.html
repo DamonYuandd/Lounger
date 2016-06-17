@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>竖直方向</title>
+		<link rel="stylesheet" media="screen" href="superfish-vertical.css">
+		<style> body { max-width: 40em; } </style>
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/hoverIntent.js"></script>
+		<script src="js/superfish.js"></script>
+		<script>
+
+		(function($){ //create closure so we can safely use $ as alias for jQuery
+
+			$(document).ready(function(){
+
+				// initialise plugin
+				var example = $('#example').superfish({
+					//add options here if required
+				});
+			});
+
+		})(jQuery);
+		
+		</script>
+	</head>
+	<body>
+		<ul class="sf-menu" id="example">
+			<li class="current">
+				<a href="followed.html">menu item 1</a>
+				<ul>
+					<li>
+						<a href="followed.html">menu item</a>
+					</li>
+					<li class="current">
+						<a href="followed.html">long menu item sets sub width</a>
+						<ul>
+							<li class="current"><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="followed.html">menu item</a>
+						<ul>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="followed.html">menu item</a>
+						<ul>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="followed.html">menu item 2</a>
+			</li>
+			<li>
+				<a href="followed.html">menu item 3</a>
+				<ul>
+					<li>
+						<a href="followed.html">menu item</a>
+						<ul>
+							<li><a href="followed.html">short</a></li>
+							<li><a href="followed.html">short</a></li>
+							<li><a href="followed.html">short</a></li>
+							<li><a href="followed.html">short</a></li>
+							<li><a href="followed.html">short</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="followed.html">menu item</a>
+						<ul>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="followed.html">menu item</a>
+						<ul>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="followed.html">menu item</a>
+						<ul>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="followed.html">menu item</a>
+						<ul>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+							<li><a href="followed.html">menu item</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="followed.html">menu item 4</a>
+			</li>	
+		</ul>
+	
+	</body>
+</html>

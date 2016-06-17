@@ -1,0 +1,97 @@
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.055679s ]
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.010073s ]
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003411s ]
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003916s ]
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000586s ]
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: searchkey IndexAction.class.php 第 28 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined variable: vo ae4ccf388766686c7b43ce2ff8116269.php 第 14 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: website_name ae4ccf388766686c7b43ce2ff8116269.php 第 19 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: url ae4ccf388766686c7b43ce2ff8116269.php 第 22 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: contract_number ae4ccf388766686c7b43ce2ff8116269.php 第 29 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: yy_price ae4ccf388766686c7b43ce2ff8116269.php 第 31 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: service_price ae4ccf388766686c7b43ce2ff8116269.php 第 32 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 35 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 39 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003375s ]
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.006740s ]
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 166 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 188 行.
+[ 2013-10-20T12:11:50+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-10-20T12:11:51+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-10-20T12:11:51+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-10-20T12:11:51+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002776s ]
+[ 2013-10-20T12:11:51+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003757s ]
+[ 2013-10-20T12:11:51+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.013602s ]
+[ 2013-10-20T12:11:51+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000964s ]
+[ 2013-10-20T12:11:51+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000838s ]
+[ 2013-10-20T12:11:51+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000787s ]
+[ 2013-10-20T12:11:51+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-10-20T12:11:51+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002702s ]
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003436s ]
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.005562s ]
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.005615s ]
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | SQL: SELECT * FROM `y_account` ORDER BY id desc [ RunTime:0.000496s ]
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: searchkey IndexAction.class.php 第 28 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined variable: vo ae4ccf388766686c7b43ce2ff8116269.php 第 14 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: website_name ae4ccf388766686c7b43ce2ff8116269.php 第 19 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: url ae4ccf388766686c7b43ce2ff8116269.php 第 22 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: contract_number ae4ccf388766686c7b43ce2ff8116269.php 第 29 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: yy_price ae4ccf388766686c7b43ce2ff8116269.php 第 31 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: service_price ae4ccf388766686c7b43ce2ff8116269.php 第 32 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 35 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/main | NOTIC: [8] Undefined index: begin_time ae4ccf388766686c7b43ce2ff8116269.php 第 39 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.003570s ]
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/left | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003970s ]
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined variable: isConnect 196c657f8b82048b1beeb0f9599f5fdc.php 第 72 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 125 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined variable: langList 196c657f8b82048b1beeb0f9599f5fdc.php 第 137 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList 196c657f8b82048b1beeb0f9599f5fdc.php 第 166 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined variable: moduleList2 196c657f8b82048b1beeb0f9599f5fdc.php 第 188 行.
+[ 2013-10-20T12:12:22+08:00 ] /dd_cms_v3/config/index.php/Index/left | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-10-20T12:12:23+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: id AccountAction.class.php 第 6 行.
+[ 2013-10-20T12:12:23+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-10-20T12:12:23+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002927s ]
+[ 2013-10-20T12:12:23+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003692s ]
+[ 2013-10-20T12:12:23+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SELECT `alias` FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_default` = 1 ) LIMIT 1  [ RunTime:0.000256s ]
+[ 2013-10-20T12:12:23+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) ORDER BY ordernum desc [ RunTime:0.000693s ]
+[ 2013-10-20T12:12:23+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 12 ) AND ( `is_publish` = 1 ) ORDER BY ordernum desc [ RunTime:0.000812s ]
+[ 2013-10-20T12:12:23+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` IN ('3','4') ) ORDER BY ordernum desc [ RunTime:0.000752s ]
+[ 2013-10-20T12:12:23+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: account_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 15 行.
+[ 2013-10-20T12:12:23+08:00 ] /dd_cms_v3/config/index.php/Account/edit/id/ | NOTIC: [8] Undefined index: tab_id 196c657f8b82048b1beeb0f9599f5fdc.php 第 255 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: account_id CommonAction.class.php 第 20 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | SQL: SHOW COLUMNS FROM `y_account` [ RunTime:0.002575s ]
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | SQL: SHOW COLUMNS FROM `y_category` [ RunTime:0.003483s ]
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: aid CategoryAction.class.php 第 15 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: act CategoryAction.class.php 第 16 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `id` = '26' ) LIMIT 1  [ RunTime:0.000381s ]
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = '12' ) ORDER BY ordernum desc [ RunTime:0.000884s ]
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | SQL: SELECT * FROM `y_category` WHERE ( `pid` = 3 ) AND ( `is_publish` = 1 ) ORDER BY is_default desc,ordernum desc [ RunTime:0.000714s ]
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 14 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 15 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 41 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 45 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 63 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 67 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 71 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 75 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 79 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 100 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 101 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 130 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 131 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 132 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 133 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined index: aid 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 179 行.
+[ 2013-10-20T12:12:27+08:00 ] /dd_cms_v3/config/index.php/Category/edit/id/26/aid/ | NOTIC: [8] Undefined variable: obj 5c3c2ff56e16b6b6ee1bdeb1ff3f266a.php 第 212 行.

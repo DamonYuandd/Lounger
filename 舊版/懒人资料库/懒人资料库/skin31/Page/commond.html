@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+{web_skin31_通用头部关键字}
+<style>
+.commondlabel {width:920px; text-align:left; background:#FFFFFF; margin-top:10px}
+.commondbg {width:920px; height:12px; background:url(images/products/bg_commond.gif)}
+.commond {width:920px; padding:10px 0; background:#FFFFFF}
+.commondl {width:350px; text-align:center; float:left; border-right:1px #CCCCCC solid; padding:0 25px; width:300px!important; _width:300px; height:430px}
+.commondl span img { width:280px; height:280px}
+.commondl b { color:#FF6600}
+.commondr {width:540px; text-align:left; float:right}
+.commondr p { color:#999999}
+.commondr span{ color:#000000}
+</style>
+<link href="css/css.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/products.css" rel="stylesheet" type="text/css" />
+<script>
+function getobj(id){
+	return document.getElementById(id);	
+}
+
+function selecttab(obj, act, def, special, areaname){
+	var node = childs(obj.parentNode.parentNode.childNodes);
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			node[i].className = def;	
+			if(getobj(areaname + "_" + i))
+				getobj(areaname + "_" + i).style.display = "none";
+		}
+	}
+	obj.parentNode.className = act;
+	for(var i=1;i<node.length-1;i++){
+		if(node[i].className != special){
+			if(node[i].className == act){
+				if(getobj(areaname + "_" + i))
+					getobj(areaname + "_" + i).style.display = "";
+			}
+		}
+	}
+}
+//兼容FF下的childNodes
+function childs(nodes)
+{
+    if(!nodes.length) 
+        return [];
+    var ret=[];
+    for(var i=0;i<nodes.length;i++)
+    {
+        if(nodes[i].nodeType!=1) 
+            continue;
+        ret.push(nodes[i]);
+    }
+    return ret;
+}
+
+function ShowCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "";
+		objli.className = "menu_bg2";
+	}
+}
+
+function HiddenCateArea(id){
+	var obj = document.getElementById(id + "_area");
+	var objli = document.getElementById(id);
+	
+	if(obj){
+		obj.style.display = "none";
+		objli.className = "menu_bg1";
+	}
+}
+</script>
+</head>
+
+<body>
+<center>
+{web_skin31_网站顶部logo}
+{web_skin31_网站导航}
+<div id="search">
+  <div><img src="images/top/search_left.gif" /></div>
+  <div class="search_bg">
+    {web_skin31_顶部搜索}
+	<div>
+	  <div class="search_img"><img src="images/top/search_img3.gif" align="absmiddle" /></div>
+      {web_skin31_顶部最新文章滚动}
+	</div>
+  </div>
+  <div><img src="images/top/search_right.gif" /></div>
+</div>
+
+<div class="commondlabel"><img src="images/products/label_commend.gif" align="absmiddle" />　把好的商品推荐给我的朋友们！</div>
+<div class="commondbg"></div>
+<div class="commond">
+  <div class="commondl">
+
+<#loop productdetail,["+cid+"],* 999#>
+    <span><a href="[$syspath]product.aspx?id={productdetail[id]}" target="_blank"><img src="{gettmpimg({productdetail[srcdetail]},280,280)}" border="0" /></a></span><br />
+	<p><a href="[$syspath]product.aspx?id={productdetail[id]}" target="_blank">{productdetail[name]}</a></p>
+	市场价<s>{productdetail[marketprice]}</s>   <b>￥{productdetail[memberprice]}</b><br />
+	<p><a href="[$syspath]cart.aspx?act=buy&id={productdetail[id]}" target="_blank"><img src="images/products/buttons_buy.gif" border=0 /></a> 　 <a href="[$syspath]cart.aspx?act=collect&id={productdetail[id]}" target="_blank"><img src="images/products/buttons_fav1.gif" border=0 /></a></p>
+<#/loop#>
+
+  </div>
+  <div class="commondr">
+<form onsubmit="this.action = '[$syspath]product.as' + 'px?id={cid}&act=sendmail'" method=post>
+    <p><span>收件人：</span></p>
+	<p><input name="emailaddress" type="text" style="width:350px" /></p>
+    <p><span>发件人：</span>（您可以填写您的真实姓名，以便让您好友知道是您。）</p>
+	<p><input name="yourname" type="text" style="width:350px" /></p>
+    <p><span>对好友的留言：</span></p>
+	<p>
+	  <textarea name="mailcontent" cols="" rows="" style="width:350px; height:100px">这款商品真的很赞，我想你应该很喜欢的，快来看看吧！</textarea>
+	</p>
+	<p><input type="submit" name="Submit2" value="发送给推荐的邮箱" /></p>
+</form>
+  </div>
+  <div style="clear:both"></div>
+</div>
+<div class="bottom_bk">
+  {web_skin31_底部客服联系方式}
+  <div class="bottom_right">
+    {web_skin31_底部友情链接}
+	<div class="bottom_right_2">
+	  <ul>
+	    {web_skin31_底部帮助分类}
+	  </ul>
+	</div>
+  </div>
+<div class="clear"></div></div>
+<div class="bottom_1">{web_skin31_底部信息}</div>
+{web_skin31_版权信息}
+</center>
+</body>
+</html>

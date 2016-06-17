@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Default.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+        <!--系统页头信息标签-->
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+        <%<Hishop:HeadContainer ID="HeadContainer1" runat="server" />%>
+        <%<Hishop:PageTitle runat="server" />%>
+        <%<Hishop:MetaTags runat="server" />%>
+        <!--结束-->
+		<link href="/style/css.css" rel="stylesheet" type="text/css" />
+		<script src="/utility/jquery-1.3.2.min.js" type="text/javascript"></script>
+		<script src="/script/web_qq.js" type="text/javascript"></script>
+		<script src="/utility/validate/pagevalidator.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/style/pagevalidator.css" type="text/css" media="screen" />
+        <!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<form runat="server" id="form1">
+<%<Hishop:TQOnlineServer runat="server" />%>
+<!--在线客服-->
+<div id="qq_right" style="top:30px;left:-146px;position:absolute;z-index:100;">
+<div class="a">
+  <div class="b"></div>
+  <div class="c">
+  	<%<Hishop:HiOnLineServiceGroup ID="HiOnLineServiceGroup1" runat="server" />%>
+	<div class="closekf" onclick="closekf();">关闭在线客服</div>
+  </div>
+  <div class="d"></div>
+</div>
+<div class="e" id="e" onmouseover="showKefu(this);"></div>
+</div>
+<!--新top-->
+
+
+
+
+
+
+<div id="top" class="width-global">
+  <div id="logo">
+    
+    <%<Hishop:Common_Logo runat="server" />%>
+  </div><!--Logo-->
+  <div class="quicklinkbox">
+    <ul class="quicklink">
+      
+      <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="right"><ul class="quicklink">
+		 <li> <Hishop:Common_Link_CreateUser ID="Common_Link_CreateUser1" Text="注册" runat="server" /> </li>
+		 <li>  <Hishop:Common_Link_Login ID="Common_Link_Login1" runat="server" /></li>
+		 <li>  <%<Hishop:Common_Link_MyAccount runat="server" />%> </li>
+          <li>   <%<Hishop:SiteUrl UrlName="shoppingCart" Text="购物车"   target="_blank"  runat="server" />%></li>
+          
+          <li>   <%<Hishop:SiteUrl UrlName="Promotes" Text="优惠活动中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_OrderQuery Text="订单查询" runat="server" />%></li>
+            
+            <li> <%<Hishop:SiteUrl UrlName="AllHelps" Text="帮助中心" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_LeaveComments Text="客户留言" runat="server" />%></li>
+          <li>   <%<Hishop:Common_Link_IntegrateDiscuz Text="论坛" runat="server" />%> </li>
+          </ul>
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <%<Hishop:Common_ShoppingCart_Info SkinName="/ascx/custom/common_shoppingcart_info.ascx" runat="server" />%>         </td>
+        </tr>
+      </table>
+      </ul>
+  </div>
+  <br class="clear-all" />
+</div>
+<!--顶部信息结束-->
+<div id="header" class="width-global">
+  <div class="nav-box">
+    <ul class="navlist">
+      <li>
+        <h1 id="tag-index"><%<Hishop:SiteUrl UrlName="home" runat="server">首页</Hishop:SiteUrl>%></h1>
+      </li>
+      <li class="nav-proclass"><%<Hishop:Common_PrimaryClass RepeatColumns="6" SeparatorString="" runat="server" MaxNum="6" />%>
+     </li>
+    </ul>
+    <ul class="nav-slist">
+      <li class="bg-slist-left"><%<Hishop:SiteUrl UrlName="allBrand" Text="品牌专卖" runat="server" />%></li>
+	   
+	    <li><%<Hishop:SiteUrl UrlName="AllArticles" Text="文章中心" runat="server" />%></li>
+	    <li><%<Hishop:SiteUrl UrlName="Category" Text="全部分类" runat="server" />%></li>
+      <li class="bg-slist-right"></li>
+    </ul>
+  </div>
+  <div class="search-box">
+    <div class="bg-searchbox-left">
+      <div class="bg-searchbox-right">
+	   <%<Hishop:Common_Search ID="Search" SkinName="/ascx/custom/user-search.ascx" runat="server" />%>
+   
+       <p>&nbsp;</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--导航、搜索栏样式结束-->
+<div class="width-global" style="overflow:hidden; width:980px;"> <%<Hishop:Common_ShowAds AdsID="1" runat="server" />%></div><!--顶部广告位结束-->
+<!-- InstanceBeginEditable name="EditRegion" -->
+<% <asp:Panel ID="pnlShopCart" runat="server">   
+<div class="width-global" align="center">
+<table width="897" border="0" cellspacing="0" cellpadding="0" align="center"  class="bordernotop-d9">
+      <tr>
+        <td height="5" colspan="4" valign="middle"  class="register-topbg"></td>
+      </tr>
+      <tr>
+        <td colspan="4" align="left" valign="top" class="register-titlebg">&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="4" align="left" valign="top" >
+		
+		
+		
+		
+		
+		<table width="897" border="0" cellpadding="0" cellspacing="0" class="border_lr2">
+          <tr>
+		 
+		  
+            <td height="6"    align="left" >
+			&nbsp;&nbsp;<img src="/images/navicon.gif"  />
+			
+       <span class="register-titilenew">我的购物车</span></td>
+          </tr>
+          <tr>
+            <td valign="top">
+
+    <table width="96%" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td style="padding:5px 0 5px 20px;"><Hishop:SmallStatusMessage id="Status" runat="server" width="200px" Visible="False" /></td>
+      </tr>
+      <!--5.13新增-->
+      <tr>
+        <td style="height:40px;padding-left:20px;">根据货号添加到购物车：<Hishop:Common_ShoppingCart_SKU runat="server" CssClass="input4" Width="200px" />　<Hishop:Common_ShoppingCart_SKUButton runat="server" CssClass="btn_sub" text="添加到购物车"  /></td>
+      </tr>
+      <!--结束-->
+      <tr>
+        <td align="center" valign="top" >  <Hishop:Common_ShoppingCart_ProductList runat="server"  /> </td>
+      </tr>
+      <tr>
+        <td valign="top">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td valign="top" width="300px">
+                <Hishop:Common_ShoppingCart_PresentGiftList runat="server" Visible="false"  />
+            </td>
+            <td width="520px" valign="top" align="right">
+              <table border="0" width="100%" cellspacing="0" cellpadding="0" style="margin-top:8px;margin-bottom:8px;" >
+                <tr>
+                  <td class="t14" valign="top" width="120" style="text-align:right;">商品金额：</td>
+	              <td class="t14_1" valign="top" width="150"><asp:Literal runat="server" ID="litAmoutMoney"></asp:Literal></td>
+                </tr>
+                <tr>
+                <td class="t14" align="right" valign="top" width="120">满额打折活动：</td>
+                  <td class="t14_1" valign="top" width="150" style="word-break: break-all;"><asp:Literal runat="server" ID="litDiscountMoney" ></asp:Literal></td>
+                </tr>
+                <tr>
+                <td class="t14" align="right" valign="top" width="120">礼品金额：</td>
+                  <td class="t14_1" valign="top" width="150" style="word-break: break-all;">
+                    <Hishop:Common_ShoppingCart_GiftPrice ID="Common_ShoppingCart_GiftPrice1" runat="server" />
+                    <Hishop:Common_ShoppingCart_PresentName runat="server" />
+                  </td>
+                </tr>
+                <tr>
+                <td class="t14" align="right" valign="top" width="120">购物车小计：</td>
+                  <td class="t14_1" valign="top" width="150"><span class="color-redb14"><Hishop:FormatedMoneyLabel ID="lblTotalMoney" runat="server" /></span></td>
+                </tr>
+                <tr>
+                    <td colspan="2" height="40" class="ShopingCardImg" >
+                    <Hishop:Private_ShoppingCart_ClearButton ID="Private_ShoppingCart_ClearButton1" ImageUrl="images/emptying.jpg" ShowText="false" runat="server" />
+                    <Hishop:Private_ShoppingCart_ContinueButton ID="Private_ShoppingCart_ContinueButton1" ImageUrl="images/goonshopping.jpg" ShowText="false" runat="server" />
+                    <Hishop:ImageLinkButton ID="lkBtnBatchQuantity" ImageUrl="images/batchQuantity.jpg" ShowText="false" runat="server" />
+                    <Hishop:Private_ShoppingCart_Check_Out ID="Private_ShoppingCart_Check_Out1" ImageUrl="images/pay.jpg" ShowText="false" runat="server" />
+                    </td>
+                </tr>
+              </table>
+            </td>
+        </tr>
+        </table>
+          </td>
+      </tr>
+    </table>
+			</td>
+          </tr>
+          <tr>
+            <td valign="top">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td colspan="4" align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="yuanjiao_bottombg">
+          <tr>
+            <td align="left"><img src="/images/yuanjiao_bottom_left.jpg" width="3" height="4" /></td>
+            <td></td>
+            <td align="right"><img src="/images/yuanjiao_bottom_right.jpg" width="3" height="4" /></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table>
+	</asp:Panel>%>
+	<div style="height: 30px;" align="center"><b><%<asp:Literal ID="litNoProduct" runat="server"></asp:Literal> %></b></div></div>
+	<!-- InstanceEndEditable --><!--可编辑区域-->
+
+
+
+
+
+
+
+  
+  <table width="960" border="0" align="center" cellpadding="0" cellspacing="0" class="table_help" style="margin-top:20px;">
+  <tr>
+    <td ><div class="border-inside">
+     <%<Hishop:Common_Help runat="server" />%>
+  </div></td>
+    </tr>
+</table>
+
+<div class="page_w marginCenter">
+  <div class="userLink">
+  <div class="width-global friendlink">    <!--友情链接开始-->
+<table><tr><td>  <h1>友情链接：</h1></td><td> <%<Hishop:Common_FriendLinks SkinName="/ascx/custom/user-FriendLinks.ascx" runat="server"  />%> </td></tr></table>
+  </div>
+    </div>
+</div>
+
+</div>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="mar_tb6" >
+  <tr>
+    <td  align="center" class="bottom">
+		<%<Hishop:CnzzShow ID="CnzzShow1" runat="server" />%>
+		<%<Hishop:PageFooter ID="PageFooter" runat="server"></Hishop:PageFooter>%>
+		<%<Hishop:LicenseControl runat="server" />%>
+        <%<Hishop:SiteCopyright runat="server" />%> 
+	</td>
+  </tr>
+</table>
+</form>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta content="charset=utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<title>FlexSlider Demo</title>
+
+<link rel="stylesheet" href="demo.css" />
+<link rel="stylesheet" href="flexslider.css" />
+<script src="jquery.js"></script>
+<script src="flexslider.js"></script>
+
+
+<script>
+$(window).load(function() {
+	$('#main-slider').flexslider();
+	     
+	$('#secondary-slider').flexslider();
+});
+</script>
+</head>
+<body>
+	<div id="container">
+		<h2>第一个</h2>
+		<div id="main-slider" class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="img/inacup_samoa.jpg" />
+					<p class="flex-caption">没有链接的图片</p>
+				</li>
+				<li>
+					<a href="http://baidu.com/"><img src="img/inacup_pumpkin.jpg" /></a>
+					<p class="flex-caption">加上链接的图片</p>
+				</li>
+				<li><img src="img/inacup_donut.jpg" /></li>
+				<li><img src="img/inacup_vanilla.jpg" /></li>
+			</ul>
+		</div>
+
+		<h2>第二个</h2>
+		<div id="main-slider" class="flexslider">
+			<ul class="slides">
+				<li>
+					<img src="img/inacup_samoa.jpg" />
+					<p class="flex-caption">没有链接的图片</p>
+				</li>
+				<li>
+					<a href="http://baidu.com/"><img src="img/inacup_pumpkin.jpg" /></a>
+					<p class="flex-caption">加上链接的图片</p>
+				</li>
+				<li><img src="img/inacup_donut.jpg" /></li>
+				<li><img src="img/inacup_vanilla.jpg" /></li>
+			</ul>
+		</div>
+
+	</div>
+</body>
+</html>

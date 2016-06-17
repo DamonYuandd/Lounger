@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+.bottom_gg { clear:both;}
+.container { width:990px; margin:0 auto; height:auto;}
+.sales_top { width:990px; height:125px; margin-bottom:10px;}
+.sales_topnav { height:57px; line-height:57px; background:url(../images/sales/tit_02.gif) repeat-x; border-left:1px solid #d9dde5; border-right:1px solid #d9dde5;}
+.sales_topnav li { float:left;}
+.sales_topnav li a { width:30px; padding:0 20px;}
+.sales_pro {  margin:0 auto; }
+.sales_pro ul { padding-left:7px;}
+.sales_pro li { float:left; padding:10px; text-align:center; height:260px;}
+.sales_pro li a { width:190px; height:240px;}
+.pro2 { clear:both;}
+.main { border-left:1px solid #d9dde5; border-right:1px solid #d9dde5; border-bottom:1px solid #d9dde5; margin:0 0 10px;}
+.main2 { border:1px solid #d9dde5; margin:0 0 10px;}
+.scott {padding: 3px;text-align: center; clear:both;}
+.scott a {border: #ddd 1px solid; padding:2px 5px;  color: #FF6600; margin-right: 2px; text-decoration: none}
+.scott a:hover {border: #ff6600 1px solid;  color: #FF6600; background-color:#FFF2D2;}
+.scott a:active {border: #ff6600 1px solid;  color: #FF6600; background-color:#FFF2D2;}
+.scott span.current {border:#FFBB77 1px solid; padding:2px 5px; font-weight: bold; color: #fff; margin-right: 2px; background-color:#FF6600;}
+.scott span.disabled {border: #f3f3f3 1px solid; padding:2px 5px; color: #ccc; margin-right: 2px; }
+
+/*salesindex end*/
+
+.sales_pro1 { height:auto; text-align:center; margin:0 auto; overflow:hidden; width:1000px; padding:0 0 20px;}
+.sales_pro1 ul { padding-left:7px;}
+.sales_pro1 li { float:left; padding:10px 7px; text-align:center; width:180px; height:240px;}
+.sales_pro1 ul li  b { color:#CC0000; font-size:16px;}
+
+/*flash sale*/
+.sales_pro2 { height:auto; text-align:center; margin:0 auto; overflow:hidden; width:1000px; padding:0 0 20px;}
+.sales_pro2 ul { padding-left:7px;}
+.sales_pro2 li { float:left; padding:10px 7px; text-align:center; width:180px; height:300px;}
+.sales_pro2 ul li  b { color:#CC0000; font-weight:normal;}
+.time { color:#CC0000; font-size:14px; font-weight:bold;padding:10px; height:22px;}

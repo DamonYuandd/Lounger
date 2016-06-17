@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="jquery-1.6.2.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+						   $("tbody>tr:odd").addClass("ou"); //一定要在Tbody里面才可以,基数调用隔行变色
+						   $("tbody>tr:even").addClass("dan");//偶数调用隔行变色
+						   $("tbody>tr:has(:checked)").addClass("ed");
+						   
+						   $("tbody>tr").click(function(){
+														var hased=$(this).hasClass("ed");
+												  if(hased){
+													  $(this).removeClass("ed").find(":checkbox").attr("checked",false);
+													  }else{
+												          $(this).addClass("ed").find(":checkbox").attr("checked",true);
+													  }
+													  //$(this)[hased?"removeClass":"addClass"]("ed").find(":checkbox").attr("checkec",!hased);
+												  });
+						   });
+</script>
+<style type="text/css">
+table{ border:0; border-collapse:collapse;}
+td{ font:normal 12px/17px Arial; padding:2px; width:100px;}
+th{ font:bold 12px/17px Arial; text-align:left; padding:4px; border-bottom:1px solid #333;}
+.dan{ background:#FC0}
+.ou{ background:#0FF}
+.ed{ background:#696; color:#fff;}
+</style>
+<title>无标题文档</title>
+</head>
+
+<body>
+<table width="200" border="1">
+<thead>
+<tr><th>&nbsp;</th><th>aaa</th><th>bbb</th></tr>
+</thead>
+<tbody>
+  <tr>
+    <td><input type="checkbox" name="" /></td>
+    <td>1111</td>
+    <td>1111</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="" /></td>
+    <td>2222</td>
+    <td>2222</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="" /></td>
+    <td>3333</td>
+    <td>3333</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" name="" /></td>
+    <td>4444</td>
+    <td>4444</td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>

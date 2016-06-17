@@ -1,0 +1,114 @@
+body {
+    margin: 0px;
+    background-color: #f2efe3;
+    
+    text-align:center;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    line-height: 1.6em;
+}
+
+a {
+    color: #06c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #147;
+    text-decoration: underline;
+}
+
+/* 
+ * Layout
+ */
+#mastercontainer {
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 1px solid #e5dfc7;
+    border-bottom: none;
+    border-top: none;
+    
+    text-align:left;
+    width: 768px;
+    background-color: #ffffff;
+}
+
+div.top, div.main, div.bottom {
+    background-color: #ffffff;
+}
+
+div.top {
+    padding-top: 10px;
+}
+
+div.top img {
+    border: 0px;
+}
+
+div.main {
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 608px;
+}
+
+div.Slideshow img {
+    border: 1px solid #e5dfc7;
+}
+
+div.main pre {
+    border: 1px solid #e0e0e0;
+    background-color: #f7f7e6; 
+    line-height: 1.3em; 
+    font-size: 1.2em;
+    padding: 2px; 
+    margin-left: 20px; 
+    margin-right: 20px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+div.main p {
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div.main h2 {
+    margin-top: 10px;
+    font-weight: lighter;
+    font-family: Arial, sans-serif;
+    font-size: 1.7em;
+    color: #7eaf1a;
+}
+
+div.main code {
+    font-size: 1.2em;
+}
+
+div.main ul.purchase li {
+    list-style-type: none; 
+}
+
+div.main ul.purchase li span {
+    margin-left: -20px;
+}
+
+div.main p.smallprint {
+    margin-top: 10px;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+div.bottom {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+div.bottom p {
+    margin: 0px;
+    line-height: 1.8em; 
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <meta content="text/html;charset=utf-8;" http-equiv="content-type">
+    <script type="text/javascript" src="jquery.js"></script>
+    <style type="text/css">
+        #gallery{width: 728px;height: 350px;background-color: black;}
+        #links{width: 728px;height: 31px;top: 311px;z-index: 99;position: absolute;}
+        ul{margin-left: -40px;}
+        ul li{
+            float: left;width: 162px;height: 31px;padding: 0px 10px;font-size: 13px;
+            list-style-type: none;line-height: 31px;text-align: center;overflow: hidden;
+        }
+        .active{background-color: #deb887;}
+        .inactive{background-color: #bc8f8f;}
+    </style>
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+            window.t = setInterval("auto_rotation()", 5000);
+            jQuery('#links ul li').mouseout(function(){
+                window.t = setInterval("auto_rotation()", 5000);
+            });
+        });
+        function changeLink(link)
+        {
+            jQuery('.active').attr('class', 'inactive');
+            jQuery(link).attr('class', 'active');
+            return jQuery(link).attr('img');
+        }
+        function changeImg(img, filename)
+        {
+            jQuery(img).hide();
+            jQuery(img).attr('src', filename);
+            jQuery(img).fadeIn();
+        }
+        function findNext(collection, target)
+        {
+            var current = jQuery(collection).index(jQuery(target));
+            var last = jQuery(collection).index(jQuery(collection + ':last'));
+            if (current != last) {
+                var next = current + 1;
+            } else {
+                var next = 0;
+            }
+            return jQuery(collection + ':eq(' + next + ')');
+        }
+        function auto_rotation()
+        {
+            var link = findNext('#links ul li', '.active');
+            var filename = changeLink(link);
+            changeImg('#image img', filename);
+        }
+        function manual_rotation(link)
+        {
+            window.t = clearInterval(window.t);
+            var filename = changeLink(link);
+            changeImg('#image img', filename);
+        }
+    </script>
+</head>
+<body>
+    <div id="gallery">
+        <div id="image">
+            <img src="ad_1.png" />
+        </div>
+        <div id="links">
+            <ul>
+                <li class="active" onmouseover="manual_rotation(this);" img="ad_1.png">
+                    <a href="javascript:void(0);">新年佳节用美的</a>
+                </li>
+                <li class="inactive" onmouseover="manual_rotation(this);" img="ad_2.png">
+                    <a href="javascript:void(0);">冬季进补</a>
+                </li>
+                <li class="inactive" onmouseover="manual_rotation(this);" img="ad_3.png">
+                    <a href="javascript:void(0);">豆浆机我最新</a>
+                </li>
+                <li class="inactive" onmouseover="manual_rotation(this);" img="ad_4.png">
+                    <a href="javascript:void(0);">挂烫机选SSS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

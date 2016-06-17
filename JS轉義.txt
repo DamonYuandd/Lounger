@@ -1,0 +1,40 @@
+使用jquery对特殊字符进行转义,防止js注入
+在使用ajax进行留言的时候,出现了一个问题.因为留言内容写完之后,通过ajax提交内容,同时使用js把留言的内容添加到页面上来.浏览留言的时候也是通过ajax请求,然后再显示的.这样,如果有人在留言里写入了js语句,这结语句都会被执行.解决办法就是对这些特殊字符进行转义再显示出来.如果在jsp中使用jstl标签,就很简单了.直接使用<c:out value=”${r.content}” />这样就行了,会自动进行转义,其中省略了参数escapeXML=”true”,这是默认的.所以说在显示这些用户提交的内容的时候不要用el表达示,因为el不会自动进行转义,用c:out比较好.而如果也是通过ajax请求,然后再显示的,那就用下面的方法.其实也很简单.
+
+  1: var html="<script>alert('asdfasdf')<\/script>";
+
+  2: $("#content").text(html);
+
+ 
+那么会发生什么情况 
+解决办法很简单 就是把这些特殊字符进行转义
+也就是<变成&lt;
+>变成&gt; 
+使用jquery对字符进行转义这样就可以了
+ 
+  1: <head>
+
+  2: <script>
+
+  3: var html="<script>alert('asdfasdf')<\/scipt>";
+
+  4: html=$("#x").text(html).html();
+
+  5: $("#content").append("<div>"+html+"</div>");
+
+  6: </script>
+
+  7: </head>
+
+  8: <body>
+
+  9: <span id="x" style="display:none"></span>
+
+ 10: <div id="content"></div>
+
+ 11: </body>
+
+
+
+
+http://www.cnblogs.com/tonyzzp/archive/2010/04/17/jquery_escapexml.html

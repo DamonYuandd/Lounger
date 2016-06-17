@@ -1,0 +1,4 @@
+select * , if(name='avis' ,'1','0') df from more_blog order by df desc
+
+
+mysql判斷，添加一個虛擬字段可以調整排序

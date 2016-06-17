@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="common.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="jquery-1.5.2.js"></script>
+<script type="text/javascript" src="district.js"></script>
+<script type = "text/javascript" >
+ $(document).ready(function() {
+	sel(root3, "departure_one");
+});
+var n = new Array();
+var m = new Array();
+function sel(root, id) {
+	var gk = new Array("one", "two", "three");
+	var k = root.childCategorys;
+	var bt = parseInt($("#" + id).attr("bt"));
+	var t = $("#" + id).attr("title");
+	if (t == "departure") {
+		
+		n[bt] = new Array();
+		n[bt] = k
+	} else {
+		
+		m[bt] = new Array();
+		m[bt] = k
+	}
+	for (var i = 0; i < k.length; i++) {
+		$("#" + id ).find("ul").append("<li class = 'list' opop='" + k[i].id + "' id='" + t + "_" + k[i].id + "' bt=" + i + ">" + k[i].title + "</li>");
+	}
+	
+	
+//这里需要把click 方法写在函数脸面重注册	
+	
+	
+		$("#"+t+"_"+gk[bt]+" ul li").click(function() {
+	/*	var gk = new Array("one", "two", "three"); */
+		var t = $(this).parent("ul").parent("div").attr("title");
+	    var k = parseInt($(this).parent("ul").parent("div").attr("bt"));
+			for(var i = k+1 ; i<=3 ;i++)
+			{
+				if( i == 1)
+				{
+					$("#" + t + "_"+ gk[i]).find("ul").html("");					
+				}
+				if( i == 2)
+				{
+					$("#" + t + "_"+ gk[i]).find("ul").html("");
+				}
+			}
+		if ($(this).attr("opop") != "") {
+			if (t == "departure") {
+				var root = n[k][$("#" + t + "_" + $(this).attr("opop")).attr("bt")];
+			} else {
+				var root = m[k][$("#" + t + "_" + $(this).attr("opop")).attr("bt")];
+				alert(bt);
+			}
+			sel(root, t + "_" + gk[k + 1]);
+		} 
+	});
+} 
+</script>
+<title></title>
+
+</head>
+<style>
+div
+{
+	text-align:left;
+	width:100%;
+	height:100px;}
+div ul li
+{
+	float:left;
+	margin-left:8px;
+	cursor:pointer;
+	background:#FF3;}
+
+</style>
+<body>
+<div class="container" style="text-align:left;">
+省<div id="departure_one" class="sel bi" bt=0 title="departure" name="departure1"><ul></ul></div>
+市<div id="departure_two" class="sel bi" bt=1 title="departure" name="departure2"><ul></ul></div>
+区<div id="departure_three" class="sel bi" bt=2 title="departure" name="departure3"><ul></ul></div>
+</div>
+</body>
+</html>

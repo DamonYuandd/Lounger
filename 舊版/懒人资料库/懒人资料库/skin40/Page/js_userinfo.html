@@ -1,0 +1,13 @@
+﻿<#if this.CookieLoginID == ""#>
+	document.write("欢迎光临好学习商城！");
+<#else#>
+	document.write("您好，{base.CookieLoginIDTemp}！ ");
+<#/if#>
+<#if this.CookieLoginID == ""#>
+	var url = document.URL;
+ 	document.write("<a href='[$syspath]login.aspx?url="+ url +"'>[请登录]</a> <a href='[$syspath]register.aspx?url={p}' target='_blank'>[免费注册]</a> ");
+<#else#>
+ 	document.write("<a href='[$syspath]logout.aspx'>[退出]</a> &nbsp;&nbsp;"); 
+	document.write('{msgcount}');
+	document.write("<a href='[$syspath]member/?main=User_Message_Manage.aspx%3fs%3d1' target='_blank'>站内信</a> ");
+<#/if#>

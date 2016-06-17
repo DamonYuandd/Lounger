@@ -1,0 +1,8 @@
+UPDATE  `yd_product` SET  `orders` = CASE  `orders` WHEN 0 THEN  `id` ELSE  `orders` END
+
+
+用case when else end 
+當orders為0的時候，設置該orders等於對應的ID值
+
+
+(CASE  `photoURL` WHEN '' THEN  `image1` ELSE  `photoURL` END )as image  查詢某個字段的時候

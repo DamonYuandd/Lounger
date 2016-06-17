@@ -1,0 +1,1 @@
+document.write('<a href="/member/Advertisement_Ads_ClickCount.aspx?mark=09719df7-9034-4e92-9f74-4411fae68a6c&&uri=aHR0cDovL3d3dy52NXNob3AuY29tLmNu" title="特价商品" target="_blank"><img src="Images/AD/ad3b.gif" width="176" height="300" border="0"></a>');

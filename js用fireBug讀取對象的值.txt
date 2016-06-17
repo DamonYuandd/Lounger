@@ -1,0 +1,3 @@
+console.log(obj);
+
+然後可以用firebug來查看對象的內容

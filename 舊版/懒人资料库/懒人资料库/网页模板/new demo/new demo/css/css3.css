@@ -1,0 +1,11 @@
+.bg_button2 .button-t,
+.bg_button2 .button-tl,						
+.bg_button2 .button-tr,						
+.bg_button2 .button-bl,						
+.bg_button2 .button-br						{
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+}
+
+

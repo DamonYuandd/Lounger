@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*内容区域*/
+.center{ width:990px; margin:0 auto 10px auto}
+.mail1{ margin-top:6px}
+.news{ float:right; width:200px;}
+.guangg{ float:right; width:559px; margin-right:11px}
+.news1{ border:1px solid #cdcdcd;}
+.title_news1{ border-bottom:1px solid #cdcdcd; height:26px}
+.news_title {FONT-WEIGHT: bolder; FONT-SIZE: 12px; FLOAT: left; WIDTH:66px; LINE-HEIGHT:26px; HEIGHT:26px; TEXT-ALIGN: center; background: url(../images/xiaobtu/index_46.jpg);}
+.news_title a{ color:#fff;  text-decoration:none}
+.news_title a:hover{ color:#fff; text-decoration:none}
+.news_title a:visited{ color:#fff; text-decoration:none}
+.news_titleh {FONT-WEIGHT: bolder; FONT-SIZE: 12px; FLOAT: left; WIDTH:66px; LINE-HEIGHT:26px; HEIGHT:26px; TEXT-ALIGN: center; background:url(../images/xiaobtu/index_48.jpg) no-repeat right;}
+.news_titleh a{text-decoration:none; color:#666;}
+.news_titleh a:hover{ color:#666; text-decoration: none}
+.lr_mews1 li{ background:url(../images/xiaobtu/index_66.jpg) no-repeat 7px 10px; padding-left:20px; line-height:30px}
+.news2{ border:1px solid #cdcdcd; margin-top:5px; height:120px}
+.news2madl{ float:left; width:13px; padding-top:40px;}
+.news2center{ float:left; width:172px; text-align:center}
+.news2madr{ float:left; width:13px; padding-top:40px;}
+.tj{ border:1px solid #cdcdcd; margin-top:11px; margin-bottom:12px; width:988px; padding-bottom:8px;}
+.tj img{ margin:0; padding:0}
+.tj li{ float:left; margin:0 8px;  display: inline}
+.tj h1{ margin:; line-height:30px; height:30px; border:none; padding:8px 0 0 8px}
+.tj h1 font{ float:left; }
+.tj span{ text-align:right; float:right; font-size:12px; padding-right:12px;}
+
+.mail2_left{ float:left; width:210px;}
+.mail2_left h1{ text-align:center; margin-bottom:10px}
+.ph_top{ border:1px solid #cdcdcd}
+.mail2_right{ float:right; width:772px;}]
+.ph_top{ border:1px solid #cdcdcd;}
+.ph_top h1{ padding:1px}
+.ph_top ul{ background:url(../images/xiaobtu/index_90.jpg) no-repeat left top; padding-top:10px}
+.ph_top li{ line-height:35px; padding-left:25px; width:184px; display:block; border-bottom:1px #ddd dashed}
+.ph_top h2{ height:70px; padding:0}
+.ph_top font{float:left; width:54px;}
+.ph_top span{float:left; margin-left:5px; line-height:20px; width:120px;}
+.pinpai{ margin-top:10px; border:1px solid #cdcdcd; margin-bottom:10px; width:208px;}
+.pinpai h1{ padding:1px;}
+.pinpai li{ float:left; padding:5px 8px; border-bottom:1px solid #ededed;}
+.pinpai li h2{ text-align:right; padding-right:8px; line-height:24px; width:184px; height:24px}
+.pinpai h2 a{ color:#cb1515; text-decoration:none;}
+.shaid {border:1px solid #cdcdcd; margin-bottom:10px; width:208px}
+.shaid h1{ padding:1px}
+.shaid h2{ color:#FE9900; line-height:20px}
+.shaid h2 a{ color:#005BA0; text-decoration:none;}
+.shaid ul{ padding:0 10px}
+.shaid li{ border-bottom:1px solid #efefef;  margin-bottom:5px;}
+.shaid_content{ overflow:hidden; line-height:20px;}
+.shaid_content img{ float:left; margin:0 5px 5px 0}
+.shaid_content a{ color:#333; text-decoration:none}
+.shaid_content a:hover{ color:#CC0000; text-decoration:underline}
+.shaid span{ color:#12A000; float:left;}
+.shaid font{ color:#005BA0; float:right}
+.shaid h3{ text-align:right; padding-right:8px; line-height:20px}
+
+.zaojiao{ margin:10px 0; width:772px;}
+.zaojiao h1{line-height:39px; text-align:right; padding-right:5px; background:url(../images/xiaobtu/index_130.jpg);}
+.zaojiao h1 span{ float:left}
+.zaojiao dl{ border:1px solid #cdcdcd; display:block;  width:770px; padding:10px 0}
+.zaojiao dd{ float:left; margin-left:10px; display: inline;}
+.zaojiao dt{ float:left;  width:540px; display:block; padding-left:5px}
+.zaojiao dt li{ width:120px; float:left; line-height:20px; margin:5px 6px;}
+.zaojiao dt li b{ font-weight:bold; color:#e78a25; padding-left:10px}
+.zaojiao dt div{ }
+.zaojiao dt div li{ width:164px; display:inline}
+.zaojiao dt div span{ line-height:24px; color:#fff; text-align:center; background:#f2906b; display:block}
+.zaojiao dt div span a{ color:#fff;}
+.zaojiao dt div span a:hover{ color:#fff;}
+.zaojiao dt div span a:visited{ color:#fff;}
+
+.indexFourFrame{ height:288px; border:1px solid #cdcdcd; width:770px}
+.indexFourFrame .frameTag {height:52px; margin:0 auto; width:762px; padding:6px 0 0 6px;}
+.indexFourFrame .frameTag ul li { display:inline; float:left; height:46px; width:254px;}
+.indexFourFrame .frameTag ul li span {background-image: url(../images/xiaobtu/indexFourFrameTag.gif); background-repeat:no-repeat; cursor:pointer; display:block; float:left; height:46px; width:100%;}
+.indexFourFrame .frameTag ul li.tab_on span { background-image: url(../images/xiaobtu/indexFourFrameTag.gif); background-repeat:no-repeat;}
+.indexFourFrame .frameTag ul li span.tag01 {background-position:0 0;}
+.indexFourFrame .frameTag ul li span.tag02 {background-position:-254px 0;}
+.indexFourFrame .frameTag ul li span.tag03 {background-position:-508px 0;}
+.indexFourFrame .frameTag ul li.tab_on span.tag01 {background-position:0px -55px;}
+.indexFourFrame .frameTag ul li.tab_on span.tag02 {background-position:-254px -55px;}
+.indexFourFrame .frameTag ul li.tab_on span.tag03 {background-position:-508px -55px;}
+.frameBody { padding:7px; padding-top:0;}
+.frameBody ol{padding:0; margin:0; display:block}
+.frameBody ol li div{ width:366px; border-right:1px dashed #DBDBDB; float:left; padding-left:10px;}
+.frameBody ol img{ float:left;}
+.frameBody ol a{ color:#000;}
+.frameBody ol span{ float:left; margin-left:10px; font-size:14px; color:#000; width:200px;}
+.frameBody ol b{ color:#e82c14; padding:5px 0; display:block}
+.frameBody ol font{ font-size:12px; color:#666;}
+
+.dz{ border:1px solid #cdcdcd; width:770px;}
+.dz .dz_title {height:54px; margin:0 auto; width:764px; padding:6px 0 0 6px;}
+.dz .dz_title ul li { display:inline; float:left; height:48px; width:382px;}
+.dz .dz_title ul li span {background-image:url(../images/xiaobtu/index_03.jpg); background-repeat:no-repeat; cursor:pointer; display:block; float:left; height:48px; width:100%;}
+.dz .dz_title ul li.tab_on2 span { background-image: url(../images/xiaobtu/index_03.jpg); background-repeat:no-repeat;}
+.dz .dz_title ul li span.tag01 {background-position:0 0;}
+.dz .dz_title ul li span.tag02 {background-position:-388px 0;}
+.dz .dz_title ul li.tab_on2 span.tag01 {background-position:0px -48px;}
+.dz .dz_title ul li.tab_on2 span.tag02 {background-position:-388px -48px;}
+.dz_lr ol{padding:0; margin:0; display:block}
+.dz_lrleft{ float:left; padding:0 10px 7px 7px;  width:200px;}
+.dz_lrright{ float:left; width:546px; padding:0px 7px 7px 0;}
+.dz_lrright h1{ line-height:24px; border-bottom:1px solid #e5e5e5;}
+.dz_lrright ul{ padding:5px;}
+.dz_lrright li{ float:left; width:120px; margin:1px 5px; line-height:20px;}
+.dz_lrright li b{ color:#e78a25; padding-left:10px}
+
+.news2center{ width:860px;}
+.news2center li{ padding:5px 0; float:left; width:172px; text-align:center; display:block}
+
+
+.div1madm {
+height:110px;
+width:860px;}
+
+.div1madl {
+padding-top:30px;
+text-align:right;
+width:43px;}
+
+.div1madl li{ float:left}
+
+.div1madr {
+float:right;
+padding-top:30px;
+text-align:left;
+width:43px;}
+
+.div1mad {
+height:110px;
+margin-bottom:24px;
+width:172px; float:left}

@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTmL 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Created Page at 2008-8-8 18:47:50,by V5Shop.com.cn   V5Shop Management Systeme 8.0-->
+<html>
+<head>
+{web_skin3_通用头部关键字}
+<link href="css/css1.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../public/js/common.js" type="text/javascript"></script>
+<script language="javascript" src="../public/js/login.js" type="text/javascript"></script>
+</head>
+<script>
+function getobj(id){
+	return document.getElementById(id);	
+}
+
+function selecttab(obj, act, def, special, areaname){
+	var node = childs(obj.parentNode.parentNode.childNodes);
+	for(var i=0;i<node.length;i++){
+		if(node[i].className != special){
+			node[i].className = def;	
+			if(getobj(areaname + "_" + i))
+				getobj(areaname + "_" + i).style.display = "none";
+		}
+	}
+	obj.parentNode.className = act;
+	for(var i=0;i<node.length;i++){
+		if(node[i].className != special){
+			if(node[i].className == act){
+				if(getobj(areaname + "_" + i))
+					getobj(areaname + "_" + i).style.display = "";
+			}
+		}
+	}
+}
+//兼容FF下的childNodes
+function childs(nodes)
+{
+    if(!nodes.length) 
+        return [];
+    var ret=[];
+    for(var i=0;i<nodes.length;i++)
+    {
+        if(nodes[i].nodeType!=1) 
+            continue;
+        ret.push(nodes[i]);
+    }
+    return ret;
+}
+</script>
+
+<body text=000000 link=0000cc vlink=0000cc alink=ff6600 topmargin="0" leftmargin="0" bottommargin="0" rightmargin="0" bgcolor="#F1F1F1">
+	
+<center>
+<div style="background:url(images/top/bg.gif); height:77px" align="center">{web_skin3_顶部导航}
+</div>
+<div style="background:#004DA5" align="center">{web_skin3_位置导航}
+</div>
+
+  <div style="width:930px; background:#FFFFFF; padding-top:5px"><table width="920" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="190" valign="top">	  
+	  {web_skin3_商品分类导航}
+	
+	  {web_skin3_购物车}
+	</td>
+      <td width="345" valign="top">{web_skin3_首页宣传广告}
+	  {web_skin3_书城搜索}</td>
+      <td width="385" valign="top">{web_skin3_首页幻灯片}
+	  
+	  <div style="margin-bottom:5px; width:385px; height:157px">
+	    <div style="float:left; margin-right:3px; width:175px">{web_skin3_首页新闻广告}</div>
+		
+        <div style="float:left; width:205px; height:157px">
+ <div style="width:205px; height:35px; background:url(images/index/news/bgt.gif)">
+ <div style="padding-left:30px; padding-top:15px">
+  <div class="shuxinselect"><a onclick="selecttab(this,'shuxinselect','shuxindefault','','special');" href="javascript:void(0);">书城动态</a></div>
+  <div class="shuxindefault"><a onclick="selecttab(this,'shuxinselect','shuxindefault','','special');" href="javascript:void(0);">书香资讯</a></div>
+ <div style="clear:both"></div></div></div>
+ <div style="width:205px; height:104px; background:url(images/index/news/bg.gif)">
+<div class="div1mshuxinlist">
+<div id="special_0">
+{web_skin3_首页书城动态}
+</div>
+<div id="special_1"  style="display:none">
+{web_skin3_首页书香资讯}
+</div>
+</div>	
+ </div>
+ <div style="width:205px; height:18px; background:url(images/index/news/bgd.gif)"></div>
+ </div>
+	  </div>
+	 
+	  <div style=" width:385px; height:210px">
+	    {web_skin3_首页新书推荐}
+	  </div>
+ </td>
+    </tr>
+  </table>
+  <table width="920" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="190"  valign="top">
+	
+	  <div style="width:185px">{web_skin3_公共知名作者}</div>
+
+	  <div style="width:185px">{web_skin3_公共出版社}</div>
+
+	  <div style="width:185px; margin-bottom:5px">{web_skin3_注册广告}</div>
+
+	  <div style="width:185px; margin-bottom:5px; text-align:left">{web_skin3_公共帮助列表}</div>
+
+	  <div style="width:185px; margin-bottom:5px">{web_skin3_公共发货通知}
+	    <script  type="text/javascript" src=[$syspath]js/Marquee_up.js></script>
+</div>
+</td>
+      <td width="730" valign="top">
+
+	  <div style="height:28px; background:#0B1B35; margin-bottom:5px">
+<div style="float:left; padding-top:17px"><img src="images/index/Attribute/label.gif" width="89" height="11" /></div>
+<div style="height:28px;">              
+  <div class="shuxinselect2"><a onclick="selecttab(this,'shuxinselect2','shuxindefault2','','text');" href="javascript:void(0);">新书上柜</a></div>
+  <div class="shuxindefault2"><a onclick="selecttab(this,'shuxinselect2','shuxindefault2','','text');" href="javascript:void(0);">特价处理</a></div>
+  <div class="shuxindefault2"><a onclick="selecttab(this,'shuxinselect2','shuxindefault2','','text');" href="javascript:void(0);">畅销排行</a></div>
+  <div class="shuxindefault2"><a onclick="selecttab(this,'shuxinselect2','shuxindefault2','','text');" href="javascript:void(0);">关注焦点</a></div>
+</div>
+</div>
+	<div style="height:355px; margin-bottom:5px; background:#E7F1F6; width:730px;">
+<div class="div1mshuxinlist">
+<div id="text_0">
+{web_skin3_首页新书上柜}
+</div>
+<div id="text_1"  style="display:none">
+{web_skin3_首页特价处理}
+</div>
+<div id="text_2"  style="display:none">
+{web_skin3_首页畅销排行}
+</div>
+<div id="text_3"  style="display:none">
+{web_skin3_首页关注焦点}
+</div>
+</div>
+<div style="clear:both"></div></div>
+	<div style="background:#4081B9; margin-bottom:5px" align="right"><a href="[$syspath]html/ms/" target="_blank"><img src="images/index/Attribute/morekey.gif" width="98" height="15" border="0"></a></div>
+
+	  <table width="100%" height="150" border="0" cellpadding="0" cellspacing="0" style="margin-bottom:5px">
+  <tr>
+    <td width="339">
+	 {web_skin3_积分兑换}	</td>
+    <td width="237" align="center" valign="top" style="background:url(Images/001_1.jpg) no-repeat;">
+	<div style="margin-top:29px; text-align:center;"><script language="javascript" src="Show/d79aefb2-7c44-4e57-a12b-77d7d2a081b6.js"></script></div>
+	<div style="margin-top:8px; text-align:center;"><script language="javascript" src="Show/565a0f6c-762e-43e1-98b7-d8cf87277cef.js"></script></div>
+	<div style="margin-top:8px; text-align:center;"><script language="javascript" src="Show/e2eff62b-74c3-48b9-afa6-f7a88b51185e.js"></script></div>
+	 </td>
+    <td>
+	 {web_skin3_首页优惠券}</td>
+  </tr>
+</table>
+
+<div style="width:730px; height:42px; background:url(images/index/list1/bgt.gif)">
+<div style="padding-top:12px; padding-left:100px; ">
+ <div class="shuxinselect3"><a onclick="selecttab(this,'shuxinselect3','shuxindefault3','','text_a');" href="javascript:void(0);">{web_skin3_第一类名称}</a></div>
+ <div class="shuxindefault3"><a onclick="selecttab(this,'shuxinselect3','shuxindefault3','','text_a');" href="javascript:void(0);">{web_skin3_第二类名称}</a></div>
+ <div class="shuxindefault3"><a onclick="selecttab(this,'shuxinselect3','shuxindefault3','','text_a');" href="javascript:void(0);">{web_skin3_第三类名称}</a></div>
+</div></div>
+<div style="width:730px"><img src="images/index/list1/bg1.gif" width="730" height="5"></div>
+<div style="BACKGROUND: url(images/index/list1/bg2.gif); WIDTH: 730px; HEIGHT: 245px">
+ <div class="div1mshuxinlist">
+  <div id="text_a_0">{web_skin3_第一类商品}</div>
+  <div id="text_a_1" style="display:none">{web_skin3_第二类商品}</div>
+  <div id="text_a_2" style="display:none">{web_skin3_第三类商品}</div>
+</div>
+</div>
+<div style="width:730px; margin-bottom:5px"><img src="images/index/list1/bgb.gif" width="730" height="11"></div>
+
+
+<div style="width:730px; height:42px; background:url(images/index/list2/bgt.gif)">
+<div style="padding-top:12px; padding-left:100px; ">              
+ <div class="shuxinselect4"><a onclick="selecttab(this,'shuxinselect4','shuxindefault4','','text_b');" href="javascript:void(0);">{web_skin3_第四类名称}</a></div>
+ <div class="shuxindefault4"><a onclick="selecttab(this,'shuxinselect4','shuxindefault4','','text_b');" href="javascript:void(0);">{web_skin3_第五类名称}</a></div>
+ <div class="shuxindefault4"><a onclick="selecttab(this,'shuxinselect4','shuxindefault4','','text_b');" href="javascript:void(0);">{web_skin3_第六类名称}</a></div>
+</div></div>
+<div style="width:730px"><img src="images/index/list2/bg1.gif" width="730" height="5"></div>
+<div style="BACKGROUND: url(images/index/list2/bg2.gif); WIDTH: 730px; HEIGHT: 245px">
+<div class="div1mshuxinlist">
+  <div id="text_b_0">{web_skin3_第四类商品}</div>
+  <div id="text_b_1" style="display:none">{web_skin3_第五类商品}</div>
+  <div id="text_b_2" style="display:none">{web_skin3_第六类商品}</div>
+</div>
+</div>
+<div style="width:730px; margin-bottom:5px"><img src="images/index/list2/bgb.gif" width="730" height="11"></div>
+
+
+<div style="width:730px; height:42px; background:url(images/index/list3/bgt.gif)">
+<div style="padding-top:12px; padding-left:100px; ">                 
+ <div class="shuxinselect5"><a onclick="selecttab(this,'shuxinselect5','shuxindefault5','','text_c');" href="javascript:void(0);">{web_skin3_第七类名称}</a></div>
+ <div class="shuxindefault5"><a onclick="selecttab(this,'shuxinselect5','shuxindefault5','','text_c');" href="javascript:void(0);">{web_skin3_第八类名称}</a></div>
+ <div class="shuxindefault5"><a onclick="selecttab(this,'shuxinselect5','shuxindefault5','','text_c');" href="javascript:void(0);">{web_skin3_第九类名称}</a></div>
+</div></div>
+<div style="width:730px"><img src="images/index/list3/bg1.gif" width="730" height="5"></div>
+<div style="BACKGROUND: url(images/index/list3/bg2.gif); WIDTH: 730px; HEIGHT: 245px">
+<div class="div1mshuxinlist">
+  <div id="text_c_0">{web_skin3_第七类商品}</div>
+  <div id="text_c_1" style="display:none">{web_skin3_第八类商品}</div>
+  <div id="text_c_2" style="display:none">{web_skin3_第九类商品}</div>
+</div>
+</div>
+<div style="width:730px; margin-bottom:5px"><img src="images/index/list3/bgb.gif" width="730" height="11"></div></td>
+    </tr>
+  </table>
+  
+
+  <table width="920" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="464" align="left" valign="top">
+
+	    <div style="width:456px"><img src="images/index/activity/label.gif" width="267" height="37"></div>
+	    <div style="width:456px; background:url(images/index/activity/bg.gif)"><img src="images/index/activity/bgt.gif" width="456" height="5"></div>
+	    {web_skin3_活动与礼品}
+	    <div style="width:456px; background:url(images/index/activity/bg.gif)"><img src="images/index/activity/bgb.gif" width="456" height="5"></div>
+
+	  </td>
+      <td width="456" align="left" valign="top">
+
+	    <div style="width:456px"><img src="images/index/daogou/label.gif" width="280" height="37"></div>        
+        <div style="width:456px; background:url(images/index/activity/bg.gif)"><img src="images/index/activity/bgt.gif" width="456" height="5"></div>
+        {web_skin3_为您导购}
+        <div style="width:456px; background:url(images/index/activity/bg.gif)"><img src="images/index/activity/bgb.gif" width="456" height="5"></div>
+
+	  </td>
+    </tr>
+  </table>
+  
+
+  <div style="width:920px; margin-top:5px" align="left"><img src="images/index/news/label.gif" width="256" height="39"></div>
+  {web_skin3_首页底部动态}</div>
+
+
+  <div style="background:#4081B9" align="center">
+  {web_skin3_底部分栏}
+</div>
+<div style="background:#FFFFFF" align="center">
+  {web_skin3_友情链接}{web_skin3_底部版权}
+  </div>
+</center>
+</body>
+</html>
